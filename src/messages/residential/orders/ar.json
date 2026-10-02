@@ -1,0 +1,48 @@
+{
+  "ordersPage": {
+    "Orders": {
+      "title": "الطلبات",
+      "welcomeTitle": "مرحباً بك في الطلبات!",
+      "description": "عرض وإدارة طلباتك هنا.",
+      "table": {
+        "title": "تفاصيل الطلب",
+        "orderID": "رقم الطلب",
+        "orderName": "اسم الطلب",
+        "status": "الحالة",
+        "totalPoints": "إجمالي النقاط",
+        "orderDate": "تاريخ الطلب"
+      }
+    },
+    "OrderDetails": {
+      "title": "تفاصيل الطلب",
+      "orderDetail": {
+        "orderId": "الطلب",
+        "status": "حالة الطلب",
+        "orderDate": "تاريخ الطلب",
+        "totalPoints": "إجمالي النقاط",
+        "userInfo": "معلومات المستخدم",
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف",
+        "shippingInfo": "معلومات الشحن",
+        "address": "العنوان",
+        "city": "المدينة",
+        "country": "البلد",
+        "summary": "ملخص الطلب",
+        "orderIdLabel": "رقم الطلب",
+        "items": "العناصر",
+        "orderItem": "عناصر الطلب"
+      },
+      "orderDetailsHeader": {
+        "product": "المنتج",
+        "category": "الفئة",
+        "quantity": "الكمية",
+        "shippingType": "نوع الشحن",
+        "totalPoints": "الإجمالي",
+        "status": "الحالة"
+      },
+      "completedStatusToast": "تم تحديث حالة عنصر الطلب إلى مكتمل بنجاح"
+    }
+  }
+}
+

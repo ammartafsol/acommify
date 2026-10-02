@@ -1,0 +1,45 @@
+.AppointmentCard {
+  display: flex;
+  width: 431px;
+  padding: 20px 20px 24px 20px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--Poor-white);
+  box-shadow: 0 9.628px 48.14px 0 rgba(139, 139, 139, 0.1);
+  height: 100%;
+}
+
+.appointmentBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.AppointmentCard>h5 {
+  color: var(--Black);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.AppointmentCard>p {
+  color: var(--Dark-gray);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+@media (max-width: 1367px) {
+  .AppointmentCard {
+    width: 100%;
+  }
+}
+
+.AppointmentCard:hover {
+  background-color: #33b5f61a;
+}

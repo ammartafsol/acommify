@@ -1,0 +1,203 @@
+{
+  "header": {
+    "logout": "Fita",
+    "dashboard": "Dashboard",
+    "appointments": "Lokuta",
+    "requests": "Bukatun Mai Gida",
+    "foodStuffs": "Abinci",
+    "accommodationGuide": "Jagorar Matsuguni",
+    "notification": "Sanarwa",
+    "settings": "Saituna",
+    "allBookings": "Kai da Tafiya"
+  },
+  "areYouSureModal": {
+    "title": "Ka tabbata?",
+    "description": "Ka tabbata cewa kana son soke booking naku?",
+    "cancel": "Soke",
+    "confirm": "Tabbata",
+    "loading": "Ana loda..."
+  },
+  "uploadMedia": {
+    "title": "Yarjejeniya",
+    "uploadMessage": "Loda hoto ko takarda mai alaƙa da aikace-aikacen",
+    "fileFormats": "PDF, JPEG, har zuwa 5 MB",
+    "uploadIconAlt": "Loda",
+    "errors": {
+      "fileSizeExceeded": "Fayil '{fileName}' ya wuce iyakar {maxSize}MB.",
+      "maxFilesReached": "An kai iyakar {maxFiles} fayil(i).",
+      "tooManyFiles": "Ana ba da izini {allowedRemaining} fayil(i) ƙari kawai."
+    },
+    "defaultFileName": "Fayil"
+  },
+  "calendar": {
+    "myBooking": "Booking Na",
+    "month": "Wata",
+    "week": "Mako",
+    "day": "Rana",
+    "today": "Yau",
+    "slot": "Rago: "
+  },
+  "documentCenter": {
+    "title": "Cibiyar Takardu",
+    "tabs": {
+      "all": "Duka",
+      "forms": "Fom",
+      "guidelines": "Jagorori",
+      "otherDocuments": "Sauran Takardu"
+    },
+    "filters": {
+      "recent": "Kwanan nan",
+      "starred": "Favorit",
+      "archived": "Ajiye"
+    }
+  },
+  "common": {
+    "points": "{points} maki",
+    "bookNow": "Yi Booking Yanzu",
+    "editTime": "Gyara Lokaci",
+    "search": "Nemo",
+    "filter": "Tace",
+    "back": "Baya",
+    "pdf": "PDF",
+    "word": "Word",
+    "economy": "Tattalin Arziki",
+    "version": "Sigar",
+    "months": "Watanni",
+    "viewCart": "Duba Cart",
+    "reschedule": "Sake Tsara",
+    "available": "Akwai",
+    "booked": "An Yi Booking",
+    "selected": "An Zaɓa",
+    "order": "Oda",
+    "stock": "Sai"
+  },
+  "designGuidline": {
+    "title": "Jagororin Zane",
+    "download": "Zazzage"
+  },
+  "modal": {
+    "SuccessModal": {
+      "title": "Lokacin ku an tabbata cikin nasara!",
+      "btnText": "Ci Gaba",
+      "iconAlt": "Nasarar"
+    },
+    "visitorsBookingFormModal": {
+      "header": "Fom na Booking",
+      "nameLabel": "Sunan Baƙo:",
+      "namePlaceholder": "Shigar da suna",
+      "dateLabel": "Kwanan wata da aka fi so:",
+      "timeLabel": "Lokaci da aka fi so:",
+      "relationshipLabel": "Dangantaka da Mazauni:",
+      "relationshipPlaceholder": "Zaɓi Dangantaka",
+      "notesLabel": "Ƙarin Bayanai:",
+      "notesPlaceholder": "Shigar da ƙarin bayanai a nan...",
+      "cancelButton": "Soke",
+      "rulesVisitor": "Dokokin Baƙo",
+      "upcomingVisits": "Ziyarar da ke zuwa",
+      "confirmButton": "Tabbatar da Lokaci",
+      "successModalData": {
+        "title": "Booking naku an tabbata cikin nasara!!",
+        "btnText": "Je Gida"
+      },
+      "dropdown": {
+        "parent": "Uba/Uwa",
+        "sibling": "Ɗan'uwa/Yar'uwa",
+        "friend": "Aboki"
+      }
+    },
+    "bookFormModal": {
+      "header": "Fom na Booking",
+      "nameLabel": "Suna:",
+      "namePlaceholder": "Shigar da sunan ku",
+      "dateLabel": "Kwanan wata da aka fi so:",
+      "timeLabel": "Lokaci da aka fi so:",
+      "reasonLabel": "Dalilin Taro:",
+      "reasonPlaceholder": "Tattauna sabuntawar aikin",
+      "notesLabel": "Ƙarin Bayanai:",
+      "notesPlaceholder": "Shigar da sakon ku",
+      "notesMax": "Bayanai ba za su wuce haruffa 500 ba.",
+      "reasonRequired": "Dalili ya wajaba.",
+      "cancelButton": "Soke",
+      "upcomingMeetings": "Tarurrukan da ke zuwa",
+      "confirmButton": "Tabbatar da Lokaci"
+    },
+    "feedbackModal": {
+      "header": "Za mu so Ra'ayin ku!",
+      "description": "Danna 👍 ko 👎 don ƙima. Ji daɗi don ƙara sharhi don taimaka mana mu inganta ƙwarewar ku!",
+      "placeholder": "Faɗa mana ƙari (na zaɓi)",
+      "submitButton": "Aika Ra'ayi"
+    },
+    "busSeatModal": {
+      "seatHeading": "Kujera: {seat}",
+      "passengerNameLabel": "Sunan Fasinja",
+      "passengerNamePlaceholder": "Shigar da sunan fasinja",
+      "cancelButton": "Soke",
+      "confirmButton": "Tabbata"
+    }
+  },
+  "timeslots": {
+    "availableTimeSlots": "Ramin Lokaci Masu Samuwa",
+    "available2HourSlots": "Ramin Lokaci na Sa'o'i 2 Masu Samuwa",
+    "noSlotsAvailable": "Babu ramin lokaci da ake samuwa",
+    "noConsecutiveSlotsAvailable": "Babu ramin lokaci na sa'o'i 2 na bi da bi da ake samuwa",
+    "available": "Akwai",
+    "booked": "An Yi Booking",
+    "your": "Ramin Lokacin ku"
+  },
+  "toasts": {
+    "loginSuccess": "Shiga ya yi nasara!",
+    "loginError": "Shiga ya gaza. Saka gwada kuma.",
+    "logoutSuccess": "Fita ya yi nasara!",
+    "profileUpdateSuccess": "Bayanin kai an sabunta cikin nasara!",
+    "profileUpdateError": "Sabunta bayanin kai ya gaza. Saka gwada kuma.",
+    "otpCodeSent": "Lambar OTP an aika zuwa imel cikin nasara",
+    "noEmailFound": "Imel ya ƙare.",
+    "otpVerified": "OTP an tabbata cikin nasara",
+    "passwordResetSuccess": "Kalmar sirri an sake saita cikin nasara!",
+    "passwordResetError": "Sake saita kalmar sirri ya gaza. Saka gwada kuma.",
+    "otpCodeExpired": "Lambar OTP ta ƙare."
+  },
+  "busDetailCard": {
+    "duration": "Tsawon Lokaci",
+    "seatsAvailable": "Kujeru Masu Samuwa",
+    "departureDate": "Kwanan wata na Tashi",
+    "available": "Akwai",
+    "booked": "An Yi Booking"
+  },
+  "passengerCard": {
+    "passenger": "Fasinja",
+    "seatNumber": "Lambar Kujera"
+  },
+  "busBookingConfirmationCard": {
+    "duration": "Tsawon Lokaci",
+    "seat": "Kujera",
+    "boardingPoint": "Matsayin Hauwa",
+    "departure": "Tashi",
+    "arrival": "Ishowa",
+    "eTicket": {
+      "title": "E-Tiket",
+      "yourTrip": "Tafiyar ku",
+      "passengerList": "Jerin Fasinja",
+      "bookingConfirmed": "Booking An Tabbata!",
+      "description": "Booking naku an tabbata! Muna fatan ganin ku nan da nan.",
+      "name": "Suna",
+      "bookingCode": "Lambar Booking",
+      "numberOfTicket": "Lamba",
+      "seat": "Kujera",
+      "IdNumber": "Lambar ID",
+      "busName": "Bas",
+      "duration": "Tsawon Lokaci",
+      "reminders": {
+        "title": "Saita tunatarwa don Booking naku",
+        "reminderOptions": {
+          "15min": "Mintuna 15 kafin",
+          "30min": "Mintuna 30 kafin",
+          "1hour": "Awa 1 kafin",
+          "custom": "Tunatarwa na Musamman"
+        },
+        "customPlaceholderText": "misali: mintuna 10 kafin"
+      },
+      "downloadBtnLabel": "Zazzage E-Tiket"
+    }
+  }
+}

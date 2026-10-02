@@ -1,0 +1,31 @@
+{
+  "signInOutRequests": {
+    "SignInOutRequests": {
+      "title": "Запити на Вхід/Вихід",
+      "welcomeTitle": "Ласкаво просимо до Запитів на Вхід/Вихід!",
+      "description": "Керуйте та відстежуйте всі запити на вхід та вихід відвідувачів ефективно.",
+      "tabs": {
+        "all": "Всі",
+        "pending": "В очікуванні",
+        "approved": "Схвалені",
+        "rejected": "Відхилені"
+      },
+      "requestHistory": "Історія Запитів",
+      "tableHeaders": {
+        "date": "Дата",
+        "type": "Тип",
+        "visitor": "Відвідувач",
+        "purpose": "Мета",
+        "timeIn": "Час Входу",
+        "timeOut": "Час Виходу",
+        "status": "Статус",
+        "requestedBy": "Запрошено",
+        "approvedBy": "Схвалено",
+        "accommodation": "Житло",
+        "checkIn": "Заселення",
+        "checkOut": "Виселення",
+        "currentlyCheckedIn": "Зараз Заселений"
+      }
+    }
+  }
+}

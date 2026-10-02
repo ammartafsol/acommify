@@ -1,0 +1,29 @@
+{
+  "allBooking": {
+    "title": "الحجوزات",
+    "welcomeTitle": "مرحباً بك في الحجوزات!",
+    "description": "عرض وإدارة جميع حجوزاتك هنا.",
+    "table": {
+      "title": "تفاصيل الحجز",
+      "purpose": "الغرض",
+      "dateTime": "التاريخ والوقت",
+      "booking": "الحجز",
+      "time": "الوقت",
+      "category": "الفئة",
+      "bookingDate": "تاريخ الحجز",
+      "status": "الحالة"
+    },
+    "tabs": {
+      "all": "الكل",
+      "completed": "مكتمل",
+      "pending": "قيد الانتظار",
+      "accepted": "مقبول",
+      "inprogress": "قيد التنفيذ",
+      "cancelled": "ملغى",
+      "rejected": "مرفوض"
+    },
+    "menuItems": {
+      "cancel": "إلغاء"
+    }
+  }
+}

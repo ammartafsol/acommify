@@ -1,0 +1,37 @@
+{
+  "checkoutPage": {
+    "title": "عملية الدفع",
+    "orderSummary": "ملخص الطلب",
+    "totalItems": "إجمالي العناصر",
+    "totalPoints": "إجمالي النقاط",
+    "confirm": "تأكيد",
+    "orderPlacedSuccess": "تم وضع الطلب بنجاح!",
+    "wallet": "المحفظة",
+    "orderDetails": {
+      "title": "تفاصيل الطلب",
+      "fullNameLabel": "الاسم الكامل",
+      "fullNamePlaceholder": "أحمد محمد",
+      "fullNameRequired": "الاسم الكامل مطلوب",
+      "streetAddressLabel": "عنوان الشارع",
+      "streetAddressPlaceholder": "أدخل عنوان الشارع",
+      "streetAddressRequired": "عنوان الشارع مطلوب",
+      "roomHouseLabel": "بيت الغرفة",
+      "roomHousePlaceholder": "أدخل بيت الغرفة",
+      "roomHouseRequired": "بيت الغرفة مطلوب",
+      "cityLabel": "المدينة",
+      "cityPlaceholder": "أدخل المدينة",
+      "cityRequired": "المدينة مطلوبة",
+      "countryLabel": "البلد",
+      "countryPlaceholder": "أدخل البلد",
+      "countryRequired": "البلد مطلوب"
+    },
+    "modal": {
+      "title": "تم وضع الطلب بنجاح!",
+      "btnText": "متابعة"
+    },
+    "unsuccessModal": {
+      "title": "ليس لديك نقاط كافية!",
+      "btnText": "إغلاق"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "upcomingEvents": {
+    "header": {
+      "title": "მომავალი ღონისძიებები"
+    },
+    "upcomingMeetings": {
+      "requestChange": "ცვლილების მოთხოვნა"
+    }
+  }
+}

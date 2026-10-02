@@ -1,0 +1,23 @@
+{
+  "dashboardPage": {
+    "welcome": "Bem-vindo de volta {name}",
+
+    "dashboardCards": {
+      "allBookings": "Todas as Reservas",
+      "bookLaundry": "Reservar Lavanderia",
+      "bookBus": "Reservar Ônibus",
+      "bookAppointment": "Reservar Consulta",
+      "visitorBooking": "Reserva de Visitante",
+      "maintenanceRequests": "Solicitações de Manutenção",
+      "documentCenter": "Centro de Documentos",
+      "signInOut": "Entrar/Sair"
+    },
+
+    "activities": {
+      "upcomingActivities": "Atividades próximas",
+      "currentActivities": "Aqui estão suas atividades atuais:",
+      "helpLine": "Linha de Ajuda",
+      "reschedule": "Reagendar"
+    }
+  }
+}

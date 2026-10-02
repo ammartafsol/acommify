@@ -1,0 +1,20 @@
+{
+  "AccommodationGuidePage": {
+    "title": "Jagorar Matsuguni",
+    "welcomeMessage": "Barka da zuwa Jagorar Matsuguni!",
+    "WelcomeDescription": "Wannan sashe an tsara shi ne don ba ku duk bayanan da kuke bukata game da ayyukan da ake samu a cibiyar mu.",
+    "additionalResources": {
+      "title": "Karin Albarkatu",
+      "download": "Zazzagewa",
+      "contact": "Bayanin Tuntuɓar"
+    },
+    "frequently": {
+      "title": "Tambayoyin da Ake Yi Akai-akai",
+      "tabs": {
+        "generalinquiries": "Tambayoyin Gabaɗaya",
+        "visitorPolicies": "Manufofin Baƙi",
+        "serviceInformation": "Bayanin Sabis"
+      }
+    }
+  }
+}

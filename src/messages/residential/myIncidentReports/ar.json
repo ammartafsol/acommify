@@ -1,0 +1,41 @@
+{
+  "myIncidentReports": {
+    "MyIncidentReports": {
+      "title": "تقارير الحوادث الخاصة بي",
+      "tabs": {
+        "all": "الكل",
+        "resolved": "محلولة",
+        "underReview": "قيد المراجعة",
+        "escalated": "متصاعدة"
+      },
+      "tableHeaders": {
+        "incidentId": "معرف الحادث",
+        "title": "العنوان",
+        "description": "الوصف",
+        "severity": "الخطورة",
+        "dateTime": "التاريخ والوقت",
+        "status": "الحالة",
+        "consideredDate": "تاريخ المراجعة",
+        "completedDate": "تاريخ الإنجاز"
+      },
+
+      "filterStatus": {
+        "low": "منخفضة",
+        "high": "عالية",
+        "medium": "متوسطة",
+        "all": "الكل"
+      }
+    },
+    "IncidentReportViewModal": {
+      "title": "تفاصيل الحادث",
+      "incidentId": "معرف الحادث:",
+      "incidentTitle": "عنوان الحادث:",
+      "status": "الحالة",
+      "severity": "الخطورة",
+      "description": "الوصف",
+      "dateTime": "التاريخ والوقت",
+      "consideredDate": "تاريخ المراجعة",
+      "completedDate": "تاريخ الإنجاز"
+    }
+  }
+}

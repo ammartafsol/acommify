@@ -1,0 +1,89 @@
+{
+  "busBooking": {
+    "title": "Бронювання Автобуса",
+    "availableBusesTitle": "Доступні Автобуси",
+    "availableTitle": "Розклад Автобусів",
+    "selectDate": "Виберіть Дату для перегляду доступних автобусів",
+    "myBooking": "Моє Бронювання",
+    "availableBusesTabs": {
+      "morning": "Ранок",
+      "afternoon": "Після обіду",
+      "evening": "Вечір"
+    },
+
+    "selectSeat": {
+      "title": "Вибрати Місце",
+      "termsAgreement": "Я погодився з ",
+      "termsAndConditions": "умовами та положеннями",
+      "frontDoor": "Передня Двері",
+      "driver": "Водій",
+      "seats": {
+        "available": "Доступне",
+        "booked": "Заброньоване",
+        "selected": "Вибране"
+      },
+      "timeRemaining": "Залишковий час замовлення",
+      "continue": "Продовжити"
+    },
+    "bookingConfirmation": {
+      "title": "Підтвердження Бронювання",
+      "yourTrip": "Ваша Подорож",
+      "passengerList": "Список Пасажирів",
+      "termsAgreement": "Я погодився з ",
+      "termsAndConditions": "умовами та положеннями",
+      "confirmBooking": "Підтвердити Бронювання",
+      "cancelBooking": "Скасувати Бронювання",
+      "rescheduleBooking": "Перенести Бронювання",
+      "reschedule": "Перенести ",
+      "successful": "Ваше бронювання було успішним!",
+      "bookingConfirm": "Бронювання Підтверджено Успішно"
+    },
+    "eTicket": {
+      "title": "Е-Квиток",
+      "yourTrip": "Ваша Подорож",
+      "passengerList": "Список Пасажирів",
+      "bookingConfirmed": "Бронювання Підтверджено!",
+      "bookingCompleted": "Бронювання Завершено!",
+      "bookingRejected": "Бронювання Відхилено!",
+      "authenticationRequired": "Потрібна автентифікація",
+      "bookingInformationNotAvailable": "Інформація про бронювання недоступна",
+      "pdfFileEmpty": "PDF файл порожній",
+      "pdfDownloadedSuccessfully": "PDF успішно завантажено",
+      "bookingCancelled": "Бронювання Скасовано!",
+      "bookingPending": "Бронювання в Очікуванні!",
+      "descriptionPending": "Ваше бронювання в очікуванні! Ми повідомимо вас, як тільки воно буде схвалено.",
+      "descriptionCompleted": "Ваше бронювання завершено! Дякуємо за вибір нашого сервісу.",
+      "descriptionRejected": "Ваше бронювання відхилено! Зверніться до підтримки для отримання додаткової інформації.",
+      "descriptionCancelled": "Ваше бронювання скасовано! Якщо у вас є питання, зверніться до підтримки.",
+      "description": "Ваше бронювання підтверджено! Ми з нетерпінням чекаємо зустрічі з вами.",
+      "name": "Ім'я",
+      "bookingCode": "Код Бронювання",
+      "numberOfTicket": "№",
+      "seat": "Місце",
+      "IdNumber": "Номер ID",
+      "busName": "Автобус",
+      "duration": "Тривалість",
+      "reminders": {
+        "title": "Встановити нагадування для вашого Бронювання",
+        "reminderOptions": {
+          "15min": "15 хвилин до",
+          "30min": "30 хвилин до",
+          "1hour": "1 година до",
+          "custom": "Персональне Нагадування"
+        },
+        "customPlaceholderText": "наприклад: 10 хвилин до"
+      },
+      "cancelBookingModal": {
+        "title": "Скасувати Бронювання",
+        "description": "Ви впевнені, що хочете скасувати ваше бронювання?",
+        "btnText1": "Підтвердити",
+        "btnText2": "Скасувати",
+        "iconAlt": "Іконка скасування бронювання"
+      },
+      "downloadBtnLabel": "Завантажити Е-Квиток",
+      "cancelBooking": "Скасувати Бронювання",
+      "cancelSuccess": "Ваше бронювання успішно скасовано.",
+      "cancelError": "Не вдалося скасувати бронювання. Спробуйте ще раз."
+    }
+  }
+}

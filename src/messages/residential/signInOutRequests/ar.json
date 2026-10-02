@@ -1,0 +1,31 @@
+{
+  "signInOutRequests": {
+    "SignInOutRequests": {
+      "title": "طلبات الدخول/الخروج",
+      "welcomeTitle": "مرحباً بك في طلبات الدخول/الخروج!",
+      "description": "إدارة وتتبع جميع طلبات دخول وخروج الزوار بكفاءة.",
+      "tabs": {
+        "all": "الكل",
+        "pending": "في الانتظار",
+        "approved": "موافق عليها",
+        "rejected": "مرفوضة"
+      },
+      "requestHistory": "تاريخ الطلبات",
+      "tableHeaders": {
+        "date": "التاريخ",
+        "type": "النوع",
+        "visitor": "الزائر",
+        "purpose": "الغرض",
+        "timeIn": "وقت الدخول",
+        "timeOut": "وقت الخروج",
+        "status": "الحالة",
+        "requestedBy": "طلب بواسطة",
+        "approvedBy": "وافق عليه",
+        "accommodation": "الإقامة",
+        "checkIn": "تسجيل الدخول",
+        "checkOut": "تسجيل الخروج",
+        "currentlyCheckedIn": "مسجل الدخول حاليا"
+      }
+    }
+  }
+}

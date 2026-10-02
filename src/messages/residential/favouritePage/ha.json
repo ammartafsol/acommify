@@ -1,0 +1,13 @@
+{
+  "favouritePage": {
+    "title": "Abubuwan da Aka Fi So",
+    "empty": "Ba a sami abubuwan da aka fi so ba",
+    "addedToCart": "An ƙara zuwa shedar!",
+    "toasts": {
+      "addedToFavorites": "An ƙara zuwa abubuwan da aka fi so",
+      "removedFromFavorites": "An cire daga abubuwan da aka fi so",
+      "actionFailed": "Ayyukan ya gaza"
+    }
+  }
+}
+

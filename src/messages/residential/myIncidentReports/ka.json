@@ -1,0 +1,41 @@
+{
+  "myIncidentReports": {
+    "MyIncidentReports": {
+      "title": "ჩემი ინციდენტების ანგარიშები",
+      "tabs": {
+        "all": "ყველა",
+        "resolved": "გადაწყვეტილი",
+        "underReview": "განხილვის პროცესში",
+        "escalated": "გაზრდილი"
+      },
+      "tableHeaders": {
+        "incidentId": "ინციდენტის ID",
+        "title": "სათაური",
+        "description": "აღწერა",
+        "severity": "სიმძიმე",
+        "dateTime": "თარიღი და დრო",
+        "status": "სტატუსი",
+        "consideredDate": "განხილვის თარიღი",
+        "completedDate": "დასრულების თარიღი"
+      },
+
+      "filterStatus": {
+        "low": "დაბალი",
+        "high": "მაღალი",
+        "medium": "საშუალო",
+        "all": "ყველა"
+      }
+    },
+    "IncidentReportViewModal": {
+      "title": "ინციდენტის დეტალები",
+      "incidentId": "ინციდენტის ID:",
+      "incidentTitle": "ინციდენტის სათაური:",
+      "status": "სტატუსი",
+      "severity": "სიმძიმე",
+      "description": "აღწერა",
+      "dateTime": "თარიღი და დრო",
+      "consideredDate": "განხილვის თარიღი",
+      "completedDate": "დასრულების თარიღი"
+    }
+  }
+}

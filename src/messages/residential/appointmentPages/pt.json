@@ -1,0 +1,63 @@
+{
+  "appointmentsPage": {
+    "Appointments": {
+      "title": "Consultas",
+      "bookAppointment": "Agendar Consulta",
+      "welcomeTitle": "Bem-vindo às Consultas!",
+      "description": "Agende facilmente reuniões com o gerente ou equipe de recepção com apenas alguns cliques.",
+
+      "tabs": {
+        "all": "Todos",
+        "completed": "Concluído",
+        "pending": "Pendente",
+        "accepted": "Aceito",
+        "inprogress": "Em Andamento",
+        "cancelled": "Cancelado",
+        "rejected": "Rejeitado"
+      },
+      "toasts": {
+        "cancelSuccess": "Consulta cancelada com sucesso"
+      },
+      "appointmentHistory": "Consultas",
+      "table": {
+        "purpose": "Propósito",
+        "dateTime": "Data e Hora",
+        "category": "Categoria",
+        "status": "Status"
+      },
+      "menuItems": {
+        "cancel": "Cancelar"
+      },
+      "staffAppointmentCard": {
+        "title": "Consultas da Equipe",
+        "description": "Agende facilmente, visualize e gerencie suas reuniões com a equipe aqui."
+      },
+
+      "visitorBookingCard": {
+        "title": "Reservas de Visitantes",
+        "description": "Organize reuniões com visitantes. Especifique um horário conveniente para que o visitante possa facilmente chegar ao centro e encontrá-lo."
+      }
+    },
+    "StaffAppointment": {
+      "title": "Consultas da Equipe",
+      "selectStaff": "Selecionar Equipe",
+      "selectedDate": "Data Selecionada",
+      "selectStaffPlaceholder": "{loading, select, true {Carregando...} other {Selecionar Equipe}}",
+      "staffSelectMessage": "Por favor, selecione um membro da equipe para visualizar consultas disponíveis.",
+      "selectDateMessage": "Por favor, selecione uma data para visualizar horários disponíveis.",
+      "bookingWarning": "A reserva não pode ser cancelada quando restar 1 hora para a consulta.",
+      "bookingSuccess": "Solicitação de consulta com a equipe enviada com sucesso! Por favor, aguarde a aprovação.",
+      "reminder": "Definir um lembrete para sua consulta",
+      "reminders": {
+        "title": "Definir um lembrete para sua Consulta da Equipe",
+        "reminderOptions": {
+          "15min": "15 minutos antes",
+          "30min": "30 minutos antes",
+          "1hour": "1 hora antes",
+          "custom": "Lembrete Personalizado"
+        },
+        "customPlaceholderText": "Digite minutos (ex: 10)"
+      }
+    }
+  }
+}

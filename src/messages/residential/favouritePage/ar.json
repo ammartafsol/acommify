@@ -1,0 +1,13 @@
+{
+  "favouritePage": {
+    "title": "العناصر المفضلة",
+    "empty": "لم يتم العثور على عناصر مفضلة",
+    "addedToCart": "تم إضافة العنصر إلى العربة",
+    "toasts": {
+      "addedToFavorites": "تم إضافته إلى المفضلة",
+      "removedFromFavorites": "تم إزالته من المفضلة",
+      "actionFailed": "فشلت العملية"
+    }
+  }
+}
+

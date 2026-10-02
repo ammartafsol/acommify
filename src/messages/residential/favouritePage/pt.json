@@ -1,0 +1,13 @@
+{
+  "favouritePage": {
+    "title": "Itens Favoritos",
+    "empty": "Nenhum item favorito encontrado",
+    "addedToCart": "Item adicionado ao carrinho",
+    "toasts": {
+      "addedToFavorites": "Adicionado aos favoritos",
+      "removedFromFavorites": "Removido dos favoritos",
+      "actionFailed": "A ação falhou"
+    }
+  }
+}
+

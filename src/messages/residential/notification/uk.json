@@ -1,0 +1,13 @@
+{
+  "notificationsPage": {
+    "activities": {
+      "upcomingActivities": "Майбутні Активності",
+      "currentActivities": "Ось ваші поточні активності:",
+      "helpLine": "Лінія Допомоги"
+    },
+    "title": "Сповіщення",
+    "markAllAsRead": "Позначити все як прочитане",
+    "noNotifications": "Немає сповіщень",
+    "reschedule": "Перенести"
+  }
+}

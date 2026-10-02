@@ -1,0 +1,22 @@
+{
+  "cartOverviewPage": {
+    "title": "კალათის მიმოხილვა",
+    "cartSummary": "კალათის ჯამი",
+    "totalItems": "სულ ნივთები",
+    "totalPoints": "სულ ქულები",
+    "checkout": "შეკვეთა",
+    "stockLimitReached": "საფონდო ლიმიტი მიღწეულია",
+    "noItemsInCart": "თქვენს კალათაში ნივთები არ არის",
+    "stockIsZero": "საფონდო არის 0",
+    "itemsStockIsZero": "შემდეგ ნივთებს აქვთ საფონდო 0",
+    "table": {
+      "header": {
+        "points": "ქულები",
+        "product": "პროდუქტი",
+        "quantity": "რაოდენობა",
+        "subtotal": "ქვეჯამი",
+        "stocks": "საფონდო"
+      }
+    }
+  }
+}

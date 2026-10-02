@@ -1,0 +1,101 @@
+{
+  "userAgreementPage": {
+    "title": "Sharuɗɗa da Sharuɗɗa",
+    "tabs": {
+      "terms": "Sharuɗɗa da Sharuɗɗa",
+      "privacy": "Manufofin Sirri",
+      "responsibility": "Alhakin Mai Amfani"
+    },
+    "checkbox": "Na karanta kuma na yarda da Sharuɗɗa da Sharuɗɗa",
+    "button": "Karba da Ci Gaba"
+  },
+  "loginPage": {
+    "title": "Shiga",
+    "emailLabel": "Imel",
+    "emailPlaceholder": "Shigar da Imel",
+    "emailError": "Don Allah, shigar da adireshin imel mai inganci",
+    "EmailRequired": "Imel ya wajaba",
+    "emailInvalidChars": "Imel yana ɗauke da haruffa marasa inganci",
+    "passwordLabel": "Kalmar Sirri",
+    "passwordPlaceholder": "Shigar da Kalmar Sirri",
+    "passwordRequired": "Kalmar sirri ta wajaba",
+    "forgotPass": "Ka manta da kalmar sirri?",
+    "rememberMe": "Tuna Ni",
+    "loginButton": "Shiga",
+    "newHere": "Sabon nan?",
+    "signUpLink": "Yi rijista",
+    "residentIdPlaceholder": "123456",
+    "residentIdLabel": "ID na Mazauni"
+  },
+  "signUpPage": {
+    "title": "Yi Rijista",
+    "nameLabel": "Suna",
+    "namePlaceholder": "Shigar da Suna",
+    "nameRequired": "Suna ya wajaba",
+    "emailLabel": "Imel",
+    "emailPlaceholder": "Shigar da Imel",
+    "emailError": "Don Allah, shigar da adireshin imel mai inganci",
+    "emailRequired": "Imel ya wajaba",
+    "emailInvalidChars": "Imel yana ɗauke da haruffa marasa inganci",
+    "codeLabel": "Tabbatarwa na Biyu",
+    "codeSubLabel": "Shigar da lambar lamba 6 da aka aika zuwa imel ɗinku",
+    "codePlaceholder": "Lamba",
+    "codeRequired": "Lamba ta wajaba",
+    "passwordLabel": "Kalmar Sirri",
+    "passwordPlaceholder": "Shigar da Kalmar Sirri",
+    "passwordRequired": "Kalmar sirri ta wajaba",
+    "minPasswordError": "Min haruffa 8",
+    "maxPasswordError": "Max haruffa 20",
+    "lowerPasswordError": "Ƙara aƙalla ƙaramin harafi ɗaya",
+    "upperPasswordError": "Ƙara aƙalla babban harafi ɗaya",
+    "specialPasswordError": "Ƙara aƙalla harafi na musamman ɗaya",
+    "confirmPasswordLabel": "Tabbatar da Kalmar Sirri",
+    "confirmPasswordPlaceholder": "Tabbatar da Kalmar Sirri",
+    "confirmPasswordRequired": "Kalmar sirri ta wajaba",
+    "ConfirmPasswordError": "Kalmomin sirri ba su daidaita ba",
+    "signUpButton": "Yi Rijista",
+    "joinedUsBefore": "Kun riga kun shiga?",
+    "signInLink": "Shiga",
+    "sendCode": "Aika Lamba",
+    "resendCode": "Sake Aika Lamba ({time, plural, =1 {# daƙiƙa} other {# daƙiƙa}})"
+  },
+  "forgotPasswordPage": {
+    "title": "Manta da Kalmar Sirri",
+    "subtitle": "Kada ku damu! Hakan yana faruwa. Don Allah, shigar da adireshin da ke da alaƙa da asusunku.",
+    "emailLabel": "Imel",
+    "emailPlaceholder": "Shigar da Imel",
+    "emailError": "Don Allah, shigar da adireshin imel mai inganci",
+    "emailRequired": "Imel ya wajaba",
+    "emailInvalidChars": "Imel yana ɗauke da haruffa marasa inganci",
+    "submitButton": "Aika",
+    "specialChars": "Babu haruffa na musamman"
+  },
+  "verificationPage": {
+    "title": "Lambar Tabbatarwa",
+    "subtitle": "Tabbatar da Lamba",
+    "codeRequired": "Lamba ta wajaba",
+    "resendCode": "Sake Aika Lamba {time, plural, =0 {} =1 {# daƙiƙa} other {# daƙiƙa}}",
+    "verifyButton": "Tabbatar"
+  },
+  "resetPasswordPage": {
+    "title": "Sake Saita Kalmar Sirri",
+    "subtitle": "Shigar da sabuwar kalmar sirri",
+    "passwordLabel": "Kalmar Sirri",
+    "passwordPlaceholder": "Shigar da Kalmar Sirri",
+    "passwordRequired": "Kalmar sirri ta wajaba",
+    "minPasswordError": "Min haruffa 8",
+    "maxPasswordError": "Max haruffa 20",
+    "lowerPasswordError": "Ƙara aƙalla ƙaramin harafi ɗaya",
+    "upperPasswordError": "Ƙara aƙalla babban harafi ɗaya",
+    "specialPasswordError": "Ƙara aƙalla harafi na musamman ɗaya",
+    "confirmPasswordLabel": "Tabbatar da Kalmar Sirri",
+    "confirmPasswordPlaceholder": "Tabbatar da Kalmar Sirri",
+    "confirmPasswordRequired": "Kalmar sirri ta wajaba",
+    "ConfirmPasswordError": "Kalmomin sirri ba su daidaita ba",
+    "submitButton": "Sake Saita Kalmar Sirri",
+    "modal": {
+      "title": "Kalmar sirri ta canza cikin nasara!",
+      "btnText": "Ci Gaba"
+    }
+  }
+}

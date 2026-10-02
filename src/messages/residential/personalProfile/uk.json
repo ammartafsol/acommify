@@ -1,0 +1,105 @@
+{
+  "personalProfilePage": {
+    "personalProfile": {
+      "title": "Особистий Профіль",
+      "welcomeTitle": "Ласкаво просимо до вашого Особистого Профілю!",
+      "welcomeDescription": "Тут ви можете переглянути та оновити вашу основну інформацію, щоб забезпечити її актуальність.",
+      "familyMembers": "Члени Сім'ї",
+      "preferredLanguage": "Бажана Мова",
+      "selectLanguage": "Вибрати Мову",
+      "generalInformation": "Загальна Інформація",
+      "viewIncident": "Ваші Звіти про Інциденти"
+    },
+
+    "form": {
+      "errors": {
+        "required": "{field} обов'язкове",
+        "invalidEmail": "Будь ласка, надайте дійсну адресу електронної пошти",
+        "invalid": "Недійсне {field}"
+      },
+      "labels": {
+        "fullName": "Повне Ім'я",
+        "residentIdNumber": "Номер ID Мешканця",
+        "houseNumber": "Номер Будинку",
+        "phoneNumber": "Номер Телефону",
+        "email": "Адреса Електронної Пошти",
+        "familyMemberFullName": "Повне Ім'я Члена Сім'ї",
+        "trcNumber": "Номер TRC",
+        "relationship": "Стосунки",
+        "dob": "Дата Народження",
+        "age": "Вік",
+        "saveChanges": "Зберегти Зміни",
+        "editProfile": "Редагувати Профіль",
+        "schoolName": "Назва Школи",
+        "schoolPlacement": "Шкільне Розміщення",
+        "transportType": "Тип Транспорту",
+        "books": "Книги",
+        "year": "Рік",
+        "gender": "Стать"
+      },
+      "placeholders": {
+        "fullName": "Введіть ваше повне ім'я",
+        "dob": "Введіть вашу дату народження",
+        "residentIdNumber": "Введіть ваш номер ID мешканця",
+        "houseNumber": "Введіть номер вашого будинку/блок",
+        "phoneNumber": "Введіть ваш номер телефону",
+        "email": "Введіть вашу адресу електронної пошти",
+        "familyMemberFullName": "Введіть повне ім'я члена сім'ї",
+        "trcNumber": "Введіть номер TRC",
+        "relationship": "Введіть ваші стосунки з членом сім'ї",
+        "age": "Введіть вік члена сім'ї",
+        "schoolName": "Введіть назву школи",
+        "schoolGrade": "Введіть клас школи",
+        "dobPlaceholder": "ДД/ММ/РРРР",
+        "schoolPlacement": "Виберіть шкільне розміщення",
+        "transportType": "Виберіть тип транспорту",
+        "year": "Введіть рік",
+        "books": "Введіть назву книги",
+        "gender": "Виберіть стать"
+      }
+    },
+
+    "genderOptions": {
+      "male": "Чоловік",
+      "female": "Жінка",
+      "other": "Інше"
+    },
+
+    "relationshipOptions": {
+      "father": "Батько",
+      "mother": "Мати",
+      "sibling": "Брат/Сестра",
+      "spouse": "Чоловік/Дружина",
+      "children": "Діти"
+    },
+    "schoolPlacementOptions": {
+      "placed": "Розміщений",
+      "notPlaced": "Не Розміщений"
+    },
+    "transportTypeOptions": {
+      "bus": "Автобус",
+      "carpool": "Спільна Поездка",
+      "family": "Сім'я"
+    },
+    "toasts": {
+      "updateSuccess": "Профіль успішно оновлено"
+    },
+    "fullName": {
+      "required": "Повне ім'я обов'язкове"
+    },
+    "schoolName": {
+      "required": "Назва школи обов'язкова"
+    },
+    "familyMemberErrors": {
+      "relationshipRequired": "Стосунки обов'язкові",
+      "dobRequired": "Дата народження обов'язкова",
+      "ageAtLeast18": "Вік повинен бути не менше 18 років",
+      "schoolPlacementRequired": "Шкільне розміщення обов'язкове",
+      "yearRequired": "Рік обов'язковий",
+      "transportTypeRequired": "Тип транспорту обов'язковий",
+      "booksMinRequired": "Принаймні одна книга обов'язкова",
+      "trcNumberRequired": "Номер TRC обов'язковий",
+      "genderRequired": "Гендер обов'язковий"
+    }
+  }
+}

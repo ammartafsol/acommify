@@ -1,0 +1,184 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  background: var(--Poor-white);
+  display: flex;
+
+  width: 100%;
+  cursor: pointer;
+  height: 108px;
+  padding: 4px 16px;
+  gap: 10px;
+  box-shadow: 0 3px 8px 0 rgba(74, 85, 104, 0.04);
+  transition: background 0.2s, color 0.2s;
+}
+
+.card:hover {
+  background: var(--Dark-blue);
+}
+
+.card:hover .left,
+.card:hover .content p,
+.card:hover .downloadIcon svg {
+  color: var(--Poor-white) !important;
+}
+
+.card:hover .pdfFileImg {
+  background: var(--Poor-white);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.pdfFileImg {
+  display: flex;
+  width: 75px;
+  height: 75px;
+  padding: 5px 7px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: rgba(227, 246, 254, 0.37);
+  transition: background 0.2s;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.content p:nth-of-type(1),
+.content p:nth-of-type(2) {
+  transition: color 0.2s;
+}
+
+.content p:nth-of-type(1) {
+  color: var(--Black);
+  font-family: var(--font-lato);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.pinned {
+  background: #33b5f6 !important;
+}
+
+.pinnedPdf {
+  background: var(--Poor-white) !important;
+}
+.pinnedText {
+  color: var(--Poor-white) !important;
+}
+
+.content p:nth-of-type(2) {
+  color: var(--Dark-gray);
+  font-family: var(--font-lato);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.downloadIcon {
+  display: flex;
+  gap: 10px;
+}
+.downloadIcon svg {
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .pdfFileImg {
+    width: 52px;
+    height: 52px;
+  }
+  .pdfFileImg img {
+    width: 32px;
+    height: 40px;
+  }
+}
+@media (max-width: 680px) {
+  .gridCard {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: var(--Poor-white, #fff);
+    display: flex;
+    min-height: 107px;
+    padding: 8px 12px;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 3px 8px 0 rgba(74, 85, 104, 0.04);
+    flex-direction: row;
+    cursor: pointer;
+  }
+
+  .gridCard:hover {
+    background: var(--Dark-blue);
+  }
+
+  .gridCard:hover .left,
+  .gridCard:hover .content p,
+  .gridCard:hover .downloadIcon svg {
+    color: var(--Poor-white) !important;
+  }
+
+  .gridCard:hover .pdfFileImg {
+    background: var(--Poor-white);
+  }
+
+  .gridCard .left {
+    flex-direction: column;
+    align-items: flex-start;
+    width: max-content;
+    gap: 5px;
+  }
+  .gridCard .pdfFileImg {
+    height: 44px;
+    width: 44px;
+  }
+  .gridCard .pdfFileImg img {
+    width: 28px;
+    height: 34px;
+  }
+  .downloadIcon {
+    display: flex;
+    gap: 8px;
+  }
+  .content {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0px;
+  }
+
+  .card:hover {
+    border-radius: 12px;
+  }
+  .pdfFileImg {
+    width: 57px;
+    height: 57px;
+    padding: 6px 9px;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--Poor-white);
+    box-shadow: 0 3px 15px 0 rgba(74, 85, 104, 0.09);
+  }
+
+  .gridCard {
+    min-width: 150px;
+  }
+}

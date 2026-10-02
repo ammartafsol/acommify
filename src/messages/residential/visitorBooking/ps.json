@@ -1,0 +1,59 @@
+{
+  "visitors": {
+    "selectAccommodation": "استوګنه وټاکئ",
+    "selectAccommodationPlaceholder": "استوګنه وټاکئ",
+    "accommodationSelectMessage": "مهرباني وکړئ د دوام لپاره استوګنه وټاکئ",
+    "selectDateMessage": "مهرباني وکړئ د شته سلاټونو د لیدو لپاره نیټه وټاکئ",
+    "selectedDate": "ټاکل شوې نیټه",
+    "selectDuration": "موده وټاکئ",
+    "durations": {
+      "1hour": "1 ساعت",
+      "2hour": "2 ساعت"
+    },
+    "bookingSuccess": "د لیدونکي حجز غوښتنه په بریالیتوب سره ولیږل شوه! مهرباني وکړئ د تصویب انتظار وکړئ.",
+    "reminder": "د خپل د لیدونکي حجز لپاره یادښت وټاکئ",
+    "reminders": {
+      "reminderOptions": {
+        "15min": "15 دقیقې وړاندې",
+        "30min": "30 دقیقې وړاندې",
+        "1hour": "1 ساعت وړاندې",
+        "custom": "ځانګړی یادښت"
+      },
+      "customPlaceholderText": "دقیقې ولیکئ (لکه: 10)"
+    },
+    "VisitorBooking": {
+      "title": "د لیدونکي حجز",
+      "bookingWarning": "حجز نشي کولی لغوه شي کله چې د حجوزاتو باندې 1 ساعت پاتې وي."
+    },
+    "modal": {
+      "inputLabels": {
+        "nameLabel": "د لیدونکي نوم",
+        "relationshipLabel": "د اوسیدونکي سره اړیکه",
+        "dateLabel": "غوره نیټه",
+        "startTimeLabel": "د پیل وخت",
+        "endTimeLabel": "د پای وخت",
+        "timeLabel": "غوره وخت",
+        "notesLabel": "اضافي یادښتونه"
+      },
+      "placeholders": {
+        "namePlaceholder": "د لیدونکي نوم ولیکئ",
+        "notesPlaceholder": "اضافي یادښتونه دلته ولیکئ"
+      },
+      "header": "د حجز فورم",
+      "btns": {
+        "submit": "ولېږئ",
+        "cancel": "لغوه کړئ",
+        "rules": "د لیدونکي قوانین",
+        "upcomingVisits": "راتلونکي لیدنې"
+      },
+      "relationshipStatus": {
+        "Self": "خپل",
+        "Father": "پلار",
+        "Mother": "مور",
+        "Sibling": "ورور/خور",
+        "Spouse": "مېړه/ښځه",
+        "Children": "ماشومان"
+      }
+    }
+  }
+}

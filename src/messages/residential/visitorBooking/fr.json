@@ -1,0 +1,59 @@
+{
+  "visitors": {
+    "selectAccommodation": "Sélectionner l'Hébergement",
+    "selectAccommodationPlaceholder": "Choisissez un hébergement",
+    "accommodationSelectMessage": "Veuillez sélectionner un hébergement pour continuer",
+    "selectDateMessage": "Veuillez sélectionner une date pour voir les créneaux disponibles",
+    "selectedDate": "Date Sélectionnée",
+    "selectDuration": "Sélectionner la Durée",
+    "durations": {
+      "1hour": "1 Heure",
+      "2hour": "2 Heures"
+    },
+    "bookingSuccess": "Demande de réservation de visiteur soumise avec succès ! Veuillez attendre l'approbation.",
+    "reminder": "Définir un rappel pour votre réservation de visiteur",
+    "reminders": {
+      "reminderOptions": {
+        "15min": "15 minutes avant",
+        "30min": "30 minutes avant",
+        "1hour": "1 heure avant",
+        "custom": "Rappel Personnalisé"
+      },
+      "customPlaceholderText": "Entrez les minutes (ex: 10)"
+    },
+    "VisitorBooking": {
+      "title": "Réservation de Visiteur",
+      "bookingWarning": "La réservation ne peut pas être annulée quand il restera 1 heure sur la réservation."
+    },
+    "modal": {
+      "inputLabels": {
+        "nameLabel": "Nom du Visiteur",
+        "relationshipLabel": "Relation avec le Résident",
+        "dateLabel": "Date Préférée",
+        "startTimeLabel": "Heure de Début",
+        "endTimeLabel": "Heure de Fin",
+        "timeLabel": "Horaire Préféré",
+        "notesLabel": "Notes Supplémentaires"
+      },
+      "placeholders": {
+        "namePlaceholder": "Entrez le Nom du Visiteur",
+        "notesPlaceholder": "Entrez des Notes Supplémentaires ici"
+      },
+      "header": "Formulaire de Réservation",
+      "btns": {
+        "submit": "Soumettre",
+        "cancel": "Annuler",
+        "rules": "Règles du Visiteur",
+        "upcomingVisits": "Visites à Venir"
+      },
+      "relationshipStatus": {
+        "Self": "Self",
+        "Father": "Père",
+        "Mother": "Mère",
+        "Sibling": "Frère/Sœur",
+        "Spouse": "Époux/Épouse",
+        "Children": "Enfants"
+      }
+    }
+  }
+}

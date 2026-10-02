@@ -1,0 +1,26 @@
+{
+  "LaundryBookingConfirmation": {
+    "title": "Laundry Booking",
+    "confirmedTitle": "Laundry Booking Confirmed",
+    "cancelledTitle": "Laundry Booking Cancelled",
+    "completedTitle": "Laundry Booking Completed",
+    "rejectedTitle": "Laundry Booking Rejected",
+    "pendingDescription": "Your laundry booking is pending! We will notify you once it's confirmed.",
+    "confirmedDescription": "Your booking is confirmed! We look forward to serving you soon.",
+    "cancelledDescription": "Your laundry booking has been cancelled.",
+    "completedDescription": "Your laundry booking has been completed.",
+    "rejectedDescription": "Your laundry booking has been rejected.",
+    "pendingTitle": "Laundry Booking Pending",
+    "description": "Your booking is confirmed! We look forward to serving you soon.",
+    "cancelBooking": "Cancel Laundry Booking",
+    "successful": "Your laundry booking was successful!",
+    "cancelSuccess": "Your laundry booking has been successfully cancelled.",
+    "CancelModal": {
+      "title": "Cancel Laundry Booking",
+      "description": "Are you sure you want to cancel your laundry booking?",
+      "btnText1": "No",
+      "btnText2": "Yes",
+      "iconAlt": "Cancel"
+    }
+  }
+}

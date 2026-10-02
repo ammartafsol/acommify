@@ -1,0 +1,59 @@
+{
+  "visitors": {
+    "selectAccommodation": "Вибрати Проживання",
+    "selectAccommodationPlaceholder": "Оберіть проживання",
+    "accommodationSelectMessage": "Будь ласка, виберіть проживання для продовження",
+    "selectDateMessage": "Будь ласка, виберіть дату для перегляду доступних слотів",
+    "selectedDate": "Вибрана Дата",
+    "selectDuration": "Вибрати Тривалість",
+    "durations": {
+      "1hour": "1 Година",
+      "2hour": "2 Години"
+    },
+    "bookingSuccess": "Запит на бронювання відвідувача успішно надіслано! Будь ласка, очікуйте на затвердження.",
+    "reminder": "Встановити нагадування для вашого бронювання відвідувача",
+    "reminders": {
+      "reminderOptions": {
+        "15min": "15 хвилин до",
+        "30min": "30 хвилин до",
+        "1hour": "1 година до",
+        "custom": "Персональне Нагадування"
+      },
+      "customPlaceholderText": "Введіть хвилини (наприклад: 10)"
+    },
+    "VisitorBooking": {
+      "title": "Бронювання Відвідувача",
+      "bookingWarning": "Бронювання не може бути скасовано, коли залишиться 1 година на бронювання."
+    },
+    "modal": {
+      "inputLabels": {
+        "nameLabel": "Ім'я Відвідувача",
+        "relationshipLabel": "Стосунки з Мешканцем",
+        "dateLabel": "Бажана Дата",
+        "startTimeLabel": "Час Початку",
+        "endTimeLabel": "Час Завершення",
+        "timeLabel": "Бажаний Час",
+        "notesLabel": "Додаткові Нотатки"
+      },
+      "placeholders": {
+        "namePlaceholder": "Введіть Ім'я Відвідувача",
+        "notesPlaceholder": "Введіть Додаткові Нотатки тут"
+      },
+      "header": "Форма Бронювання",
+      "btns": {
+        "submit": "Надіслати",
+        "cancel": "Скасувати",
+        "rules": "Правила Відвідувача",
+        "upcomingVisits": "Майбутні Візити"
+      },
+      "relationshipStatus": {
+        "Self": "Self",
+        "Father": "Батько",
+        "Mother": "Мати",
+        "Sibling": "Брат/Сестра",
+        "Spouse": "Чоловік/Дружина",
+        "Children": "Діти"
+      }
+    }
+  }
+}

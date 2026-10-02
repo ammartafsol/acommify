@@ -1,0 +1,37 @@
+{
+  "VisitorBookingConfirmation": {
+    "title": "تأكيد حجز الزائر",
+    "confirmedTitle": "تم تأكيد حجز الزائر",
+    "cancelledTitle": "تم إلغاء حجز الزائر",
+    "completedTitle": "تم إكمال حجز الزائر",
+    "rejectedTitle": "تم رفض حجز الزائر",
+    "pendingDescription": "حجز الزائر الخاص بك في الانتظار! سنخطرك بمجرد تأكيده.",
+    "confirmedDescription": "تم تأكيد حجزك! نتطلع لمقابلتك قريباً.",
+    "cancelledDescription": "تم إلغاء حجز الزائر الخاص بك.",
+    "completedDescription": "تم إكمال حجز الزائر الخاص بك بنجاح.",
+    "rejectedDescription": "تم رفض حجز الزائر الخاص بك.",
+    "pendingTitle": "حجز الزائر في الانتظار",
+    "description": "تم تأكيد حجزك! نتطلع لمقابلتك قريباً.",
+    "reminder": "تعيين تذكير لحجز الزائر الخاص بك:",
+    "cancelBooking": "إلغاء حجز الزائر",
+    "successful": "تم جدولة حجز الزائر بنجاح!",
+    "cancelSuccess": "تم إلغاء حجز الزائر بنجاح.",
+    "reminders": {
+      "title": "تعيين تذكير لحجز الزائر الخاص بك",
+      "reminderOptions": {
+        "15min": "15 دقيقة قبل",
+        "30min": "30 دقيقة قبل",
+        "1hour": "ساعة واحدة قبل",
+        "custom": "تذكير مخصص"
+      },
+      "customPlaceholderText": "مثال: 10 دقائق قبل"
+    },
+    "CancelModal": {
+      "title": "إلغاء حجز الزائر",
+      "description": "هل أنت متأكد من أنك تريد إلغاء حجز الزائر؟",
+      "btnText1": "لا",
+      "btnText2": "نعم",
+      "iconAlt": "إلغاء"
+    }
+  }
+}

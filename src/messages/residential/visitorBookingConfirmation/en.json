@@ -1,0 +1,37 @@
+{
+  "VisitorBookingConfirmation": {
+    "title": "Visitor Booking Confirmation Pending",
+    "confirmedTitle": "Visitor Booking Confirmed",
+    "cancelledTitle": "Visitor Booking Cancelled",
+    "completedTitle": "Visitor Booking Completed",
+    "rejectedTitle": "Visitor Booking Rejected",
+    "pendingDescription": "Your visitor  booking is pending! We will notify you once it's confirmed.",
+    "confirmedDescription": "Your booking is confirmed! We look forward to see you soon.",
+    "cancelledDescription": "Your visitor booking has been cancelled.",
+    "completedDescription": "Your visitor booking has been completed.",
+    "rejectedDescription": "Your visitor booking has been rejected.",
+    "pendingTitle": "Visitor Booking Pending",
+    "description": "Your booking is confirmed! We look forward to see you soon.",
+    "reminder": "Set a reminder for your visitor slot:",
+    "cancelBooking": "Cancel Visitor Booking",
+    "successful": "Your visitor booking was successful!",
+    "cancelSuccess": "Your visitor booking has been successfully cancelled.",
+    "reminders": {
+      "title": "Set a reminder for your Visitor Booking",
+      "reminderOptions": {
+        "15min": "15 minutes before",
+        "30min": "30 minutes before",
+        "1hour": "1 hour before",
+        "custom": "Custom Reminder"
+      },
+      "customPlaceholderText": "e.g., 10 minutes before"
+    },
+    "CancelModal": {
+      "title": "Cancel Visitor Booking",
+      "description": "Are you sure you want to cancel your visitor booking?",
+      "btnText1": "No",
+      "btnText2": "Yes",
+      "iconAlt": "Cancel"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "notificationsPage": {
+    "activities": {
+      "upcomingActivities": "Ayyukan da ke zuwa",
+      "currentActivities": "Ga ayyukan ku na yanzu:",
+      "helpLine": "Layin Taimako"
+    },
+    "title": "Sanarwa",
+    "markAllAsRead": "Yi wa duka alama kamar an karanta",
+    "noNotifications": "Babu sanarwa da ake samuwa",
+    "reschedule": "Sake Tsara"
+  }
+}

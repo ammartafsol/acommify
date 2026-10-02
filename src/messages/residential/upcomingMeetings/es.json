@@ -1,0 +1,16 @@
+{
+  "upcomingMeetings": {
+    "title": "Reuniones Próximas",
+    "requestChange": "Solicitar Cambio",
+    "tabs": {
+      "all": "Todas las Reuniones",
+      "confirmed": "Confirmadas",
+      "pending": "Pendientes"
+    },
+    "filters": {
+      "recent": "Más Recientes",
+      "starred": "Favoritas",
+      "archived": "Archivadas"
+    }
+  }
+}

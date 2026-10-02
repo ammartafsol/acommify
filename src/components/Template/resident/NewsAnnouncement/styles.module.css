@@ -1,0 +1,22 @@
+.main {
+  margin-block: 50px;
+}
+.containerClass {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.newsCard {
+  overflow-y: unset !important;
+}
+
+@media (max-width: 600px) {
+  .newsCard {
+    flex-direction: column !important;
+    overflow-x: unset !important;
+  }
+  .main {
+    margin-block: 0px;
+    margin-bottom: 80px;
+  }
+}

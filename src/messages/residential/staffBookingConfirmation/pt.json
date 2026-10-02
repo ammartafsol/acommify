@@ -1,0 +1,37 @@
+{
+  "StaffBookingConfirmation": {
+    "title": "Consulta da Equipe",
+    "confirmedTitle": "Consulta da Equipe Confirmada",
+    "cancelledTitle": "Consulta da Equipe Cancelada",
+    "completedTitle": "Consulta da Equipe Concluída",
+    "rejectedTitle": "Consulta da Equipe Rejeitada",
+    "pendingDescription": "Sua consulta da equipe está pendente! Notificaremos você assim que for confirmada.",
+    "confirmedDescription": "Sua consulta foi confirmada! Esperamos encontrá-lo em breve.",
+    "cancelledDescription": "Sua consulta da equipe foi cancelada.",
+    "completedDescription": "Sua consulta da equipe foi concluída com sucesso.",
+    "rejectedDescription": "Sua consulta da equipe foi rejeitada.",
+    "pendingTitle": "Consulta da Equipe Pendente",
+    "description": "Sua consulta foi confirmada! Esperamos encontrá-lo em breve.",
+    "reminder": "Definir um lembrete para sua consulta da equipe:",
+    "cancelBooking": "Cancelar Consulta da Equipe",
+    "successful": "Sua consulta da equipe foi agendada com sucesso!",
+    "cancelSuccess": "Sua consulta da equipe foi cancelada com sucesso.",
+    "reminders": {
+      "title": "Definir um lembrete para sua Consulta da Equipe",
+      "reminderOptions": {
+        "15min": "15 minutos antes",
+        "30min": "30 minutos antes",
+        "1hour": "1 hora antes",
+        "custom": "Lembrete Personalizado"
+      },
+      "customPlaceholderText": "ex: 10 minutos antes"
+    },
+    "CancelModal": {
+      "title": "Cancelar Consulta da Equipe",
+      "description": "Tem certeza de que deseja cancelar sua consulta da equipe?",
+      "btnText1": "Não",
+      "btnText2": "Sim",
+      "iconAlt": "Cancelar"
+    }
+  }
+}

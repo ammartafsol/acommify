@@ -1,0 +1,31 @@
+{
+  "signInOutRequests": {
+    "SignInOutRequests": {
+      "title": "د ننوتلو/وتلو غوښتنې",
+      "welcomeTitle": "د ننوتلو/وتلو غوښتنو ته ښه راغلاست!",
+      "description": "د ټولو لیدونکو د ننوتلو او وتلو غوښتنې په اغیزمن ډول اداره او تعقیب کړئ.",
+      "tabs": {
+        "all": "ټول",
+        "pending": "پاتې",
+        "approved": "تصویب شوي",
+        "rejected": "رد شوي"
+      },
+      "requestHistory": "د غوښتنو تاریخ",
+      "tableHeaders": {
+        "date": "نیټه",
+        "type": "ډول",
+        "visitor": "لیدونکی",
+        "purpose": "هدف",
+        "timeIn": "د ننوتلو وخت",
+        "timeOut": "د وتلو وخت",
+        "status": "حالت",
+        "requestedBy": "غوښتل شوی",
+        "approvedBy": "تصویب شوی",
+        "accommodation": "استوګنځی",
+        "checkIn": "ننوتل",
+        "checkOut": "وتل",
+        "currentlyCheckedIn": "په همدارنګونکي ننوتلو ډول"
+      }
+    }
+  }
+}

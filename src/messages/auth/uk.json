@@ -1,0 +1,101 @@
+{
+  "userAgreementPage": {
+    "title": "Умови та Положення",
+    "tabs": {
+      "terms": "Умови та Положення",
+      "privacy": "Політика Конфіденційності",
+      "responsibility": "Обов'язки Користувача"
+    },
+    "checkbox": "Я прочитав і погоджуюся з Умовами та Положеннями",
+    "button": "Прийняти та Продовжити"
+  },
+  "loginPage": {
+    "title": "Вхід",
+    "emailLabel": "Електронна Пошта",
+    "emailPlaceholder": "Введіть Електронну Пошту",
+    "emailError": "Будь ласка, введіть дійсну адресу електронної пошти",
+    "EmailRequired": "Електронна пошта обов'язкова",
+    "emailInvalidChars": "Електронна пошта містить недійсні символи",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Введіть Пароль",
+    "passwordRequired": "Пароль обов'язковий",
+    "forgotPass": "Забули пароль?",
+    "rememberMe": "Запам'ятати Мене",
+    "loginButton": "Увійти",
+    "newHere": "Новий тут?",
+    "signUpLink": "Зареєструватися",
+    "residentIdPlaceholder": "123456",
+    "residentIdLabel": "ID Мешканця"
+  },
+  "signUpPage": {
+    "title": "Реєстрація",
+    "nameLabel": "Ім'я",
+    "namePlaceholder": "Введіть Ім'я",
+    "nameRequired": "Ім'я обов'язкове",
+    "emailLabel": "Електронна Пошта",
+    "emailPlaceholder": "Введіть Електронну Пошту",
+    "emailError": "Будь ласка, введіть дійсну адресу електронної пошти",
+    "emailRequired": "Електронна пошта обов'язкова",
+    "emailInvalidChars": "Електронна пошта містить недійсні символи",
+    "codeLabel": "Двофакторна Аутентифікація",
+    "codeSubLabel": "Введіть 6-значний код, надісланий на вашу електронну пошту",
+    "codePlaceholder": "Код",
+    "codeRequired": "Код обов'язковий",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Введіть Пароль",
+    "passwordRequired": "Пароль обов'язковий",
+    "minPasswordError": "Мін 8 символів",
+    "maxPasswordError": "Макс 20 символів",
+    "lowerPasswordError": "Додайте принаймні одну малу літеру",
+    "upperPasswordError": "Додайте принаймні одну велику літеру",
+    "specialPasswordError": "Додайте принаймні один спеціальний символ",
+    "confirmPasswordLabel": "Підтвердити Пароль",
+    "confirmPasswordPlaceholder": "Підтвердити Пароль",
+    "confirmPasswordRequired": "Пароль обов'язковий",
+    "ConfirmPasswordError": "Паролі не співпадають",
+    "signUpButton": "Зареєструватися",
+    "joinedUsBefore": "Вже приєдналися?",
+    "signInLink": "Увійти",
+    "sendCode": "Надіслати Код",
+    "resendCode": "Повторно Надіслати Код ({time, plural, =1 {# секунда} other {# секунд}})"
+  },
+  "forgotPasswordPage": {
+    "title": "Забули Пароль",
+    "subtitle": "Не хвилюйтеся! Це трапляється. Будь ласка, введіть адресу, пов'язану з вашим обліковим записом.",
+    "emailLabel": "Електронна Пошта",
+    "emailPlaceholder": "Введіть Електронну Пошту",
+    "emailError": "Будь ласка, введіть дійсну адресу електронної пошти",
+    "emailRequired": "Електронна пошта обов'язкова",
+    "emailInvalidChars": "Електронна пошта містить недійсні символи",
+    "submitButton": "Надіслати",
+    "specialChars": "Без спеціальних символів"
+  },
+  "verificationPage": {
+    "title": "Код Підтвердження",
+    "subtitle": "Підтвердити Кодом",
+    "codeRequired": "Код обов'язковий",
+    "resendCode": "Повторно Надіслати Код {time, plural, =0 {} =1 {# секунда} other {# секунд}}",
+    "verifyButton": "Підтвердити"
+  },
+  "resetPasswordPage": {
+    "title": "Скинути Пароль",
+    "subtitle": "Введіть ваш новий пароль",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Введіть Пароль",
+    "passwordRequired": "Пароль обов'язковий",
+    "minPasswordError": "Мін 8 символів",
+    "maxPasswordError": "Макс 20 символів",
+    "lowerPasswordError": "Додайте принаймні одну малу літеру",
+    "upperPasswordError": "Додайте принаймні одну велику літеру",
+    "specialPasswordError": "Додайте принаймні один спеціальний символ",
+    "confirmPasswordLabel": "Підтвердити Пароль",
+    "confirmPasswordPlaceholder": "Підтвердити Пароль",
+    "confirmPasswordRequired": "Пароль обов'язковий",
+    "ConfirmPasswordError": "Паролі не співпадають",
+    "submitButton": "Скинути Пароль",
+    "modal": {
+      "title": "Ваш пароль було успішно змінено!",
+      "btnText": "Продовжити"
+    }
+  }
+}

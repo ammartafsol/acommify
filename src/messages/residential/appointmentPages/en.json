@@ -1,0 +1,64 @@
+{
+  "appointmentsPage": {
+    "Appointments": {
+      "title": "Appointments",
+      "bookAppointment": "Book Appointment",
+      "welcomeTitle": "Welcome to the Appointments!",
+      "description": "Easily schedule meetings with the manager or reception staff in just a few clicks. ",
+
+      "tabs": {
+        "all": "All",
+        "completed": "Completed",
+        "pending": "Pending",
+        "accepted": "Accepted",
+        "inprogress": "In-Progress",
+        "cancelled": "Cancelled",
+        "rejected": "Rejected"
+      },
+      "toasts": {
+        "cancelSuccess": "Appointment Cancelled successfully"
+      },
+      "appointmentHistory": "Appointments",
+      "table": {
+        "title": "Appointment Details",
+        "purpose": "Purpose",
+        "dateTime": "Date & Time",
+        "category": "Category",
+        "status": "Status"
+      },
+      "menuItems": {
+        "cancel": "Cancel"
+      },
+      "staffAppointmentCard": {
+        "title": "Staff Appointments",
+        "description": "Easily schedule, view, and manage your meetings with the staff here."
+      },
+
+      "visitorBookingCard": {
+        "title": "Visitor Bookings",
+        "description": "Arrange meetings with visitors. Specify a convenient time so that the visitor can easily get to the center and meet you."
+      }
+    },
+    "StaffAppointment": {
+      "title": "Staff Appointments",
+      "selectStaff": "Select Staff",
+      "selectedDate": "Selected Date",
+      "selectStaffPlaceholder": "{loading, select, true {Loading...} other {Select Staff}}",
+      "staffSelectMessage": "Please select a staff member to view available appointments.",
+      "selectDateMessage": "Please select a date to view available slots.",
+      "bookingWarning": "Booking cannot be cancelled when 1 hour will be left on the bookings.",
+      "bookingSuccess": "Staff appointment request submitted successfully! Please wait for approval.",
+      "reminder": "Set a reminder for your appointment",
+      "reminders": {
+        "title": "Set a reminder for your Staff Appointment",
+        "reminderOptions": {
+          "15min": "15 minutes before",
+          "30min": "30 minutes before",
+          "1hour": "1 hour before",
+          "custom": "Custom Reminder"
+        },
+        "customPlaceholderText": "Enter minutes (e.g., 10)"
+      }
+    }
+  }
+}

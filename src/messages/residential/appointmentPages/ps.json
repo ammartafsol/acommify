@@ -1,0 +1,63 @@
+{
+  "appointmentsPage": {
+    "Appointments": {
+      "title": "ناستې",
+      "bookAppointment": "د ناستې حجز",
+      "welcomeTitle": "د ناستو ته ښه راغلاست!",
+      "description": "د مدیر یا د استقبال د کارکوونکو سره د ناستو د تنظیمولو لپاره په یوازې څو کلیکونو کې اسانه.",
+
+      "tabs": {
+        "all": "ټول",
+        "completed": "بشپړ شوی",
+        "pending": "پاتې",
+        "accepted": "منل شوی",
+        "inprogress": "پرمختګ کې",
+        "cancelled": "لغوه شوی",
+        "rejected": "رد شوی"
+      },
+      "toasts": {
+        "cancelSuccess": "ناسته په بریالیتوب سره لغوه شوه"
+      },
+      "appointmentHistory": "ناستې",
+      "table": {
+        "purpose": "هدف",
+        "dateTime": "نیټه او وخت",
+        "category": "کټګوري",
+        "status": "حالت"
+      },
+      "menuItems": {
+        "cancel": "لغوه کړئ"
+      },
+      "staffAppointmentCard": {
+        "title": "د کارکوونکو ناستې",
+        "description": "د کارکوونکو سره د خپلو ناستو د تنظیمولو، لیدلو او اداره کولو لپاره دلته اسانه."
+      },
+
+      "visitorBookingCard": {
+        "title": "د لیدونکو حجوزات",
+        "description": "د لیدونکو سره د ناستو تنظیم. د مناسب وخت ټاکل ترڅو لیدونکی وکولی شي اسانه د مرکز ته ورسیږي او تاسو سره وویني."
+      }
+    },
+    "StaffAppointment": {
+      "title": "د کارکوونکو ناستې",
+      "selectStaff": "کارکوونکي وټاکئ",
+      "selectedDate": "ټاکل شوې نیټه",
+      "selectStaffPlaceholder": "{loading, select, true {پورته کول...} other {کارکوونکي وټاکئ}}",
+      "staffSelectMessage": "مهرباني وکړئ د کارکوونکو د غړي ټاکل د شته ناستو د لیدو لپاره.",
+      "selectDateMessage": "مهرباني وکړئ د نیټې ټاکل د شته سلاټونو د لیدو لپاره.",
+      "bookingWarning": "حجز نشي کولی لغوه شي کله چې د حجوزاتو باندې 1 ساعت پاتې وي.",
+      "bookingSuccess": "د کارمندانو سره د ناستې غوښتنه په بریالیتوب سره ولیږل شوه! مهرباني وکړئ د تصویب انتظار وکړئ.",
+      "reminder": "د خپلې ناستې لپاره یادښت وټاکئ",
+      "reminders": {
+        "title": "د خپلې د کارکوونکو ناستې لپاره یادښت وټاکئ",
+        "reminderOptions": {
+          "15min": "15 دقیقې وړاندې",
+          "30min": "30 دقیقې وړاندې",
+          "1hour": "1 ساعت وړاندې",
+          "custom": "ځانګړی یادښت"
+        },
+        "customPlaceholderText": "دقیقې ولیکئ (لکه: 10)"
+      }
+    }
+  }
+}

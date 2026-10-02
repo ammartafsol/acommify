@@ -1,0 +1,114 @@
+.card {
+  display: flex;
+  max-height: 172px;
+  padding-block: 16px 12px;
+  padding-inline-start: 16px;
+  padding-inline-end: 12px;
+  align-items: flex-start;
+  gap: 8px;
+  height: max-content;
+  flex-direction: column;
+  border-radius: 8px;
+  background: var(--Poor-white);
+  min-width: 321px;
+  box-shadow: 0 9.628px 48.14px 0 rgba(139, 139, 139, 0.1);
+}
+
+.confirmedStatus {
+  display: flex;
+  width: 88px;
+  height: 22px;
+  padding: 3px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 14px;
+  background: var(--Light-green);
+}
+
+.confirmedStatus p {
+  color: var(--Green);
+  font-family: var(--font-lato);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.pendingStatus {
+  display: flex;
+  border-radius: 14px;
+  background: var(--Light-orange);
+  width: 88px;
+  height: 22px;
+  padding: 3px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pendingStatus p {
+  color: var(--Orange);
+  font-family: var(--font-lato);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.title {
+  color: var(--text-primary);
+  font-family: var(--font-lato);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.btn {
+  height: 38px;
+  width: 151px;
+  border-radius: 8px !important;
+  margin-top: 8px;
+}
+
+.schedule {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.schedule div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.schedule div p {
+  color: var(--text-primary);
+  font-family: var(--font-lato);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.icon {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: var(--Light-blue-v1);
+}
+
+@media (max-width: 576px) {
+  .schedule div p {
+    font-weight: 700;
+  }
+  .card {
+    min-width: unset;
+  }
+}

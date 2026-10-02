@@ -1,0 +1,37 @@
+{
+  "StaffBookingConfirmation": {
+    "title": "Cita del Personal",
+    "confirmedTitle": "Cita del Personal Confirmada",
+    "cancelledTitle": "Cita del Personal Cancelada",
+    "completedTitle": "Cita del Personal Completada",
+    "rejectedTitle": "Cita del Personal Rechazada",
+    "pendingDescription": "¡Tu cita del personal está pendiente! Te notificaremos una vez que sea confirmada.",
+    "confirmedDescription": "¡Tu cita está confirmada! Esperamos reunirnos contigo pronto.",
+    "cancelledDescription": "Tu cita del personal ha sido cancelada.",
+    "completedDescription": "Tu cita del personal ha sido completada exitosamente.",
+    "rejectedDescription": "Tu cita del personal ha sido rechazada.",
+    "pendingTitle": "Cita del Personal Pendiente",
+    "description": "¡Tu cita está confirmada! Esperamos reunirnos contigo pronto.",
+    "reminder": "Establecer un recordatorio para tu cita del personal:",
+    "cancelBooking": "Cancelar Cita del Personal",
+    "successful": "¡Tu cita del personal fue programada exitosamente!",
+    "cancelSuccess": "Tu cita del personal ha sido cancelada exitosamente.",
+    "reminders": {
+      "title": "Establecer un recordatorio para tu Cita del Personal",
+      "reminderOptions": {
+        "15min": "15 minutos antes",
+        "30min": "30 minutos antes",
+        "1hour": "1 hora antes",
+        "custom": "Recordatorio Personalizado"
+      },
+      "customPlaceholderText": "ej: 10 minutos antes"
+    },
+    "CancelModal": {
+      "title": "Cancelar Cita del Personal",
+      "description": "¿Estás seguro de que quieres cancelar tu cita del personal?",
+      "btnText1": "No",
+      "btnText2": "Sí",
+      "iconAlt": "Cancelar"
+    }
+  }
+}

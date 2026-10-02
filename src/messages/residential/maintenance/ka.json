@@ -1,0 +1,57 @@
+{
+  "maintenance": {
+    "maintenanceRequests": {
+      "toasts": {
+        "cancelSuccess": "მოთხოვნა წარმატებით გაუქმდა!",
+        "updateSuccess": "მოთხოვნა წარმატებით განახლდა!",
+        "editNotAllowed": "თქვენ შეგიძლიათ შეცვალოთ მხოლოდ მოლოდინში მყოფი მოთხოვნები."
+      },
+      "title": "მოვლის მოთხოვნები",
+      "addNewRequest": "ახალი მოთხოვნის დამატება",
+
+      "requestForm": {
+        "modalEdit": "მოვლის მოთხოვნის რედაქტირება",
+        "modalTitle": "მოვლის მოთხოვნები",
+        "header": "მოთხოვნის გაგზავნის ფორმა",
+        "descriptionLabel": "აღწერა:",
+        "descriptionPlaceholder": "აღწერეთ სერვისის პრობლემა...",
+        "typeLabel": "აირჩიეთ მოვლის მოთხოვნის ტიპი:",
+        "typePlaceholder": "სანტექნიკა",
+        "submitButton": "მოთხოვნის გაგზავნა",
+        "cancelButton": "გაუქმება",
+        "descriptionError": "აღწერა აუცილებელია",
+        "typeError": "მოთხოვნის ტიპი აუცილებელია",
+        "mediaError": "მედია ფაილები აუცილებელია",
+        "mediaMaxError": "შეგიძლიათ ატვირთოთ მხოლოდ 3 ფაილი",
+        "fileDisplayName": "მოვლის მოთხოვნის ფაილი"
+      },
+      "applications": {
+        "header": "გაგზავნილი განაცხადები"
+      },
+      "tabs": {
+        "all": "ყველა",
+        "completed": "დასრულებული",
+        "pending": "მოლოდინში",
+        "approved": "დამტკიცებული",
+        "rejected": "უარყოფილი",
+        "escalated": "გადაწყვეტილი"
+      },
+      "successModal": {
+        "title": "მოთხოვნა წარმატებით გაიგზავნა!",
+        "btnText": "გაგრძელება"
+      },
+      "table": {
+        "purpose": "მიზანი",
+        "category": "კატეგორია",
+        "dateTime": "თარიღი და დრო",
+        "status": "სტატუსი",
+        "resolvedBy": "გადაწყვეტილი მომწოდებლის სახელი",
+        "comment": "კომენტარი"
+      },
+      "menuItems": {
+        "edit": "რედაქტირება",
+        "delete": "წაშლა"
+      }
+    }
+  }
+}

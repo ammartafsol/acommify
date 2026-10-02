@@ -1,0 +1,57 @@
+{
+  "maintenance": {
+    "maintenanceRequests": {
+      "toasts": {
+        "cancelSuccess": "Solicitação cancelada com sucesso!",
+        "updateSuccess": "Solicitação atualizada com sucesso!",
+        "editNotAllowed": "Você só pode editar solicitações com status pendente."
+      },
+      "title": "Solicitações de Manutenção",
+      "addNewRequest": "Adicionar Nova Solicitação",
+
+      "requestForm": {
+        "modalEdit": "Editar Solicitação de Manutenção",
+        "modalTitle": "Solicitações de Manutenção",
+        "header": "Formulário de Submissão de Solicitação",
+        "descriptionLabel": "Descrição:",
+        "descriptionPlaceholder": "Descreva o problema do serviço...",
+        "typeLabel": "Selecione o tipo de solicitação de manutenção:",
+        "typePlaceholder": "Encanamento",
+        "submitButton": "Enviar Solicitação",
+        "cancelButton": "Cancelar",
+        "descriptionError": "Descrição é obrigatória",
+        "typeError": "Tipo de solicitação é obrigatório",
+        "mediaError": "Arquivos de mídia são obrigatórios",
+        "mediaMaxError": "Você pode enviar apenas até 3 arquivos",
+        "fileDisplayName": "Arquivo de Solicitação de Manutenção"
+      },
+      "applications": {
+        "header": "Aplicações Enviadas"
+      },
+      "tabs": {
+        "all": "Todas",
+        "completed": "Concluídas",
+        "pending": "Pendentes",
+        "approved": "Aprovadas",
+        "rejected": "Rejeitadas",
+        "escalated": "Escaladas"
+      },
+      "successModal": {
+        "title": "Solicitação foi enviada com sucesso!",
+        "btnText": "Continuar"
+      },
+      "table": {
+        "purpose": "Propósito",
+        "category": "Categoria",
+        "dateTime": "Data e Hora",
+        "status": "Status",
+        "resolvedBy": "Resolvido por",
+        "comment": "Comentário"
+      },
+      "menuItems": {
+        "edit": "Editar",
+        "delete": "Excluir"
+      }
+    }
+  }
+}

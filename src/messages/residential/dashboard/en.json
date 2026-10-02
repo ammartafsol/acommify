@@ -1,0 +1,23 @@
+{
+  "dashboardPage": {
+    "welcome": "Welcome Back {name}",
+
+    "dashboardCards": {
+      "allBookings": "All Bookings",
+      "bookLaundry": "Book Laundry",
+      "bookBus": "Book Bus",
+      "bookAppointment": "Book Appointment",
+      "visitorBooking": "Visitor Booking",
+      "maintenanceRequests": "Maintenance Requests",
+      "documentCenter": "Document Center",
+      "signInOut": "Sign In/Out"
+    },
+
+    "activities": {
+      "upcomingActivities": "Upcoming activities",
+      "currentActivities": "Here are your current activities:",
+      "helpLine": "Help Line",
+      "reschedule": "Reschedule"
+    }
+  }
+}

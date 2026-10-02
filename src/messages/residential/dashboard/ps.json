@@ -1,0 +1,23 @@
+{
+  "dashboardPage": {
+    "welcome": "ښه راغلاست {name}",
+
+    "dashboardCards": {
+      "allBookings": "ټولې حجزونه",
+      "bookLaundry": "د کالیو د پرانیستلو حجز",
+      "bookBus": "د بس حجز",
+      "bookAppointment": "د ناستې حجز",
+      "visitorBooking": "د لیدونکي حجز",
+      "maintenanceRequests": "د ساتنې غوښتنې",
+      "documentCenter": "د اسنادو مرکز",
+      "signInOut": "ننوتلو/وتلو"
+    },
+
+    "activities": {
+      "upcomingActivities": "راتلونکي فعالیتونه",
+      "currentActivities": "دلته ستاسو اوسني فعالیتونه دي:",
+      "helpLine": "د مرستې کرښه",
+      "reschedule": "بیا تنظیم کړئ"
+    }
+  }
+}

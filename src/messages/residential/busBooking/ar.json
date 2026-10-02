@@ -1,0 +1,89 @@
+{
+  "busBooking": {
+    "title": "حجز الحافلة",
+    "availableBusesTitle": "الحافلات المتاحة",
+    "availableTitle": "جدول الحافلات",
+    "selectDate": "اختر التاريخ لرؤية الحافلات المتاحة",
+    "myBooking": "حجزي",
+    "availableBusesTabs": {
+      "morning": "الصباح",
+      "afternoon": "بعد الظهر",
+      "evening": "المساء"
+    },
+
+    "selectSeat": {
+      "title": "اختر المقعد",
+      "termsAgreement": "وافقت على ",
+      "termsAndConditions": "الشروط والأحكام",
+      "frontDoor": "الباب الأمامي",
+      "driver": "السائق",
+      "seats": {
+        "available": "متاح",
+        "booked": "محجوز",
+        "selected": "محدد"
+      },
+      "timeRemaining": "الوقت المتبقي للطلب",
+      "continue": "متابعة"
+    },
+    "bookingConfirmation": {
+      "title": "تأكيد الحجز",
+      "yourTrip": "رحلتك",
+      "passengerList": "قائمة الركاب",
+      "termsAgreement": "وافقت على ",
+      "termsAndConditions": "الشروط والأحكام",
+      "confirmBooking": "تأكيد الحجز",
+      "cancelBooking": "إلغاء الحجز",
+      "rescheduleBooking": "إعادة جدولة الحجز",
+      "reschedule": "إعادة جدولة ",
+      "successful": "تم حجزك بنجاح!",
+      "bookingConfirm": "تم تأكيد الحجز بنجاح"
+    },
+    "eTicket": {
+      "title": "التذكرة الإلكترونية",
+      "yourTrip": "رحلتك",
+      "passengerList": "قائمة الركاب",
+      "bookingConfirmed": "تم تأكيد الحجز!",
+      "bookingCompleted": "تم إكمال الحجز!",
+      "bookingRejected": "تم رفض الحجز!",
+      "authenticationRequired": "المصادقة مطلوبة",
+      "bookingInformationNotAvailable": "معلومات الحجز غير متاحة",
+      "pdfFileEmpty": "ملف PDF فارغ",
+      "pdfDownloadedSuccessfully": "تم تحميل PDF بنجاح",
+      "bookingCancelled": "تم إلغاء الحجز!",
+      "bookingPending": "الحجز في الانتظار!",
+      "descriptionPending": "حجزك في الانتظار! سنخطرك بمجرد الموافقة عليه.",
+      "descriptionCompleted": "تم إكمال حجزك! شكراً لاختيارك خدمتنا.",
+      "descriptionRejected": "تم رفض حجزك! اتصل بالدعم لمزيد من المعلومات.",
+      "descriptionCancelled": "تم إلغاء حجزك! إذا كان لديك أسئلة، اتصل بالدعم.",
+      "description": "تم تأكيد حجزك! نتطلع لرؤيتك قريباً.",
+      "name": "الاسم",
+      "bookingCode": "رمز الحجز",
+      "numberOfTicket": "رقم",
+      "seat": "المقعد",
+      "IdNumber": "رقم الهوية",
+      "busName": "الحافلة",
+      "duration": "المدة",
+      "reminders": {
+        "title": "تعيين تذكير لحجزك",
+        "reminderOptions": {
+          "15min": "15 دقيقة قبل",
+          "30min": "30 دقيقة قبل",
+          "1hour": "ساعة واحدة قبل",
+          "custom": "تذكير مخصص"
+        },
+        "customPlaceholderText": "مثال: 10 دقائق قبل"
+      },
+      "cancelBookingModal": {
+        "title": "إلغاء الحجز",
+        "description": "هل أنت متأكد أنك تريد إلغاء حجزك؟",
+        "btnText1": "تأكيد",
+        "btnText2": "إلغاء",
+        "iconAlt": "أيقونة إلغاء الحجز"
+      },
+      "downloadBtnLabel": "تحميل التذكرة الإلكترونية",
+      "cancelBooking": "إلغاء الحجز",
+      "cancelSuccess": "تم إلغاء حجزك بنجاح.",
+      "cancelError": "فشل في إلغاء الحجز. حاول مرة أخرى."
+    }
+  }
+}

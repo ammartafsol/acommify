@@ -1,0 +1,12 @@
+{
+  "foodStuffsPage": {
+    "all": "Duka",
+    "title": "Kayayyakin Abinci",
+    "addedToCart": "An ƙara zuwa shedar!",
+
+    "toasts": {
+      "addedToFavorites": "An ƙara zuwa abubuwan da aka fi so",
+      "removedFromFavorites": "An cire daga abubuwan da aka fi so"
+    }
+  }
+}

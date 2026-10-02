@@ -1,0 +1,40 @@
+{
+  "settingsPage": {
+    "settings": {
+      "title": "Settings",
+      "logout": "Logout"
+    },
+    "tabs": {
+      "account": "Account",
+      "changePassword": "Change Password",
+      "pointsWallet": "Points Wallet",
+      "notifications": "Notifications",
+      "privacyPolicy": "Privacy and Policy",
+      "help": "Help",
+      "logout": "Log out",
+      "orders": "Orders"
+    },
+    "pointsWallet": {
+      "title": "Points Wallet",
+      "currentBalance": "Current Balance:",
+      "pointsHistory": "Points History",
+      "points": "Points",
+      "spendingPoints": "Spending Points",
+      "shopNow": "Shop Now",
+      "availableItems": "Available Items/Services"
+    },
+    "helpLine": {
+      "title": "Help Line",
+      "welcomeText": "Welcome to the Help Line",
+      "description": "If you need assistance, our support lines are available to help you. Please find the appropriate helpline below based on your needs."
+    },
+    "toasts": {
+      "checkedInSuccessfully": "Sign in successfully",
+      "checkedOutSuccessfully": "Sign out successfully"
+    },
+    "btnLabels": {
+      "signIn": "Sign In",
+      "signOut": "Sign Out"
+    }
+  }
+}

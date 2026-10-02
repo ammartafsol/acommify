@@ -1,0 +1,40 @@
+{
+  "settingsPage": {
+    "settings": {
+      "title": "პარამეტრები",
+      "logout": "გასვლა"
+    },
+    "tabs": {
+      "account": "ანგარიში",
+      "changePassword": "პაროლის შეცვლა",
+      "pointsWallet": "ქულების საფულე",
+      "notifications": "შეტყობინებები",
+      "privacyPolicy": "კონფიდენციალურობის პოლიტიკა",
+      "help": "დახმარება",
+      "logout": "გასვლა",
+      "orders": "შეკვეთბები"
+    },
+    "pointsWallet": {
+      "title": "ქულების საფულე",
+      "currentBalance": "მიმდინარე ბალანსი:",
+      "pointsHistory": "ქულების ისტორია",
+      "points": "ქულები",
+      "spendingPoints": "ქულების დახარჯვა",
+      "shopNow": "ყიდვა ახლავე",
+      "availableItems": "ხელმისაწვდომი ნივთები/სერვისები"
+    },
+    "helpLine": {
+      "title": "დახმარების ხაზი",
+      "welcomeText": "მოგესალმებით დახმარების ხაზზე",
+      "description": "თუ დახმარება გჭირდებათ, ჩვენი მხარდაჭერის ხაზები ხელმისაწვდომია თქვენი დასახმარებლად. გთხოვთ, იპოვოთ შესაბამისი დახმარების ხაზი ქვემოთ თქვენი საჭიროებების მიხედვით."
+    },
+    "toasts": {
+      "checkedInSuccessfully": "შესვლა წარმატებით",
+      "checkedOutSuccessfully": "გასვლა წარმატებით"
+    },
+    "btnLabels": {
+      "signIn": "შესვლა",
+      "signOut": "გასვლა"
+    }
+  }
+}

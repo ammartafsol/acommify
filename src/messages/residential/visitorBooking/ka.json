@@ -1,0 +1,59 @@
+{
+  "visitors": {
+    "selectAccommodation": "საცხოვრებლის არჩევა",
+    "selectAccommodationPlaceholder": "აირჩიეთ საცხოვრებელი",
+    "accommodationSelectMessage": "გთხოვთ, აირჩიოთ საცხოვრებელი გასაგრძელებლად",
+    "selectDateMessage": "გთხოვთ, აირჩიოთ თარიღი ხელმისაწვდომი სლოტების სანახავად",
+    "selectedDate": "არჩეული თარიღი",
+    "selectDuration": "ხანგრძლივობის არჩევა",
+    "durations": {
+      "1hour": "1 საათი",
+      "2hour": "2 საათი"
+    },
+    "bookingSuccess": "ვიზიტორის დაჯავშნის მოთხოვნა წარმატებით გაიგზავნა! გთხოვთ დაელოდოთ დამტკიცებას.",
+    "reminder": "დააყენეთ შეხსენება თქვენი ვიზიტორის დაჯავშნისთვის",
+    "reminders": {
+      "reminderOptions": {
+        "15min": "15 წუთით ადრე",
+        "30min": "30 წუთით ადრე",
+        "1hour": "1 საათით ადრე",
+        "custom": "პერსონალური შეხსენება"
+      },
+      "customPlaceholderText": "შეიყვანეთ წუთები (მაგ: 10)"
+    },
+    "VisitorBooking": {
+      "title": "ვიზიტორის დაჯავშნა",
+      "bookingWarning": "დაჯავშნა არ შეიძლება გაუქმდეს, როდესაც დაჯავშნაზე 1 საათი დარჩება."
+    },
+    "modal": {
+      "inputLabels": {
+        "nameLabel": "ვიზიტორის სახელი",
+        "relationshipLabel": "ურთიერთობა მოსახლესთან",
+        "dateLabel": "სასურველი თარიღი",
+        "startTimeLabel": "დაწყების დრო",
+        "endTimeLabel": "დასრულების დრო",
+        "timeLabel": "სასურველი დრო",
+        "notesLabel": "დამატებითი შენიშვნები"
+      },
+      "placeholders": {
+        "namePlaceholder": "შეიყვანეთ ვიზიტორის სახელი",
+        "notesPlaceholder": "შეიყვანეთ დამატებითი შენიშვნები აქ"
+      },
+      "header": "დაჯავშნის ფორმა",
+      "btns": {
+        "submit": "გაგზავნა",
+        "cancel": "გაუქმება",
+        "rules": "ვიზიტორის წესები",
+        "upcomingVisits": "მომავალი ვიზიტები"
+      },
+      "relationshipStatus": {
+        "Self": "თვალთვალი",
+        "Father": "მამა",
+        "Mother": "დედა",
+        "Sibling": "ძმა/და",
+        "Spouse": "მეუღლე",
+        "Children": "შვილები"
+      }
+    }
+  }
+}

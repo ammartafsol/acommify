@@ -1,0 +1,13 @@
+{
+  "favouritePage": {
+    "title": "Обрані Елементи",
+    "empty": "Обрані елементи не знайдено",
+    "addedToCart": "Додано до кошика!",
+    "toasts": {
+      "addedToFavorites": "Додано до обраного",
+      "removedFromFavorites": "Видалено з обраного",
+      "actionFailed": "Дія не вдалася"
+    }
+  }
+}
+

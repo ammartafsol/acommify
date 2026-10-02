@@ -1,0 +1,48 @@
+{
+  "ordersPage": {
+    "Orders": {
+      "title": "Замовлення",
+      "welcomeTitle": "Ласкаво просимо до Замовлень!",
+      "description": "Переглядайте та керуйте своїми замовленнями тут.",
+      "table": {
+        "title": "Деталі замовлення",
+        "orderID": "ID замовлення",
+        "orderName": "Назва замовлення",
+        "status": "Статус",
+        "totalPoints": "Загальні бали",
+        "orderDate": "Дата замовлення"
+      }
+    },
+    "OrderDetails": {
+      "title": "Деталі замовлення",
+      "orderDetail": {
+        "orderId": "Замовлення",
+        "status": "Статус замовлення",
+        "orderDate": "Дата замовлення",
+        "totalPoints": "Загальні бали",
+        "userInfo": "Інформація про користувача",
+        "name": "Ім'я",
+        "email": "Електронна пошта",
+        "phone": "Телефон",
+        "shippingInfo": "Інформація про доставку",
+        "address": "Адреса",
+        "city": "Місто",
+        "country": "Країна",
+        "summary": "Підсумок замовлення",
+        "orderIdLabel": "ID замовлення",
+        "items": "Товари",
+        "orderItem": "Товари замовлення"
+      },
+      "orderDetailsHeader": {
+        "product": "Продукт",
+        "category": "Категорія",
+        "quantity": "Кількість",
+        "shippingType": "Тип доставки",
+        "totalPoints": "Всього",
+        "status": "Статус"
+      },
+      "completedStatusToast": "Статус елемента замовлення успішно завершено"
+    }
+  }
+}
+

@@ -1,0 +1,23 @@
+{
+  "laundryBookingPage": {
+    "title": "حجز المغسلة",
+    "bookingWarning": "لا يمكن إلغاء الحجز عندما يتبقى ساعة واحدة على الحجز.",
+    "selectMachine": "اختر الآلة",
+    "selectMachinePlaceholder": "{loading, select, true {جاري التحميل...} other {اختر الآلة}}",
+    "selectedDate": "التاريخ المحدد",
+    "selectDateMessage": "يرجى اختيار تاريخ لرؤية الأوقات المتاحة",
+    "machineSelectMessage": "يرجى اختيار آلة لرؤية الأوقات المتاحة",
+    "bookingSuccess": "تم إرسال طلب حجز المغسلة بنجاح! يرجى انتظار الموافقة.",
+    "reminder": "تعيين تذكير لموعد المغسلة الخاص بك",
+    "reminders": {
+      "title": "تعيين تذكير لحجز المغسلة الخاص بك",
+      "reminderOptions": {
+        "15min": "15 دقيقة قبل",
+        "30min": "30 دقيقة قبل",
+        "1hour": "ساعة واحدة قبل",
+        "custom": "تذكير مخصص"
+      },
+      "customPlaceholderText": "أدخل الدقائق (مثال: 10)"
+    }
+  }
+}

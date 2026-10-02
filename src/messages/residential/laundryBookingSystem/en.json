@@ -1,0 +1,23 @@
+{
+  "laundryBookingPage": {
+    "title": "Laundry Booking",
+    "bookingWarning": "Booking cannot be cancelled when 1 hour will be left on the booking.",
+    "selectMachine": "Select Machine",
+    "selectMachinePlaceholder": "{loading, select, true {Loading...} other {Select Machine}}",
+    "selectedDate": "Selected Date",
+    "selectDateMessage": "Please select a date to view available slots",
+    "machineSelectMessage": "Please select a machine to view available slots",
+    "bookingSuccess": "Laundry booking request submitted successfully! Please wait for approval.",
+    "reminder": "Set a reminder for your laundry slot",
+    "reminders": {
+      "title": "Set a reminder for your Laundry Booking",
+      "reminderOptions": {
+        "15min": "15 minutes before",
+        "30min": "30 minutes before",
+        "1hour": "1 hour before",
+        "custom": "Custom Reminder"
+      },
+      "customPlaceholderText": "Enter minutes (e.g., 10)"
+    }
+  }
+}

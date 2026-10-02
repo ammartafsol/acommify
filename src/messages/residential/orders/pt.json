@@ -1,0 +1,48 @@
+{
+  "ordersPage": {
+    "Orders": {
+      "title": "Pedidos",
+      "welcomeTitle": "Bem-vindo aos Pedidos!",
+      "description": "Visualize e gerencie seus pedidos aqui.",
+      "table": {
+        "title": "Detalhes do Pedido",
+        "orderID": "ID do Pedido",
+        "orderName": "Nome do Pedido",
+        "status": "Status",
+        "totalPoints": "Pontos Totais",
+        "orderDate": "Data do Pedido"
+      }
+    },
+    "OrderDetails": {
+      "title": "Detalhes do Pedido",
+      "orderDetail": {
+        "orderId": "Pedido",
+        "status": "Status do Pedido",
+        "orderDate": "Data do Pedido",
+        "totalPoints": "Pontos Totais",
+        "userInfo": "Informações do Usuário",
+        "name": "Nome",
+        "email": "E-mail",
+        "phone": "Telefone",
+        "shippingInfo": "Informações de Envio",
+        "address": "Endereço",
+        "city": "Cidade",
+        "country": "País",
+        "summary": "Resumo do Pedido",
+        "orderIdLabel": "ID do Pedido",
+        "items": "Itens",
+        "orderItem": "Itens do Pedido"
+      },
+      "orderDetailsHeader": {
+        "product": "Produto",
+        "category": "Categoria",
+        "quantity": "Quantidade",
+        "shippingType": "Tipo de Envio",
+        "totalPoints": "Total",
+        "status": "Status"
+      },
+      "completedStatusToast": "Status do item do pedido concluído com sucesso"
+    }
+  }
+}
+

@@ -1,0 +1,23 @@
+{
+  "dashboardPage": {
+    "welcome": "Ласкаво просимо назад {name}",
+
+    "dashboardCards": {
+      "allBookings": "Всі Бронювання",
+      "bookLaundry": "Забронювати Пральню",
+      "bookBus": "Забронювати Автобус",
+      "bookAppointment": "Забронювати Прийом",
+      "visitorBooking": "Бронювання Відвідувача",
+      "maintenanceRequests": "Запити на Обслуговування",
+      "documentCenter": "Центр Документів",
+      "signInOut": "Вхід/Вихід"
+    },
+
+    "activities": {
+      "upcomingActivities": "Майбутні активності",
+      "currentActivities": "Ось ваші поточні активності:",
+      "helpLine": "Лінія Допомоги",
+      "reschedule": "Перенести"
+    }
+  }
+}

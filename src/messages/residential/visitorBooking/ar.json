@@ -1,0 +1,59 @@
+{
+  "visitors": {
+    "selectAccommodation": "اختر الإقامة",
+    "selectAccommodationPlaceholder": "اختر إقامة",
+    "accommodationSelectMessage": "يرجى اختيار إقامة للمتابعة",
+    "selectDateMessage": "يرجى اختيار تاريخ لرؤية الأوقات المتاحة",
+    "selectedDate": "التاريخ المحدد",
+    "selectDuration": "اختر المدة",
+    "durations": {
+      "1hour": "ساعة واحدة",
+      "2hour": "ساعتان"
+    },
+    "bookingSuccess": "تم إرسال طلب حجز الزائر بنجاح! يرجى انتظار الموافقة.",
+    "reminder": "تعيين تذكير لحجز الزائر الخاص بك",
+    "reminders": {
+      "reminderOptions": {
+        "15min": "15 دقيقة قبل",
+        "30min": "30 دقيقة قبل",
+        "1hour": "ساعة واحدة قبل",
+        "custom": "تذكير مخصص"
+      },
+      "customPlaceholderText": "أدخل الدقائق (مثال: 10)"
+    },
+    "VisitorBooking": {
+      "title": "حجز الزائر",
+      "bookingWarning": "لا يمكن إلغاء الحجز عندما يتبقى ساعة واحدة على الحجز."
+    },
+    "modal": {
+      "inputLabels": {
+        "nameLabel": "اسم الزائر",
+        "relationshipLabel": "العلاقة مع المقيم",
+        "dateLabel": "التاريخ المفضل",
+        "startTimeLabel": "وقت البداية",
+        "endTimeLabel": "وقت النهاية",
+        "timeLabel": "الوقت المفضل",
+        "notesLabel": "ملاحظات إضافية"
+      },
+      "placeholders": {
+        "namePlaceholder": "أدخل اسم الزائر",
+        "notesPlaceholder": "أدخل ملاحظات إضافية هنا"
+      },
+      "header": "نموذج الحجز",
+      "btns": {
+        "submit": "إرسال",
+        "cancel": "إلغاء",
+        "rules": "قواعد الزائر",
+        "upcomingVisits": "الزيارات القادمة"
+      },
+      "relationshipStatus": {
+        "Self": "ذاتي",
+        "Father": "الأب",
+        "Mother": "الأم",
+        "Sibling": "الأخ/الأخت",
+        "Spouse": "الزوج/الزوجة",
+        "Children": "الأطفال"
+      }
+    }
+  }
+}

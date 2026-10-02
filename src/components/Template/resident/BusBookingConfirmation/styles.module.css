@@ -1,0 +1,146 @@
+.container {
+  margin-block: 48px;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.left {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 32px;
+  border-radius: 20px;
+  background: var(--Poor-white);
+}
+
+.passengersList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.right {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.termsAndCondition {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.termsAndCondition > p {
+  color: var(--text-primary);
+
+  font-family: var(--font-lato);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.confirmationButton {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.confirmBtn {
+  height: 60px !important;
+  border-radius: 15px !important;
+  width: 100% !important;
+}
+.buttonsFooter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttonsFooter button {
+  width: 100% !important;
+  height: 60px !important;
+  border-radius: 15px !important;
+}
+.trips {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.trips > p,
+.passengersList > p {
+  color: var(--text-primary);
+  font-family: var(--font-lato);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.passengersList > p {
+  font-weight: 500;
+}
+
+.bookingDescription > h2 {
+  color: var(--Black, #172a33);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.bookingContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 4px dashed rgba(186, 192, 199, 0.41);
+}
+
+.buttonFooter {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+@media (max-width: 992px) {
+  .main {
+    flex-direction: column;
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .left {
+    background: none;
+    padding: 0;
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+    gap: 40px;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .bookingCard {
+    background: white;
+  }
+}
+@media (max-width: 577px) {
+  .container {
+    margin-bottom: 75px;
+    margin-top: 0;
+  }
+}

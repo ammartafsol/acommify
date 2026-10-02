@@ -1,0 +1,52 @@
+.textAreaBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: var(--Black, #172a33);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 8px;
+  font-family: var(--font-lato);
+}
+
+.textAreaBox textarea {
+  padding: 20px;
+  resize: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  width: 100%;
+  color: var(--black);
+  /* color: var(--Dark-gray); */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 25px;
+  background: #f4f7fd;
+  outline: none;
+  border: none;
+}
+
+.textAreaBox textarea::placeholder {
+  color: var(--Dark-gray);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.labelDisabled {
+  color: var(--disabled-label-color);
+}
+
+.errorText {
+  color: var(--Red);
+  font-size: 14px;
+  font-weight: 400;
+}

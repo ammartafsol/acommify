@@ -1,0 +1,16 @@
+{
+  "upcomingMeetings": {
+    "title": "Réunions à Venir",
+    "requestChange": "Demander un Changement",
+    "tabs": {
+      "all": "Toutes les Réunions",
+      "confirmed": "Confirmées",
+      "pending": "En Attente"
+    },
+    "filters": {
+      "recent": "Plus Récentes",
+      "starred": "Favoris",
+      "archived": "Archivées"
+    }
+  }
+}

@@ -1,0 +1,118 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0;
+  color: var(--Black);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.titleSection {
+  flex: 1;
+}
+
+.requestTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--Black);
+  margin-top: 4px;
+}
+
+.requestId {
+  font-size: 14px;
+  color: var(--Dark-gray);
+  margin-block: 0 15px;
+}
+
+.statusSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.statusLabel {
+  font-size: 12px;
+  color: var(--Dark-gray);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fieldRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.fieldLabel {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--Dark-gray);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.fieldValue {
+  font-size: 14px;
+  color: var(--Black);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.attachmentsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.attachmentLink {
+  font-size: 14px;
+  color: var(--Blue);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.attachmentLink:hover {
+  color: var(--Dark-blue);
+}
+
+/* Mobile Responsive */
+@media (max-width: 576px) {
+  .header {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .statusSection {
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .fieldRow {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .requestTitle {
+    font-size: 16px;
+  }
+}

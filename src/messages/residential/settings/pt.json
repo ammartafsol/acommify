@@ -1,0 +1,40 @@
+{
+  "settingsPage": {
+    "settings": {
+      "title": "Configurações",
+      "logout": "Sair"
+    },
+    "tabs": {
+      "account": "Conta",
+      "changePassword": "Alterar Senha",
+      "pointsWallet": "Carteira de Pontos",
+      "notifications": "Notificações",
+      "privacyPolicy": "Política de Privacidade",
+      "help": "Ajuda",
+      "logout": "Sair",
+      "orders": "Pedidos"
+    },
+    "pointsWallet": {
+      "title": "Carteira de Pontos",
+      "currentBalance": "Saldo Atual:",
+      "pointsHistory": "Histórico de Pontos",
+      "points": "Pontos",
+      "spendingPoints": "Gastando Pontos",
+      "shopNow": "Comprar Agora",
+      "availableItems": "Itens/Serviços Disponíveis"
+    },
+    "helpLine": {
+      "title": "Linha de Ajuda",
+      "welcomeText": "Bem-vindo à Linha de Ajuda",
+      "description": "Se você precisar de assistência, nossas linhas de suporte estão disponíveis para ajudá-lo. Por favor, encontre a linha de ajuda apropriada abaixo com base em suas necessidades."
+    },
+    "toasts": {
+      "checkedInSuccessfully": "Entrada realizada com sucesso",
+      "checkedOutSuccessfully": "Saída realizada com sucesso"
+    },
+    "btnLabels": {
+      "signIn": "Entrar",
+      "signOut": "Sair"
+    }
+  }
+}

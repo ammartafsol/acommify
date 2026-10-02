@@ -1,0 +1,20 @@
+{
+  "AccommodationGuidePage": {
+    "title": "د استوګنې لارښود",
+    "welcomeMessage": "د استوګنې لارښود ته ښه راغلاست!",
+    "WelcomeDescription": "دا برخه د ستاسو د مرکز د موجودو خدماتو په اړه د ټولو اړینو معلوماتو د ورکولو لپاره ډیزاین شوې ده.",
+    "additionalResources": {
+      "title": "اضافي سرچینې",
+      "download": "ډاونلوډ کیدو وړ",
+      "contact": "د اړیکو معلومات"
+    },
+    "frequently": {
+      "title": "په مکرر ډول پوښتل شوي پوښتنې",
+      "tabs": {
+        "generalinquiries": "عمومي پوښتنې",
+        "visitorPolicies": "د لیدونکو پالیسۍ",
+        "serviceInformation": "د خدماتو معلومات"
+      }
+    }
+  }
+}

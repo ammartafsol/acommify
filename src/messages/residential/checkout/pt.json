@@ -1,0 +1,37 @@
+{
+  "checkoutPage": {
+    "title": "Processo de Checkout",
+    "orderSummary": "Resumo do Pedido",
+    "totalItems": "Total de Itens",
+    "totalPoints": "Total de Pontos",
+    "confirm": "Confirmar",
+    "orderPlacedSuccess": "Pedido realizado com sucesso!",
+    "wallet": "Carteira",
+    "orderDetails": {
+      "title": "Detalhes do Pedido",
+      "fullNameLabel": "Nome Completo",
+      "fullNamePlaceholder": "João Silva",
+      "fullNameRequired": "Nome completo é obrigatório",
+      "streetAddressLabel": "Endereço da Rua",
+      "streetAddressPlaceholder": "Digite o Endereço da Rua",
+      "streetAddressRequired": "Endereço da rua é obrigatório",
+      "roomHouseLabel": "Casa do Quarto",
+      "roomHousePlaceholder": "Digite a Casa do Quarto",
+      "roomHouseRequired": "Casa do quarto é obrigatória",
+      "cityLabel": "Cidade",
+      "cityPlaceholder": "Digite a cidade",
+      "cityRequired": "Cidade é obrigatória",
+      "countryLabel": "País",
+      "countryPlaceholder": "Digite o país",
+      "countryRequired": "País é obrigatório"
+    },
+    "modal": {
+      "title": "O pedido foi realizado com sucesso!",
+      "btnText": "Continuar"
+    },
+    "unsuccessModal": {
+      "title": "Você não tem pontos suficientes!",
+      "btnText": "Fechar"
+    }
+  }
+}

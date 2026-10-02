@@ -1,0 +1,26 @@
+{
+  "LaundryBookingConfirmation": {
+    "title": "Reserva de Lavanderia",
+    "confirmedTitle": "Reserva de Lavanderia Confirmada",
+    "cancelledTitle": "Reserva de Lavanderia Cancelada",
+    "completedTitle": "Reserva de Lavanderia Concluída",
+    "rejectedTitle": "Reserva de Lavanderia Rejeitada",
+    "pendingDescription": "Sua reserva de lavanderia está pendente! Notificaremos você assim que for confirmada.",
+    "confirmedDescription": "Sua reserva foi confirmada! Esperamos atendê-lo em breve.",
+    "cancelledDescription": "Sua reserva de lavanderia foi cancelada.",
+    "completedDescription": "Sua reserva de lavanderia foi concluída.",
+    "rejectedDescription": "Sua reserva de lavanderia foi rejeitada.",
+    "pendingTitle": "Reserva de Lavanderia Pendente",
+    "description": "Sua reserva foi confirmada! Esperamos atendê-lo em breve.",
+    "cancelBooking": "Cancelar Reserva de Lavanderia",
+    "successful": "Sua reserva de lavanderia foi bem-sucedida!",
+    "cancelSuccess": "Sua reserva de lavanderia foi cancelada com sucesso.",
+    "CancelModal": {
+      "title": "Cancelar Reserva de Lavanderia",
+      "description": "Tem certeza de que deseja cancelar sua reserva de lavanderia?",
+      "btnText1": "Não",
+      "btnText2": "Sim",
+      "iconAlt": "Cancelar"
+    }
+  }
+}

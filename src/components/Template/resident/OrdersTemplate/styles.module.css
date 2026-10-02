@@ -1,0 +1,17 @@
+.main {
+  /* margin-top: 48px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+.container {
+  margin-block: 48px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    margin-block: 40px 80px;
+  }
+}

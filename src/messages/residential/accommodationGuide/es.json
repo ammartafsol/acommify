@@ -1,0 +1,20 @@
+{
+  "AccommodationGuidePage": {
+    "title": "Guía de Alojamiento",
+    "welcomeMessage": "¡Bienvenido a la Guía de Alojamiento!",
+    "WelcomeDescription": "Esta sección está diseñada para proporcionarle toda la información que necesita sobre los servicios disponibles en nuestro centro.",
+    "additionalResources": {
+      "title": "Recursos Adicionales",
+      "download": "Descargable",
+      "contact": "Información de Contacto"
+    },
+    "frequently": {
+      "title": "Preguntas Frecuentes",
+      "tabs": {
+        "generalinquiries": "Consultas Generales",
+        "visitorPolicies": "Políticas de Visitantes",
+        "serviceInformation": "Información de Servicios"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "upcomingMeetingsPage": {
+    "upcomingMeetings": {
+      "title": "راتلونکي غونډې",
+      "welcomeTitle": "راتلونکو غونډو ته ښه راغلاست!",
+      "description": "دلته تاسو کولی شئ خپلې راتلونکې غونډې وګورئ او د هغو تفصیلات وګورئ.",
+      "meetings": "غونډې",
+      "noMeetings": "هیڅ راتلونکې غونډې نشته",
+      "meetingDetails": "د غونډې تفصیلات",
+      "date": "نیټه",
+      "time": "وخت",
+      "location": "ځای",
+      "description": "توضیحات",
+      "attendees": "ګډونوال",
+      "agenda": "د غونډې پروګرام",
+      "notes": "یادښتونه",
+      "joinMeeting": "د غونډې کې ګډون وکړئ",
+      "viewDetails": "تفصیلات وګورئ",
+      "upcoming": "راتلونکي",
+      "past": "تیر",
+      "all": "ټول"
+    }
+  }
+}

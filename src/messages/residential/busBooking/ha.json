@@ -1,0 +1,89 @@
+{
+  "busBooking": {
+    "title": "Booking na Bas",
+    "availableBusesTitle": "Bas Masu Samuwa",
+    "availableTitle": "Jadawalin Bas",
+    "selectDate": "Zaɓi Kwanan wata don ganin bas masu samuwa",
+    "myBooking": "Booking na",
+    "availableBusesTabs": {
+      "morning": "Safe",
+      "afternoon": "Rana",
+      "evening": "Marice"
+    },
+
+    "selectSeat": {
+      "title": "Zaɓi Kujera",
+      "termsAgreement": "Na yarda da ",
+      "termsAndConditions": "sharuddan da sharuɗɗan",
+      "frontDoor": "Kofar Jirgin",
+      "driver": "Kofar Jirgin",
+      "seats": {
+        "available": "Mai Samuwa",
+        "booked": "An Yi Booking",
+        "selected": "An Zaɓa"
+      },
+      "timeRemaining": "Lokacin da ya rage na umarni",
+      "continue": "Ci Gaba"
+    },
+    "bookingConfirmation": {
+      "title": "Tabbatar da Booking",
+      "yourTrip": "Tafiyar ku",
+      "passengerList": "Jerin Fasinjoji",
+      "termsAgreement": "Na yarda da ",
+      "termsAndConditions": "sharuddan da sharuɗɗan",
+      "confirmBooking": "Tabbatar da Booking",
+      "cancelBooking": "Soke Booking",
+      "rescheduleBooking": "Sake Tsara Booking",
+      "reschedule": "Sake Tsara ",
+      "successful": "Booking naku ya yi nasara!",
+      "bookingConfirm": "Booking An Tabbata Cikin Nasara"
+    },
+    "eTicket": {
+      "title": "E-Ticket",
+      "yourTrip": "Tafiyar ku",
+      "passengerList": "Jerin Fasinjoji",
+      "bookingConfirmed": "Booking An Tabbata!",
+      "bookingCompleted": "Booking An Ƙare!",
+      "bookingRejected": "Booking An Ƙi!",
+      "authenticationRequired": "Tabbatar da asali ya wajaba",
+      "bookingInformationNotAvailable": "Bayanin booking ba ya samuwa",
+      "pdfFileEmpty": "Fayil na PDF fanko ne",
+      "pdfDownloadedSuccessfully": "PDF an zazzage cikin nasara",
+      "bookingCancelled": "Booking An Soke!",
+      "bookingPending": "Booking A Jira!",
+      "descriptionPending": "Booking naku yana jira! Za mu sanar da ku da zarar an amince da shi.",
+      "descriptionCompleted": "Booking naku ya ƙare! Na gode da zaɓar sabis ɗin mu.",
+      "descriptionRejected": "Booking naku an ƙi! Ku tuntuɓi tallafi don ƙarin bayani.",
+      "descriptionCancelled": "Booking naku an soke! Idan kuna da tambayoyi, ku tuntuɓi tallafi.",
+      "description": "Booking naku an tabbata! Muna fatan ganin ku nan da nan.",
+      "name": "Suna",
+      "bookingCode": "Lambar Booking",
+      "numberOfTicket": "Lamba",
+      "seat": "Kujera",
+      "IdNumber": "Lambar ID",
+      "busName": "Bas",
+      "duration": "Tsawon Lokaci",
+      "reminders": {
+        "title": "Saita tunatarwa don Booking naku",
+        "reminderOptions": {
+          "15min": "Mintuna 15 kafin",
+          "30min": "Mintuna 30 kafin",
+          "1hour": "Awa 1 kafin",
+          "custom": "Tunatarwa na Musamman"
+        },
+        "customPlaceholderText": "misali: mintuna 10 kafin"
+      },
+      "cancelBookingModal": {
+        "title": "Soke Booking",
+        "description": "Ka tabbata kana son soke booking naka?",
+        "btnText1": "Tabbatar",
+        "btnText2": "Soke",
+        "iconAlt": "Alamar soke booking"
+      },
+      "downloadBtnLabel": "Zazzage E-Ticket",
+      "cancelBooking": "Soke Booking",
+      "cancelSuccess": "Booking naku an soke cikin nasara.",
+      "cancelError": "An gaza soke booking. Sake gwadawa."
+    }
+  }
+}

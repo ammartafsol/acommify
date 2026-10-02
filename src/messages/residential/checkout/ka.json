@@ -1,0 +1,37 @@
+{
+  "checkoutPage": {
+    "title": "შეკვეთის პროცესი",
+    "orderSummary": "შეკვეთის შეჯამება",
+    "totalItems": "სულ ნივთები",
+    "totalPoints": "სულ ქულები",
+    "confirm": "დადასტურება",
+    "orderPlacedSuccess": "შეკვეთა წარმატებით განხორციელდა!",
+    "wallet": "საფულე",
+    "orderDetails": {
+      "title": "შეკვეთის დეტალები",
+      "fullNameLabel": "სრული სახელი",
+      "fullNamePlaceholder": "ივანე ივანიშვილი",
+      "fullNameRequired": "სრული სახელი აუცილებელია",
+      "streetAddressLabel": "ქუჩის მისამართი",
+      "streetAddressPlaceholder": "შეიყვანეთ ქუჩის მისამართი",
+      "streetAddressRequired": "ქუჩის მისამართი აუცილებელია",
+      "roomHouseLabel": "ოთახის სახლი",
+      "roomHousePlaceholder": "შეიყვანეთ ოთახის სახლი",
+      "roomHouseRequired": "ოთახის სახლი აუცილებელია",
+      "cityLabel": "ქალაქი",
+      "cityPlaceholder": "შეიყვანეთ ქალაქი",
+      "cityRequired": "ქალაქი აუცილებელია",
+      "countryLabel": "ქვეყანა",
+      "countryPlaceholder": "შეიყვანეთ ქვეყანა",
+      "countryRequired": "ქვეყანა აუცილებელია"
+    },
+    "modal": {
+      "title": "შეკვეთა წარმატებით განხორციელდა!",
+      "btnText": "გაგრძელება"
+    },
+    "unsuccessModal": {
+      "title": "არ გაქვთ საკმარისი ქულები!",
+      "btnText": "დახურვა"
+    }
+  }
+}

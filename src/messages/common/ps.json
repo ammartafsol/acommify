@@ -1,0 +1,203 @@
+{
+  "header": {
+    "logout": "وتل",
+    "dashboard": "ډاشبورډ",
+    "appointments": "ناستې",
+    "requests": "غوښتنې لپاره",
+    "foodStuffs": "خواړه",
+    "accommodationGuide": "د استوګنې لارښود",
+    "notification": "خبرتیاوې",
+    "settings": "تنظیمات",
+    "allBookings": "همه حجوزات"
+  },
+  "areYouSureModal": {
+    "title": "تاسو ډاډه یاست؟",
+    "description": "تاسو ډاډه یاست چې غواړئ خپل حجز لغوه کړئ؟",
+    "cancel": "لغوه کړئ",
+    "confirm": "تصدیق کړئ",
+    "loading": "پورته کول..."
+  },
+  "uploadMedia": {
+    "title": "تړون",
+    "uploadMessage": "د غوښتنې سره تړلي انځور یا سند پورته کړئ",
+    "fileFormats": "PDF، JPEG، تر 5 MB پورې",
+    "uploadIconAlt": "پورته کول",
+    "errors": {
+      "fileSizeExceeded": "فایل '{fileName}' د {maxSize}MB حد څخه تیریږي.",
+      "maxFilesReached": "د {maxFiles} فایل(ونو) حد ته رسیدلی.",
+      "tooManyFiles": "یوازې {allowedRemaining} اضافي فایل(ونه) اجازه لري."
+    },
+    "defaultFileName": "فایل"
+  },
+  "calendar": {
+    "myBooking": "زموږ حجز",
+    "month": "میاشت",
+    "week": "اونۍ",
+    "day": "ورځ",
+    "today": "نن",
+    "slot": "سلاټ: "
+  },
+  "documentCenter": {
+    "title": "د اسنادو مرکز",
+    "tabs": {
+      "all": "ټول",
+      "forms": "فورمه",
+      "guidelines": "لارښودونه",
+      "otherDocuments": "نور اسناد"
+    },
+    "filters": {
+      "recent": "وروستي",
+      "starred": "غوره",
+      "archived": "آرشیف شوي"
+    }
+  },
+  "common": {
+    "points": "{points} ټکي",
+    "bookNow": "اوس حجز وکړئ",
+    "editTime": "وخت سمون",
+    "search": "لټون",
+    "filter": "فلټر",
+    "back": "شاته",
+    "pdf": "PDF",
+    "word": "Word",
+    "economy": "اقتصاد",
+    "version": "نسخه",
+    "months": "میاشتې",
+    "viewCart": "کارټ وګورئ",
+    "reschedule": "بیا تنظیم کړئ",
+    "available": "شته",
+    "booked": "حجز شوی",
+    "selected": "ټاکل شوی",
+    "order": "امر",
+    "stock": "موجودیت"
+  },
+  "designGuidline": {
+    "title": "د ډیزاین لارښودونه",
+    "download": "ډاونلوډ"
+  },
+  "modal": {
+    "SuccessModal": {
+      "title": "ستاسو ناسته په بریالیتوب سره تصدیق شوه!",
+      "btnText": "دوام ورکړئ",
+      "iconAlt": "بریالیتوب"
+    },
+    "visitorsBookingFormModal": {
+      "header": "د حجز فورم",
+      "nameLabel": "د لیدونکي نوم:",
+      "namePlaceholder": "نوم ولیکئ",
+      "dateLabel": "غوره نیټه:",
+      "timeLabel": "غوره وخت:",
+      "relationshipLabel": "د اوسیدونکي سره اړیکه:",
+      "relationshipPlaceholder": "اړیکه وټاکئ",
+      "notesLabel": "اضافي یادښتونه:",
+      "notesPlaceholder": "اضافي یادښتونه دلته ولیکئ...",
+      "cancelButton": "لغوه کړئ",
+      "rulesVisitor": "د لیدونکو لپاره قوانین",
+      "upcomingVisits": "راتلونکي لیدنې",
+      "confirmButton": "ناسته تصدیق کړئ",
+      "successModalData": {
+        "title": "ستاسو حجز په بریالیتوب سره تصدیق شو!!",
+        "btnText": "کور ته لاړ شئ"
+      },
+      "dropdown": {
+        "parent": "پلار/مور",
+        "sibling": "ورور/خور",
+        "friend": "ملګری"
+      }
+    },
+    "bookFormModal": {
+      "header": "د حجز فورم",
+      "nameLabel": "نوم:",
+      "namePlaceholder": "خپل نوم ولیکئ",
+      "dateLabel": "غوره نیټه:",
+      "timeLabel": "غوره وخت:",
+      "reasonLabel": "د ناستې دلیل:",
+      "reasonPlaceholder": "د پروژې تازه معلوماتو بحث",
+      "notesLabel": "اضافي یادښتونه:",
+      "notesPlaceholder": "خپله پیغام ولیکئ",
+      "notesMax": "یادښتونه نشي کولی 500 حروفو څخه زیات شي.",
+      "reasonRequired": "دلیل اړین دی.",
+      "cancelButton": "لغوه کړئ",
+      "upcomingMeetings": "راتلونکي ناستې",
+      "confirmButton": "ناسته تصدیق کړئ"
+    },
+    "feedbackModal": {
+      "header": "موږ ستاسو نظر ته علاقه لرو!",
+      "description": "د ارزونې لپاره 👍 یا 👎 وټاکئ. د خپل تجربې د ښه کولو لپاره نظر ورکړئ!",
+      "placeholder": "نور مو ووایاست (اختیاري)",
+      "submitButton": "نظر واستوئ"
+    },
+    "busSeatModal": {
+      "seatHeading": "څوکۍ: {seat}",
+      "passengerNameLabel": "د مسافر نوم",
+      "passengerNamePlaceholder": "د مسافر نوم ولیکئ",
+      "cancelButton": "لغوه کړئ",
+      "confirmButton": "تصدیق کړئ"
+    }
+  },
+  "timeslots": {
+    "availableTimeSlots": "شته وختونه",
+    "available2HourSlots": "شته 2-ساعته وختونه",
+    "noSlotsAvailable": "هیڅ وختونه نشته",
+    "noConsecutiveSlotsAvailable": "هیڅ متصل 2-ساعته وختونه نشته",
+    "available": "شته",
+    "booked": "حجز شوی",
+    "your": "ستاسو وخت"
+  },
+  "toasts": {
+    "loginSuccess": "ننوتل بریالی و!",
+    "loginError": "ننوتل ناکام شو. بیا هڅه وکړئ.",
+    "logoutSuccess": "وتل بریالی و!",
+    "profileUpdateSuccess": "پروفایل په بریالیتوب سره تازه شو!",
+    "profileUpdateError": "د پروفایل تازه کول ناکام شو. بیا هڅه وکړئ.",
+    "otpCodeSent": "OTP کوډ په بریالیتوب سره بریښنالیک ته واستول شو",
+    "noEmailFound": "بریښنالیک ختم شو.",
+    "otpVerified": "OTP په بریالیتوب سره تصدیق شو",
+    "passwordResetSuccess": "پاسورډ په بریالیتوب سره بیا تنظیم شو!",
+    "passwordResetError": "د پاسورډ بیا تنظیم ناکام شو. بیا هڅه وکړئ.",
+    "otpCodeExpired": "OTP کوډ ختم شو."
+  },
+  "busDetailCard": {
+    "duration": "موده",
+    "seatsAvailable": "شته څوکۍ",
+    "departureDate": "د تلو نیټه",
+    "available": "شته",
+    "booked": "حجز شوی"
+  },
+  "passengerCard": {
+    "passenger": "مسافر",
+    "seatNumber": "د څوکۍ شمیره"
+  },
+  "busBookingConfirmationCard": {
+    "duration": "موده",
+    "seat": "څوکۍ",
+    "boardingPoint": "د سواریدو ځای",
+    "departure": "تلل",
+    "arrival": "رسیدل",
+    "eTicket": {
+      "title": "E-ټکټ",
+      "yourTrip": "ستاسو سفر",
+      "passengerList": "د مسافرو لیست",
+      "bookingConfirmed": "حجز تصدیق شو!",
+      "description": "ستاسو حجز تصدیق شو! موږ ژر ستاسو سره د لیدو تمه لرو.",
+      "name": "نوم",
+      "bookingCode": "د حجز کوډ",
+      "numberOfTicket": "شمیره",
+      "seat": "څوکۍ",
+      "IdNumber": "د پېژندنې شمیره",
+      "busName": "بس",
+      "duration": "موده",
+      "reminders": {
+        "title": "د خپل حجز لپاره یادښت وټاکئ",
+        "reminderOptions": {
+          "15min": "15 دقیقې وړاندې",
+          "30min": "30 دقیقې وړاندې",
+          "1hour": "1 ساعت وړاندې",
+          "custom": "ځانګړی یادښت"
+        },
+        "customPlaceholderText": "لکه: 10 دقیقې وړاندې"
+      },
+      "downloadBtnLabel": "E-ټکټ ډاونلوډ کړئ"
+    }
+  }
+}

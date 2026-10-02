@@ -1,0 +1,12 @@
+{
+  "foodStuffsPage": {
+    "all": "Todos",
+    "title": "Produtos Alimentícios",
+    "addedToCart": "Adicionado ao carrinho!",
+
+    "toasts": {
+      "addedToFavorites": "Adicionado aos favoritos",
+      "removedFromFavorites": "Removido dos favoritos"
+    }
+  }
+}

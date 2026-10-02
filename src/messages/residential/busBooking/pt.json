@@ -1,0 +1,89 @@
+{
+  "busBooking": {
+    "title": "Reserva de Ônibus",
+    "availableBusesTitle": "Ônibus Disponíveis",
+    "availableTitle": "Horário dos Ônibus",
+    "selectDate": "Selecione a Data para ver ônibus disponíveis",
+    "myBooking": "Minha Reserva",
+    "availableBusesTabs": {
+      "morning": "Manhã",
+      "afternoon": "Tarde",
+      "evening": "Noite"
+    },
+
+    "selectSeat": {
+      "title": "Selecionar Assento",
+      "termsAgreement": "Eu concordei com os ",
+      "termsAndConditions": "termos e condições",
+      "frontDoor": "Porta Frontal",
+      "driver": "Motorista",
+      "seats": {
+        "available": "Disponível",
+        "booked": "Reservado",
+        "selected": "Selecionado"
+      },
+      "timeRemaining": "Tempo restante do pedido",
+      "continue": "Continuar"
+    },
+    "bookingConfirmation": {
+      "title": "Confirmação de Reserva",
+      "yourTrip": "Sua Viagem",
+      "passengerList": "Lista de Passageiros",
+      "termsAgreement": "Eu concordei com os ",
+      "termsAndConditions": "termos e condições",
+      "confirmBooking": "Confirmar Reserva",
+      "cancelBooking": "Cancelar Reserva",
+      "rescheduleBooking": "Reagendar Reserva",
+      "reschedule": "Reagendar ",
+      "successful": "Sua reserva foi bem-sucedida!",
+      "bookingConfirm": "Reserva Confirmada com Sucesso"
+    },
+    "eTicket": {
+      "title": "E-Ticket",
+      "yourTrip": "Sua Viagem",
+      "passengerList": "Lista de Passageiros",
+      "bookingConfirmed": "Reserva Confirmada!",
+      "bookingCompleted": "Reserva Concluída!",
+      "bookingRejected": "Reserva Rejeitada!",
+      "authenticationRequired": "Autenticação necessária",
+      "bookingInformationNotAvailable": "Informações de reserva não disponíveis",
+      "pdfFileEmpty": "Arquivo PDF está vazio",
+      "pdfDownloadedSuccessfully": "PDF baixado com sucesso",
+      "bookingCancelled": "Reserva Cancelada!",
+      "bookingPending": "Reserva Pendente!",
+      "descriptionPending": "Sua reserva está pendente! Notificaremos você assim que for aprovada.",
+      "descriptionCompleted": "Sua reserva foi concluída! Obrigado por escolher nosso serviço.",
+      "descriptionRejected": "Sua reserva foi rejeitada! Entre em contato com o suporte para mais informações.",
+      "descriptionCancelled": "Sua reserva foi cancelada! Se tiver dúvidas, entre em contato com o suporte.",
+      "description": "Sua reserva foi confirmada! Esperamos vê-lo em breve.",
+      "name": "Nome",
+      "bookingCode": "Código da Reserva",
+      "numberOfTicket": "Nº",
+      "seat": "Assento",
+      "IdNumber": "Número do ID",
+      "busName": "Ônibus",
+      "duration": "Duração",
+      "reminders": {
+        "title": "Definir um lembrete para sua Reserva",
+        "reminderOptions": {
+          "15min": "15 minutos antes",
+          "30min": "30 minutos antes",
+          "1hour": "1 hora antes",
+          "custom": "Lembrete Personalizado"
+        },
+        "customPlaceholderText": "ex: 10 minutos antes"
+      },
+      "cancelBookingModal": {
+        "title": "Cancelar Reserva",
+        "description": "Tem certeza de que deseja cancelar sua reserva?",
+        "btnText1": "Confirmar",
+        "btnText2": "Cancelar",
+        "iconAlt": "Ícone de cancelar reserva"
+      },
+      "downloadBtnLabel": "Baixar E-Ticket",
+      "cancelBooking": "Cancelar Reserva",
+      "cancelSuccess": "Sua reserva foi cancelada com sucesso.",
+      "cancelError": "Falha ao cancelar reserva. Tente novamente."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.Btn {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.Btn button {
+  height: 60px;
+  border-radius: 15px;
+  width: 306px;
+}
+.dropdown > div:first-of-type {
+  border: none;
+  border-radius: 25px;
+  height: 59px;
+}
+
+.Btn label {
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  /* 21.6px */
+}
+
+@media (max-width: 576px) {
+  .Btn {
+    gap: 20px;
+    margin-top: 20px;
+  }
+}

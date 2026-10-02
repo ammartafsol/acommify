@@ -1,0 +1,37 @@
+{
+  "StaffBookingConfirmation": {
+    "title": "Staff Appointment",
+    "confirmedTitle": "Staff Appointment Confirmed",
+    "cancelledTitle": "Staff Appointment Cancelled",
+    "completedTitle": "Staff Appointment Completed",
+    "rejectedTitle": "Staff Appointment Rejected",
+    "pendingDescription": "Your staff appointment is pending! We will notify you once it's confirmed.",
+    "confirmedDescription": "Your appointment is confirmed! We look forward to meeting with you soon.",
+    "cancelledDescription": "Your staff appointment has been cancelled.",
+    "completedDescription": "Your staff appointment has been completed successfully.",
+    "rejectedDescription": "Your staff appointment has been rejected.",
+    "pendingTitle": "Staff Appointment Pending",
+    "description": "Your appointment is confirmed! We look forward to meeting with you soon.",
+    "reminder": "Set a reminder for your staff appointment:",
+    "cancelBooking": "Cancel Staff Appointment",
+    "successful": "Your staff appointment was scheduled successfully!",
+    "cancelSuccess": "Your staff appointment has been successfully cancelled.",
+    "reminders": {
+      "title": "Set a reminder for your Staff Appointment",
+      "reminderOptions": {
+        "15min": "15 minutes before",
+        "30min": "30 minutes before",
+        "1hour": "1 hour before",
+        "custom": "Custom Reminder"
+      },
+      "customPlaceholderText": "e.g., 10 minutes before"
+    },
+    "CancelModal": {
+      "title": "Cancel Staff Appointment",
+      "description": "Are you sure you want to cancel your staff appointment?",
+      "btnText1": "No",
+      "btnText2": "Yes",
+      "iconAlt": "Cancel"
+    }
+  }
+}

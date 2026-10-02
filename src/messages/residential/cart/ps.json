@@ -1,0 +1,22 @@
+{
+  "cartOverviewPage": {
+    "title": "د کڅوړې عمومي کتنه",
+    "cartSummary": "د کڅوړې ټول",
+    "totalItems": "ټول توکي",
+    "totalPoints": "ټول ټکي",
+    "checkout": "پای",
+    "stockLimitReached": "د سټاک حد ته رسیدلی",
+    "noItemsInCart": "ستاسو په کڅوړه کې توکي نشته",
+    "stockIsZero": "سټاک 0 دی",
+    "itemsStockIsZero": "لاندې توکو سټاک 0 دی",
+    "table": {
+      "header": {
+        "points": "ټکي",
+        "product": "محصول",
+        "quantity": "مقدار",
+        "subtotal": "فرعي ټول",
+        "stocks": "سټاک"
+      }
+    }
+  }
+}

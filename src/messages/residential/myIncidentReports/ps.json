@@ -1,0 +1,41 @@
+{
+  "myIncidentReports": {
+    "MyIncidentReports": {
+      "title": "زموږ د پیښو راپورونه",
+      "tabs": {
+        "all": "ټول",
+        "resolved": "حل شوي",
+        "underReview": "په کتنه کې",
+        "escalated": "لوړ شوي"
+      },
+      "tableHeaders": {
+        "incidentId": "د پیښې ID",
+        "title": "عنوان",
+        "description": "توضیحات",
+        "severity": "سختی",
+        "dateTime": "نیټه او وخت",
+        "status": "حالت",
+        "consideredDate": "د کتنې نیټه",
+        "completedDate": "د بشپړیدو نیټه"
+      },
+
+      "filterStatus": {
+        "low": "ټیټ",
+        "high": "لوړ",
+        "medium": "منځنی",
+        "all": "ټول"
+      }
+    },
+    "IncidentReportViewModal": {
+      "title": "د پیښې جزئیات",
+      "incidentId": "د پیښې ID:",
+      "incidentTitle": "د پیښې عنوان:",
+      "status": "حالت",
+      "severity": "سختی",
+      "description": "توضیحات",
+      "dateTime": "نیټه او وخت",
+      "consideredDate": "د کتنې نیټه",
+      "completedDate": "د بشپړیدو نیټه"
+    }
+  }
+}

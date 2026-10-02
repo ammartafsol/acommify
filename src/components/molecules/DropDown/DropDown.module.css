@@ -1,0 +1,96 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.label {
+  color: var(--Black, #172a33);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--font-lato) !important;
+  line-height: 120%;
+  margin-bottom: 8px;
+}
+
+.disabled {
+  color: var(--Black, #172a33) !important;
+}
+
+/* On Hover */
+.dropdown:hover {
+  border: 1px solid var(--Blue) !important;
+}
+
+/* on Focus */
+.dropdown:focus {
+  border: 1px solid var(--Blue);
+}
+
+/* On Active */
+.dropdown:active {
+  border: 1px solid var(--Blue);
+}
+
+/* On Disabled */
+.dropdown:disabled {
+  border: 1px solid var(--border-color);
+}
+
+.noBorder {
+  border: 0px solid var(--Poor-white);
+}
+
+.arrow {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+/*  React Select */
+.leftIconBox {
+  position: absolute;
+  left: 20px;
+  top: 55%;
+  bottom: 45%;
+  transform: translateY(-50%);
+  height: max-content;
+}
+
+.dropdownContainer[data-disabled="true"] {
+  cursor: not-allowed !important;
+}
+.dropdownContainer[data-disabled="true"] > div > div {
+  background-color: rgba(220, 220, 220, 0.348) !important;
+}
+
+.dropdownContainer {
+  position: relative;
+}
+
+.dropdownContainer div[class*="value-container"],
+.dropdownContainer div[class*="placeholder"],
+.dropdownContainer div[class*="indicators"] {
+  height: 100%;
+}
+
+.dropdownContainer div[class*="value-container"],
+.dropdownContainer div[class*="placeholder"] {
+  place-content: center start;
+}
+
+.reactSelect > div {
+  /* border-radius: 25px;
+  background: #f4f7fd;
+  padding-inline: 20px; */
+}
+
+.error {
+  color: var(--Red);
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+.dropdownContainer div[class*="option"]:last-child {
+  border-bottom: none !important;
+}

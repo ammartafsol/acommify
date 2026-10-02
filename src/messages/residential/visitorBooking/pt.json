@@ -1,0 +1,59 @@
+{
+  "visitors": {
+    "selectAccommodation": "Selecionar Acomodação",
+    "selectAccommodationPlaceholder": "Escolha uma acomodação",
+    "accommodationSelectMessage": "Por favor, selecione uma acomodação para prosseguir",
+    "selectDateMessage": "Por favor, selecione uma data para visualizar horários disponíveis",
+    "selectedDate": "Data Selecionada",
+    "selectDuration": "Selecionar Duração",
+    "durations": {
+      "1hour": "1 Hora",
+      "2hour": "2 Horas"
+    },
+    "bookingSuccess": "Solicitação de reserva de visitante enviada com sucesso! Por favor, aguarde a aprovação.",
+    "reminder": "Definir um lembrete para sua reserva de visitante",
+    "reminders": {
+      "reminderOptions": {
+        "15min": "15 minutos antes",
+        "30min": "30 minutos antes",
+        "1hour": "1 hora antes",
+        "custom": "Lembrete Personalizado"
+      },
+      "customPlaceholderText": "Digite minutos (ex: 10)"
+    },
+    "VisitorBooking": {
+      "title": "Reserva de Visitante",
+      "bookingWarning": "A reserva não pode ser cancelada quando restar 1 hora para a reserva."
+    },
+    "modal": {
+      "inputLabels": {
+        "nameLabel": "Nome do Visitante",
+        "relationshipLabel": "Relacionamento com o Residente",
+        "dateLabel": "Data Preferida",
+        "startTimeLabel": "Hora de Início",
+        "endTimeLabel": "Hora de Término",
+        "timeLabel": "Horário Preferido",
+        "notesLabel": "Notas Adicionais"
+      },
+      "placeholders": {
+        "namePlaceholder": "Digite o Nome do Visitante",
+        "notesPlaceholder": "Digite Notas Adicionais aqui"
+      },
+      "header": "Formulário de Reserva",
+      "btns": {
+        "submit": "Enviar",
+        "cancel": "Cancelar",
+        "rules": "Regras do Visitante",
+        "upcomingVisits": "Visitas Próximas"
+      },
+      "relationshipStatus": {
+        "Self": "Self",
+        "Father": "Pai",
+        "Mother": "Mãe",
+        "Sibling": "Irmão/Irmã",
+        "Spouse": "Cônjuge",
+        "Children": "Filhos"
+      }
+    }
+  }
+}

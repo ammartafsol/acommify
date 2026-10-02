@@ -1,0 +1,105 @@
+{
+  "personalProfilePage": {
+    "personalProfile": {
+      "title": "Bayanin Kai",
+      "welcomeTitle": "Barka da zuwa Bayanin Kai!",
+      "welcomeDescription": "A nan, zaku iya duba da sabunta mahimman bayanan ku don tabbatar da cewa suna da sabo koyaushe.",
+      "familyMembers": "Membobi na Iyali",
+      "preferredLanguage": "Harshen da aka fi so",
+      "selectLanguage": "Zaɓi Harshe",
+      "generalInformation": "Bayanin Gabaɗaya",
+      "viewIncident": "Rahotanni na Abubuwan da suka Faru"
+    },
+
+    "form": {
+      "errors": {
+        "required": "{field} ya wajaba",
+        "invalidEmail": "Don Allah, ba da adireshin imel mai inganci",
+        "invalid": "Ba daidai ba {field}"
+      },
+      "labels": {
+        "fullName": "Cikakken Suna",
+        "residentIdNumber": "Lambar ID na Mazauni",
+        "houseNumber": "Lambar Gida",
+        "phoneNumber": "Lambar Wayar",
+        "email": "Adireshin Imel",
+        "familyMemberFullName": "Cikakken Sunan Memba na Iyali",
+        "trcNumber": "Lambar TRC na Mazauni",
+        "relationship": "Dangantaka",
+        "dob": "Kwanan wata na Haihuwa",
+        "age": "Shekaru",
+        "saveChanges": "Ajiye Canje-canje",
+        "editProfile": "Gyara Bayanin Kai",
+        "schoolName": "Sunan Makaranta",
+        "schoolPlacement": "Matsayin Makaranta",
+        "transportType": "Nau'in Sufuri",
+        "books": "Littattafai",
+        "year": "Shekara",
+        "gender": "Jinsi"
+      },
+      "placeholders": {
+        "fullName": "Shigar da cikakken sunan ku",
+        "dob": "Shigar da kwanan wata na haihuwar ku",
+        "residentIdNumber": "Shigar da lambar ID na mazauni",
+        "houseNumber": "Shigar da lambar gida/raka'a",
+        "phoneNumber": "Shigar da lambar wayar ku",
+        "email": "Shigar da adireshin imel ku",
+        "familyMemberFullName": "Shigar da cikakken sunan memba na iyali",
+        "trcNumber": "Shigar da lambar TRC na mazauni",
+        "relationship": "Shigar da dangantakar ku da memba na iyali",
+        "age": "Shigar da shekarun memba na iyali",
+        "schoolName": "Shigar da sunan makaranta",
+        "schoolGrade": "Shigar da aji na makaranta",
+        "dobPlaceholder": "KK/BB/SSSS",
+        "schoolPlacement": "Zaɓi matsayin makaranta",
+        "transportType": "Zaɓi nau'in sufuri",
+        "year": "Shigar da shekara",
+        "books": "Shigar da sunan littafi",
+        "gender": "Zaɓi jinsi"
+      }
+    },
+
+    "genderOptions": {
+      "male": "Namiji",
+      "female": "Mace",
+      "other": "Sauran"
+    },
+
+    "relationshipOptions": {
+      "father": "Uba",
+      "mother": "Uwa",
+      "sibling": "Ɗan'uwa/Yar'uwa",
+      "spouse": "Miji/Mata",
+      "children": "Yara"
+    },
+    "schoolPlacementOptions": {
+      "placed": "An Sanya",
+      "notPlaced": "Ba a Sanya ba"
+    },
+    "transportTypeOptions": {
+      "bus": "Bas",
+      "carpool": "Tafiya Tare",
+      "family": "Iyali"
+    },
+    "toasts": {
+      "updateSuccess": "Bayanin kai an sabunta cikin nasara"
+    },
+    "fullName": {
+      "required": "Cikakken suna ya wajaba"
+    },
+    "schoolName": {
+      "required": "Sunan makaranta ya wajaba"
+    },
+    "familyMemberErrors": {
+      "relationshipRequired": "Dangantaka ta wajaba",
+      "dobRequired": "Kwanan wata na haihuwa ya wajaba",
+      "ageAtLeast18": "Shekaru ta wajaba ba a kai da haihuwa",
+      "schoolPlacementRequired": "Matsayin makaranta ya wajaba",
+      "yearRequired": "Shekara ta wajaba",
+      "transportTypeRequired": "Nau'in sufuri ya wajaba",
+      "booksMinRequired": "Aƙalla littafi ɗaya ya wajaba",
+      "trcNumberRequired": "Lambar TRC na mazauni ya wajaba",
+      "genderRequired": "Jinsi ya wajaba"
+    }
+  }
+}

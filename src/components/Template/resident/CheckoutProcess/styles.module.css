@@ -1,0 +1,229 @@
+.main {
+  margin-block: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: calc(100vh - 160px);
+  padding: 20px;
+}
+
+.cartContainer {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+.cartRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cartRight button {
+  width: 100%;
+  height: 60px;
+  border-radius: 15px !important;
+}
+
+.cartRight button label {
+  color: var(--Poor-white, #fff);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 21.6px */
+}
+
+/* Cart */
+.cartSummary {
+  max-width: 387px;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  border-radius: 20px;
+  background: var(--Poor-white, #fff);
+  box-shadow: 0 9.628px 48.14px 0 rgba(139, 139, 139, 0.1);
+}
+
+.cartTotal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cartTotal > p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cartTotal span {
+  color: var(--Black, #172a33);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 21.6px */
+}
+
+.orderDetails {
+  display: flex;
+  flex-direction: column;
+  max-width: 937px;
+  width: 100%;
+  height: max-content;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background: #fff;
+  gap: 16px;
+}
+
+.orderDetails h1 {
+  padding-block: 14px;
+  padding-inline-start: 0px;
+  padding-inline-end: 32px;
+  color: var(--Black, #172a33);
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+}
+
+.deliveryOptions > div:first-of-type {
+  border: none;
+  height: 60px;
+}
+
+.walletInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.walletInfo > div {
+  display: flex;
+  height: 40px;
+  padding-inline: 20px;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.walletInfo span {
+  color: var(--Blue, #33b5f6);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media (max-width: 1350px) {
+  .cartSummary {
+    min-width: 387px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .cartSummary h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  .main {
+    margin-block: 30px;
+  }
+  .cartSummary {
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cartContainer {
+    flex-direction: column;
+  }
+  .cartSummary {
+    min-width: 100%;
+    margin-bottom: 20px;
+  }
+  .cartRight button {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main {
+    margin-top: 60px;
+    margin-bottom: 370px;
+
+  }
+  .walletInfo {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-inline: 10px;
+  }
+  .walletInfo p {
+    color: var(--Black);
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%; /* 21.6px */
+  }
+  .walletInfo > div {
+    width: 100%;
+    gap: 6px;
+    background-color: var(--Blue);
+  }
+  .walletInfo > div span {
+    color: var(--Poor-white);
+  }
+  .orderDetails {
+    /* background: transparent; */
+    padding: 0 10px;
+    height: max-content;
+  }
+  .inpMain input {
+    border-radius: 25px !important;
+    padding-inline: 16px !important;
+    height: 46px !important;
+  }
+  .inputClass label,
+  .dropdownLabel {
+    font-size: 14px !important;
+  }
+  .deliveryOptions > div {
+    height: 46px !important;
+  }
+  .cartSummary {
+    background: transparent;
+    box-shadow: none;
+    padding: 0px 14px;
+  }
+  .cartSummary h2 {
+    font-size: 18px;
+  }
+  .cartTotal p span:nth-of-type(1) {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .cartTotal p span:nth-of-type(2) {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .cartContainer {
+    gap: 32px;
+    background-color: var(--Poor-white);
+    padding: 10px 20px;
+    border-radius: 24px;
+  }
+}

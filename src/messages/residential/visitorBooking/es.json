@@ -1,0 +1,59 @@
+{
+  "visitors": {
+    "selectAccommodation": "Seleccionar Alojamiento",
+    "selectAccommodationPlaceholder": "Elige un alojamiento",
+    "accommodationSelectMessage": "Por favor, selecciona un alojamiento para proceder",
+    "selectDateMessage": "Por favor, selecciona una fecha para ver horarios disponibles",
+    "selectedDate": "Fecha Seleccionada",
+    "selectDuration": "Seleccionar Duración",
+    "durations": {
+      "1hour": "1 Hora",
+      "2hour": "2 Horas"
+    },
+    "bookingSuccess": "¡Solicitud de reserva de visitante enviada con éxito! Por favor, espera la aprobación.",
+    "reminder": "Establecer un recordatorio para tu reserva de visitante",
+    "reminders": {
+      "reminderOptions": {
+        "15min": "15 minutos antes",
+        "30min": "30 minutos antes",
+        "1hour": "1 hora antes",
+        "custom": "Recordatorio Personalizado"
+      },
+      "customPlaceholderText": "Ingresa minutos (ej: 10)"
+    },
+    "VisitorBooking": {
+      "title": "Reserva de Visitante",
+      "bookingWarning": "La reserva no puede ser cancelada cuando quede 1 hora para la reserva."
+    },
+    "modal": {
+      "inputLabels": {
+        "nameLabel": "Nombre del Visitante",
+        "relationshipLabel": "Relación con el Residente",
+        "dateLabel": "Fecha Preferida",
+        "startTimeLabel": "Hora de Inicio",
+        "endTimeLabel": "Hora de Fin",
+        "timeLabel": "Horario Preferido",
+        "notesLabel": "Notas Adicionales"
+      },
+      "placeholders": {
+        "namePlaceholder": "Ingresa el Nombre del Visitante",
+        "notesPlaceholder": "Ingresa Notas Adicionales aquí"
+      },
+      "header": "Formulario de Reserva",
+      "btns": {
+        "submit": "Enviar",
+        "cancel": "Cancelar",
+        "rules": "Reglas del Visitante",
+        "upcomingVisits": "Visitas Próximas"
+      },
+      "relationshipStatus": {
+        "Self": "Self",
+        "Father": "Padre",
+        "Mother": "Madre",
+        "Sibling": "Hermano/Hermana",
+        "Spouse": "Cónyuge",
+        "Children": "Hijos"
+      }
+    }
+  }
+}

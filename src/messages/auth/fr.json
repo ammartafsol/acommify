@@ -1,0 +1,101 @@
+{
+  "userAgreementPage": {
+    "title": "Termes et Conditions",
+    "tabs": {
+      "terms": "Termes et Conditions",
+      "privacy": "Politique de Confidentialité",
+      "responsibility": "Responsabilités de l'Utilisateur"
+    },
+    "checkbox": "J'ai lu et j'accepte les Termes et Conditions",
+    "button": "Accepter et Continuer"
+  },
+  "loginPage": {
+    "title": "Connexion",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Entrez l'Email",
+    "emailError": "Veuillez entrer une adresse email valide",
+    "EmailRequired": "L'email est requis",
+    "emailInvalidChars": "L'email contient des caractères invalides",
+    "passwordLabel": "Mot de Passe",
+    "passwordPlaceholder": "Entrez le Mot de Passe",
+    "passwordRequired": "Le mot de passe est requis",
+    "forgotPass": "Mot de passe oublié ?",
+    "rememberMe": "Se Souvenir de Moi",
+    "loginButton": "Se Connecter",
+    "newHere": "Nouveau ici ?",
+    "signUpLink": "S'inscrire",
+    "residentIdPlaceholder": "123456",
+    "residentIdLabel": "ID du Résident"
+  },
+  "signUpPage": {
+    "title": "S'inscrire",
+    "nameLabel": "Nom",
+    "namePlaceholder": "Entrez le Nom",
+    "nameRequired": "Le nom est requis",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Entrez l'Email",
+    "emailError": "Veuillez entrer une adresse email valide",
+    "emailRequired": "L'email est requis",
+    "emailInvalidChars": "L'email contient des caractères invalides",
+    "codeLabel": "Authentification à Deux Facteurs",
+    "codeSubLabel": "Entrez le code à 6 chiffres envoyé à votre email",
+    "codePlaceholder": "Code",
+    "codeRequired": "Le code est requis",
+    "passwordLabel": "Mot de Passe",
+    "passwordPlaceholder": "Entrez le Mot de Passe",
+    "passwordRequired": "Le mot de passe est requis",
+    "minPasswordError": "Min 8 caractères",
+    "maxPasswordError": "Max 20 caractères",
+    "lowerPasswordError": "Ajoutez au moins une minuscule",
+    "upperPasswordError": "Ajoutez au moins une majuscule",
+    "specialPasswordError": "Ajoutez au moins un caractère spécial",
+    "confirmPasswordLabel": "Confirmer le Mot de Passe",
+    "confirmPasswordPlaceholder": "Confirmer le Mot de Passe",
+    "confirmPasswordRequired": "Le mot de passe est requis",
+    "ConfirmPasswordError": "Les mots de passe ne correspondent pas",
+    "signUpButton": "S'inscrire",
+    "joinedUsBefore": "Déjà inscrit ?",
+    "signInLink": "Se connecter",
+    "sendCode": "Envoyer le Code",
+    "resendCode": "Renvoyer le Code ({time, plural, =1 {# seconde} other {# secondes}})"
+  },
+  "forgotPasswordPage": {
+    "title": "Mot de Passe Oublié",
+    "subtitle": "Ne vous inquiétez pas ! Cela arrive. Veuillez entrer l'adresse associée à votre compte.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Entrez l'Email",
+    "emailError": "Veuillez entrer une adresse email valide",
+    "emailRequired": "L'email est requis",
+    "emailInvalidChars": "L'email contient des caractères invalides",
+    "submitButton": "Soumettre",
+    "specialChars": "Aucun caractère spécial"
+  },
+  "verificationPage": {
+    "title": "Code de Vérification",
+    "subtitle": "Confirmer avec le Code",
+    "codeRequired": "Le code est requis",
+    "resendCode": "Renvoyer le Code {time, plural, =0 {} =1 {# seconde} other {# secondes}}",
+    "verifyButton": "Vérifier"
+  },
+  "resetPasswordPage": {
+    "title": "Réinitialiser le Mot de Passe",
+    "subtitle": "Entrez votre nouveau mot de passe",
+    "passwordLabel": "Mot de Passe",
+    "passwordPlaceholder": "Entrez le Mot de Passe",
+    "passwordRequired": "Le mot de passe est requis",
+    "minPasswordError": "Min 8 caractères",
+    "maxPasswordError": "Max 20 caractères",
+    "lowerPasswordError": "Ajoutez au moins une minuscule",
+    "upperPasswordError": "Ajoutez au moins une majuscule",
+    "specialPasswordError": "Ajoutez au moins un caractère spécial",
+    "confirmPasswordLabel": "Confirmer le Mot de Passe",
+    "confirmPasswordPlaceholder": "Confirmer le Mot de Passe",
+    "confirmPasswordRequired": "Le mot de passe est requis",
+    "ConfirmPasswordError": "Les mots de passe ne correspondent pas",
+    "submitButton": "Réinitialiser le Mot de Passe",
+    "modal": {
+      "title": "Votre mot de passe a été modifié avec succès !",
+      "btnText": "Continuer"
+    }
+  }
+}

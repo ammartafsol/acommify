@@ -1,0 +1,203 @@
+{
+  "header": {
+    "logout": "გასვლა",
+    "dashboard": "პანელი",
+    "appointments": "შეხვედრები",
+    "requests": "მოთხოვნები მოხმარებისთვის",
+    "foodStuffs": "საკვები",
+    "accommodationGuide": "საცხოვრებლის გზამკვლევი",
+    "notification": "შეტყობინებები",
+    "settings": "პარამეტრები",
+    "allBookings": "ყველა დაჯავშნა"
+  },
+  "areYouSureModal": {
+    "title": "დარწმუნებული ხართ?",
+    "description": "დარწმუნებული ხართ, რომ გსურთ დაჯავშნის გაუქმება?",
+    "cancel": "გაუქმება",
+    "confirm": "დადასტურება",
+    "loading": "ჩატვირთვა..."
+  },
+  "uploadMedia": {
+    "title": "კონტრაქტი",
+    "uploadMessage": "ატვირთეთ განაცხადთან დაკავშირებული სურათი ან დოკუმენტი",
+    "fileFormats": "PDF, JPEG, 5 MB-მდე",
+    "uploadIconAlt": "ატვირთვა",
+    "errors": {
+      "fileSizeExceeded": "ფაილი '{fileName}' აღემატება {maxSize}MB ლიმიტს.",
+      "maxFilesReached": "მიღწეულია {maxFiles} ფაილის მაქსიმუმი.",
+      "tooManyFiles": "დაშვებულია მხოლოდ {allowedRemaining} დამატებითი ფაილი."
+    },
+    "defaultFileName": "ფაილი"
+  },
+  "calendar": {
+    "myBooking": "ჩემი დაჯავშნა",
+    "month": "თვე",
+    "week": "კვირა",
+    "day": "დღე",
+    "today": "დღეს",
+    "slot": "სლოტი: "
+  },
+  "documentCenter": {
+    "title": "დოკუმენტების ცენტრი",
+    "tabs": {
+      "all": "ყველა",
+      "forms": "ფორმები",
+      "guidelines": "მითითებები",
+      "otherDocuments": "სხვა დოკუმენტები"
+    },
+    "filters": {
+      "recent": "ბოლო",
+      "starred": "ფავორიტები",
+      "archived": "არქივი"
+    }
+  },
+  "common": {
+    "points": "{points} ქულა",
+    "bookNow": "დაჯავშნა ახლავე",
+    "editTime": "დროის რედაქტირება",
+    "search": "ძებნა",
+    "filter": "ფილტრი",
+    "back": "უკან",
+    "pdf": "PDF",
+    "word": "Word",
+    "economy": "ეკონომიკა",
+    "version": "ვერსია",
+    "months": "თვეები",
+    "viewCart": "კალათის ნახვა",
+    "reschedule": "გადაწერა",
+    "available": "ხელმისაწვდომი",
+    "booked": "დაჯავშნილი",
+    "selected": "არჩეული",
+    "order": "შეკვეთა",
+    "stock": "სტოკი"
+  },
+  "designGuidline": {
+    "title": "დიზაინის მითითებები",
+    "download": "ჩამოტვირთვა"
+  },
+  "modal": {
+    "SuccessModal": {
+      "title": "თქვენი შეხვედრა წარმატებით დადასტურდა!",
+      "btnText": "გაგრძელება",
+      "iconAlt": "წარმატება"
+    },
+    "visitorsBookingFormModal": {
+      "header": "დაჯავშნის ფორმა",
+      "nameLabel": "ვიზიტორის სახელი:",
+      "namePlaceholder": "შეიყვანეთ სახელი",
+      "dateLabel": "სასურველი თარიღი:",
+      "timeLabel": "სასურველი დრო:",
+      "relationshipLabel": "ურთიერთობა მოსახლესთან:",
+      "relationshipPlaceholder": "აირჩიეთ ურთიერთობა",
+      "notesLabel": "დამატებითი შენიშვნები:",
+      "notesPlaceholder": "შეიყვანეთ დამატებითი შენიშვნები აქ...",
+      "cancelButton": "გაუქმება",
+      "rulesVisitor": "ვიზიტორების წესები",
+      "upcomingVisits": "მომავალი ვიზიტები",
+      "confirmButton": "შეხვედრის დადასტურება",
+      "successModalData": {
+        "title": "თქვენი დაჯავშნა წარმატებით დადასტურდა!!",
+        "btnText": "მთავარ გვერდზე გადასვლა"
+      },
+      "dropdown": {
+        "parent": "მშობელი",
+        "sibling": "ძმა/და",
+        "friend": "მეგობარი"
+      }
+    },
+    "bookFormModal": {
+      "header": "დაჯავშნის ფორმა",
+      "nameLabel": "სახელი:",
+      "namePlaceholder": "შეიყვანეთ თქვენი სახელი",
+      "dateLabel": "სასურველი თარიღი:",
+      "timeLabel": "სასურველი დრო:",
+      "reasonLabel": "შეხვედრის მიზეზი:",
+      "reasonPlaceholder": "პროექტის განახლებების განხილვა",
+      "notesLabel": "დამატებითი შენიშვნები:",
+      "notesPlaceholder": "შეიყვანეთ თქვენი შეტყობინება",
+      "notesMax": "შენიშვნები არ შეიძლება 500 სიმბოლოზე მეტი იყოს.",
+      "reasonRequired": "მიზეზი აუცილებელია.",
+      "cancelButton": "გაუქმება",
+      "upcomingMeetings": "მომავალი შეხვედრები",
+      "confirmButton": "შეხვედრის დადასტურება"
+    },
+    "feedbackModal": {
+      "header": "ჩვენ მოგვწონს თქვენი შეფასება!",
+      "description": "დააჭირეთ 👍 ან 👎 შეფასებისთვის. თავისუფლად დაამატეთ კომენტარი, რათა დაგვეხმაროთ თქვენი გამოცდილების გაუმჯობესებაში!",
+      "placeholder": "მოგვიყევით მეტი (ოფციონალური)",
+      "submitButton": "შეფასების გაგზავნა"
+    },
+    "busSeatModal": {
+      "seatHeading": "ადგილი: {seat}",
+      "passengerNameLabel": "მგზავრის სახელი",
+      "passengerNamePlaceholder": "შეიყვანეთ მგზავრის სახელი",
+      "cancelButton": "გაუქმება",
+      "confirmButton": "დადასტურება"
+    }
+  },
+  "timeslots": {
+    "availableTimeSlots": "ხელმისაწვდომი დროის სლოტები",
+    "available2HourSlots": "ხელმისაწვდომი 2-საათიანი სლოტები",
+    "noSlotsAvailable": "სლოტები არ არის",
+    "noConsecutiveSlotsAvailable": "2-საათიანი თანმიმდევრული სლოტები არ არის",
+    "available": "ხელმისაწვდომი",
+    "booked": "დაჯავშნილი",
+    "your": "თქვენი დროის სლოტი"
+  },
+  "toasts": {
+    "loginSuccess": "შესვლა წარმატებით!",
+    "loginError": "შესვლა ვერ მოხერხდა. სცადეთ კვლავ.",
+    "logoutSuccess": "გასვლა წარმატებით!",
+    "profileUpdateSuccess": "პროფილი წარმატებით განახლდა!",
+    "profileUpdateError": "პროფილის განახლება ვერ მოხერხდა. სცადეთ კვლავ.",
+    "otpCodeSent": "OTP კოდი წარმატებით გაიგზავნა ელფოსტაზე",
+    "noEmailFound": "ელფოსტა ვადაგასულია.",
+    "otpVerified": "OTP წარმატებით დადასტურდა",
+    "passwordResetSuccess": "პაროლი წარმატებით განახლდა!",
+    "passwordResetError": "პაროლის განახლება ვერ მოხერხდა. სცადეთ კვლავ.",
+    "otpCodeExpired": "OTP კოდი ვადაგასულია."
+  },
+  "busDetailCard": {
+    "duration": "ხანგრძლივობა",
+    "seatsAvailable": "ხელმისაწვდომი ადგილები",
+    "departureDate": "გამგზავრების თარიღი",
+    "available": "ხელმისაწვდომი",
+    "booked": "დაჯავშნილი"
+  },
+  "passengerCard": {
+    "passenger": "მგზავრი",
+    "seatNumber": "ადგილის №"
+  },
+  "busBookingConfirmationCard": {
+    "duration": "ხანგრძლივობა",
+    "seat": "ადგილი",
+    "boardingPoint": "ჩასვლის წერტილი",
+    "departure": "გამგზავრება",
+    "arrival": "ჩასვლა",
+    "eTicket": {
+      "title": "E-ბილეთი",
+      "yourTrip": "თქვენი მოგზაურობა",
+      "passengerList": "მგზავრების სია",
+      "bookingConfirmed": "დაჯავშნა დადასტურდა!",
+      "description": "თქვენი დაჯავშნა დადასტურდა! მალე ვნახავთ.",
+      "name": "სახელი",
+      "bookingCode": "დაჯავშნის კოდი",
+      "numberOfTicket": "№",
+      "seat": "ადგილი",
+      "IdNumber": "ID ნომერი",
+      "busName": "ავტობუსი",
+      "duration": "ხანგრძლივობა",
+      "reminders": {
+        "title": "დააყენეთ შეხსენება თქვენი დაჯავშნისთვის",
+        "reminderOptions": {
+          "15min": "15 წუთით ადრე",
+          "30min": "30 წუთით ადრე",
+          "1hour": "1 საათით ადრე",
+          "custom": "პერსონალური შეხსენება"
+        },
+        "customPlaceholderText": "მაგ: 10 წუთით ადრე"
+      },
+      "downloadBtnLabel": "E-ბილეთის ჩამოტვირთვა"
+    }
+  }
+}

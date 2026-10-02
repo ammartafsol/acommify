@@ -1,0 +1,203 @@
+{
+  "header": {
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "appointments": "Appointments",
+    "requests": "Maintenance Request",
+    "foodStuffs": "Food Stuffs",
+    "accommodationGuide": "Accommodation Guide",
+    "notification": "Notifications",
+    "settings": "Settings",
+    "allBookings": "All Bookings"
+  },
+  "areYouSureModal": {
+    "title": "Are you sure?",
+    "description": "Are you sure you want to cancel your booking?",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "loading": "Loading..."
+  },
+  "uploadMedia": {
+    "title": "Contract",
+    "uploadMessage": "Upload an image or document related to the application",
+    "fileFormats": "PDF, JPEG, up to 5 MB",
+    "uploadIconAlt": "Upload",
+    "errors": {
+      "fileSizeExceeded": "File '{fileName}' exceeds {maxSize}MB limit.",
+      "maxFilesReached": "Maximum of {maxFiles} file(s) reached.",
+      "tooManyFiles": "Only {allowedRemaining} more file(s) allowed."
+    },
+    "defaultFileName": "File"
+  },
+  "calendar": {
+    "myBooking": "My Booking",
+    "month": "Month",
+    "week": "Week",
+    "day": "Day",
+    "today": "Today",
+    "slot": "Slot: "
+  },
+  "documentCenter": {
+    "title": "Document Center",
+    "tabs": {
+      "all": "All",
+      "forms": "Forms",
+      "guidelines": "Guidelines",
+      "otherDocuments": "Other Documents"
+    },
+    "filters": {
+      "recent": "Recent",
+      "starred": "Starred",
+      "archived": "Archived"
+    }
+  },
+  "common": {
+    "points": "{points} points",
+    "bookNow": "Book Now",
+    "editTime": "Edit Time",
+    "search": "Search",
+    "filter": "Filter",
+    "back": "Back",
+    "pdf": "PDF",
+    "word": "Word",
+    "economy": "Economy",
+    "version": "Version",
+    "months": "Months",
+    "viewCart": "View Cart",
+    "reschedule": "Reschedule",
+    "available": "Available",
+    "booked": "Booked",
+    "selected": "Selected",
+    "order": "Order",
+    "stock": "Stock"
+  },
+  "designGuidline": {
+    "title": "Design Guidelines",
+    "download": "Download"
+  },
+  "modal": {
+    "SuccessModal": {
+      "title": "Your appointment has been successfully confirmed!",
+      "btnText": "Continue",
+      "iconAlt": "Success"
+    },
+    "visitorsBookingFormModal": {
+      "header": "Booking Form",
+      "nameLabel": "Visitor's Name:",
+      "namePlaceholder": "Enter name",
+      "dateLabel": "Preferred Date:",
+      "timeLabel": "Preferred Time:",
+      "relationshipLabel": "Relationship to Resident:",
+      "relationshipPlaceholder": "Select Relation",
+      "notesLabel": "Additional Notes:",
+      "notesPlaceholder": "Enter additional notes here...",
+      "cancelButton": "Cancel",
+      "rulesVisitor": "Rules for visitors",
+      "upcomingVisits": "Upcoming Visits",
+      "confirmButton": "Confirm Appointment",
+      "successModalData": {
+        "title": "Your booking has been successfully confirmed!!",
+        "btnText": "Go to Home "
+      },
+      "dropdown": {
+        "parent": "Parent",
+        "sibling": "Sibling",
+        "friend": "Friend"
+      }
+    },
+    "bookFormModal": {
+      "header": "Book Form",
+      "nameLabel": "Name:",
+      "namePlaceholder": "Enter your name",
+      "dateLabel": "Preferred Date:",
+      "timeLabel": "Preferred Time:",
+      "reasonLabel": "Reason for Meeting:",
+      "reasonPlaceholder": "Discuss project updates",
+      "notesLabel": "Additional Notes:",
+      "notesPlaceholder": "Enter your message",
+      "notesMax": "Notes cannot exceed 500 characters.",
+      "reasonRequired": "Reason is required.",
+      "cancelButton": "Cancel",
+      "upcomingMeetings": "Upcoming Meetings",
+      "confirmButton": "Confirm Appointment"
+    },
+    "feedbackModal": {
+      "header": "We'd Love Your Feedback!",
+      "description": "Tap 👍 or 👎 to rate it. Feel free to add a comment to help us make your experience even better!",
+      "placeholder": "Tell us more (optional)",
+      "submitButton": "Submit Feedback"
+    },
+    "busSeatModal": {
+      "seatHeading": "Seat: {seat}",
+      "passengerNameLabel": "Passenger Name",
+      "passengerNamePlaceholder": "Enter passenger name",
+      "cancelButton": "Cancel",
+      "confirmButton": "Confirm"
+    }
+  },
+  "timeslots": {
+    "availableTimeSlots": "Available Time Slots",
+    "available2HourSlots": "Available 2-Hour Time Slots",
+    "noSlotsAvailable": "No slots available",
+    "noConsecutiveSlotsAvailable": "No consecutive 2-hour slots available",
+    "available": "Available",
+    "booked": "Booked",
+    "your": "Your Time Slot"
+  },
+  "toasts": {
+    "loginSuccess": "Login successful!",
+    "loginError": "Login failed. Please try again.",
+    "logoutSuccess": "Logout successful!",
+    "profileUpdateSuccess": "Profile updated successfully!",
+    "profileUpdateError": "Profile update failed. Please try again.",
+    "otpCodeSent": "OTP code sent to email successfully",
+    "noEmailFound": "Email is expired.",
+    "otpVerified": "OTP verified successfully",
+    "passwordResetSuccess": "Password reset successfully!",
+    "passwordResetError": "Password reset failed. Please try again.",
+    "otpCodeExpired": "OTP code is expired."
+  },
+  "busDetailCard": {
+    "duration": "Duration",
+    "seatsAvailable": "Seats Available",
+    "departureDate": "Departure Date",
+    "available": "Available",
+    "booked": "Booked"
+  },
+  "passengerCard": {
+    "passenger": "Passenger",
+    "seatNumber": "Seat No"
+  },
+  "busBookingConfirmationCard": {
+    "duration": "Duration",
+    "seat": "Seat",
+    "boardingPoint": "Boarding Point",
+    "departure": "Departure",
+    "arrival": "Arrival",
+    "eTicket": {
+      "title": "E-Ticket",
+      "yourTrip": "Your Trip",
+      "passengerList": "Passenger List",
+      "bookingConfirmed": "Booking Confirmed!",
+      "description": "Your booking is confirmed! We look forward to see you soon.",
+      "name": "Name",
+      "bookingCode": "Booking Code",
+      "numberOfTicket": "No",
+      "seat": "Seat",
+      "IdNumber": "Id Number",
+      "busName": "Bus",
+      "duration": "Duration",
+      "reminders": {
+        "title": "Set a reminder for your Booking",
+        "reminderOptions": {
+          "15min": "15 minutes before",
+          "30min": "30 minutes before",
+          "1hour": "1 hour before",
+          "custom": "Custom Reminder"
+        },
+        "customPlaceholderText": "e.g., 10 minutes before"
+      },
+      "downloadBtnLabel": "Download e-Ticket"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "settingsPage": {
+    "settings": {
+      "title": "الإعدادات",
+      "logout": "تسجيل الخروج"
+    },
+    "tabs": {
+      "account": "الحساب",
+      "changePassword": "تغيير كلمة المرور",
+      "pointsWallet": "محفظة النقاط",
+      "notifications": "الإشعارات",
+      "privacyPolicy": "سياسة الخصوصية",
+      "help": "المساعدة",
+      "logout": "تسجيل الخروج",
+      "orders": "الطلبات"
+    },
+    "pointsWallet": {
+      "title": "محفظة النقاط",
+      "currentBalance": "الرصيد الحالي:",
+      "pointsHistory": "تاريخ النقاط",
+      "points": "النقاط",
+      "spendingPoints": "إنفاق النقاط",
+      "shopNow": "تسوق الآن",
+      "availableItems": "العناصر/الخدمات المتاحة"
+    },
+    "helpLine": {
+      "title": "خط المساعدة",
+      "welcomeText": "مرحباً بك في خط المساعدة",
+      "description": "إذا كنت بحاجة إلى مساعدة، خطوط الدعم لدينا متاحة لمساعدتك. يرجى العثور على خط المساعدة المناسب أدناه بناءً على احتياجاتك."
+    },
+    "toasts": {
+      "checkedInSuccessfully": "تسجيل الدخول بنجاح",
+      "checkedOutSuccessfully": "تسجيل الخروج بنجاح"
+    },
+    "btnLabels": {
+      "signIn": "تسجيل الدخول",
+      "signOut": "تسجيل الخروج"
+    }
+  }
+}

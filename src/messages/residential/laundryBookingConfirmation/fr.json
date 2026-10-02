@@ -1,0 +1,26 @@
+{
+  "LaundryBookingConfirmation": {
+    "title": "Réservation de Blanchisserie",
+    "confirmedTitle": "Réservation de Blanchisserie Confirmée",
+    "cancelledTitle": "Réservation de Blanchisserie Annulée",
+    "completedTitle": "Réservation de Blanchisserie Terminée",
+    "rejectedTitle": "Réservation de Blanchisserie Rejetée",
+    "pendingDescription": "Votre réservation de blanchisserie est en attente ! Nous vous notifierons une fois qu'elle sera confirmée.",
+    "confirmedDescription": "Votre réservation est confirmée ! Nous avons hâte de vous servir bientôt.",
+    "cancelledDescription": "Votre réservation de blanchisserie a été annulée.",
+    "completedDescription": "Votre réservation de blanchisserie a été terminée.",
+    "rejectedDescription": "Votre réservation de blanchisserie a été rejetée.",
+    "pendingTitle": "Réservation de Blanchisserie en Attente",
+    "description": "Votre réservation est confirmée ! Nous avons hâte de vous servir bientôt.",
+    "cancelBooking": "Annuler la Réservation de Blanchisserie",
+    "successful": "Votre réservation de blanchisserie a réussi !",
+    "cancelSuccess": "Votre réservation de blanchisserie a été annulée avec succès.",
+    "CancelModal": {
+      "title": "Annuler la Réservation de Blanchisserie",
+      "description": "Êtes-vous sûr de vouloir annuler votre réservation de blanchisserie ?",
+      "btnText1": "Non",
+      "btnText2": "Oui",
+      "iconAlt": "Annuler"
+    }
+  }
+}

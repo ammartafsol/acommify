@@ -1,0 +1,37 @@
+{
+  "VisitorBookingConfirmation": {
+    "title": "Confirmación de Reserva de Visitante",
+    "confirmedTitle": "Reserva de Visitante Confirmada",
+    "cancelledTitle": "Reserva de Visitante Cancelada",
+    "completedTitle": "Reserva de Visitante Completada",
+    "rejectedTitle": "Reserva de Visitante Rechazada",
+    "pendingDescription": "¡Tu reserva de visitante está pendiente! Te notificaremos una vez que sea confirmada.",
+    "confirmedDescription": "¡Tu reserva está confirmada! Esperamos reunirnos contigo pronto.",
+    "cancelledDescription": "Tu reserva de visitante ha sido cancelada.",
+    "completedDescription": "Tu reserva de visitante ha sido completada exitosamente.",
+    "rejectedDescription": "Tu reserva de visitante ha sido rechazada.",
+    "pendingTitle": "Reserva de Visitante Pendiente",
+    "description": "¡Tu reserva está confirmada! Esperamos reunirnos contigo pronto.",
+    "reminder": "Establecer un recordatorio para tu reserva de visitante:",
+    "cancelBooking": "Cancelar Reserva de Visitante",
+    "successful": "¡Tu reserva de visitante fue programada exitosamente!",
+    "cancelSuccess": "Tu reserva de visitante ha sido cancelada exitosamente.",
+    "reminders": {
+      "title": "Establecer un recordatorio para tu Reserva de Visitante",
+      "reminderOptions": {
+        "15min": "15 minutos antes",
+        "30min": "30 minutos antes",
+        "1hour": "1 hora antes",
+        "custom": "Recordatorio Personalizado"
+      },
+      "customPlaceholderText": "ej: 10 minutos antes"
+    },
+    "CancelModal": {
+      "title": "Cancelar Reserva de Visitante",
+      "description": "¿Estás seguro de que quieres cancelar tu reserva de visitante?",
+      "btnText1": "No",
+      "btnText2": "Sí",
+      "iconAlt": "Cancelar"
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "header": {
+    "logout": "Вийти",
+    "dashboard": "Панель",
+    "appointments": "Прийоми",
+    "requests": "Запити на обслуговування",
+    "foodStuffs": "Продукти",
+    "accommodationGuide": "Посібник з Проживання",
+    "notification": "Сповіщення",
+    "settings": "Налаштування",
+    "allBookings": "Всі Бронювання"
+  },
+  "areYouSureModal": {
+    "title": "Ви впевнені?",
+    "description": "Ви впевнені, що хочете скасувати ваше бронювання?",
+    "cancel": "Скасувати",
+    "confirm": "Підтвердити",
+    "loading": "Завантаження..."
+  },
+  "uploadMedia": {
+    "title": "Контракт",
+    "uploadMessage": "Завантажте зображення або документ, пов'язаний з заявкою",
+    "fileFormats": "PDF, JPEG, до 5 МБ",
+    "uploadIconAlt": "Завантажити",
+    "errors": {
+      "fileSizeExceeded": "Файл '{fileName}' перевищує ліміт {maxSize}МБ.",
+      "maxFilesReached": "Досягнуто максимум {maxFiles} файл(ів).",
+      "tooManyFiles": "Дозволено лише {allowedRemaining} додаткових файл(ів)."
+    },
+    "defaultFileName": "Файл"
+  },
+  "calendar": {
+    "myBooking": "Моє Бронювання",
+    "month": "Місяць",
+    "week": "Тиждень",
+    "day": "День",
+    "today": "Сьогодні",
+    "slot": "Слот: "
+  },
+  "documentCenter": {
+    "title": "Центр Документів",
+    "tabs": {
+      "all": "Всі",
+      "forms": "Форми",
+      "guidelines": "Керівництва",
+      "otherDocuments": "Інші Документи"
+    },
+    "filters": {
+      "recent": "Останні",
+      "starred": "Обране",
+      "archived": "Архівні"
+    }
+  },
+  "common": {
+    "points": "{points} балів",
+    "bookNow": "Забронювати Зараз",
+    "editTime": "Редагувати Час",
+    "search": "Пошук",
+    "filter": "Фільтр",
+    "back": "Назад",
+    "pdf": "PDF",
+    "word": "Word",
+    "economy": "Економіка",
+    "version": "Версія",
+    "months": "Місяці",
+    "viewCart": "Переглянути Кошик",
+    "reschedule": "Перенести",
+    "available": "Доступно",
+    "booked": "Заброньовано",
+    "selected": "Обрано",
+      "order": "Замовлення",
+    "stock": "Залишки"
+  },
+  "designGuidline": {
+    "title": "Керівництво з Дизайну",
+    "download": "Завантажити"
+  },
+  "modal": {
+    "SuccessModal": {
+      "title": "Ваш прийом успішно підтверджено!",
+      "btnText": "Продовжити",
+      "iconAlt": "Успіх"
+    },
+    "visitorsBookingFormModal": {
+      "header": "Форма Бронювання",
+      "nameLabel": "Ім'я Відвідувача:",
+      "namePlaceholder": "Введіть ім'я",
+      "dateLabel": "Бажана Дата:",
+      "timeLabel": "Бажаний Час:",
+      "relationshipLabel": "Стосунки з Мешканцем:",
+      "relationshipPlaceholder": "Вибрати Стосунки",
+      "notesLabel": "Додаткові Нотатки:",
+      "notesPlaceholder": "Введіть додаткові нотатки тут...",
+      "cancelButton": "Скасувати",
+      "rulesVisitor": "Правила для відвідувачів",
+      "upcomingVisits": "Майбутні Візити",
+      "confirmButton": "Підтвердити Прийом",
+      "successModalData": {
+        "title": "Ваше бронювання успішно підтверджено!!",
+        "btnText": "Перейти на Головну"
+      },
+      "dropdown": {
+        "parent": "Батько/Мати",
+        "sibling": "Брат/Сестра",
+        "friend": "Друг"
+      }
+    },
+    "bookFormModal": {
+      "header": "Форма Бронювання",
+      "nameLabel": "Ім'я:",
+      "namePlaceholder": "Введіть ваше ім'я",
+      "dateLabel": "Бажана Дата:",
+      "timeLabel": "Бажаний Час:",
+      "reasonLabel": "Причина Зустрічі:",
+      "reasonPlaceholder": "Обговорити оновлення проекту",
+      "notesLabel": "Додаткові Нотатки:",
+      "notesPlaceholder": "Введіть ваше повідомлення",
+      "notesMax": "Нотатки не можуть перевищувати 500 символів.",
+      "reasonRequired": "Причина обов'язкова.",
+      "cancelButton": "Скасувати",
+      "upcomingMeetings": "Майбутні Зустрічі",
+      "confirmButton": "Підтвердити Прийом"
+    },
+    "feedbackModal": {
+      "header": "Ми Будемо Раді Вашій Оцінці!",
+      "description": "Натисніть 👍 або 👎 для оцінки. Не соромтеся додати коментар, щоб допомогти нам зробити ваш досвід ще кращим!",
+      "placeholder": "Розкажіть нам більше (опціонально)",
+      "submitButton": "Надіслати Оцінку"
+    },
+    "busSeatModal": {
+      "seatHeading": "Місце: {seat}",
+      "passengerNameLabel": "Ім'я Пасажира",
+      "passengerNamePlaceholder": "Введіть ім'я пасажира",
+      "cancelButton": "Скасувати",
+      "confirmButton": "Підтвердити"
+    }
+  },
+  "timeslots": {
+    "availableTimeSlots": "Доступні Часові Слоти",
+    "available2HourSlots": "Доступні 2-Годинні Слоти",
+    "noSlotsAvailable": "Немає доступних слотів",
+    "noConsecutiveSlotsAvailable": "Немає послідовних 2-годинних слотів",
+    "available": "Доступно",
+    "booked": "Заброньовано",
+    "your": "Ваш Часовий Слот"
+  },
+  "toasts": {
+    "loginSuccess": "Вхід успішний!",
+    "loginError": "Помилка входу. Спробуйте знову.",
+    "logoutSuccess": "Вихід успішний!",
+    "profileUpdateSuccess": "Профіль успішно оновлено!",
+    "profileUpdateError": "Помилка оновлення профілю. Спробуйте знову.",
+    "otpCodeSent": "OTP код успішно надіслано на email",
+    "noEmailFound": "Email застарів.",
+    "otpVerified": "OTP успішно підтверджено",
+    "passwordResetSuccess": "Пароль успішно скинуто!",
+    "passwordResetError": "Помилка скидання пароля. Спробуйте знову.",
+    "otpCodeExpired": "OTP код застарів."
+  },
+  "busDetailCard": {
+    "duration": "Тривалість",
+    "seatsAvailable": "Доступні Місця",
+    "departureDate": "Дата Відправлення",
+    "available": "Доступно",
+    "booked": "Заброньовано"
+  },
+  "passengerCard": {
+    "passenger": "Пасажир",
+    "seatNumber": "Номер Місця"
+  },
+  "busBookingConfirmationCard": {
+    "duration": "Тривалість",
+    "seat": "Місце",
+    "boardingPoint": "Місце Посадки",
+    "departure": "Відправлення",
+    "arrival": "Прибуття",
+    "eTicket": {
+      "title": "Е-Квиток",
+      "yourTrip": "Ваша Подорож",
+      "passengerList": "Список Пасажирів",
+      "bookingConfirmed": "Бронювання Підтверджено!",
+      "description": "Ваше бронювання підтверджено! З нетерпінням чекаємо зустрічі з вами найближчим часом.",
+      "name": "Ім'я",
+      "bookingCode": "Код Бронювання",
+      "numberOfTicket": "Номер",
+      "seat": "Місце",
+      "IdNumber": "Номер ID",
+      "busName": "Автобус",
+      "duration": "Тривалість",
+      "reminders": {
+        "title": "Встановити нагадування для вашого Бронювання",
+        "reminderOptions": {
+          "15min": "15 хвилин до",
+          "30min": "30 хвилин до",
+          "1hour": "1 година до",
+          "custom": "Персональне Нагадування"
+        },
+        "customPlaceholderText": "наприклад: 10 хвилин до"
+      },
+      "downloadBtnLabel": "Завантажити Е-Квиток"
+    }
+  }
+}

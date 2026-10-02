@@ -1,0 +1,101 @@
+.main {
+  /* margin-top: 48px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.content > div {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.container {
+  margin-block: 48px;
+}
+
+.TopHeader {
+  width: 100%;
+}
+
+.appointmentCardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: max-content;
+}
+
+.appointmentMain {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+/* modal */
+.modalMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 14px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.item p:nth-of-type(1) {
+  color: var(--Dark-gray);
+  font-family: var(--font-lato);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.item p:nth-of-type(2) {
+  color: var(--Black);
+  font-family: var(--font-lato);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+@media (max-width: 1366px) {
+  .content > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .content > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .content > div {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    gap: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    margin-bottom: 75px;
+    margin-top: 40px;
+  }
+  .mobileHeaderMain img[class*="iconImage"]{
+    width: 24px !important;
+    height: 24px !important;
+    padding: 4px !important;
+  }
+}

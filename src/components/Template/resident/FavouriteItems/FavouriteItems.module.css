@@ -1,0 +1,94 @@
+.main {
+  margin-block: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(203px, 1fr));
+  gap: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.noDataFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 100%;
+  background: var(--Poor-white);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+
+.cartOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(51, 181, 246, 0.15);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeInCartOverlay 0.3s;
+}
+ 
+@keyframes fadeInCartOverlay {
+  from {
+    opacity: 0;
+  }
+ 
+  to {
+    opacity: 1;
+  }
+}
+ 
+.cartOverlayContent {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 48px;
+  box-shadow: 0 8px 32px rgba(51, 181, 246, 0.18);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: popCartOverlay 0.5s;
+}
+ 
+@keyframes popCartOverlay {
+  0% {
+    transform: scale(0.7);
+    opacity: 0.5;
+  }
+ 
+  60% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+ 
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+ 
+.cartOverlayText {
+  margin-top: 18px;
+  font-size: 1.5rem;
+  color: #33b5f6;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+@media (max-width: 576px) {
+  .main {
+    margin-block: 80px;
+  }
+  
+}

@@ -1,0 +1,63 @@
+{
+  "appointmentsPage": {
+    "Appointments": {
+      "title": "Citas",
+      "bookAppointment": "Reservar Cita",
+      "welcomeTitle": "¡Bienvenido a las Citas!",
+      "description": "Programa fácilmente reuniones con el gerente o personal de recepción con solo unos clics.",
+
+      "tabs": {
+        "all": "Todas",
+        "completed": "Completado",
+        "pending": "Pendiente",
+        "accepted": "Aceptado",
+        "inprogress": "En Progreso",
+        "cancelled": "Cancelado",
+        "rejected": "Rechazado"
+      },
+      "toasts": {
+        "cancelSuccess": "Cita cancelada exitosamente"
+      },
+      "appointmentHistory": "Citas",
+      "table": {
+        "purpose": "Propósito",
+        "dateTime": "Fecha y Hora",
+        "category": "Categoría",
+        "status": "Estado"
+      },
+      "menuItems": {
+        "cancel": "Cancelar"
+      },
+      "staffAppointmentCard": {
+        "title": "Citas del Personal",
+        "description": "Programa fácilmente, visualiza y gestiona tus reuniones con el personal aquí."
+      },
+
+      "visitorBookingCard": {
+        "title": "Reservas de Visitantes",
+        "description": "Organiza reuniones con visitantes. Especifica un horario conveniente para que el visitante pueda llegar fácilmente al centro y encontrarte."
+      }
+    },
+    "StaffAppointment": {
+      "title": "Citas del Personal",
+      "selectStaff": "Seleccionar Personal",
+      "selectedDate": "Fecha Seleccionada",
+      "selectStaffPlaceholder": "{loading, select, true {Cargando...} other {Seleccionar Personal}}",
+      "staffSelectMessage": "Por favor, selecciona un miembro del personal para ver citas disponibles.",
+      "selectDateMessage": "Por favor, selecciona una fecha para ver horarios disponibles.",
+      "bookingWarning": "La reserva no puede ser cancelada cuando quede 1 hora para la cita.",
+      "bookingSuccess": "¡Solicitud de cita con el personal enviada con éxito! Por favor, espera la aprobación.",
+      "reminder": "Establecer un recordatorio para tu cita",
+      "reminders": {
+        "title": "Establecer un recordatorio para tu Cita del Personal",
+        "reminderOptions": {
+          "15min": "15 minutos antes",
+          "30min": "30 minutos antes",
+          "1hour": "1 hora antes",
+          "custom": "Recordatorio Personalizado"
+        },
+        "customPlaceholderText": "Ingresa minutos (ej: 10)"
+      }
+    }
+  }
+}

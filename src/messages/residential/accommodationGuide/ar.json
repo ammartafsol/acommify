@@ -1,0 +1,20 @@
+{
+  "AccommodationGuidePage": {
+    "title": "دليل الإقامة",
+    "welcomeMessage": "مرحباً بك في دليل الإقامة!",
+    "WelcomeDescription": "تم تصميم هذا القسم لتزويدك بجميع المعلومات التي تحتاجها حول الخدمات المتاحة في مركزنا.",
+    "additionalResources": {
+      "title": "موارد إضافية",
+      "download": "قابل للتحميل",
+      "contact": "معلومات الاتصال"
+    },
+    "frequently": {
+      "title": "الأسئلة الشائعة",
+      "tabs": {
+        "generalinquiries": "الاستفسارات العامة",
+        "visitorPolicies": "سياسات الزوار",
+        "serviceInformation": "معلومات الخدمة"
+      }
+    }
+  }
+}

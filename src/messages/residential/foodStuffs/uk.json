@@ -1,0 +1,12 @@
+{
+  "foodStuffsPage": {
+    "all": "Всі",
+    "title": "Продукти Харчування",
+    "addedToCart": "Додано до кошика!",
+
+    "toasts": {
+      "addedToFavorites": "Додано до обраного",
+      "removedFromFavorites": "Видалено з обраного"
+    }
+  }
+}

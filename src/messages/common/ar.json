@@ -1,0 +1,203 @@
+{
+  "header": {
+    "logout": "تسجيل الخروج",
+    "dashboard": "لوحة التحكم",
+    "appointments": "المواعيد",
+    "requests": "طلبات الصيانة",
+    "foodStuffs": "المواد الغذائية",
+    "accommodationGuide": "دليل الإقامة",
+    "notification": "الإشعارات",
+    "settings": "الإعدادات",
+    "allBookings": "جميع الحجوزات"
+  },
+  "areYouSureModal": {
+    "title": "هل أنت متأكد؟",
+    "description": "هل أنت متأكد من أنك تريد إلغاء حجزك؟",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "loading": "جاري التحميل..."
+  },
+  "uploadMedia": {
+    "title": "العقد",
+    "uploadMessage": "ارفع صورة أو مستند متعلق بالطلب",
+    "fileFormats": "PDF، JPEG، حتى 5 ميجابايت",
+    "uploadIconAlt": "رفع",
+    "errors": {
+      "fileSizeExceeded": "الملف '{fileName}' يتجاوز حد {maxSize} ميجابايت.",
+      "maxFilesReached": "تم الوصول للحد الأقصى من {maxFiles} ملف.",
+      "tooManyFiles": "مسموح بـ {allowedRemaining} ملف إضافي فقط."
+    },
+    "defaultFileName": "ملف"
+  },
+  "calendar": {
+    "myBooking": "حجزي",
+    "month": "شهر",
+    "week": "أسبوع",
+    "day": "يوم",
+    "today": "اليوم",
+    "slot": "الفترة: "
+  },
+  "documentCenter": {
+    "title": "مركز الوثائق",
+    "tabs": {
+      "all": "الكل",
+      "forms": "النماذج",
+      "guidelines": "الإرشادات",
+      "otherDocuments": "وثائق أخرى"
+    },
+    "filters": {
+      "recent": "الأحدث",
+      "starred": "المفضلة",
+      "archived": "المؤرشف"
+    }
+  },
+  "common": {
+    "points": "{points} نقطة",
+    "bookNow": "احجز الآن",
+    "editTime": "تعديل الوقت",
+    "search": "بحث",
+    "filter": "تصفية",
+    "back": "رجوع",
+    "pdf": "PDF",
+    "word": "Word",
+    "economy": "اقتصاد",
+    "version": "الإصدار",
+    "months": "أشهر",
+    "viewCart": "عرض السلة",
+    "reschedule": "إعادة جدولة",
+    "available": "متاح",
+    "booked": "محجوز",
+    "selected": "محدد",
+    "order": "طلب",
+    "stock": "المخزون"
+  },
+  "designGuidline": {
+    "title": "إرشادات التصميم",
+    "download": "تحميل"
+  },
+  "modal": {
+    "SuccessModal": {
+      "title": "تم تأكيد موعدك بنجاح!",
+      "btnText": "متابعة",
+      "iconAlt": "نجح"
+    },
+    "visitorsBookingFormModal": {
+      "header": "نموذج الحجز",
+      "nameLabel": "اسم الزائر:",
+      "namePlaceholder": "أدخل الاسم",
+      "dateLabel": "التاريخ المفضل:",
+      "timeLabel": "الوقت المفضل:",
+      "relationshipLabel": "العلاقة مع المقيم:",
+      "relationshipPlaceholder": "اختر العلاقة",
+      "notesLabel": "ملاحظات إضافية:",
+      "notesPlaceholder": "أدخل ملاحظات إضافية هنا...",
+      "cancelButton": "إلغاء",
+      "rulesVisitor": "قواعد للزوار",
+      "upcomingVisits": "الزيارات القادمة",
+      "confirmButton": "تأكيد الموعد",
+      "successModalData": {
+        "title": "تم تأكيد حجزك بنجاح!!",
+        "btnText": "الذهاب للرئيسية"
+      },
+      "dropdown": {
+        "parent": "والد/والدة",
+        "sibling": "أخ/أخت",
+        "friend": "صديق"
+      }
+    },
+    "bookFormModal": {
+      "header": "نموذج الحجز",
+      "nameLabel": "الاسم:",
+      "namePlaceholder": "أدخل اسمك",
+      "dateLabel": "التاريخ المفضل:",
+      "timeLabel": "الوقت المفضل:",
+      "reasonLabel": "سبب الاجتماع:",
+      "reasonPlaceholder": "مناقشة تحديثات المشروع",
+      "notesLabel": "ملاحظات إضافية:",
+      "notesPlaceholder": "أدخل رسالتك",
+      "notesMax": "الملاحظات لا يمكن أن تتجاوز 500 حرف.",
+      "reasonRequired": "السبب مطلوب.",
+      "cancelButton": "إلغاء",
+      "upcomingMeetings": "الاجتماعات القادمة",
+      "confirmButton": "تأكيد الموعد"
+    },
+    "feedbackModal": {
+      "header": "نحب أن نسمع رأيك!",
+      "description": "اضغط 👍 أو 👎 للتقييم. لا تتردد في إضافة تعليق لمساعدتنا في تحسين تجربتك!",
+      "placeholder": "أخبرنا المزيد (اختياري)",
+      "submitButton": "إرسال التقييم"
+    },
+    "busSeatModal": {
+      "seatHeading": "المقعد: {seat}",
+      "passengerNameLabel": "اسم الراكب",
+      "passengerNamePlaceholder": "أدخل اسم الراكب",
+      "cancelButton": "إلغاء",
+      "confirmButton": "تأكيد"
+    }
+  },
+  "timeslots": {
+    "availableTimeSlots": "الأوقات المتاحة",
+    "available2HourSlots": "أوقات الساعتين المتاحة",
+    "noSlotsAvailable": "لا توجد أوقات متاحة",
+    "noConsecutiveSlotsAvailable": "لا توجد أوقات متتالية لمدة ساعتين متاحة",
+    "available": "متاح",
+    "booked": "محجوز",
+    "your": "وقتك"
+  },
+  "toasts": {
+    "loginSuccess": "تم تسجيل الدخول بنجاح!",
+    "loginError": "فشل تسجيل الدخول. حاول مرة أخرى.",
+    "logoutSuccess": "تم تسجيل الخروج بنجاح!",
+    "profileUpdateSuccess": "تم تحديث الملف الشخصي بنجاح!",
+    "profileUpdateError": "فشل تحديث الملف الشخصي. حاول مرة أخرى.",
+    "otpCodeSent": "تم إرسال رمز OTP إلى البريد الإلكتروني بنجاح",
+    "noEmailFound": "انتهت صلاحية البريد الإلكتروني.",
+    "otpVerified": "تم التحقق من OTP بنجاح",
+    "passwordResetSuccess": "تم إعادة تعيين كلمة المرور بنجاح!",
+    "passwordResetError": "فشل إعادة تعيين كلمة المرور. حاول مرة أخرى.",
+    "otpCodeExpired": "انتهت صلاحية رمز OTP."
+  },
+  "busDetailCard": {
+    "duration": "المدة",
+    "seatsAvailable": "المقاعد المتاحة",
+    "departureDate": "تاريخ المغادرة",
+    "available": "متاح",
+    "booked": "محجوز"
+  },
+  "passengerCard": {
+    "passenger": "الراكب",
+    "seatNumber": "رقم المقعد"
+  },
+  "busBookingConfirmationCard": {
+    "duration": "المدة",
+    "seat": "المقعد",
+    "boardingPoint": "نقطة الصعود",
+    "departure": "المغادرة",
+    "arrival": "الوصول",
+    "eTicket": {
+      "title": "التذكرة الإلكترونية",
+      "yourTrip": "رحلتك",
+      "passengerList": "قائمة الركاب",
+      "bookingConfirmed": "تم تأكيد الحجز!",
+      "description": "حجزك مؤكد! نتطلع لرؤيتك قريباً.",
+      "name": "الاسم",
+      "bookingCode": "رمز الحجز",
+      "numberOfTicket": "رقم",
+      "seat": "المقعد",
+      "IdNumber": "رقم الهوية",
+      "busName": "الحافلة",
+      "duration": "المدة",
+      "reminders": {
+        "title": "تعيين تذكير لحجزك",
+        "reminderOptions": {
+          "15min": "15 دقيقة قبل",
+          "30min": "30 دقيقة قبل",
+          "1hour": "ساعة واحدة قبل",
+          "custom": "تذكير مخصص"
+        },
+        "customPlaceholderText": "مثال: 10 دقائق قبل"
+      },
+      "downloadBtnLabel": "تحميل التذكرة الإلكترونية"
+    }
+  }
+}

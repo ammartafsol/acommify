@@ -1,0 +1,40 @@
+{
+  "settingsPage": {
+    "settings": {
+      "title": "Saituna",
+      "logout": "Fita"
+    },
+    "tabs": {
+      "account": "Asusu",
+      "changePassword": "Canza Kalmar Sirri",
+      "pointsWallet": "Jakunkuna na Maki",
+      "notifications": "Sanarwa",
+      "privacyPolicy": "Manufofin Sirri",
+      "help": "Taimako",
+      "logout": "Fita",
+      "orders": "Layi"
+    },
+    "pointsWallet": {
+      "title": "Jakunkuna na Maki",
+      "currentBalance": "Ma'auni na Yanzu:",
+      "pointsHistory": "Tarihin Maki",
+      "points": "Maki",
+      "spendingPoints": "Kashe Maki",
+      "shopNow": "Saya Yanzu",
+      "availableItems": "Abubuwa/Sabisa Masu Samuwa"
+    },
+    "helpLine": {
+      "title": "Layin Taimako",
+      "welcomeText": "Barka da zuwa Layin Taimako",
+      "description": "Idan kana buƙatar taimako, layukan tallafin mu suna samuwa don taimaka muku. Don Allah nemo layin taimako mai dacewa a ƙasa bisa buƙatun ku."
+    },
+    "toasts": {
+      "checkedInSuccessfully": "Shiga daɓaɓi",
+      "checkedOutSuccessfully": "Fita daɓaɓi"
+    },
+    "btnLabels": {
+      "signIn": "Shiga",
+      "signOut": "Fita"
+    }
+  }
+}

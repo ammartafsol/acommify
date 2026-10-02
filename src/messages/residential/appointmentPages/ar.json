@@ -1,0 +1,63 @@
+{
+  "appointmentsPage": {
+    "Appointments": {
+      "title": "المواعيد",
+      "bookAppointment": "حجز موعد",
+      "welcomeTitle": "مرحباً بك في المواعيد!",
+      "description": "احجز بسهولة اجتماعات مع المدير أو موظفي الاستقبال بنقرة واحدة فقط.",
+
+      "tabs": {
+        "all": "الكل",
+        "completed": "مكتمل",
+        "pending": "في الانتظار",
+        "accepted": "مقبول",
+        "inprogress": "قيد التقدم",
+        "cancelled": "ملغي",
+        "rejected": "مرفوض"
+      },
+      "toasts": {
+        "cancelSuccess": "تم إلغاء الموعد بنجاح"
+      },
+      "appointmentHistory": "المواعيد",
+      "table": {
+        "purpose": "الغرض",
+        "dateTime": "التاريخ والوقت",
+        "category": "الفئة",
+        "status": "الحالة"
+      },
+      "menuItems": {
+        "cancel": "إلغاء"
+      },
+      "staffAppointmentCard": {
+        "title": "مواعيد الموظفين",
+        "description": "احجز بسهولة، اعرض، وأدر اجتماعاتك مع الموظفين هنا."
+      },
+
+      "visitorBookingCard": {
+        "title": "حجوزات الزوار",
+        "description": "رتب اجتماعات مع الزوار. حدد وقتاً مناسباً حتى يتمكن الزائر من الوصول بسهولة إلى المركز ومقابلتك."
+      }
+    },
+    "StaffAppointment": {
+      "title": "مواعيد الموظفين",
+      "selectStaff": "اختر الموظف",
+      "selectedDate": "التاريخ المحدد",
+      "selectStaffPlaceholder": "{loading, select, true {جاري التحميل...} other {اختر الموظف}}",
+      "staffSelectMessage": "يرجى اختيار عضو من الموظفين لعرض المواعيد المتاحة.",
+      "selectDateMessage": "يرجى اختيار تاريخ لعرض الأوقات المتاحة.",
+      "bookingWarning": "لا يمكن إلغاء الحجز عندما يتبقى ساعة واحدة على الحجوزات.",
+      "bookingSuccess": "تم إرسال طلب موعد الموظفين بنجاح! يرجى انتظار الموافقة.",
+      "reminder": "تعيين تذكير لموعدك",
+      "reminders": {
+        "title": "تعيين تذكير لموعد الموظف",
+        "reminderOptions": {
+          "15min": "15 دقيقة قبل",
+          "30min": "30 دقيقة قبل",
+          "1hour": "ساعة واحدة قبل",
+          "custom": "تذكير مخصص"
+        },
+        "customPlaceholderText": "أدخل الدقائق (مثال: 10)"
+      }
+    }
+  }
+}

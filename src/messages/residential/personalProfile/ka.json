@@ -1,0 +1,105 @@
+{
+  "personalProfilePage": {
+    "personalProfile": {
+      "title": "პირადი პროფილი",
+      "welcomeTitle": "მოგესალმებით თქვენს პირად პროფილში!",
+      "welcomeDescription": "აქ შეგიძლიათ გადახედოთ და განაახლოთ თქვენი ძირითადი ინფორმაცია, რათა ის ყოველთვის განახლებული იყოს.",
+      "familyMembers": "ოჯახის წევრები",
+      "preferredLanguage": "სასურველი ენა",
+      "selectLanguage": "ენის არჩევა",
+      "generalInformation": "ზოგადი ინფორმაცია",
+      "viewIncident": "თქვენი ინციდენტების ანგარიშები"
+    },
+
+    "form": {
+      "errors": {
+        "required": "{field} აუცილებელია",
+        "invalidEmail": "გთხოვთ, მიუთითოთ სწორი ელექტრონული ფოსტის მისამართი",
+        "invalid": "არასწორი {field}"
+      },
+      "labels": {
+        "fullName": "სრული სახელი",
+        "residentIdNumber": "მოსახლის ID ნომერი",
+        "houseNumber": "სახლის ნომერი",
+        "phoneNumber": "ტელეფონის ნომერი",
+        "email": "ელექტრონული ფოსტის მისამართი",
+        "familyMemberFullName": "ოჯახის წევრის სრული სახელი",
+        "trcNumber": "TRC ნომერი",
+        "relationship": "ურთიერთობა",
+        "dob": "დაბადების თარიღი",
+        "age": "ასაკი",
+        "saveChanges": "ცვლილებების შენახვა",
+        "editProfile": "პროფილის რედაქტირება",
+        "schoolName": "სკოლის სახელი",
+        "schoolPlacement": "სკოლის განთავსება",
+        "transportType": "ტრანსპორტის ტიპი",
+        "books": "წიგნები",
+        "year": "წელი",
+        "gender": "სქესი"
+      },
+      "placeholders": {
+        "fullName": "შეიყვანეთ თქვენი სრული სახელი",
+        "dob": "შეიყვანეთ თქვენი დაბადების თარიღი",
+        "residentIdNumber": "შეიყვანეთ თქვენი მოსახლის ID ნომერი",
+        "houseNumber": "შეიყვანეთ თქვენი სახლის ნომერი/ბლოკი",
+        "phoneNumber": "შეიყვანეთ თქვენი ტელეფონის ნომერი",
+        "email": "შეიყვანეთ თქვენი ელექტრონული ფოსტის მისამართი",
+        "familyMemberFullName": "შეიყვანეთ ოჯახის წევრის სრული სახელი",
+        "trcNumber": "შეიყვანეთ TRC ნომერი",
+        "relationship": "შეიყვანეთ თქვენი ურთიერთობა ოჯახის წევრთან",
+        "age": "შეიყვანეთ ოჯახის წევრის ასაკი",
+        "schoolName": "შეიყვანეთ სკოლის სახელი",
+        "schoolGrade": "შეიყვანეთ სკოლის კლასი",
+        "dobPlaceholder": "დდ/თთ/წწწწ",
+        "schoolPlacement": "აირჩიეთ სკოლის განთავსება",
+        "transportType": "აირჩიეთ ტრანსპორტის ტიპი",
+        "year": "შეიყვანეთ წელი",
+        "books": "შეიყვანეთ წიგნის სახელი",
+        "gender": "აირჩიეთ სქესი"
+      }
+    },
+
+    "genderOptions": {
+      "male": "კაცი",
+      "female": "ქალი",
+      "other": "სხვა"
+    },
+
+    "relationshipOptions": {
+      "father": "მამა",
+      "mother": "დედა",
+      "sibling": "ძმა/და",
+      "spouse": "მეუღლე",
+      "children": "შვილები"
+    },
+    "schoolPlacementOptions": {
+      "placed": "განთავსებული",
+      "notPlaced": "არ არის განთავსებული"
+    },
+    "transportTypeOptions": {
+      "bus": "ავტობუსი",
+      "carpool": "მგზავრობა",
+      "family": "ოჯახი"
+    },
+    "toasts": {
+      "updateSuccess": "პროფილი წარმატებით განახლდა"
+    },
+    "fullName": {
+      "required": "სრული სახელი აუცილებელია"
+    },
+    "schoolName": {
+      "required": "სკოლის სახელი აუცილებელია"
+    },
+    "familyMemberErrors": {
+      "relationshipRequired": "ურთიერთობა აუცილებელია",
+      "dobRequired": "დაბადების თარიღი აუცილებელია",
+      "ageAtLeast18": "ასაკი უნდა იყოს მინიმუმ 18 წელი",
+      "schoolPlacementRequired": "სკოლის განთავსება აუცილებელია",
+      "yearRequired": "წელი აუცილებელია",
+      "transportTypeRequired": "ტრანსპორტის ტიპი აუცილებელია",
+      "booksMinRequired": "მინიმუმ ერთი წიგნი აუცილებელია",
+      "trcNumberRequired": "TRC ნომერი აუცილებელია",
+      "genderRequired": "სქესი აუცილებელია"
+    }
+  }
+}

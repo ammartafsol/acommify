@@ -1,0 +1,16 @@
+{
+  "upcomingMeetings": {
+    "title": "Taro na Gaba",
+    "requestChange": "Bukatar Canji",
+    "tabs": {
+      "all": "Duka Taro",
+      "confirmed": "An Tabbata",
+      "pending": "A Jira"
+    },
+    "filters": {
+      "recent": "Mafi Kwanan Nan",
+      "starred": "Abubuwan da aka fi so",
+      "archived": "An Adana"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "maintenance": {
+    "maintenanceRequests": {
+      "toasts": {
+        "cancelSuccess": "د غوښتنه په بریالیتوب سره لغوه شوه!",
+        "updateSuccess": "د غوښتنه په بریالیتوب سره تازه شوه!",
+        "editNotAllowed": "تاسو یوازې د پاتې حالت سره غوښتنې سمولی شئ."
+      },
+      "title": "د ساتنې غوښتنې",
+      "addNewRequest": "نوې غوښتنه اضافه کړئ",
+
+      "requestForm": {
+        "modalEdit": "د ساتنې غوښتنه سمون",
+        "modalTitle": "د ساتنې غوښتنې",
+        "header": "د غوښتنې د لېږد فورم",
+        "descriptionLabel": "توضیحات:",
+        "descriptionPlaceholder": "د خدماتو ستونزې بیان کړئ...",
+        "typeLabel": "د ساتنې د غوښتنې ډول وټاکئ:",
+        "typePlaceholder": "د اوبو لېږد",
+        "submitButton": "غوښتنه واستوئ",
+        "cancelButton": "لغوه کړئ",
+        "descriptionError": "توضیحات اړین دي",
+        "typeError": "د غوښتنې ډول اړین دی",
+        "mediaError": "د رسنیو فایلونه اړین دي",
+        "mediaMaxError": "تاسو یوازې 3 فایلونه پورته کولی شئ",
+        "fileDisplayName": "د ساتنې د غوښتنې فایل"
+      },
+      "applications": {
+        "header": "استول شوي غوښتنلیستونه"
+      },
+      "tabs": {
+        "all": "ټول",
+        "completed": "بشپړ شوي",
+        "pending": "پاتې",
+        "approved": "تصویب شوي",
+        "rejected": "رد شوي",
+        "escalated": "لوړ شوي"
+      },
+      "successModal": {
+        "title": "غوښتنه په بریالیتوب سره واستول شوه!",
+        "btnText": "دوام ورکړئ"
+      },
+      "table": {
+        "purpose": "هدف",
+        "category": "کټګوري",
+        "dateTime": "نیټه او وخت",
+        "status": "حالت",
+        "resolvedBy": "په بریالیتوب سره واستول شوه",
+        "comment": "توضیحات"
+      },
+      "menuItems": {
+        "edit": "سمون",
+        "delete": "ړنګول"
+      }
+    }
+  }
+}

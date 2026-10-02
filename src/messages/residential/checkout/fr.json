@@ -1,0 +1,37 @@
+{
+  "checkoutPage": {
+    "title": "Processus de Commande",
+    "orderSummary": "Résumé de la Commande",
+    "totalItems": "Total des Articles",
+    "totalPoints": "Total des Points",
+    "confirm": "Confirmer",
+    "orderPlacedSuccess": "Commande passée avec succès !",
+    "wallet": "Portefeuille",
+    "orderDetails": {
+      "title": "Détails de la Commande",
+      "fullNameLabel": "Nom Complet",
+      "fullNamePlaceholder": "Jean Dupont",
+      "fullNameRequired": "Le nom complet est requis",
+      "streetAddressLabel": "Adresse de la Rue",
+      "streetAddressPlaceholder": "Entrez l'Adresse de la Rue",
+      "streetAddressRequired": "L'adresse de la rue est requise",
+      "roomHouseLabel": "Maison de la Chambre",
+      "roomHousePlaceholder": "Entrez la Maison de la Chambre",
+      "roomHouseRequired": "La maison de la chambre est requise",
+      "cityLabel": "Ville",
+      "cityPlaceholder": "Entrez la ville",
+      "cityRequired": "La ville est requise",
+      "countryLabel": "Pays",
+      "countryPlaceholder": "Entrez le pays",
+      "countryRequired": "Le pays est requis"
+    },
+    "modal": {
+      "title": "La commande a été passée avec succès !",
+      "btnText": "Continuer"
+    },
+    "unsuccessModal": {
+      "title": "Vous n'avez pas assez de points !",
+      "btnText": "Fermer"
+    }
+  }
+}

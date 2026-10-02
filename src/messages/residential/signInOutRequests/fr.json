@@ -1,0 +1,31 @@
+{
+  "signInOutRequests": {
+    "SignInOutRequests": {
+      "title": "Demandes d'Entrée/Sortie",
+      "welcomeTitle": "Bienvenue dans les Demandes d'Entrée/Sortie !",
+      "description": "Gérez et suivez toutes les demandes d'entrée et de sortie des visiteurs efficacement.",
+      "tabs": {
+        "all": "Toutes",
+        "pending": "En Attente",
+        "approved": "Approuvées",
+        "rejected": "Rejetées"
+      },
+      "requestHistory": "Historique des Demandes",
+      "tableHeaders": {
+        "date": "Date",
+        "type": "Type",
+        "visitor": "Visiteur",
+        "purpose": "Objectif",
+        "timeIn": "Heure d'Entrée",
+        "timeOut": "Heure de Sortie",
+        "status": "Statut",
+        "requestedBy": "Demandé Par",
+        "approvedBy": "Approuvé Par",
+        "accommodation": "Hébergement",
+        "checkIn": "Arrivée",
+        "checkOut": "Départ",
+        "currentlyCheckedIn": "Actuellement Checked In"
+      }
+    }
+  }
+}

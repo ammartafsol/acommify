@@ -1,0 +1,57 @@
+{
+  "maintenance": {
+    "maintenanceRequests": {
+      "toasts": {
+        "cancelSuccess": "تم إلغاء الطلب بنجاح!",
+        "updateSuccess": "تم تعديل الطلب بنجاح!",
+        "editNotAllowed": "يمكنك تعديل الطلبات ذات الحالة المعلقة فقط."
+      },
+      "title": "طلبات الصيانة",
+      "addNewRequest": "إضافة طلب جديد",
+
+      "requestForm": {
+        "modalEdit": "تعديل طلب الصيانة",
+        "modalTitle": "طلبات الصيانة",
+        "header": "نموذج إرسال الطلب",
+        "descriptionLabel": "الوصف:",
+        "descriptionPlaceholder": "اوصف مشكلة الخدمة...",
+        "typeLabel": "اختر نوع طلب الصيانة:",
+        "typePlaceholder": "السباكة",
+        "submitButton": "إرسال الطلب",
+        "cancelButton": "إلغاء",
+        "descriptionError": "الوصف مطلوب",
+        "typeError": "نوع الطلب مطلوب",
+        "mediaError": "ملفات الوسائط مطلوبة",
+        "mediaMaxError": "يمكنك رفع 3 ملفات فقط",
+        "fileDisplayName": "ملف طلب الصيانة"
+      },
+      "applications": {
+        "header": "الطلبات المرسلة"
+      },
+      "tabs": {
+        "all": "الكل",
+        "completed": "مكتمل",
+        "pending": "في الانتظار",
+        "approved": "موافق عليه",
+        "rejected": "مرفوض",
+        "escalated": "مرفوض"
+      },
+      "successModal": {
+        "title": "تم إرسال الطلب بنجاح!",
+        "btnText": "متابعة"
+      },
+      "table": {
+        "purpose": "الغرض",
+        "category": "الفئة",
+        "dateTime": "التاريخ والوقت",
+        "status": "الحالة",
+        "resolvedBy": "محلل بواسطة",
+        "comment": "تعليق"
+      },
+      "menuItems": {
+        "edit": "تعديل",
+        "delete": "حذف"
+      }
+    }
+  }
+}

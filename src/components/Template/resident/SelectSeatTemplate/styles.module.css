@@ -1,0 +1,483 @@
+.passengersList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.termsAndCondition {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.termsAndCondition{
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--Poor-white);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  border: 1px solid var(--Dark-blue) !important;
+}
+
+.termsAndCondition > p {
+  color: var(--text-primary);
+  font-family: var(--font-lato);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.confirmationButton {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.confirmBtn {
+  height: 60px !important;
+  border-radius: 15px !important;
+  width: 100% !important;
+}
+
+.buttonsFooter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttonsFooter button {
+  width: 100% !important;
+  height: 60px !important;
+  border-radius: 15px !important;
+}
+
+.trips {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.trips > p,
+.passengersList > p {
+  color: var(--text-primary);
+  font-family: var(--font-lato);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.passengersList > p {
+  font-weight: 500;
+}
+
+.bookingDescription > h2 {
+  color: var(--Black, #172a33);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.bookingContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 4px dashed rgba(186, 192, 199, 0.41);
+}
+
+.buttonFooter {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.container {
+  margin-block: 48px;
+}
+
+.main {
+  margin-top: 32px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.stepOneContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.stepOneContainer .left {
+  width: 100%;
+}
+
+.stepOneContainer .right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.barcode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.barcodeImg {
+  width: 295px;
+  height: 64px;
+  position: relative;
+}
+
+.barcodeImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.barcode p {
+  color: var(--Black);
+  text-align: center;
+  font-family: var(--font-lato);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.left {
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+  display: flex;
+  width: 70%;
+  border-radius: 20px;
+  height: max-content;
+  background: var(--Poor-white);
+}
+
+.leftTop {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.leftTop > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.leftTop > div p {
+  color: var(--Black);
+  font-family: var(--font-lato);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  /* 16.8px */
+}
+
+.leftContent {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.seatsMain {
+  /* width: 45%; */
+  /* max-width: 321px; */
+  border-radius: 12px;
+  border: 1px solid var(--outlined-border, #eef0eb);
+  background: var(--Poor-white);
+  display: inline-flex;
+  /* min-height: 648px; */
+  padding: 20px 21px;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+  gap: 12px;
+  flex-shrink: 0;
+  box-shadow: 0 9.628px 48.14px 0 rgba(139, 139, 139, 0.1);
+}
+
+.busCard {
+  width: 55%;
+}
+
+.right {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rightContent {
+  border-radius: 20px;
+  background: var(--Poor-white);
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  box-shadow: 0 9.628px 48.14px 0 rgba(139, 139, 139, 0.1);
+}
+
+.continueBtn {
+  height: 60px !important;
+  width: 100%;
+  min-width: 100%;
+  border-radius: 15px !important;
+}
+
+.timeRemaining {
+  display: flex;
+  height: 48px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  background: var(--danger-light);
+  align-self: stretch;
+}
+
+.timeRemaining p {
+  color: var(--Red);
+
+  font-family: var(--font-lato);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.confirmedText {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.confirmedText p:nth-of-type(1) {
+  color: var(--Black-color);
+  text-align: center;
+
+  font-family: var(--font-lato);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.confirmedText p:nth-of-type(2) {
+  color: var(--Dark-gray);
+  text-align: center;
+
+  font-family: var(--font-lato);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.calendarImg {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  border-radius: 100px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #f4f7fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendarImg > div {
+  width: 106px;
+  height: 106px;
+  aspect-ratio: 1/1;
+  position: relative;
+}
+
+.calendarImg > div img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.downloadButton,
+.cancelBtn {
+  height: 60px !important;
+  width: 100% !important;
+  border-radius: 15px !important;
+}
+
+.reminderBox {
+  background: var(--Poor-white);
+  border-radius: 20px;
+  padding-block: 28px 18px;
+  padding-inline: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  min-width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reminderTitle {
+  color: var(--Black);
+
+  font-family: var(--font-lato);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.slotHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.slotHeader > h2 {
+  color: var(--Black, #172a33);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.customInput {
+  margin-top: 2px;
+  padding: 8px 0 8px 0;
+  border: none;
+  border-bottom: 2px solid var(--Blue);
+  background: transparent;
+  font-size: 16px;
+  color: #8c939b;
+  outline: none;
+  font-family: var(--font-lato);
+}
+
+@media (max-width: 1280px) {
+  .left,
+  .right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .leftContent {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .leftContent {
+    flex-direction: column;
+  }
+
+  .seatsMain {
+    width: 100%;
+    max-width: unset;
+    justify-content: start;
+  }
+
+  .busCard {
+    width: 100%;
+  }
+
+  .container {
+    margin-block: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .rightContent {
+    background: none;
+    box-shadow: unset;
+    padding: 0;
+  }
+
+  .left {
+    background: none;
+    box-shadow: unset;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+
+    /* gap: 20px; */
+  }
+
+  .seatsMain {
+    background: none;
+    box-shadow: unset;
+    border: unset;
+    padding-top: 0px;
+  }
+
+  .container {
+    margin-block-start: 0px;
+  }
+}
+
+@media screen and (width < 600px) {
+  .right {
+    max-width: unset;
+    min-width: unset;
+    width: 100%;
+  }
+
+  .passengersList {
+    width: 100%;
+  }
+
+  .passengersList > div {
+    background-color: var(--Poor-white);
+  }
+
+  .seatsMain,
+  .leftTop {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 577px) {
+  .container {
+    margin-block: 75px;
+  }
+  .continueBtn{
+    min-width: 100% !important;
+  }
+}

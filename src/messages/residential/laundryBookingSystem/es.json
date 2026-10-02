@@ -1,0 +1,23 @@
+{
+  "laundryBookingPage": {
+    "title": "Reserva de Lavandería",
+    "bookingWarning": "La reserva no puede ser cancelada cuando quede 1 hora para la reserva.",
+    "selectMachine": "Seleccionar Máquina",
+    "selectMachinePlaceholder": "{loading, select, true {Cargando...} other {Seleccionar Máquina}}",
+    "selectedDate": "Fecha Seleccionada",
+    "selectDateMessage": "Por favor, selecciona una fecha para ver horarios disponibles",
+    "machineSelectMessage": "Por favor, selecciona una máquina para ver horarios disponibles",
+    "bookingSuccess": "¡Solicitud de reserva de lavandería enviada con éxito! Por favor, espera la aprobación.",
+    "reminder": "Establecer un recordatorio para tu horario de lavandería",
+    "reminders": {
+      "title": "Establecer un recordatorio para tu Reserva de Lavandería",
+      "reminderOptions": {
+        "15min": "15 minutos antes",
+        "30min": "30 minutos antes",
+        "1hour": "1 hora antes",
+        "custom": "Recordatorio Personalizado"
+      },
+      "customPlaceholderText": "Ingresa minutos (ej: 10)"
+    }
+  }
+}

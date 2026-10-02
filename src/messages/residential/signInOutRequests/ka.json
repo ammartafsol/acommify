@@ -1,0 +1,31 @@
+{
+  "signInOutRequests": {
+    "SignInOutRequests": {
+      "title": "შესვლის/გასვლის მოთხოვნები",
+      "welcomeTitle": "მოგესალმებით შესვლის/გასვლის მოთხოვნებში!",
+      "description": "მართეთ და აკონტროლეთ ყველა ვიზიტორის შესვლის და გასვლის მოთხოვნა ეფექტურად.",
+      "tabs": {
+        "all": "ყველა",
+        "pending": "მოლოდინში",
+        "approved": "დამტკიცებული",
+        "rejected": "უარყოფილი"
+      },
+      "requestHistory": "მოთხოვნების ისტორია",
+      "tableHeaders": {
+        "date": "თარიღი",
+        "type": "ტიპი",
+        "visitor": "ვიზიტორი",
+        "purpose": "მიზანი",
+        "timeIn": "შესვლის დრო",
+        "timeOut": "გასვლის დრო",
+        "status": "სტატუსი",
+        "requestedBy": "მოთხოვნილი",
+        "approvedBy": "დამტკიცებული",
+        "accommodation": "საცხოვრებელი",
+        "checkIn": "შესვლა",
+        "checkOut": "გასვლა",
+        "currentlyCheckedIn": "მიმდინარე შესვლა"
+      }
+    }
+  }
+}

@@ -1,0 +1,251 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.loginBox {
+  width: 100%;
+  max-width: 447px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--Poor-white);
+  border-radius: 50%;
+  min-width: 32px;
+  width: 32px;
+  height: 32px;
+}
+
+.header h1,
+.headerMain h1 {
+  color: var(--Black, #172a33);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header p {
+  color: var(--Black, #172a33);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inputGroup label {
+  color: var(--Black, #172a33);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 19.2px */
+}
+
+.inputGroup input {
+  width: 100%;
+  border-radius: 8px;
+  font-size: 14px;
+  border-radius: 25px;
+  background: var(--White, #f8fdff);
+  color: var(--Black) !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+}
+
+.inputGroup input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+}
+
+.inputGroup input::placeholder {
+  color: #999;
+}
+
+.submitBtn {
+  width: 100%;
+  height: 60px;
+  border-radius: 15px;
+}
+
+.submitBtn label {
+  color: var(--Poor-white, #fff);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 21.6px */
+}
+
+.otpContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.otpWrapper {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.otpInput {
+  border: 2px solid #e1e5e9 !important;
+  border-radius: 11px;
+  background: var(
+    --white-gradient,
+    linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0.61) 114.98%)
+  );
+  transition: border-color 0.2s !important;
+  display: flex;
+  min-width: 99px;
+  height: 92px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--Black, #172a33);
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.otpInput:focus {
+  outline: none !important;
+  border-color: #4a90e2 !important;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1) !important;
+}
+
+.separator {
+  width: 8px;
+  display: inline-block;
+}
+
+.error {
+  width: 100%;
+  text-align: left;
+  color: var(--Red);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.resendSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.codeButton {
+  text-align: right;
+  background: none;
+  border: none;
+  padding: 0px;
+  cursor: pointer;
+  color: var(--Blue, #33b5f6);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 21.6px */
+}
+
+.codeButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.responsiveNone,
+.responsiveheaderMain {
+  display: none;
+}
+.detailDesc {
+  text-align: center;
+  display: none;
+}
+
+.mobileLoginMain {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.loginBoxMiddle {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  width: 100%;
+}
+
+@media (max-width: 1025px) {
+  .responsiveheaderMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 992px) {
+  .headerMain {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .responsiveheader {
+    display: flex;
+    justify-content: space-between;
+  }
+  .detailDesc {
+    text-align: center;
+    display: block;
+  }
+  .submitBtn {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .otpInput {
+    width: 100% !important;
+    min-width: unset;
+  }
+
+  .headerMain h1 {
+    font-size: 20px;
+  }
+  .wrapper {
+    justify-content: start;
+  }
+}
+
+@media (max-width: 375px) {
+  .headerMain h1 {
+    font-size: 18px;
+  }
+}

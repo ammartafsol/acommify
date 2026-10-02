@@ -1,0 +1,22 @@
+{
+  "cartOverviewPage": {
+    "title": "نظرة عامة على السلة",
+    "cartSummary": "إجمالي السلة",
+    "totalItems": "إجمالي العناصر",
+    "totalPoints": "إجمالي النقاط",
+    "checkout": "الدفع",
+    "stockLimitReached": "تم الوصول إلى حد المخزون",
+    "noItemsInCart": "لا توجد عناصر في سلتك",
+    "stockIsZero": "المخزون هو 0",
+    "itemsStockIsZero": "العناصر التالية لديها مخزون 0",
+    "table": {
+      "header": {
+        "points": "النقاط",
+        "product": "المنتج",
+        "quantity": "الكمية",
+        "subtotal": "المجموع الفرعي",
+        "stocks": "المخزون"
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "userAgreementPage": {
+    "title": "Términos y Condiciones",
+    "tabs": {
+      "terms": "Términos y Condiciones",
+      "privacy": "Política de Privacidad",
+      "responsibility": "Responsabilidades del Usuario"
+    },
+    "checkbox": "He leído y acepto los Términos y Condiciones",
+    "button": "Aceptar y Continuar"
+  },
+  "loginPage": {
+    "title": "Iniciar Sesión",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Ingresa Email",
+    "emailError": "Por favor, ingresa una dirección de email válida",
+    "EmailRequired": "El email es obligatorio",
+    "emailInvalidChars": "El email contiene caracteres inválidos",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Ingresa Contraseña",
+    "passwordRequired": "La contraseña es obligatoria",
+    "forgotPass": "¿Olvidaste tu contraseña?",
+    "rememberMe": "Recordarme",
+    "loginButton": "Iniciar Sesión",
+    "newHere": "¿Nuevo aquí?",
+    "signUpLink": "Regístrate",
+    "residentIdPlaceholder": "123456",
+    "residentIdLabel": "ID del Residente"
+  },
+  "signUpPage": {
+    "title": "Registrarse",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Ingresa Nombre",
+    "nameRequired": "El nombre es obligatorio",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Ingresa Email",
+    "emailError": "Por favor, ingresa una dirección de email válida",
+    "emailRequired": "El email es obligatorio",
+    "emailInvalidChars": "El email contiene caracteres inválidos",
+    "codeLabel": "Autenticación de Dos Factores",
+    "codeSubLabel": "Ingresa el código de 6 dígitos enviado a tu email",
+    "codePlaceholder": "Código",
+    "codeRequired": "El código es obligatorio",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Ingresa Contraseña",
+    "passwordRequired": "La contraseña es obligatoria",
+    "minPasswordError": "Mín 8 caracteres",
+    "maxPasswordError": "Máx 20 caracteres",
+    "lowerPasswordError": "Agrega al menos una minúscula",
+    "upperPasswordError": "Agrega al menos una mayúscula",
+    "specialPasswordError": "Agrega al menos un carácter especial",
+    "confirmPasswordLabel": "Confirmar Contraseña",
+    "confirmPasswordPlaceholder": "Confirmar Contraseña",
+    "confirmPasswordRequired": "La contraseña es obligatoria",
+    "ConfirmPasswordError": "Las contraseñas no coinciden",
+    "signUpButton": "Registrarse",
+    "joinedUsBefore": "¿Ya te registraste antes?",
+    "signInLink": "Iniciar sesión",
+    "sendCode": "Enviar Código",
+    "resendCode": "Reenviar Código ({time, plural, =1 {# segundo} other {# segundos}})"
+  },
+  "forgotPasswordPage": {
+    "title": "Olvidé la Contraseña",
+    "subtitle": "¡No te preocupes! Sucede. Por favor, ingresa la dirección asociada con tu cuenta.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Ingresa Email",
+    "emailError": "Por favor, ingresa una dirección de email válida",
+    "emailRequired": "El email es obligatorio",
+    "emailInvalidChars": "El email contiene caracteres inválidos",
+    "submitButton": "Enviar",
+    "specialChars": "Sin caracteres especiales"
+  },
+  "verificationPage": {
+    "title": "Código de Verificación",
+    "subtitle": "Confirmar con Código",
+    "codeRequired": "El código es obligatorio",
+    "resendCode": "Reenviar Código {time, plural, =0 {} =1 {# segundo} other {# segundos}}",
+    "verifyButton": "Verificar"
+  },
+  "resetPasswordPage": {
+    "title": "Restablecer Contraseña",
+    "subtitle": "Ingresa tu nueva contraseña",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Ingresa Contraseña",
+    "passwordRequired": "La contraseña es obligatoria",
+    "minPasswordError": "Mín 8 caracteres",
+    "maxPasswordError": "Máx 20 caracteres",
+    "lowerPasswordError": "Agrega al menos una minúscula",
+    "upperPasswordError": "Agrega al menos una mayúscula",
+    "specialPasswordError": "Agrega al menos un carácter especial",
+    "confirmPasswordLabel": "Confirmar Contraseña",
+    "confirmPasswordPlaceholder": "Confirmar Contraseña",
+    "confirmPasswordRequired": "La contraseña es obligatoria",
+    "ConfirmPasswordError": "Las contraseñas no coinciden",
+    "submitButton": "Restablecer Contraseña",
+    "modal": {
+      "title": "¡Tu contraseña ha sido cambiada exitosamente!",
+      "btnText": "Continuar"
+    }
+  }
+}

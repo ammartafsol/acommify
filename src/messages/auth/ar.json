@@ -1,0 +1,101 @@
+{
+  "userAgreementPage": {
+    "title": "الشروط والأحكام",
+    "tabs": {
+      "terms": "الشروط والأحكام",
+      "privacy": "سياسة الخصوصية",
+      "responsibility": "مسؤوليات المستخدم"
+    },
+    "checkbox": "لقد قرأت ووافقت على الشروط والأحكام",
+    "button": "قبول والمتابعة"
+  },
+  "loginPage": {
+    "title": "تسجيل الدخول",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "أدخل البريد الإلكتروني",
+    "emailError": "يرجى إدخال عنوان بريد إلكتروني صحيح",
+    "EmailRequired": "البريد الإلكتروني مطلوب",
+    "emailInvalidChars": "البريد الإلكتروني يحتوي على أحرف غير صحيحة",
+    "passwordLabel": "كلمة المرور",
+    "passwordPlaceholder": "أدخل كلمة المرور",
+    "passwordRequired": "كلمة المرور مطلوبة",
+    "forgotPass": "نسيت كلمة المرور؟",
+    "rememberMe": "تذكرني",
+    "loginButton": "تسجيل الدخول",
+    "newHere": "جديد هنا؟",
+    "signUpLink": "إنشاء حساب",
+    "residentIdPlaceholder": "123456",
+    "residentIdLabel": "رقم هوية المقيم"
+  },
+  "signUpPage": {
+    "title": "إنشاء حساب",
+    "nameLabel": "الاسم",
+    "namePlaceholder": "أدخل الاسم",
+    "nameRequired": "الاسم مطلوب",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "أدخل البريد الإلكتروني",
+    "emailError": "يرجى إدخال عنوان بريد إلكتروني صحيح",
+    "emailRequired": "البريد الإلكتروني مطلوب",
+    "emailInvalidChars": "البريد الإلكتروني يحتوي على أحرف غير صحيحة",
+    "codeLabel": "المصادقة الثنائية",
+    "codeSubLabel": "أدخل الرمز المكون من 6 أرقام المرسل إلى بريدك الإلكتروني",
+    "codePlaceholder": "الرمز",
+    "codeRequired": "الرمز مطلوب",
+    "passwordLabel": "كلمة المرور",
+    "passwordPlaceholder": "أدخل كلمة المرور",
+    "passwordRequired": "كلمة المرور مطلوبة",
+    "minPasswordError": "الحد الأدنى 8 أحرف",
+    "maxPasswordError": "الحد الأقصى 20 حرف",
+    "lowerPasswordError": "أضف حرف صغير واحد على الأقل",
+    "upperPasswordError": "أضف حرف كبير واحد على الأقل",
+    "specialPasswordError": "أضف رمز خاص واحد على الأقل",
+    "confirmPasswordLabel": "تأكيد كلمة المرور",
+    "confirmPasswordPlaceholder": "تأكيد كلمة المرور",
+    "confirmPasswordRequired": "كلمة المرور مطلوبة",
+    "ConfirmPasswordError": "كلمات المرور غير متطابقة",
+    "signUpButton": "إنشاء حساب",
+    "joinedUsBefore": "انضممت إلينا من قبل؟",
+    "signInLink": "تسجيل الدخول",
+    "sendCode": "إرسال الرمز",
+    "resendCode": "إعادة إرسال الرمز ({time, plural, =1 {# ثانية} other {# ثانية}})"
+  },
+  "forgotPasswordPage": {
+    "title": "نسيت كلمة المرور",
+    "subtitle": "لا تقلق! هذا يحدث. يرجى إدخال العنوان المرتبط بحسابك.",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "أدخل البريد الإلكتروني",
+    "emailError": "يرجى إدخال عنوان بريد إلكتروني صحيح",
+    "emailRequired": "البريد الإلكتروني مطلوب",
+    "emailInvalidChars": "البريد الإلكتروني يحتوي على أحرف غير صحيحة",
+    "submitButton": "إرسال",
+    "specialChars": "لا توجد أحرف خاصة"
+  },
+  "verificationPage": {
+    "title": "رمز التحقق",
+    "subtitle": "تأكيد بالرمز",
+    "codeRequired": "الرمز مطلوب",
+    "resendCode": "إعادة إرسال الرمز {time, plural, =0 {} =1 {# ثانية} other {# ثانية}}",
+    "verifyButton": "تحقق"
+  },
+  "resetPasswordPage": {
+    "title": "إعادة تعيين كلمة المرور",
+    "subtitle": "أدخل كلمة المرور الجديدة",
+    "passwordLabel": "كلمة المرور",
+    "passwordPlaceholder": "أدخل كلمة المرور",
+    "passwordRequired": "كلمة المرور مطلوبة",
+    "minPasswordError": "الحد الأدنى 8 أحرف",
+    "maxPasswordError": "الحد الأقصى 20 حرف",
+    "lowerPasswordError": "أضف حرف صغير واحد على الأقل",
+    "upperPasswordError": "أضف حرف كبير واحد على الأقل",
+    "specialPasswordError": "أضف رمز خاص واحد على الأقل",
+    "confirmPasswordLabel": "تأكيد كلمة المرور",
+    "confirmPasswordPlaceholder": "تأكيد كلمة المرور",
+    "confirmPasswordRequired": "كلمة المرور مطلوبة",
+    "ConfirmPasswordError": "كلمات المرور غير متطابقة",
+    "submitButton": "إعادة تعيين كلمة المرور",
+    "modal": {
+      "title": "تم تغيير كلمة المرور بنجاح!",
+      "btnText": "متابعة"
+    }
+  }
+}

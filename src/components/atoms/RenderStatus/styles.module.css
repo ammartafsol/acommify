@@ -1,0 +1,65 @@
+.statusText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-inline: 10px;
+}
+
+.statusText p {
+  font-size: var(--fs12);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* Make SVG icons inherit the text color */
+.statusText svg {
+  fill: currentColor;
+}
+
+.statusText svg path {
+  fill: currentColor;
+}
+
+.statusText svg circle {
+  fill: currentColor;
+}
+
+.statusText svg rect {
+  fill: currentColor;
+}
+
+.inactive {
+  color: var(--error);
+}
+
+.upcomingEvents {
+  overflow: hidden;
+  color: #33b5f6;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.pending {
+  border-radius: 14px;
+  background: #FFF8DD;
+  display: flex;
+  width: 88px;
+  height: 22px;
+  padding: 3px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--Orange, #FAAB18);
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+
+}

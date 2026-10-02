@@ -1,0 +1,13 @@
+{
+  "notificationsPage": {
+    "activities": {
+      "upcomingActivities": "მომავალი აქტივობები",
+      "currentActivities": "აქ არის თქვენი მიმდინარე აქტივობები:",
+      "helpLine": "დახმარების ხაზი"
+    },
+    "title": "შეტყობინებები",
+    "markAllAsRead": "ყველა მონიშნეთ როგორც წაკითხული",
+    "noNotifications": "შეტყობინებები არ არის",
+    "reschedule": "გადაწერა"
+  }
+}

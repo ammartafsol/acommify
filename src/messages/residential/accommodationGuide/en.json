@@ -1,0 +1,20 @@
+{
+  "AccommodationGuidePage": {
+    "title": "Accommodation Guide",
+    "welcomeMessage": "Welcome to the Accommodation Guide!",
+    "WelcomeDescription": "This section is designed to provide you with all the information you need about the services available at our center. ",
+    "additionalResources": {
+      "title": "Additional Resources",
+      "download": "Downloadable",
+      "contact": "Contact Information"
+    },
+    "frequently": {
+      "title": "Frequently Asked Questions",
+      "tabs": {
+        "generalinquiries": "General Inquiries",
+        "visitorPolicies": "Visitor Policies",
+        "serviceInformation": "Service Information"
+      }
+    }
+  }
+}

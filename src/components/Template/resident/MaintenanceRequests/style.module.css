@@ -1,0 +1,104 @@
+.main {
+  margin-block: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.MaintenanceRequests {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.left {
+  display: flex;
+  width: 70%;
+  height: 654px;
+  padding: 20px 30px;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 20px;
+  background: var(--Poor-white);
+}
+.topHeaderMain [class*="header"] {
+  align-items: start !important;
+}
+.right {
+  display: flex;
+  padding: 20px;
+  width: 30%;
+  max-height: 387px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  border-radius: 20px;
+  background: var(--Poor-white, #fff);
+  box-shadow: 0 9.628px 48.14px 0 rgba(139, 139, 139, 0.1);
+  overflow: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.right::-webkit-scrollbar {
+  display: none;
+  /* WebKit */
+}
+
+.header {
+  padding-block: 14px;
+  color: var(--Black);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.Btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  background-color: red;
+}
+
+.Btn button {
+  width: 200px;
+  height: 48px;
+}
+
+.header2 {
+  color: var(--Black, #172a33);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.addButton {
+  white-space: nowrap;
+}
+@media (max-width: 768px) {
+  .main {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .addButton {
+    height: 44px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .addButton {
+    height: 44px !important;
+    width: 44px !important;
+    /* padding-inline: 12px; */
+    gap: 4px !important;
+  }
+}

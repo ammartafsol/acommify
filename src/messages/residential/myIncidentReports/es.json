@@ -1,0 +1,41 @@
+{
+  "myIncidentReports": {
+    "MyIncidentReports": {
+      "title": "Mis Reportes de Incidentes",
+      "tabs": {
+        "all": "Todos",
+        "resolved": "Resueltos",
+        "underReview": "En Revisión",
+        "escalated": "Escalados"
+      },
+      "tableHeaders": {
+        "incidentId": "ID del Incidente",
+        "title": "Título",
+        "description": "Descripción",
+        "severity": "Gravedad",
+        "dateTime": "Fecha y Hora",
+        "status": "Estado",
+        "consideredDate": "Fecha de Consideración",
+        "completedDate": "Fecha de Finalización"
+      },
+
+      "filterStatus": {
+        "low": "Baja",
+        "high": "Alta",
+        "medium": "Media",
+        "all": "Todas"
+      }
+    },
+    "IncidentReportViewModal": {
+      "title": "Detalles del Incidente",
+      "incidentId": "ID del Incidente:",
+      "incidentTitle": "Título del Incidente:",
+      "status": "Estado",
+      "severity": "Gravedad",
+      "description": "Descripción",
+      "dateTime": "Fecha y Hora",
+      "consideredDate": "Fecha de Consideración",
+      "completedDate": "Fecha de Finalización"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "busBooking": {
+    "title": "د بس حجز",
+    "availableBusesTitle": "شته بسونه",
+    "availableTitle": "د بس جدول",
+    "selectDate": "د شته بسونو د لیدو لپاره نیټه وټاکئ",
+    "myBooking": "زما حجز",
+    "availableBusesTabs": {
+      "morning": "سهار",
+      "afternoon": "ماسپښین",
+      "evening": "ماښام"
+    },
+
+    "selectSeat": {
+      "title": "څوکۍ وټاکئ",
+      "termsAgreement": "زه د ",
+      "termsAndConditions": "شرایطو او قوانینو سره موافقه لرم",
+      "frontDoor": "د باب پیشینه",
+      "driver": "د سائق",
+      "seats": {
+        "available": "شته",
+        "booked": "حجز شوی",
+        "selected": "ټاکل شوی"
+      },
+      "timeRemaining": "د امر پاتې وخت",
+      "continue": "دوام ورکړئ"
+    },
+    "bookingConfirmation": {
+      "title": "د حجز تصدیق",
+      "yourTrip": "ستاسو سفر",
+      "passengerList": "د مسافرو لست",
+      "termsAgreement": "زه د ",
+      "termsAndConditions": "شرایطو او قوانینو سره موافقه لرم",
+      "confirmBooking": "حجز تصدیق کړئ",
+      "cancelBooking": "حجز لغوه کړئ",
+      "rescheduleBooking": "حجز بیا تنظیم کړئ",
+      "reschedule": "بیا تنظیم کړئ ",
+      "successful": "ستاسو حجز بریالی و!",
+      "bookingConfirm": "حجز په بریالیتوب سره تصدیق شو"
+    },
+    "eTicket": {
+      "title": "E-ټکټ",
+      "yourTrip": "ستاسو سفر",
+      "passengerList": "د مسافرو لست",
+      "bookingConfirmed": "حجز تصدیق شو!",
+      "bookingCompleted": "حجز بشپړ شو!",
+      "bookingRejected": "حجز رد شو!",
+      "authenticationRequired": "د تصدیق اړتیا ده",
+      "bookingInformationNotAvailable": "د حجز معلومات شته نه دي",
+      "pdfFileEmpty": "PDF فایل خالي دی",
+      "pdfDownloadedSuccessfully": "PDF په بریالیتوب سره ډاونلوډ شو",
+      "bookingCancelled": "حجز لغوه شو!",
+      "bookingPending": "حجز په تمه کې دی!",
+      "descriptionPending": "ستاسو حجز په تمه کې دی! موږ به تاسو خبر کړو کله چې تصویب شي.",
+      "descriptionCompleted": "ستاسو حجز بشپړ شو! د زموږ د خدماتو د غوره کولو لپاره مننه.",
+      "descriptionRejected": "ستاسو حجز رد شو! د نورو معلوماتو لپاره د ملاتړ سره اړیکه ونیسئ.",
+      "descriptionCancelled": "ستاسو حجز لغوه شو! که پوښتنې لرئ، د ملاتړ سره اړیکه ونیسئ.",
+      "description": "ستاسو حجز تصدیق شو! موږ ژر ستاسو د لیدو تمه لرو.",
+      "name": "نوم",
+      "bookingCode": "د حجز کوډ",
+      "numberOfTicket": "شمیره",
+      "seat": "څوکۍ",
+      "IdNumber": "د پېژندنې شمیره",
+      "busName": "بس",
+      "duration": "موده",
+      "reminders": {
+        "title": "د خپل حجز لپاره یادښت وټاکئ",
+        "reminderOptions": {
+          "15min": "15 دقیقې وړاندې",
+          "30min": "30 دقیقې وړاندې",
+          "1hour": "1 ساعت وړاندې",
+          "custom": "ځانګړی یادښت"
+        },
+        "customPlaceholderText": "لکه: 10 دقیقې وړاندې"
+      },
+      "cancelBookingModal": {
+        "title": "حجز لغوه کړئ",
+        "description": "آیا تاسو ډاډه یاست چې غواړئ خپل حجز لغوه کړئ؟",
+        "btnText1": "تصدیق",
+        "btnText2": "لغوه کړئ",
+        "iconAlt": "د حجز لغوه کولو نښه"
+      },
+      "downloadBtnLabel": "E-ټکټ ډاونلوډ کړئ",
+      "cancelBooking": "حجز لغوه کړئ",
+      "cancelSuccess": "ستاسو حجز په بریالیتوب سره لغوه شو.",
+      "cancelError": "د حجز لغوه کول ناکام شول. بیا هڅه وکړئ."
+    }
+  }
+}

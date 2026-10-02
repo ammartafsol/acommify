@@ -1,0 +1,68 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--Poor-white);
+  border-bottom: 1px solid var(--outlined-border);
+  padding: 16px 0;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.logo {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.logoText {
+  font-family: var(--font-inter);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--Black);
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.loginBtn {
+  font-family: var(--font-inter);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--Black);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.loginBtn:hover {
+  background-color: var(--Background);
+  color: var(--Black);
+}
+
+@media (max-width: 576px) {
+  .logoText {
+    font-size: 18px;
+  }
+
+  .loginBtn {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+}

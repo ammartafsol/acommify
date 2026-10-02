@@ -1,0 +1,26 @@
+{
+  "LaundryBookingConfirmation": {
+    "title": "Booking na Wanki",
+    "confirmedTitle": "Booking na Wanki An Tabbata",
+    "cancelledTitle": "Booking na Wanki An Soke",
+    "completedTitle": "Booking na Wanki An Ƙare",
+    "rejectedTitle": "Booking na Wanki An Ƙi",
+    "pendingDescription": "Booking naku na wanki yana jira! Za mu sanar da ku da zarar an tabbata.",
+    "confirmedDescription": "Booking naku an tabbata! Muna fatan yi muku hidima nan da nan.",
+    "cancelledDescription": "Booking naku na wanki an soke.",
+    "completedDescription": "Booking naku na wanki an ƙare.",
+    "rejectedDescription": "Booking naku na wanki an ƙi.",
+    "pendingTitle": "Booking na Wanki A Jira",
+    "description": "Booking naku an tabbata! Muna fatan yi muku hidima nan da nan.",
+    "cancelBooking": "Soke Booking na Wanki",
+    "successful": "Booking naku na wanki ya yi nasara!",
+    "cancelSuccess": "Booking naku na wanki an soke cikin nasara.",
+    "CancelModal": {
+      "title": "Soke Booking na Wanki",
+      "description": "Ka tabbata cewa kana son soke booking naka na wanki?",
+      "btnText1": "A'a",
+      "btnText2": "E",
+      "iconAlt": "Soke"
+    }
+  }
+}

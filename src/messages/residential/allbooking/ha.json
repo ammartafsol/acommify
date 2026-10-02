@@ -1,0 +1,29 @@
+{
+  "allBooking": {
+    "title": "Bookings",
+    "welcomeTitle": "Barka da zuwa Bookings!",
+    "description": "Duba da sarrafa duk bookings naku a nan.",
+    "table": {
+      "title": "Bayanan Booking",
+      "purpose": "Manufa",
+      "dateTime": "Kwanan Wata da Lokaci",
+      "booking": "Booking",
+      "time": "Lokaci",
+      "category": "Rukuni",
+      "bookingDate": "Ranar Booking",
+      "status": "Matsayi"
+    },
+    "tabs": {
+      "all": "Duka",
+      "completed": "An Ƙare",
+      "pending": "A Jira",
+      "accepted": "An Karɓa",
+      "inprogress": "A Cikin Aiki",
+      "cancelled": "An Soke",
+      "rejected": "An Ƙi"
+    },
+    "menuItems": {
+      "cancel": "Soke"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "ordersPage": {
+    "Orders": {
+      "title": "Umarni",
+      "welcomeTitle": "Barka da zuwa Umarni!",
+      "description": "Duba da sarrafa umarninku a nan.",
+      "table": {
+        "title": "Bayanan Oda",
+        "orderID": "ID na Oda",
+        "orderName": "Sunan Oda",
+        "status": "Matsayi",
+        "totalPoints": "Maki Gabaɗaya",
+        "orderDate": "Ranar Oda"
+      }
+    },
+    "OrderDetails": {
+      "title": "Bayanan Oda",
+      "orderDetail": {
+        "orderId": "Oda",
+        "status": "Matsayin Oda",
+        "orderDate": "Ranar Oda",
+        "totalPoints": "Maki Gabaɗaya",
+        "userInfo": "Bayanan Mai Amfani",
+        "name": "Sunan",
+        "email": "Imel",
+        "phone": "Wayar",
+        "shippingInfo": "Bayanan Jigilar",
+        "address": "Adireshi",
+        "city": "Birni",
+        "country": "Ƙasa",
+        "summary": "Taƙaitaccen Oda",
+        "orderIdLabel": "ID na Oda",
+        "items": "Abubuwa",
+        "orderItem": "Abubuwan Oda"
+      },
+      "orderDetailsHeader": {
+        "product": "Samfur",
+        "category": "Rukuni",
+        "quantity": "Yawa",
+        "shippingType": "Nau'in Jigilar",
+        "totalPoints": "Jimlar",
+        "status": "Matsayi"
+      },
+      "completedStatusToast": "Matsayin abin oda an cika nasara"
+    }
+  }
+}
+

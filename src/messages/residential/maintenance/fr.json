@@ -1,0 +1,57 @@
+{
+  "maintenance": {
+    "maintenanceRequests": {
+      "toasts": {
+        "cancelSuccess": "La demande a été annulée avec succès !",
+        "updateSuccess": "La demande a été mise à jour avec succès !",
+        "editNotAllowed": "Vous ne pouvez modifier que les demandes avec le statut en attente."
+      },
+      "title": "Demandes de Maintenance",
+      "addNewRequest": "Ajouter une Nouvelle Demande",
+
+      "requestForm": {
+        "modalEdit": "Modifier la Demande de Maintenance",
+        "modalTitle": "Demandes de Maintenance",
+        "header": "Formulaire de Soumission de Demande",
+        "descriptionLabel": "Description :",
+        "descriptionPlaceholder": "Décrivez le problème du service...",
+        "typeLabel": "Sélectionnez le type de demande de maintenance :",
+        "typePlaceholder": "Plomberie",
+        "submitButton": "Soumettre la Demande",
+        "cancelButton": "Annuler",
+        "descriptionError": "La description est requise",
+        "typeError": "Le type de demande est requis",
+        "mediaError": "Les fichiers multimédias sont requis",
+        "mediaMaxError": "Vous pouvez télécharger jusqu'à 3 fichiers seulement",
+        "fileDisplayName": "Fichier de Demande de Maintenance"
+      },
+      "applications": {
+        "header": "Applications Soumises"
+      },
+      "tabs": {
+        "all": "Toutes",
+        "completed": "Terminées",
+        "pending": "En Attente",
+        "approved": "Approuvées",
+        "rejected": "Rejetées",
+        "escalated": "Escalées"
+      },
+      "successModal": {
+        "title": "La demande a été soumise avec succès !",
+        "btnText": "Continuer"
+      },
+      "table": {
+        "purpose": "Objectif",
+        "category": "Catégorie",
+        "dateTime": "Date et Heure",
+        "status": "Statut",
+        "resolvedBy": "Résolu par",
+        "comment": "Commentaire"
+      },
+      "menuItems": {
+        "edit": "Modifier",
+        "delete": "Supprimer"
+      }
+    }
+  }
+}

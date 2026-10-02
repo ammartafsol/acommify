@@ -1,0 +1,41 @@
+{
+  "myIncidentReports": {
+    "MyIncidentReports": {
+      "title": "Мої Звіти про Інциденти",
+      "tabs": {
+        "all": "Всі",
+        "resolved": "Вирішені",
+        "underReview": "На Розгляді",
+        "escalated": "Ескальовані"
+      },
+      "tableHeaders": {
+        "incidentId": "ID Інциденту",
+        "title": "Заголовок",
+        "description": "Опис",
+        "severity": "Серйозність",
+        "dateTime": "Дата та Час",
+        "status": "Статус",
+        "consideredDate": "Дата Розгляду",
+        "completedDate": "Дата Завершення"
+      },
+
+      "filterStatus": {
+        "low": "Низька",
+        "high": "Висока",
+        "medium": "Середня",
+        "all": "Всі"
+      }
+    },
+    "IncidentReportViewModal": {
+      "title": "Деталі Інциденту",
+      "incidentId": "ID Інциденту:",
+      "incidentTitle": "Заголовок Інциденту:",
+      "status": "Статус",
+      "severity": "Серйозність",
+      "description": "Опис",
+      "dateTime": "Дата та Час",
+      "consideredDate": "Дата Розгляду",
+      "completedDate": "Дата Завершення"
+    }
+  }
+}

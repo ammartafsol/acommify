@@ -1,0 +1,23 @@
+{
+  "dashboardPage": {
+    "welcome": "Barka da dawowa {name}",
+
+    "dashboardCards": {
+      "allBookings": "Duk Bookings",
+      "bookLaundry": "Yi Booking Wanki",
+      "bookBus": "Yi Booking Bas",
+      "bookAppointment": "Yi Booking Taro",
+      "visitorBooking": "Booking Baƙo",
+      "maintenanceRequests": "Bukatun Kulawa",
+      "documentCenter": "Cibiyar Takardu",
+      "signInOut": "Shiga/Fita"
+    },
+
+    "activities": {
+      "upcomingActivities": "Ayyukan da ke zuwa",
+      "currentActivities": "Ga ayyukan ku na yanzu:",
+      "helpLine": "Layin Taimako",
+      "reschedule": "Sake Tsara"
+    }
+  }
+}

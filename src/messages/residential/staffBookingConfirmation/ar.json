@@ -1,0 +1,37 @@
+{
+  "StaffBookingConfirmation": {
+    "title": "موعد الموظفين",
+    "confirmedTitle": "تم تأكيد موعد الموظفين",
+    "cancelledTitle": "تم إلغاء موعد الموظفين",
+    "completedTitle": "تم إكمال موعد الموظفين",
+    "rejectedTitle": "تم رفض موعد الموظفين",
+    "pendingDescription": "موعد الموظفين الخاص بك في الانتظار! سنخطرك بمجرد تأكيده.",
+    "confirmedDescription": "تم تأكيد موعدك! نتطلع لمقابلتك قريباً.",
+    "cancelledDescription": "تم إلغاء موعد الموظفين الخاص بك.",
+    "completedDescription": "تم إكمال موعد الموظفين الخاص بك بنجاح.",
+    "rejectedDescription": "تم رفض موعد الموظفين الخاص بك.",
+    "pendingTitle": "موعد الموظفين في الانتظار",
+    "description": "تم تأكيد موعدك! نتطلع لمقابلتك قريباً.",
+    "reminder": "تعيين تذكير لموعد الموظفين الخاص بك:",
+    "cancelBooking": "إلغاء موعد الموظفين",
+    "successful": "تم جدولة موعد الموظفين بنجاح!",
+    "cancelSuccess": "تم إلغاء موعد الموظفين بنجاح.",
+    "reminders": {
+      "title": "تعيين تذكير لموعد الموظفين الخاص بك",
+      "reminderOptions": {
+        "15min": "15 دقيقة قبل",
+        "30min": "30 دقيقة قبل",
+        "1hour": "ساعة واحدة قبل",
+        "custom": "تذكير مخصص"
+      },
+      "customPlaceholderText": "مثال: 10 دقائق قبل"
+    },
+    "CancelModal": {
+      "title": "إلغاء موعد الموظفين",
+      "description": "هل أنت متأكد من أنك تريد إلغاء موعد الموظفين؟",
+      "btnText1": "لا",
+      "btnText2": "نعم",
+      "iconAlt": "إلغاء"
+    }
+  }
+}

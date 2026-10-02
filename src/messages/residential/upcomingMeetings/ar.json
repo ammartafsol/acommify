@@ -1,0 +1,16 @@
+{
+  "upcomingMeetings": {
+    "title": "الاجتماعات القادمة",
+    "requestChange": "طلب تغيير",
+    "tabs": {
+      "all": "جميع الاجتماعات",
+      "confirmed": "مؤكدة",
+      "pending": "في الانتظار"
+    },
+    "filters": {
+      "recent": "الأحدث",
+      "starred": "المفضلة",
+      "archived": "المؤرشفة"
+    }
+  }
+}

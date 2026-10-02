@@ -1,0 +1,37 @@
+{
+  "StaffBookingConfirmation": {
+    "title": "Taro na Ma'aikata",
+    "confirmedTitle": "Taro na Ma'aikata An Tabbata",
+    "cancelledTitle": "Taro na Ma'aikata An Soke",
+    "completedTitle": "Taro na Ma'aikata An Ƙare",
+    "rejectedTitle": "Taro na Ma'aikata An Ƙi",
+    "pendingDescription": "Taron ku na ma'aikata yana jira! Za mu sanar da ku da zarar an tabbata.",
+    "confirmedDescription": "Taron ku an tabbata! Muna fatan saduwa da ku nan da nan.",
+    "cancelledDescription": "Taron ku na ma'aikata an soke.",
+    "completedDescription": "Taron ku na ma'aikata an ƙare cikin nasara.",
+    "rejectedDescription": "Taron ku na ma'aikata an ƙi.",
+    "pendingTitle": "Taro na Ma'aikata A Jira",
+    "description": "Taron ku an tabbata! Muna fatan saduwa da ku nan da nan.",
+    "reminder": "Saita tunatarwa don taron ku na ma'aikata:",
+    "cancelBooking": "Soke Taro na Ma'aikata",
+    "successful": "Taron ku na ma'aikata an yi booking cikin nasara!",
+    "cancelSuccess": "Taron ku na ma'aikata an soke cikin nasara.",
+    "reminders": {
+      "title": "Saita tunatarwa don Taron ku na Ma'aikata",
+      "reminderOptions": {
+        "15min": "Mintuna 15 kafin",
+        "30min": "Mintuna 30 kafin",
+        "1hour": "Awa 1 kafin",
+        "custom": "Tunatarwa na Musamman"
+      },
+      "customPlaceholderText": "misali: mintuna 10 kafin"
+    },
+    "CancelModal": {
+      "title": "Soke Taro na Ma'aikata",
+      "description": "Ka tabbata cewa kana son soke taron ku na ma'aikata?",
+      "btnText1": "A'a",
+      "btnText2": "E",
+      "iconAlt": "Soke"
+    }
+  }
+}

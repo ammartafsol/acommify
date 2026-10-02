@@ -1,0 +1,105 @@
+{
+  "personalProfilePage": {
+    "personalProfile": {
+      "title": "Personal Profile",
+      "welcomeTitle": "Welcome to your Personal Profile!",
+      "welcomeDescription": "Here, you can review and update your essential information to ensure it's always current.",
+      "familyMembers": "Family Members",
+      "preferredLanguage": "Preferred Language",
+      "selectLanguage": "Select Language",
+      "generalInformation": "General Information",
+      "viewIncident": "Your Incident Reports"
+    },
+
+    "form": {
+      "errors": {
+        "required": "{field} is required",
+        "invalidEmail": "Please provide a valid email address",
+        "invalid": "Invalid {field}"
+      },
+      "labels": {
+        "fullName": "Full Name",
+        "residentIdNumber": "Resident ID Number",
+        "houseNumber": "House Number",
+        "phoneNumber": "Phone Number",
+        "email": "Email Address",
+        "familyMemberFullName": "Family Member Full Name",
+        "relationship": "Relationship",
+        "trcNumber": "TRC Number",
+        "dob": "Date of Birth",
+        "age": "Age",
+        "saveChanges": "Save Changes",
+        "editProfile": "Edit Profile",
+        "schoolName": "School Name",
+        "schoolPlacement": "School Placement",
+        "transportType": "Transport Type",
+        "books": "Books",
+        "year": "Year",
+        "gender": "Gender"
+      },
+      "placeholders": {
+        "fullName": "Enter your full name",
+        "dob": "Enter your date of birth",
+        "residentIdNumber": "Enter your resident ID number",
+        "houseNumber": "Enter your house number/unit",
+        "phoneNumber": "Enter your phone number",
+        "trcNumber": "Enter your TRC number",
+        "email": "Enter your email address",
+        "familyMemberFullName": "Enter your family member's full name",
+        "relationship": "Enter your relationship to the family member",
+        "age": "Enter the age of the family member",
+        "schoolName": "Enter the name of the school",
+        "schoolGrade": "Enter the grade of the school",
+        "dobPlaceholder": "MM/DD/YYYY",
+        "schoolPlacement": "Select school placement",
+        "transportType": "Select transport type",
+        "year": "Enter the year",
+        "books": "Enter book name",
+        "gender": "Select gender"
+      }
+    },
+
+    "genderOptions": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+
+    "relationshipOptions": {
+      "father": "Father",
+      "mother": "Mother",
+      "sibling": "Sibling",
+      "spouse": "Spouse",
+      "children": "Children"
+    },
+    "schoolPlacementOptions": {
+      "placed": "Placed",
+      "notPlaced": "Not Placed"
+    },
+    "transportTypeOptions": {
+      "bus": "Bus",
+      "carpool": "Carpool",
+      "family": "Family"
+    },
+    "toasts": {
+      "updateSuccess": "Profile updated successfully"
+    },
+    "fullName": {
+      "required": "Full name is required"
+    },
+    "schoolName": {
+      "required": "School name is required"
+    },
+    "familyMemberErrors": {
+      "relationshipRequired": "Relationship is required",
+      "dobRequired": "Date of Birth is required",
+      "ageAtLeast18": "Age must be at least 18 years old",
+      "schoolPlacementRequired": "School placement is required",
+      "yearRequired": "Year is required",
+      "transportTypeRequired": "Transport type is required",
+      "booksMinRequired": "At least one book is required",
+      "trcNumberRequired": "TRC number is required",
+      "genderRequired": "Gender is required"
+    }
+  }
+}

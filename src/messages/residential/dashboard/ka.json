@@ -1,0 +1,23 @@
+{
+  "dashboardPage": {
+    "welcome": "კეთილი იყოს თქვენი დაბრუნება {name}",
+
+    "dashboardCards": {
+      "allBookings": "ყველა დაჯავშნა",
+      "bookLaundry": "საბანკო ბუღალტერია",
+      "bookBus": "ავტობუსის დაჯავშნა",
+      "bookAppointment": "შეხვედრის დაჯავშნა",
+      "visitorBooking": "ვიზიტორის დაჯავშნა",
+      "maintenanceRequests": "მოვლის მოთხოვნები",
+      "documentCenter": "დოკუმენტების ცენტრი",
+      "signInOut": "შესვლა/გასვლა"
+    },
+
+    "activities": {
+      "upcomingActivities": "მომავალი აქტივობები",
+      "currentActivities": "აქ არის თქვენი მიმდინარე აქტივობები:",
+      "helpLine": "დახმარების ხაზი",
+      "reschedule": "გადაწერა"
+    }
+  }
+}

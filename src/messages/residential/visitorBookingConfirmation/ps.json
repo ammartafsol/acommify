@@ -1,0 +1,37 @@
+{
+  "VisitorBookingConfirmation": {
+    "title": "د لیدونکي د حجز تصدیق",
+    "confirmedTitle": "د لیدونکي حجز تصدیق شو",
+    "cancelledTitle": "د لیدونکي حجز لغوه شو",
+    "completedTitle": "د لیدونکي حجز بشپړ شو",
+    "rejectedTitle": "د لیدونکي حجز رد شو",
+    "pendingDescription": "ستاسو د لیدونکي حجز په تمه کې دی! موږ به تاسو خبر کړو کله چې تصویب شي.",
+    "confirmedDescription": "ستاسو حجز تصدیق شو! موږ ژر ستاسو سره د لیدو تمه لرو.",
+    "cancelledDescription": "ستاسو د لیدونکي حجز لغوه شو.",
+    "completedDescription": "ستاسو د لیدونکي حجز په بریالیتوب سره بشپړ شو.",
+    "rejectedDescription": "ستاسو د لیدونکي حجز رد شو.",
+    "pendingTitle": "د لیدونکي حجز په تمه کې",
+    "description": "ستاسو حجز تصدیق شو! موږ ژر ستاسو سره د لیدو تمه لرو.",
+    "reminder": "د خپل د لیدونکي حجز لپاره یادښت وټاکئ:",
+    "cancelBooking": "د لیدونکي حجز لغوه کړئ",
+    "successful": "ستاسو د لیدونکي حجز په بریالیتوب سره تنظیم شو!",
+    "cancelSuccess": "ستاسو د لیدونکي حجز په بریالیتوب سره لغوه شو.",
+    "reminders": {
+      "title": "د خپل د لیدونکي حجز لپاره یادښت وټاکئ",
+      "reminderOptions": {
+        "15min": "15 دقیقې وړاندې",
+        "30min": "30 دقیقې وړاندې",
+        "1hour": "1 ساعت وړاندې",
+        "custom": "ځانګړی یادښت"
+      },
+      "customPlaceholderText": "لکه: 10 دقیقې وړاندې"
+    },
+    "CancelModal": {
+      "title": "د لیدونکي حجز لغوه کړئ",
+      "description": "تاسو ډاډه یاست چې غواړئ د لیدونکي حجز لغوه کړئ؟",
+      "btnText1": "نه",
+      "btnText2": "هو",
+      "iconAlt": "لغوه کړئ"
+    }
+  }
+}

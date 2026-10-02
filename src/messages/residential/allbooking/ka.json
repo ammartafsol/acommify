@@ -1,0 +1,29 @@
+{
+  "allBooking": {
+    "title": "დაჯავშნები",
+    "welcomeTitle": "მოგესალმებით დაჯავშნებში!",
+    "description": "ნახეთ და მართეთ თქვენი ყველა დაჯავშნა აქ.",
+    "table": {
+      "title": "დაჯავშნის დეტალები",
+      "purpose": "მიზანი",
+      "dateTime": "თარიღი და დრო",
+      "booking": "დაჯავშნა",
+      "time": "დრო",
+      "category": "კატეგორია",
+      "bookingDate": "დაჯავშნის თარიღი",
+      "status": "სტატუსი"
+    },
+    "tabs": {
+      "all": "ყველა",
+      "completed": "დასრულებული",
+      "pending": "მოლოდინში",
+      "accepted": "მიღებული",
+      "inprogress": "მიმდინარე",
+      "cancelled": "გაუქმებული",
+      "rejected": "უარყოფილი"
+    },
+    "menuItems": {
+      "cancel": "გაუქმება"
+    }
+  }
+}

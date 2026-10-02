@@ -1,0 +1,31 @@
+{
+  "signInOutRequests": {
+    "SignInOutRequests": {
+      "title": "Bukatun Shiga/Fita",
+      "welcomeTitle": "Barka da zuwa Bukatun Shiga/Fita!",
+      "description": "Sarrafa da bin diddigin duk bukatun shiga da fita na baƙi cikin inganci.",
+      "tabs": {
+        "all": "Duka",
+        "pending": "A Jira",
+        "approved": "An Amince",
+        "rejected": "An Ƙi"
+      },
+      "requestHistory": "Tarihin Bukata",
+      "tableHeaders": {
+        "date": "Kwanan wata",
+        "type": "Nau'i",
+        "visitor": "Baƙo",
+        "purpose": "Manufa",
+        "timeIn": "Lokacin Shiga",
+        "timeOut": "Lokacin Fita",
+        "status": "Matsayi",
+        "requestedBy": "An Bukata",
+        "approvedBy": "An Amince",
+        "accommodation": "Masauki",
+        "checkIn": "Shiga",
+        "checkOut": "Fita",
+        "currentlyCheckedIn": "Bukatun Shiga/Fita"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "LaundryBookingConfirmation": {
+    "title": "حجز المغسلة",
+    "confirmedTitle": "تم تأكيد حجز المغسلة",
+    "cancelledTitle": "تم إلغاء حجز المغسلة",
+    "completedTitle": "تم إكمال حجز المغسلة",
+    "rejectedTitle": "تم رفض حجز المغسلة",
+    "pendingDescription": "حجز المغسلة الخاص بك في الانتظار! سنخطرك بمجرد تأكيده.",
+    "confirmedDescription": "تم تأكيد حجزك! نتطلع لخدمتك قريباً.",
+    "cancelledDescription": "تم إلغاء حجز المغسلة الخاص بك.",
+    "completedDescription": "تم إكمال حجز المغسلة الخاص بك.",
+    "rejectedDescription": "تم رفض حجز المغسلة الخاص بك.",
+    "pendingTitle": "حجز المغسلة في الانتظار",
+    "description": "تم تأكيد حجزك! نتطلع لخدمتك قريباً.",
+    "cancelBooking": "إلغاء حجز المغسلة",
+    "successful": "تم حجز المغسلة بنجاح!",
+    "cancelSuccess": "تم إلغاء حجز المغسلة بنجاح.",
+    "CancelModal": {
+      "title": "إلغاء حجز المغسلة",
+      "description": "هل أنت متأكد من أنك تريد إلغاء حجز المغسلة؟",
+      "btnText1": "لا",
+      "btnText2": "نعم",
+      "iconAlt": "إلغاء"
+    }
+  }
+}

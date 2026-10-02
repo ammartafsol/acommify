@@ -1,0 +1,29 @@
+{
+  "allBooking": {
+    "title": "حجوزات",
+    "welcomeTitle": "د حجوزاتو ته ښه راغلاست!",
+    "description": "دلته خپل ټول حجوزات وګورئ او اداره کړئ.",
+    "table": {
+      "title": "د حجز جزئیات",
+      "purpose": "هدف",
+      "dateTime": "نیټه او وخت",
+      "booking": "حجز",
+      "time": "وخت",
+      "category": "کټګوري",
+      "bookingDate": "د حجز نیټه",
+      "status": "حالت"
+    },
+    "tabs": {
+      "all": "ټول",
+      "completed": "بشپړ شوی",
+      "pending": "په تمه کې",
+      "accepted": "منل شوی",
+      "inprogress": "پرمختګ کې",
+      "cancelled": "لغوه شوی",
+      "rejected": "رد شوی"
+    },
+    "menuItems": {
+      "cancel": "لغوه کړئ"
+    }
+  }
+}

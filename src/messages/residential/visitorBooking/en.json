@@ -1,0 +1,59 @@
+{
+  "visitors": {
+    "selectAccommodation": "Select Accommodation",
+    "selectAccommodationPlaceholder": "Choose an accommodation",
+    "accommodationSelectMessage": "Please select an accommodation to proceed",
+    "selectDateMessage": "Please select a date to view available time slots",
+    "selectedDate": "Selected Date",
+    "selectDuration": "Select Duration",
+    "durations": {
+      "1hour": "1 Hour",
+      "2hour": "2 Hours"
+    },
+    "bookingSuccess": "Visitor booking request submitted successfully! Please wait for approval.",
+    "reminder": "Set a reminder for your visitor booking",
+    "reminders": {
+      "reminderOptions": {
+        "15min": "15 minutes before",
+        "30min": "30 minutes before",
+        "1hour": "1 hour before",
+        "custom": "Custom Reminder"
+      },
+      "customPlaceholderText": "Enter minutes (e.g., 10)"
+    },
+    "VisitorBooking": {
+      "title": "Visitor Booking",
+      "bookingWarning": "Booking cannot be cancelled when 1 hour will be left on the bookings."
+    },
+    "modal": {
+      "inputLabels": {
+        "nameLabel": "Visitor's Name",
+        "relationshipLabel": "Relationship to Resident",
+        "dateLabel": "Preferred Date",
+        "startTimeLabel": "Start Time",
+        "endTimeLabel": "End Time",
+        "timeLabel": "Preferred Time",
+        "notesLabel": "Additional Notes"
+      },
+      "placeholders": {
+        "namePlaceholder": "Enter Visitor Name",
+        "notesPlaceholder": "Enter Additional Notes here"
+      },
+      "header": "Booking Form",
+      "btns": {
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "rules": "Visitor Rules",
+        "upcomingVisits": "Upcoming Visits"
+      },
+      "relationshipStatus": {
+        "Self": "Self",
+        "Father": "Father",
+        "Mother": "Mother",
+        "Sibling": "Sibling",
+        "Spouse": "Spouse",
+        "Children": "Children"
+      }
+    }
+  }
+}

@@ -1,0 +1,159 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.labelText {
+  color: var(--label);
+  font-family: var(--font-segoe) !important;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.noBorder {
+  border: none;
+}
+
+.inputContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: 1px solid var(--border);
+  background-color: var(--white);
+  border-radius: 12px;
+}
+
+.inputContainer > div {
+  width: 100%;
+}
+
+.inputContainer div[class*="day--selected"] {
+  background-color: var(--primary);
+}
+
+.inputContainer div[class*="day--keyboard-selected"] {
+  background-color: var(--white);
+}
+
+.inputContainer div[class*="header"] {
+  background-color: var(--primary);
+}
+
+.inputContainer div[class*="header"] * {
+  color: var(--white) !important;
+}
+
+.inputContainer div[class*="input-container"] button {
+  padding-inline-end: 16px;
+}
+
+.inputContainer div[class*="input-container"] svg {
+  width: 24px;
+  height: 24px;
+}
+
+.inputContainer div[class*="input-container"] {
+  display: flex;
+  align-items: center;
+  padding-inline-start: 10px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.inputContainer input {
+  width: 100%;
+  flex: 1;
+  font-size: 14px;
+  color: var(--black);
+  font-family: var(--font-segoe);
+  border-radius: inherit;
+  font-weight: 500;
+}
+
+.inputContainer input:disabled {
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+.inputContainer input::placeholder {
+  color: var(--gray-v1);
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: var(--font-segoe);
+  font-weight: 500;
+}
+
+.inputClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 40px !important;
+  width: 100%;
+  height: 55px;
+  border: none;
+}
+
+.errorText {
+  font-family: var(--font-segoe);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--error);
+}
+
+.leftIconBox {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  bottom: 45%;
+  transform: translateY(-50%);
+  height: max-content;
+}
+
+.rightIconBox {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  bottom: 45%;
+  transform: translateY(-50%);
+  height: max-content;
+}
+
+.inputClass ::-webkit-outer-spin-button,
+.inputClass ::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputClass:focus {
+  outline: none;
+}
+/*  Firefox  */
+.inputClass[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+@media (max-width: 991px) {
+  .labelText {
+    font-size: 14px;
+  }
+  .inputContainer input {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .labelText {
+    font-size: 12px;
+  }
+
+  .inputContainer input {
+    font-size: 11px;
+  }
+
+  .inputClass {
+    padding: 12px 8px;
+  }
+}

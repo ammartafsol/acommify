@@ -1,0 +1,51 @@
+.main {
+  margin-top: 48px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.searchInput {
+  max-width: 368px;
+}
+
+.notificationCards {
+  display: flex;
+  padding: 30px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 20px;
+  background: var(--Poor-white);
+}
+
+.rightIconNo > [class*="rightIconBox"] {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .main {
+    margin-top: 30px;
+  }
+  .content {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .notificationCards {
+    padding: 16px 12px;
+    width: 100%;
+    /* background: transparent; */
+  }
+  .searchInput {
+    width: 100%;
+    max-width: unset;
+  }
+}

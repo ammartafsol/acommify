@@ -1,0 +1,29 @@
+{
+  "allBooking": {
+    "title": "Бронювання",
+    "welcomeTitle": "Ласкаво просимо до Бронювань!",
+    "description": "Переглядайте та керуйте всіма своїми бронюваннями тут.",
+    "table": {
+      "title": "Деталі бронювання",
+      "purpose": "Мета",
+      "dateTime": "Дата та Час",
+      "booking": "Бронювання",
+      "time": "Час",
+      "category": "Категорія",
+      "bookingDate": "Дата бронювання",
+      "status": "Статус"
+    },
+    "tabs": {
+      "all": "Всі",
+      "completed": "Завершені",
+      "pending": "В очікуванні",
+      "accepted": "Прийняті",
+      "inprogress": "В процесі",
+      "cancelled": "Скасовані",
+      "rejected": "Відхилені"
+    },
+    "menuItems": {
+      "cancel": "Скасувати"
+    }
+  }
+}

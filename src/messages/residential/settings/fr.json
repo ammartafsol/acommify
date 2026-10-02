@@ -1,0 +1,40 @@
+{
+  "settingsPage": {
+    "settings": {
+      "title": "Paramètres",
+      "logout": "Déconnexion"
+    },
+    "tabs": {
+      "account": "Compte",
+      "changePassword": "Changer le Mot de Passe",
+      "pointsWallet": "Portefeuille de Points",
+      "notifications": "Notifications",
+      "privacyPolicy": "Politique de Confidentialité",
+      "help": "Aide",
+      "logout": "Déconnexion",
+      "orders": "Commandes"
+    },
+    "pointsWallet": {
+      "title": "Portefeuille de Points",
+      "currentBalance": "Solde Actuel :",
+      "pointsHistory": "Historique des Points",
+      "points": "Points",
+      "spendingPoints": "Dépenser des Points",
+      "shopNow": "Acheter Maintenant",
+      "availableItems": "Articles/Services Disponibles"
+    },
+    "helpLine": {
+      "title": "Ligne d'Aide",
+      "welcomeText": "Bienvenue sur la Ligne d'Aide",
+      "description": "Si vous avez besoin d'assistance, nos lignes de support sont disponibles pour vous aider. Veuillez trouver la ligne d'aide appropriée ci-dessous en fonction de vos besoins."
+    },
+    "toasts": {
+      "checkedInSuccessfully": "Connexion réussie",
+      "checkedOutSuccessfully": "Déconnexion réussie"
+    },
+    "btnLabels": {
+      "signIn": "Se Connecter",
+      "signOut": "Se Déconnecter"
+    }
+  }
+}

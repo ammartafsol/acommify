@@ -1,0 +1,37 @@
+{
+  "VisitorBookingConfirmation": {
+    "title": "Tabbatar da Booking na Baƙo",
+    "confirmedTitle": "Booking na Baƙo An Tabbata",
+    "cancelledTitle": "Booking na Baƙo An Soke",
+    "completedTitle": "Booking na Baƙo An Ƙare",
+    "rejectedTitle": "Booking na Baƙo An Ƙi",
+    "pendingDescription": "Booking naku na baƙo yana jira! Za mu sanar da ku da zarar an tabbata.",
+    "confirmedDescription": "Booking naku an tabbata! Muna fatan saduwa da ku nan da nan.",
+    "cancelledDescription": "Booking naku na baƙo an soke.",
+    "completedDescription": "Booking naku na baƙo an ƙare cikin nasara.",
+    "rejectedDescription": "Booking naku na baƙo an ƙi.",
+    "pendingTitle": "Booking na Baƙo A Jira",
+    "description": "Booking naku an tabbata! Muna fatan saduwa da ku nan da nan.",
+    "reminder": "Saita tunatarwa don booking naku na baƙo:",
+    "cancelBooking": "Soke Booking na Baƙo",
+    "successful": "Booking naku na baƙo an yi booking cikin nasara!",
+    "cancelSuccess": "Booking naku na baƙo an soke cikin nasara.",
+    "reminders": {
+      "title": "Saita tunatarwa don Booking naku na Baƙo",
+      "reminderOptions": {
+        "15min": "Mintuna 15 kafin",
+        "30min": "Mintuna 30 kafin",
+        "1hour": "Awa 1 kafin",
+        "custom": "Tunatarwa na Musamman"
+      },
+      "customPlaceholderText": "misali: mintuna 10 kafin"
+    },
+    "CancelModal": {
+      "title": "Soke Booking na Baƙo",
+      "description": "Ka tabbata cewa kana son soke booking naku na baƙo?",
+      "btnText1": "A'a",
+      "btnText2": "E",
+      "iconAlt": "Soke"
+    }
+  }
+}

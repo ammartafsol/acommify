@@ -1,0 +1,37 @@
+{
+  "VisitorBookingConfirmation": {
+    "title": "Confirmation de Réservation de Visiteur",
+    "confirmedTitle": "Réservation de Visiteur Confirmée",
+    "cancelledTitle": "Réservation de Visiteur Annulée",
+    "completedTitle": "Réservation de Visiteur Terminée",
+    "rejectedTitle": "Réservation de Visiteur Rejetée",
+    "pendingDescription": "Votre réservation de visiteur est en attente ! Nous vous notifierons une fois qu'elle sera confirmée.",
+    "confirmedDescription": "Votre réservation est confirmée ! Nous avons hâte de vous rencontrer bientôt.",
+    "cancelledDescription": "Votre réservation de visiteur a été annulée.",
+    "completedDescription": "Votre réservation de visiteur a été terminée avec succès.",
+    "rejectedDescription": "Votre réservation de visiteur a été rejetée.",
+    "pendingTitle": "Réservation de Visiteur en Attente",
+    "description": "Votre réservation est confirmée ! Nous avons hâte de vous rencontrer bientôt.",
+    "reminder": "Définir un rappel pour votre réservation de visiteur :",
+    "cancelBooking": "Annuler la Réservation de Visiteur",
+    "successful": "Votre réservation de visiteur a été programmée avec succès !",
+    "cancelSuccess": "Votre réservation de visiteur a été annulée avec succès.",
+    "reminders": {
+      "title": "Définir un rappel pour votre Réservation de Visiteur",
+      "reminderOptions": {
+        "15min": "15 minutes avant",
+        "30min": "30 minutes avant",
+        "1hour": "1 heure avant",
+        "custom": "Rappel Personnalisé"
+      },
+      "customPlaceholderText": "ex: 10 minutes avant"
+    },
+    "CancelModal": {
+      "title": "Annuler la Réservation de Visiteur",
+      "description": "Êtes-vous sûr de vouloir annuler votre réservation de visiteur ?",
+      "btnText1": "Non",
+      "btnText2": "Oui",
+      "iconAlt": "Annuler"
+    }
+  }
+}

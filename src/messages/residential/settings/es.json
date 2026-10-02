@@ -1,0 +1,40 @@
+{
+  "settingsPage": {
+    "settings": {
+      "title": "Configuraciones",
+      "logout": "Cerrar Sesión"
+    },
+    "tabs": {
+      "account": "Cuenta",
+      "changePassword": "Cambiar Contraseña",
+      "pointsWallet": "Cartera de Puntos",
+      "notifications": "Notificaciones",
+      "privacyPolicy": "Política de Privacidad",
+      "help": "Ayuda",
+      "logout": "Cerrar Sesión",
+      "orders": "Pedidos"
+    },
+    "pointsWallet": {
+      "title": "Cartera de Puntos",
+      "currentBalance": "Saldo Actual:",
+      "pointsHistory": "Historial de Puntos",
+      "points": "Puntos",
+      "spendingPoints": "Gastando Puntos",
+      "shopNow": "Comprar Ahora",
+      "availableItems": "Artículos/Servicios Disponibles"
+    },
+    "helpLine": {
+      "title": "Línea de Ayuda",
+      "welcomeText": "Bienvenido a la Línea de Ayuda",
+      "description": "Si necesitas asistencia, nuestras líneas de soporte están disponibles para ayudarte. Por favor, encuentra la línea de ayuda apropiada abajo basada en tus necesidades."
+    },
+    "toasts": {
+      "checkedInSuccessfully": "Inicio de sesión exitoso",
+      "checkedOutSuccessfully": "Cierre de sesión exitoso"
+    },
+    "btnLabels": {
+      "signIn": "Iniciar Sesión",
+      "signOut": "Cerrar Sesión"
+    }
+  }
+}

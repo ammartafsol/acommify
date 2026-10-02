@@ -1,0 +1,37 @@
+{
+  "checkoutPage": {
+    "title": "Tsarin Siyayya",
+    "orderSummary": "Taƙaitaccen Umarni",
+    "totalItems": "Jimlar Abubuwa",
+    "totalPoints": "Jimlar Maki",
+    "confirm": "Tabbatar",
+    "orderPlacedSuccess": "Umarni an yi nasara!",
+    "wallet": "Jakunkuna",
+    "orderDetails": {
+      "title": "Cikakkun Umarni",
+      "fullNameLabel": "Cikakken Suna",
+      "fullNamePlaceholder": "Ahmad Musa",
+      "fullNameRequired": "Cikakken suna ya wajaba",
+      "streetAddressLabel": "Adireshin Titin",
+      "streetAddressPlaceholder": "Shigar da Adireshin Titin",
+      "streetAddressRequired": "Adireshin titin ya wajaba",
+      "roomHouseLabel": "Gidan Daki",
+      "roomHousePlaceholder": "Shigar da Gidan Daki",
+      "roomHouseRequired": "Gidan daki ya wajaba",
+      "cityLabel": "Birni",
+      "cityPlaceholder": "Shigar da birni",
+      "cityRequired": "Birni ya wajaba",
+      "countryLabel": "Ƙasa",
+      "countryPlaceholder": "Shigar da ƙasa",
+      "countryRequired": "Ƙasa ta wajaba"
+    },
+    "modal": {
+      "title": "Umarni an yi nasara!",
+      "btnText": "Ci gaba"
+    },
+    "unsuccessModal": {
+      "title": "Ba ku da isassun maki!",
+      "btnText": "Rufe"
+    }
+  }
+}

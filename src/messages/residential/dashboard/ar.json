@@ -1,0 +1,23 @@
+{
+  "dashboardPage": {
+    "welcome": "مرحباً بعودتك {name}",
+
+    "dashboardCards": {
+      "allBookings": "جميع الحجوزات",
+      "bookLaundry": "حجز المغسلة",
+      "bookBus": "حجز الحافلة",
+      "bookAppointment": "حجز موعد",
+      "visitorBooking": "حجز زائر",
+      "maintenanceRequests": "طلبات الصيانة",
+      "documentCenter": "مركز الوثائق",
+      "signInOut": "تسجيل الدخول/الخروج"
+    },
+
+    "activities": {
+      "upcomingActivities": "الأنشطة القادمة",
+      "currentActivities": "إليك أنشطتك الحالية:",
+      "helpLine": "خط المساعدة",
+      "reschedule": "إعادة جدولة"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "upcomingMeetings": {
+    "title": "მომავალი შეხვედრები",
+    "requestChange": "ცვლილების მოთხოვნა",
+    "tabs": {
+      "all": "ყველა შეხვედრა",
+      "confirmed": "დადასტურებული",
+      "pending": "მოლოდინში"
+    },
+    "filters": {
+      "recent": "უახლესი",
+      "starred": "ფავორიტი",
+      "archived": "არქივირებული"
+    }
+  }
+}

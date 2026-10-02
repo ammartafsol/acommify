@@ -1,0 +1,59 @@
+{
+  "visitors": {
+    "selectAccommodation": "Zaɓi Matsuguni",
+    "selectAccommodationPlaceholder": "Zaɓi matsuguni",
+    "accommodationSelectMessage": "Don Allah zaɓi matsuguni don ci gaba",
+    "selectDateMessage": "Don Allah zaɓi kwanan wata don ganin ramuka masu samuwa",
+    "selectedDate": "Kwanan wata da aka zaɓa",
+    "selectDuration": "Zaɓi Tsawon Lokaci",
+    "durations": {
+      "1hour": "Awa 1",
+      "2hour": "Awa 2"
+    },
+    "bookingSuccess": "Bukatar booking na baƙo an aika cikin nasara! Don Allah ku jira amintatawa.",
+    "reminder": "Saita tunatarwa don booking naku na baƙo",
+    "reminders": {
+      "reminderOptions": {
+        "15min": "Mintuna 15 kafin",
+        "30min": "Mintuna 30 kafin",
+        "1hour": "Awa 1 kafin",
+        "custom": "Tunatarwa na Musamman"
+      },
+      "customPlaceholderText": "Shigar da mintuna (misali: 10)"
+    },
+    "VisitorBooking": {
+      "title": "Booking na Baƙo",
+      "bookingWarning": "Booking ba za a iya soke ba lokacin da saura awa 1 akan booking."
+    },
+    "modal": {
+      "inputLabels": {
+        "nameLabel": "Sunan Baƙo",
+        "relationshipLabel": "Dangantaka da Mazauni",
+        "dateLabel": "Kwanan wata da aka fi so",
+        "startTimeLabel": "Lokacin Farawa",
+        "endTimeLabel": "Lokacin Ƙarshe",
+        "timeLabel": "Lokaci da aka fi so",
+        "notesLabel": "Ƙarin Bayanai"
+      },
+      "placeholders": {
+        "namePlaceholder": "Shigar da Sunan Baƙo",
+        "notesPlaceholder": "Shigar da Ƙarin Bayanai a nan"
+      },
+      "header": "Fom na Booking",
+      "btns": {
+        "submit": "Aika",
+        "cancel": "Soke",
+        "rules": "Dokokin Baƙo",
+        "upcomingVisits": "Ziyarar da ke zuwa"
+      },
+      "relationshipStatus": {
+        "Self": "Mazauni",
+        "Father": "Uba",
+        "Mother": "Uwa",
+        "Sibling": "Ɗan'uwa/Yar'uwa",
+        "Spouse": "Miji/Mata",
+        "Children": "Yara"
+      }
+    }
+  }
+}

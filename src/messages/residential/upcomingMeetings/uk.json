@@ -1,0 +1,16 @@
+{
+  "upcomingMeetings": {
+    "title": "Майбутні Зустрічі",
+    "requestChange": "Запросити зміну",
+    "tabs": {
+      "all": "Всі Зустрічі",
+      "confirmed": "Підтверджені",
+      "pending": "В очікуванні"
+    },
+    "filters": {
+      "recent": "Найновіші",
+      "starred": "Обране",
+      "archived": "Архівні"
+    }
+  }
+}

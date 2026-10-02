@@ -1,0 +1,23 @@
+{
+  "laundryBookingPage": {
+    "title": "Réservation de Blanchisserie",
+    "bookingWarning": "La réservation ne peut pas être annulée quand il restera 1 heure sur la réservation.",
+    "selectMachine": "Sélectionner la Machine",
+    "selectMachinePlaceholder": "{loading, select, true {Chargement...} other {Sélectionner la Machine}}",
+    "selectedDate": "Date Sélectionnée",
+    "selectDateMessage": "Veuillez sélectionner une date pour voir les créneaux disponibles",
+    "machineSelectMessage": "Veuillez sélectionner une machine pour voir les créneaux disponibles",
+    "bookingSuccess": "Demande de réservation de blanchisserie soumise avec succès ! Veuillez attendre l'approbation.",
+    "reminder": "Définir un rappel pour votre créneau de blanchisserie",
+    "reminders": {
+      "title": "Définir un rappel pour votre Réservation de Blanchisserie",
+      "reminderOptions": {
+        "15min": "15 minutes avant",
+        "30min": "30 minutes avant",
+        "1hour": "1 heure avant",
+        "custom": "Rappel Personnalisé"
+      },
+      "customPlaceholderText": "Entrez les minutes (ex: 10)"
+    }
+  }
+}

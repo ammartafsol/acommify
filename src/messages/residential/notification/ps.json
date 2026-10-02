@@ -1,0 +1,13 @@
+{
+  "notificationsPage": {
+    "activities": {
+      "upcomingActivities": "راتلونکي فعالیتونه",
+      "currentActivities": "دلته ستاسو اوسني فعالیتونه دي:",
+      "helpLine": "د مرستې کرښه"
+    },
+    "title": "خبرتیاوې",
+    "markAllAsRead": "ټول د لوستل شوي په توګه نښه کړئ",
+    "noNotifications": "هیڅ خبرتیاوې نشته",
+    "reschedule": "بیا تنظیم کړئ"
+  }
+}

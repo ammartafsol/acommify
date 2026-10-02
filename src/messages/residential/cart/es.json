@@ -1,0 +1,22 @@
+{
+  "cartOverviewPage": {
+    "title": "Resumen del carrito",
+    "cartSummary": "Total del Carrito",
+    "totalItems": "Total de Artículos",
+    "totalPoints": "Total de Puntos",
+    "checkout": "Finalizar Compra",
+    "stockLimitReached": "Límite de stock alcanzado",
+    "noItemsInCart": "No hay artículos en tu carrito",
+    "stockIsZero": "el stock es 0",
+    "itemsStockIsZero": "Los siguientes artículos tienen stock 0",
+    "table": {
+      "header": {
+        "points": "Puntos",
+        "product": "Producto",
+        "quantity": "Cantidad",
+        "subtotal": "Subtotal",
+        "stocks": "Stock"
+      }
+    }
+  }
+}

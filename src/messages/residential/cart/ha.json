@@ -1,0 +1,22 @@
+{
+  "cartOverviewPage": {
+    "title": "Bayanin Sheda",
+    "cartSummary": "Jimlar Sheda",
+    "totalItems": "Jimlar Abubuwa",
+    "totalPoints": "Jimlar Maki",
+    "checkout": "Kammala Siyayya",
+    "stockLimitReached": "Iyakar Kayayyaki ta kai",
+    "noItemsInCart": "Babu abubuwa a cikin shedar ku",
+    "stockIsZero": "kayayyaki suna 0",
+    "itemsStockIsZero": "Abubuwan masu zuwa suna da kayayyaki 0",
+    "table": {
+      "header": {
+        "points": "Maki",
+        "product": "Samfur",
+        "quantity": "Yawa",
+        "subtotal": "Jimlar ƙasa",
+        "stocks": "Kayayyaki"
+      }
+    }
+  }
+}

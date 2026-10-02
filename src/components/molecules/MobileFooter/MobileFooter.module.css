@@ -1,0 +1,19 @@
+.main {
+  background-color: var(--Poor-white);
+  /* border-radius: 0 0 20px 20px; */
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  padding: 15px 60px;
+  padding-bottom: 25px;
+  justify-content: space-between;
+  margin-top: 40px;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.205);
+}
+
+.activeNavIcon svg path {
+  fill: var(--Blue);
+}

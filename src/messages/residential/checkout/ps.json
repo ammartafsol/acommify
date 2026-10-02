@@ -1,0 +1,37 @@
+{
+  "checkoutPage": {
+    "title": "د پلور پروسه",
+    "orderSummary": "د امر لنډیز",
+    "totalItems": "ټول توکي",
+    "totalPoints": "ټول ټکي",
+    "confirm": "تصدیق",
+    "orderPlacedSuccess": "امر په بریالیتوب سره وړاندې شو!",
+    "wallet": "بټۍ",
+    "orderDetails": {
+      "title": "د امر جزئیات",
+      "fullNameLabel": "بشپړ نوم",
+      "fullNamePlaceholder": "احمد محمد",
+      "fullNameRequired": "بشپړ نوم اړین دی",
+      "streetAddressLabel": "د سړک پته",
+      "streetAddressPlaceholder": "د سړک پته ولیکئ",
+      "streetAddressRequired": "د سړک پته اړینه ده",
+      "roomHouseLabel": "د کوټه کور",
+      "roomHousePlaceholder": "د کوټه کور ولیکئ",
+      "roomHouseRequired": "د کوټه کور اړین دی",
+      "cityLabel": "ښار",
+      "cityPlaceholder": "ښار ولیکئ",
+      "cityRequired": "ښار اړین دی",
+      "countryLabel": "هیواد",
+      "countryPlaceholder": "هیواد ولیکئ",
+      "countryRequired": "هیواد اړین دی"
+    },
+    "modal": {
+      "title": "امر په بریالیتوب سره وړاندې شو!",
+      "btnText": "دوام ورکړئ"
+    },
+    "unsuccessModal": {
+      "title": "تاسو کافي ټکي نلرئ!",
+      "btnText": "تړل"
+    }
+  }
+}

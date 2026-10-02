@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-block: 40px;
+}
+
+.signInOutMain {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.content {
+  margin-top: 2rem;
+}
+
+.mt {
+  margin-top: 2rem;
+  font-weight: 600;
+  color: var(--Black);
+}
+
+.TopHeader {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 1rem 0.5rem;
+  }
+
+  .content {
+    margin-top: 1rem;
+  }
+
+  .mt {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+}

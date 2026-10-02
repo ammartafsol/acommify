@@ -1,0 +1,22 @@
+{
+  "cartOverviewPage": {
+    "title": "Visão geral do carrinho",
+    "cartSummary": "Total do Carrinho",
+    "totalItems": "Total de Itens",
+    "totalPoints": "Total de Pontos",
+    "checkout": "Finalizar Compra",
+    "stockLimitReached": "Limite de estoque atingido",
+    "noItemsInCart": "Nenhum item no seu carrinho",
+    "stockIsZero": "estoque é 0",
+    "itemsStockIsZero": "Os seguintes itens têm estoque 0",
+    "table": {
+      "header": {
+        "points": "Pontos",
+        "product": "Produto",
+        "quantity": "Quantidade",
+        "subtotal": "Subtotal",
+        "stocks": "Estoque"
+      }
+    }
+  }
+}

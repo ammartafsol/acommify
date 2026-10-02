@@ -1,0 +1,57 @@
+{
+  "maintenance": {
+    "maintenanceRequests": {
+      "toasts": {
+        "cancelSuccess": "Bukata an aika soke cikin nasara!",
+        "updateSuccess": "Bukata an aika gyara cikin nasara!",
+        "editNotAllowed": "Kana iya gyara bukatun da ke da matsayi na jira kawai."
+      },
+      "title": "Bukatun Kulawa",
+      "addNewRequest": "Ƙara Sabon Bukata",
+
+      "requestForm": {
+        "modalEdit": "Gyara Bukatar Kulawa",
+        "modalTitle": "Bukatun Kulawa",
+        "header": "Fom na Aikawa Bukata",
+        "descriptionLabel": "Bayani:",
+        "descriptionPlaceholder": "Bayyana matsalar sabis...",
+        "typeLabel": "Zaɓi nau'in bukatar kulawa:",
+        "typePlaceholder": "Aikin Bututu",
+        "submitButton": "Aika Bukata",
+        "cancelButton": "Soke",
+        "descriptionError": "Bayani ya wajaba",
+        "typeError": "Nau'in bukata ya wajaba",
+        "mediaError": "Fayilolin kafofin watsa labarai suna wajaba",
+        "mediaMaxError": "Kana iya loda fayiloli 3 kawai",
+        "fileDisplayName": "Fayil na Bukatar Kulawa"
+      },
+      "applications": {
+        "header": "Aikace-aikacen da aka Aika"
+      },
+      "tabs": {
+        "all": "Duka",
+        "completed": "An ƙare",
+        "pending": "A Jira",
+        "approved": "An Amince",
+        "rejected": "An ƙi",
+        "escalated": "An ɗaga"
+      },
+      "successModal": {
+        "title": "Bukata an aika cikin nasara!",
+        "btnText": "Ci Gaba"
+      },
+      "table": {
+        "purpose": "Manufa",
+        "category": "Rukuni",
+        "dateTime": "Kwanan wata & Lokaci",
+        "status": "Matsayi",
+        "resolvedBy": "An Warware",
+        "comment": "Bayani"
+      },
+      "menuItems": {
+        "edit": "Gyara",
+        "delete": "Share"
+      }
+    }
+  }
+}

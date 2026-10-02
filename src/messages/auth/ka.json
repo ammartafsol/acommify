@@ -1,0 +1,101 @@
+{
+  "userAgreementPage": {
+    "title": "წესები და პირობები",
+    "tabs": {
+      "terms": "წესები და პირობები",
+      "privacy": "კონფიდენციალურობის პოლიტიკა",
+      "responsibility": "მომხმარებლის პასუხისმგებლობა"
+    },
+    "checkbox": "მე წავიკითხე და ვეთანხმები წესებსა და პირობებს",
+    "button": "მიღება და გაგრძელება"
+  },
+  "loginPage": {
+    "title": "შესვლა",
+    "emailLabel": "ელფოსტა",
+    "emailPlaceholder": "შეიყვანეთ ელფოსტა",
+    "emailError": "გთხოვთ, შეიყვანოთ სწორი ელფოსტის მისამართი",
+    "EmailRequired": "ელფოსტა აუცილებელია",
+    "emailInvalidChars": "ელფოსტა შეიცავს არასწორ სიმბოლოებს",
+    "passwordLabel": "პაროლი",
+    "passwordPlaceholder": "შეიყვანეთ პაროლი",
+    "passwordRequired": "პაროლი აუცილებელია",
+    "forgotPass": "დაგავიწყდათ პაროლი?",
+    "rememberMe": "დამიმახსოვრე",
+    "loginButton": "შესვლა",
+    "newHere": "ახალი ხართ?",
+    "signUpLink": "რეგისტრაცია",
+    "residentIdPlaceholder": "123456",
+    "residentIdLabel": "მოსახლის ID"
+  },
+  "signUpPage": {
+    "title": "რეგისტრაცია",
+    "nameLabel": "სახელი",
+    "namePlaceholder": "შეიყვანეთ სახელი",
+    "nameRequired": "სახელი აუცილებელია",
+    "emailLabel": "ელფოსტა",
+    "emailPlaceholder": "შეიყვანეთ ელფოსტა",
+    "emailError": "გთხოვთ, შეიყვანოთ სწორი ელფოსტის მისამართი",
+    "emailRequired": "ელფოსტა აუცილებელია",
+    "emailInvalidChars": "ელფოსტა შეიცავს არასწორ სიმბოლოებს",
+    "codeLabel": "ორ-ფაქტორიანი ავტორიზაცია",
+    "codeSubLabel": "შეიყვანეთ 6-ნიშნა კოდი, რომელიც გამოიგზავნა თქვენს ელფოსტაზე",
+    "codePlaceholder": "კოდი",
+    "codeRequired": "კოდი აუცილებელია",
+    "passwordLabel": "პაროლი",
+    "passwordPlaceholder": "შეიყვანეთ პაროლი",
+    "passwordRequired": "პაროლი აუცილებელია",
+    "minPasswordError": "მინ 8 სიმბოლო",
+    "maxPasswordError": "მაქს 20 სიმბოლო",
+    "lowerPasswordError": "დაამატეთ მინიმუმ ერთი პატარა ასო",
+    "upperPasswordError": "დაამატეთ მინიმუმ ერთი დიდი ასო",
+    "specialPasswordError": "დაამატეთ მინიმუმ ერთი სპეციალური სიმბოლო",
+    "confirmPasswordLabel": "პაროლის დადასტურება",
+    "confirmPasswordPlaceholder": "დაადასტურეთ პაროლი",
+    "confirmPasswordRequired": "პაროლი აუცილებელია",
+    "ConfirmPasswordError": "პაროლები არ ემთხვევა",
+    "signUpButton": "რეგისტრაცია",
+    "joinedUsBefore": "ადრე ხართ რეგისტრირებული?",
+    "signInLink": "შესვლა",
+    "sendCode": "კოდის გაგზავნა",
+    "resendCode": "კოდის ხელახლა გაგზავნა ({time, plural, =1 {# წამი} other {# წამი}})"
+  },
+  "forgotPasswordPage": {
+    "title": "პაროლის აღდგენა",
+    "subtitle": "არ ინერვიულოთ! ეს ხდება. გთხოვთ, შეიყვანოთ თქვენი ანგარიშთან დაკავშირებული მისამართი.",
+    "emailLabel": "ელფოსტა",
+    "emailPlaceholder": "შეიყვანეთ ელფოსტა",
+    "emailError": "გთხოვთ, შეიყვანოთ სწორი ელფოსტის მისამართი",
+    "emailRequired": "ელფოსტა აუცილებელია",
+    "emailInvalidChars": "ელფოსტა შეიცავს არასწორ სიმბოლოებს",
+    "submitButton": "გაგზავნა",
+    "specialChars": "სპეციალური სიმბოლოები არ არის"
+  },
+  "verificationPage": {
+    "title": "დადასტურების კოდი",
+    "subtitle": "დადასტურება კოდით",
+    "codeRequired": "კოდი აუცილებელია",
+    "resendCode": "კოდის ხელახლა გაგზავნა {time, plural, =0 {} =1 {# წამი} other {# წამი}}",
+    "verifyButton": "დადასტურება"
+  },
+  "resetPasswordPage": {
+    "title": "პაროლის განახლება",
+    "subtitle": "შეიყვანეთ თქვენი ახალი პაროლი",
+    "passwordLabel": "პაროლი",
+    "passwordPlaceholder": "შეიყვანეთ პაროლი",
+    "passwordRequired": "პაროლი აუცილებელია",
+    "minPasswordError": "მინ 8 სიმბოლო",
+    "maxPasswordError": "მაქს 20 სიმბოლო",
+    "lowerPasswordError": "დაამატეთ მინიმუმ ერთი პატარა ასო",
+    "upperPasswordError": "დაამატეთ მინიმუმ ერთი დიდი ასო",
+    "specialPasswordError": "დაამატეთ მინიმუმ ერთი სპეციალური სიმბოლო",
+    "confirmPasswordLabel": "პაროლის დადასტურება",
+    "confirmPasswordPlaceholder": "დაადასტურეთ პაროლი",
+    "confirmPasswordRequired": "პაროლი აუცილებელია",
+    "ConfirmPasswordError": "პაროლები არ ემთხვევა",
+    "submitButton": "პაროლის განახლება",
+    "modal": {
+      "title": "თქვენი პაროლი წარმატებით შეიცვალა!",
+      "btnText": "გაგრძელება"
+    }
+  }
+}

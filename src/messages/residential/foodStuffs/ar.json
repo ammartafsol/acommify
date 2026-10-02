@@ -1,0 +1,12 @@
+{
+  "foodStuffsPage": {
+    "all": "الكل",
+    "title": "المنتجات الغذائية",
+    "addedToCart": "تم إضافته إلى السلة!",
+
+    "toasts": {
+      "addedToFavorites": "تم إضافته إلى المفضلة",
+      "removedFromFavorites": "تم إزالته من المفضلة"
+    }
+  }
+}

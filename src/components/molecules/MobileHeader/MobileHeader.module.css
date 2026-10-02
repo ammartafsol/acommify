@@ -1,0 +1,114 @@
+.main {
+  background-color: var(--Poor-white);
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  padding-bottom: 12px;
+  align-items: center;
+  gap: 9px;
+  align-self: stretch;
+  width: 100%;
+  transform: translateX(-0px);
+  padding: 12px 24px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
+}
+.main svg {
+  cursor: pointer;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+}
+.iconImage {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  background: #33b5f61a;
+}
+.icon {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  background: #33b5f61a;
+}
+
+.right > p {
+  color: var(--Black);
+  text-align: center;
+
+  font-family: var(--font-lato);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  background: var(--Blue);
+  color: var(--Poor-white);
+  border-radius: 50%;
+  font-size: 10px;
+  z-index: 10;
+}
+.btnLeftIcon {
+  position: relative;
+  cursor: pointer;
+  margin-inline-end: 8px;
+}
+
+.backIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 29px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: var(--White);
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.maintenanceBackIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: var(--White);
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 480px) {
+  .right > p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .right > p {
+    font-size: 14px;
+  }
+
+  .iconImage {
+    height: 10px !important;
+    width: 10px !important;
+  }
+}

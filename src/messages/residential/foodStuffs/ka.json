@@ -1,0 +1,12 @@
+{
+  "foodStuffsPage": {
+    "all": "ყველა",
+    "title": "საკვები პროდუქტები",
+    "addedToCart": "კალათაში დაემატა!",
+
+    "toasts": {
+      "addedToFavorites": "ფავორიტებში დაემატა",
+      "removedFromFavorites": "ფავორიტებიდან წაიშალა"
+    }
+  }
+}

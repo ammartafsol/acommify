@@ -1,0 +1,13 @@
+{
+  "favouritePage": {
+    "title": "რჩეული ელემენტები",
+    "empty": "რჩეული ელემენტები ვერ მოიძებნა",
+    "addedToCart": "კალათაში დაემატა!",
+    "toasts": {
+      "addedToFavorites": "ფავორიტებში დაემატა",
+      "removedFromFavorites": "ფავორიტებიდან წაიშალა",
+      "actionFailed": "მოქმედება ვერ მოხერხდა"
+    }
+  }
+}
+

@@ -1,0 +1,37 @@
+{
+  "StaffBookingConfirmation": {
+    "title": "Rendez-vous du Personnel",
+    "confirmedTitle": "Rendez-vous du Personnel Confirmé",
+    "cancelledTitle": "Rendez-vous du Personnel Annulé",
+    "completedTitle": "Rendez-vous du Personnel Terminé",
+    "rejectedTitle": "Rendez-vous du Personnel Rejeté",
+    "pendingDescription": "Votre rendez-vous du personnel est en attente ! Nous vous notifierons une fois qu'il sera confirmé.",
+    "confirmedDescription": "Votre rendez-vous est confirmé ! Nous avons hâte de vous rencontrer bientôt.",
+    "cancelledDescription": "Votre rendez-vous du personnel a été annulé.",
+    "completedDescription": "Votre rendez-vous du personnel a été terminé avec succès.",
+    "rejectedDescription": "Votre rendez-vous du personnel a été rejeté.",
+    "pendingTitle": "Rendez-vous du Personnel en Attente",
+    "description": "Votre rendez-vous est confirmé ! Nous avons hâte de vous rencontrer bientôt.",
+    "reminder": "Définir un rappel pour votre rendez-vous du personnel :",
+    "cancelBooking": "Annuler le Rendez-vous du Personnel",
+    "successful": "Votre rendez-vous du personnel a été programmé avec succès !",
+    "cancelSuccess": "Votre rendez-vous du personnel a été annulé avec succès.",
+    "reminders": {
+      "title": "Définir un rappel pour votre Rendez-vous du Personnel",
+      "reminderOptions": {
+        "15min": "15 minutes avant",
+        "30min": "30 minutes avant",
+        "1hour": "1 heure avant",
+        "custom": "Rappel Personnalisé"
+      },
+      "customPlaceholderText": "ex: 10 minutes avant"
+    },
+    "CancelModal": {
+      "title": "Annuler le Rendez-vous du Personnel",
+      "description": "Êtes-vous sûr de vouloir annuler votre rendez-vous du personnel ?",
+      "btnText1": "Non",
+      "btnText2": "Oui",
+      "iconAlt": "Annuler"
+    }
+  }
+}

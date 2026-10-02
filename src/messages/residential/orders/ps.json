@@ -1,0 +1,48 @@
+{
+  "ordersPage": {
+    "Orders": {
+      "title": "امرونه",
+      "welcomeTitle": "د امرونو ته ښه راغلاست!",
+      "description": "دلته خپل امرونه وګورئ او اداره کړئ.",
+      "table": {
+        "title": "د امر جزئیات",
+        "orderID": "د امر ID",
+        "orderName": "د امر نوم",
+        "status": "حالت",
+        "totalPoints": "ټولې ټکي",
+        "orderDate": "د امر نیټه"
+      }
+    },
+    "OrderDetails": {
+      "title": "د امر جزئیات",
+      "orderDetail": {
+        "orderId": "امر",
+        "status": "د امر حالت",
+        "orderDate": "د امر نیټه",
+        "totalPoints": "ټولې ټکي",
+        "userInfo": "د کارونکي معلومات",
+        "name": "نوم",
+        "email": "بریښنالیک",
+        "phone": "تلیفون",
+        "shippingInfo": "د لېږد معلومات",
+        "address": "پته",
+        "city": "ښار",
+        "country": "هیواد",
+        "summary": "د امر لنډیز",
+        "orderIdLabel": "د امر ID",
+        "items": "توکي",
+        "orderItem": "د امر توکي"
+      },
+      "orderDetailsHeader": {
+        "product": "محصول",
+        "category": "کټګوري",
+        "quantity": "مقدار",
+        "shippingType": "د لېږد ډول",
+        "totalPoints": "ټول",
+        "status": "حالت"
+      },
+      "completedStatusToast": "د امر توکي حالت په بریالیتوب سره بشپړ شو"
+    }
+  }
+}
+

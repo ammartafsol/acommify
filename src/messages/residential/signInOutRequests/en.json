@@ -1,0 +1,31 @@
+{
+  "signInOutRequests": {
+    "SignInOutRequests": {
+      "title": "Sign In/Out Requests",
+      "welcomeTitle": "Welcome to Sign In/Out Requests!",
+      "description": "Manage and track all visitor sign-in and sign-out requests efficiently.",
+      "tabs": {
+        "all": "All",
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      },
+      "requestHistory": "Request History",
+      "tableHeaders": {
+        "date": "Date",
+        "type": "Type",
+        "visitor": "Visitor",
+        "purpose": "Purpose",
+        "timeIn": "Time In",
+        "timeOut": "Time Out",
+        "status": "Status",
+        "requestedBy": "Requested By",
+        "approvedBy": "Approved By",
+        "accommodation": "Accommodation",
+        "checkIn": "Check In",
+        "checkOut": "Check Out",
+        "currentlyCheckedIn": "Currently Checked In"
+      }
+    }
+  }
+}

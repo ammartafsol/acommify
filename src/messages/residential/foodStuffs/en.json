@@ -1,0 +1,12 @@
+{
+  "foodStuffsPage": {
+    "all": "All",
+    "title": "Food Stuffs",
+    "addedToCart": "Added to cart!",
+
+    "toasts": {
+      "addedToFavorites": "Added to favorites",
+      "removedFromFavorites": "Removed from favorites"
+    }
+  }
+}

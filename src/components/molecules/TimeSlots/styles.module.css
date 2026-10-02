@@ -1,0 +1,177 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.main {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  border-radius: 20px;
+  background: var(--Poor-white, #fff);
+  box-shadow: 0 9.628px 48.14px 0 rgba(139, 139, 139, 0.1);
+}
+
+.main h1 {
+  color: var(--Black, #172a33);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+}
+
+.timeSlots {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.timeSlot,
+.timeSlotMobile {
+  width: 100%;
+  display: flex;
+  height: 36px;
+  padding-inline-start: 10px;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 8px;
+  border: 1px solid rgba(219, 219, 219, 0.7);
+}
+
+.dot {
+  min-width: 8px;
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.timeSlot,
+.timeSlotMobile {
+  cursor: pointer;
+  text-wrap: nowrap;
+  color: var(--Black, #172a33);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 16.8px */
+  transition-property: background-color, border-color, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.timeSlotMobile {
+  justify-content: center;
+  padding-inline-start: 0;
+}
+
+.timeSlot[data-selected="true"] {
+  background-color: #00ffbb80;
+  border: 1px dashed #00b383;
+}
+.timeSlotMobile[data-selected="true"] {
+  background-color: #fff !important;
+  /* border: 1px dashed black; */
+}
+
+.your {
+  background: var(--Orange, #faab18);
+}
+
+.booked {
+  background: var(--Red, #f86969);
+}
+
+.available {
+  background: var(--Green, #00b383);
+}
+
+.footer {
+  display: flex;
+  gap: 30px;
+  padding: 10px 20px;
+  align-items: center;
+  border-radius: 20px;
+  background: #fff;
+  width: 100%;
+}
+
+.footer > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.dayBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.dayBlock h3 {
+  text-transform: capitalize;
+}
+.timeSlots div[class$="timeSlotMobile"][data-type="booked"] {
+  border-radius: 8px;
+  background: #ffe8e8;
+  box-shadow: 0 9.628px 48.14px 0 rgba(139, 139, 139, 0.1);
+  color: #f86969;
+}
+.timeSlots div[class$="timeSlotMobile"][data-type="your"] {
+  border-radius: 8px;
+  background: #fff8dd;
+  box-shadow: 0 9.628px 48.14px 0 rgba(139, 139, 139, 0.1);
+  color: #faab18;
+}
+
+.timeSlots div[class$="timeSlotMobile"][data-type="available"] {
+  border-radius: 8px;
+  background: #cfefec;
+  color: #00b383;
+  box-shadow: 0 9.628px 48.14px 0 rgba(139, 139, 139, 0.1);
+}
+.timeSlotsName {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  width: 100%;
+}
+
+.timeSlotsName > p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .main {
+    background: none;
+    box-shadow: unset;
+    padding: 0;
+  }
+
+  .timeSlot {
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 9.628px 48.14px 0 rgba(139, 139, 139, 0.1);
+    font-size: 12px;
+  }
+
+  .timeSlots {
+    grid-template-columns: repeat(2, minmax(143px, 1fr));
+    gap: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer {
+    gap: 24px;
+  }
+}

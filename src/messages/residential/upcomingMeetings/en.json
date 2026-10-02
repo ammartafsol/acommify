@@ -1,0 +1,16 @@
+{
+  "upcomingMeetings": {
+    "title": "Upcoming Meetings",
+    "requestChange": "Request Change",
+    "tabs": {
+      "all": "All Meetings",
+      "confirmed": "Confirmed",
+      "pending": "Pending"
+    },
+    "filters": {
+      "recent": "Most Recent",
+      "starred": "Starred",
+      "archived": "Archived"
+    }
+  }
+}

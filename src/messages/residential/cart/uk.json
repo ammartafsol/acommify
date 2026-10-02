@@ -1,0 +1,22 @@
+{
+  "cartOverviewPage": {
+    "title": "Огляд кошика",
+    "cartSummary": "Підсумок кошика",
+    "totalItems": "Загальна кількість товарів",
+    "totalPoints": "Загальні бали",
+    "checkout": "Оформити замовлення",
+    "stockLimitReached": "Досягнуто ліміт залишків",
+    "noItemsInCart": "У вашому кошику немає товарів",
+    "stockIsZero": "залишок дорівнює 0",
+    "itemsStockIsZero": "Наступні товари мають залишок 0",
+    "table": {
+      "header": {
+        "points": "Бали",
+        "product": "Товар",
+        "quantity": "Кількість",
+        "subtotal": "Підсумок",
+        "stocks": "Залишки"
+      }
+    }
+  }
+}

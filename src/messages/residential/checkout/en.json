@@ -1,0 +1,37 @@
+{
+  "checkoutPage": {
+    "title": "Checkout Process",
+    "orderSummary": "Order Summary",
+    "totalItems": "Total Items",
+    "totalPoints": "Total Points",
+    "confirm": "Confirm",
+    "orderPlacedSuccess": "Order placed successfully!",
+    "wallet": "Wallet",
+    "orderDetails": {
+      "title": "Order Details",
+      "fullNameLabel": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "fullNameRequired": "Full name is required",
+      "streetAddressLabel": "Street Address",
+      "streetAddressPlaceholder": "Enter Street Address",
+      "streetAddressRequired": "Street Address is required",
+      "roomHouseLabel": "Room House",
+      "roomHousePlaceholder": "Enter Room House",
+      "roomHouseRequired": "Room House is required",
+      "cityLabel": "City",
+      "cityPlaceholder": "Enter city",
+      "cityRequired": "City is required",
+      "countryLabel": "Country",
+      "countryPlaceholder": "Enter country",
+      "countryRequired": "Country is required"
+    },
+    "modal": {
+      "title": "The order has been successfully placed!",
+      "btnText": "Continue"
+    },
+    "unsuccessModal": {
+      "title": "You don't have enough points!",
+      "btnText": "Close"
+    }
+  }
+}

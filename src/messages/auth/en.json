@@ -1,0 +1,101 @@
+{
+  "userAgreementPage": {
+    "title": "Terms and Conditions",
+    "tabs": {
+      "terms": "Terms and Conditions",
+      "privacy": "Privacy Policy",
+      "responsibility": "User Responsibilities"
+    },
+    "checkbox": "I have read and agree to the Terms and Conditions",
+    "button": "Accept and Continue"
+  },
+  "loginPage": {
+    "title": "Login",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter Email",
+    "emailError": "Please enter a valid email address",
+    "EmailRequired": "Email is required",
+    "emailInvalidChars": "Email contains invalid characters",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter Password",
+    "passwordRequired": "Password is required",
+    "forgotPass": "Forgot your password?",
+    "rememberMe": "Remember Me",
+    "loginButton": "Login",
+    "newHere": "New here?",
+    "signUpLink": "Sign up",
+    "residentIdPlaceholder": "123456",
+    "residentIdLabel": "Resident ID"
+  },
+  "signUpPage": {
+    "title": "Sign Up",
+    "nameLabel": "Name",
+    "namePlaceholder": "Enter Name",
+    "nameRequired": "Name is required",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter Email",
+    "emailError": "Please enter a valid email address",
+    "emailRequired": "Email is required",
+    "emailInvalidChars": "Email contains invalid characters",
+    "codeLabel": "Two-Factor Authentication",
+    "codeSubLabel": "Enter the 6-digit code sent to your email",
+    "codePlaceholder": "Code",
+    "codeRequired": "Code is required",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter Password",
+    "passwordRequired": "Password is required",
+    "minPasswordError": "Min 8 characters",
+    "maxPasswordError": "Max 20 characters",
+    "lowerPasswordError": "Add at least one lowercase",
+    "upperPasswordError": "Add at least one uppercase",
+    "specialPasswordError": "Add at least one special character",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm Password",
+    "confirmPasswordRequired": "Password is required",
+    "ConfirmPasswordError": "Passwords do not match",
+    "signUpButton": "Sign Up",
+    "joinedUsBefore": "Joined us before?",
+    "signInLink": "Sign in",
+    "sendCode": "Send Code",
+    "resendCode": "Resend Code ({time, plural, =1 {# second} other {# seconds}})"
+  },
+  "forgotPasswordPage": {
+    "title": "Forgot Password",
+    "subtitle": "Don't worry! it happens. Please enter the address associated with your account.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter Email",
+    "emailError": "Please enter a valid email address",
+    "emailRequired": "Email is required",
+    "emailInvalidChars": "Email contains invalid characters",
+    "submitButton": "Submit",
+    "specialChars": "No special characters"
+  },
+  "verificationPage": {
+    "title": "Verification Code",
+    "subtitle": "Confirm With Code",
+    "codeRequired": "Code is required",
+    "resendCode": "Resend Code {time, plural, =0 {} =1 {# second} other {# seconds}}",
+    "verifyButton": "Verify"
+  },
+  "resetPasswordPage": {
+    "title": "Reset Password",
+    "subtitle": "Enter your new password",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter Password",
+    "passwordRequired": "Password is required",
+    "minPasswordError": "Min 8 characters",
+    "maxPasswordError": "Max 20 characters",
+    "lowerPasswordError": "Add at least one lowercase",
+    "upperPasswordError": "Add at least one uppercase",
+    "specialPasswordError": "Add at least one special character",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm Password",
+    "confirmPasswordRequired": "Password is required",
+    "ConfirmPasswordError": "Passwords do not match",
+    "submitButton": "Reset Password",
+    "modal": {
+      "title": "Your password has been successfully changed!",
+      "btnText": "Continue"
+    }
+  }
+}

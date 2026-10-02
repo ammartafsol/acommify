@@ -1,0 +1,219 @@
+.main {
+  padding-block: 48px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.content {
+  margin-block: 22px;
+}
+
+.cardsListMain {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.filterIcon {
+  cursor: pointer;
+}
+
+.searchInputContainer input {
+  border-radius: 12px !important;
+  height: 46px !important;
+}
+
+.searchInputContainer {
+  padding-inline-start: 5px !important;
+  height: 46px !important;
+}
+.documentCenterMain {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.searchInput {
+  width: 368px !important;
+  height: 42px !important;
+}
+
+.searchInput input {
+  border-radius: 15px !important;
+  background-color: var(--Poor-white) !important;
+  height: 42px !important;
+}
+
+.searchInput > div > div {
+  padding-inline-end: 5px;
+  padding-bottom: 4px;
+}
+
+.subHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.searchAndFilter {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.viewToggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.viewButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: none;
+  background: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #6c757d;
+}
+
+.viewButton:hover {
+  background: #e9ecef;
+  color: #495057;
+}
+
+.viewButton.active {
+  background: #33b5f6;
+  color: white;
+}
+
+.desktopViewToggle {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 0;
+}
+
+/* Responsive grid columns */
+@media (max-width: 1200px) {
+  .cardsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .main {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .cardsGrid {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .cardsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .cardsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .main {
+    padding-block: 30px 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main {
+    padding-top: 0px;
+  }
+
+  .header {
+    gap: 0;
+  }
+
+  .TopHeaderMainClass {
+    background: transparent !important;
+    border-radius: 0px !important;
+  }
+
+  .content {
+    margin-block: 12px 10px;
+  }
+
+  .cardsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .ulCustom {
+    overflow-y: scroll !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .ulCustom::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ulCustom li {
+    min-width: unset !important;
+    width: max-content !important;
+  }
+
+  .cardsListMain {
+    overflow-y: scroll;
+    max-height: 550px;
+  }
+
+  /* Scrollbar */
+  .cardsListMain::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+  }
+
+  .cardsListMain::-webkit-scrollbar-thumb {
+    background-color: #d2d6dd;
+    border-radius: 3px;
+  }
+
+  .cardsListMain::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  .subHeader {
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 375px) {
+  .cardsGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 577px) {
+  .main {
+    margin-bottom: 75px;
+  }
+}

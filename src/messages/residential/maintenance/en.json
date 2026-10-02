@@ -1,0 +1,68 @@
+{
+  "maintenance": {
+    "maintenanceRequests": {
+      "toasts": {
+        "cancelSuccess": "Request has been successfully canceled!",
+        "updateSuccess": "Request has been successfully updated!",
+        "editNotAllowed": "You can only edit requests with pending status."
+      },
+      "title": "Maintenance Requests",
+      "addNewRequest": "Add New Request",
+
+      "requestForm": {
+        "modalEdit": "Edit Maintenance Request",
+        "modalTitle": "Maintenance Requests",
+        "header": "Request Submission Form",
+        "descriptionLabel": "Description:",
+        "descriptionPlaceholder": "Describe your service issue...",
+        "typeLabel": "Select the type of maintenance request:",
+        "typePlaceholder": "Plumbing",
+        "submitButton": "Submit Request",
+        "cancelButton": "Cancel",
+        "descriptionError": "Description is required",
+        "typeError": "Request type is required",
+        "mediaError": "Media files are required",
+        "mediaMaxError": "You can upload up to 3 files only",
+        "fileDisplayName": "Maintenance Request file"
+      },
+      "applications": {
+        "header": "Submitted Applications"
+      },
+      "tabs": {
+        "all": "All",
+        "completed": "Completed",
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected",
+        "escalated": "Escalated"
+      },
+      "successModal": {
+        "title": "Request has been successfully Submitted!",
+        "btnText": "Continue"
+      },
+      "table": {
+        "purpose": "Purpose",
+        "category": "Category",
+        "dateTime": "Date & Time",
+        "status": "Status",
+        "resolvedBy": "Resolved By",
+        "comment": "Comment"
+      },
+      "menuItems": {
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "viewModal": {
+        "title": "Maintenance Request Details",
+        "dateTime": "Date & Time",
+        "category": "Category",
+        "description": "Description",
+        "resolvedBy": "Resolved By",
+        "comment": "Comment",
+        "attachments": "Attachments",
+        "attachment": "Attachment",
+        "lastUpdated": "Last Updated"
+      }
+    }
+  }
+}

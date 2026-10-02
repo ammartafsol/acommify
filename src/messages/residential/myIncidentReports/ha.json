@@ -1,0 +1,41 @@
+{
+  "myIncidentReports": {
+    "MyIncidentReports": {
+      "title": "Rahotanni na Abubuwan da suka Faru",
+      "tabs": {
+        "all": "Duka",
+        "resolved": "An Warware",
+        "underReview": "A Nazarin",
+        "escalated": "An Ƙara"
+      },
+      "tableHeaders": {
+        "incidentId": "ID na Abubuwan da suka Faru",
+        "title": "Take",
+        "description": "Bayani",
+        "severity": "Matsakaici",
+        "dateTime": "Kwanan wata & Lokaci",
+        "status": "Matsayi",
+        "consideredDate": "Kwanan wata na Nazari",
+        "completedDate": "Kwanan wata na Kammala"
+      },
+
+      "filterStatus": {
+        "low": "Ƙarami",
+        "high": "Babba",
+        "medium": "Matsakaici",
+        "all": "Duka"
+      }
+    },
+    "IncidentReportViewModal": {
+      "title": "Cikakkun Abubuwan da suka Faru",
+      "incidentId": "ID na Abubuwan da suka Faru:",
+      "incidentTitle": "Take na Abubuwan da suka Faru:",
+      "status": "Matsayi",
+      "severity": "Matsakaici",
+      "description": "Bayani",
+      "dateTime": "Kwanan wata & Lokaci",
+      "consideredDate": "Kwanan wata na Nazari",
+      "completedDate": "Kwanan wata na Kammala"
+    }
+  }
+}

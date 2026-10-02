@@ -1,0 +1,101 @@
+{
+  "userAgreementPage": {
+    "title": "Termos e Condições",
+    "tabs": {
+      "terms": "Termos e Condições",
+      "privacy": "Política de Privacidade",
+      "responsibility": "Responsabilidades do Usuário"
+    },
+    "checkbox": "Li e concordo com os Termos e Condições",
+    "button": "Aceitar e Continuar"
+  },
+  "loginPage": {
+    "title": "Entrar",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Digite o Email",
+    "emailError": "Por favor, digite um endereço de email válido",
+    "EmailRequired": "Email é obrigatório",
+    "emailInvalidChars": "Email contém caracteres inválidos",
+    "passwordLabel": "Senha",
+    "passwordPlaceholder": "Digite a Senha",
+    "passwordRequired": "Senha é obrigatória",
+    "forgotPass": "Esqueceu sua senha?",
+    "rememberMe": "Lembrar de Mim",
+    "loginButton": "Entrar",
+    "newHere": "Novo aqui?",
+    "signUpLink": "Cadastre-se",
+    "residentIdPlaceholder": "123456",
+    "residentIdLabel": "ID do Residente"
+  },
+  "signUpPage": {
+    "title": "Cadastrar",
+    "nameLabel": "Nome",
+    "namePlaceholder": "Digite o Nome",
+    "nameRequired": "Nome é obrigatório",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Digite o Email",
+    "emailError": "Por favor, digite um endereço de email válido",
+    "emailRequired": "Email é obrigatório",
+    "emailInvalidChars": "Email contém caracteres inválidos",
+    "codeLabel": "Autenticação de Dois Fatores",
+    "codeSubLabel": "Digite o código de 6 dígitos enviado para seu email",
+    "codePlaceholder": "Código",
+    "codeRequired": "Código é obrigatório",
+    "passwordLabel": "Senha",
+    "passwordPlaceholder": "Digite a Senha",
+    "passwordRequired": "Senha é obrigatória",
+    "minPasswordError": "Mín 8 caracteres",
+    "maxPasswordError": "Máx 20 caracteres",
+    "lowerPasswordError": "Adicione pelo menos uma minúscula",
+    "upperPasswordError": "Adicione pelo menos uma maiúscula",
+    "specialPasswordError": "Adicione pelo menos um caractere especial",
+    "confirmPasswordLabel": "Confirmar Senha",
+    "confirmPasswordPlaceholder": "Confirmar Senha",
+    "confirmPasswordRequired": "Senha é obrigatória",
+    "ConfirmPasswordError": "As senhas não coincidem",
+    "signUpButton": "Cadastrar",
+    "joinedUsBefore": "Já se cadastrou antes?",
+    "signInLink": "Entrar",
+    "sendCode": "Enviar Código",
+    "resendCode": "Reenviar Código ({time, plural, =1 {# segundo} other {# segundos}})"
+  },
+  "forgotPasswordPage": {
+    "title": "Esqueci a Senha",
+    "subtitle": "Não se preocupe! Isso acontece. Digite o endereço associado à sua conta.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Digite o Email",
+    "emailError": "Por favor, digite um endereço de email válido",
+    "emailRequired": "Email é obrigatório",
+    "emailInvalidChars": "Email contém caracteres inválidos",
+    "submitButton": "Enviar",
+    "specialChars": "Sem caracteres especiais"
+  },
+  "verificationPage": {
+    "title": "Código de Verificação",
+    "subtitle": "Confirmar com Código",
+    "codeRequired": "Código é obrigatório",
+    "resendCode": "Reenviar Código {time, plural, =0 {} =1 {# segundo} other {# segundos}}",
+    "verifyButton": "Verificar"
+  },
+  "resetPasswordPage": {
+    "title": "Redefinir Senha",
+    "subtitle": "Digite sua nova senha",
+    "passwordLabel": "Senha",
+    "passwordPlaceholder": "Digite a Senha",
+    "passwordRequired": "Senha é obrigatória",
+    "minPasswordError": "Mín 8 caracteres",
+    "maxPasswordError": "Máx 20 caracteres",
+    "lowerPasswordError": "Adicione pelo menos uma minúscula",
+    "upperPasswordError": "Adicione pelo menos uma maiúscula",
+    "specialPasswordError": "Adicione pelo menos um caractere especial",
+    "confirmPasswordLabel": "Confirmar Senha",
+    "confirmPasswordPlaceholder": "Confirmar Senha",
+    "confirmPasswordRequired": "Senha é obrigatória",
+    "ConfirmPasswordError": "As senhas não coincidem",
+    "submitButton": "Redefinir Senha",
+    "modal": {
+      "title": "Sua senha foi alterada com sucesso!",
+      "btnText": "Continuar"
+    }
+  }
+}

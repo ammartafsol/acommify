@@ -1,0 +1,203 @@
+{
+  "header": {
+    "logout": "Déconnexion",
+    "dashboard": "Tableau de Bord",
+    "appointments": "Rendez-vous",
+    "requests": "Demandes de Maintenance",
+    "foodStuffs": "Aliments",
+    "accommodationGuide": "Guide d'Hébergement",
+    "notification": "Notifications",
+    "settings": "Paramètres",
+    "allBookings": "Toutes les Réservations"
+  },
+  "areYouSureModal": {
+    "title": "Êtes-vous sûr ?",
+    "description": "Êtes-vous sûr de vouloir annuler votre réservation ?",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "loading": "Chargement..."
+  },
+  "uploadMedia": {
+    "title": "Contrat",
+    "uploadMessage": "Téléchargez une image ou un document lié à la demande",
+    "fileFormats": "PDF, JPEG, jusqu'à 5 MB",
+    "uploadIconAlt": "Télécharger",
+    "errors": {
+      "fileSizeExceeded": "Le fichier '{fileName}' dépasse la limite de {maxSize}MB.",
+      "maxFilesReached": "Maximum de {maxFiles} fichier(s) atteint.",
+      "tooManyFiles": "Seulement {allowedRemaining} fichier(s) supplémentaire(s) autorisé(s)."
+    },
+    "defaultFileName": "Fichier"
+  },
+  "calendar": {
+    "myBooking": "Ma Réservation",
+    "month": "Mois",
+    "week": "Semaine",
+    "day": "Jour",
+    "today": "Aujourd'hui",
+    "slot": "Créneau : "
+  },
+  "documentCenter": {
+    "title": "Centre de Documents",
+    "tabs": {
+      "all": "Tous",
+      "forms": "Formulaires",
+      "guidelines": "Directives",
+      "otherDocuments": "Autres Documents"
+    },
+    "filters": {
+      "recent": "Récent",
+      "starred": "Favoris",
+      "archived": "Archivés"
+    }
+  },
+  "common": {
+    "points": "{points} points",
+    "bookNow": "Réserver Maintenant",
+    "editTime": "Modifier l'Heure",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "back": "Retour",
+    "pdf": "PDF",
+    "word": "Word",
+    "economy": "Économie",
+    "version": "Version",
+    "months": "Mois",
+    "viewCart": "Voir le Panier",
+    "reschedule": "Reprogrammer",
+    "available": "Disponible",
+    "booked": "Réservé",
+    "selected": "Sélectionné",
+    "order": "Commande",
+    "stock": "Stock"
+  },
+  "designGuidline": {
+    "title": "Directives de Conception",
+    "download": "Télécharger"
+  },
+  "modal": {
+    "SuccessModal": {
+      "title": "Votre rendez-vous a été confirmé avec succès !",
+      "btnText": "Continuer",
+      "iconAlt": "Succès"
+    },
+    "visitorsBookingFormModal": {
+      "header": "Formulaire de Réservation",
+      "nameLabel": "Nom du Visiteur :",
+      "namePlaceholder": "Entrez le nom",
+      "dateLabel": "Date Préférée :",
+      "timeLabel": "Heure Préférée :",
+      "relationshipLabel": "Relation avec le Résident :",
+      "relationshipPlaceholder": "Sélectionner la Relation",
+      "notesLabel": "Notes Supplémentaires :",
+      "notesPlaceholder": "Entrez des notes supplémentaires ici...",
+      "cancelButton": "Annuler",
+      "rulesVisitor": "Règles pour les visiteurs",
+      "upcomingVisits": "Visites à Venir",
+      "confirmButton": "Confirmer le Rendez-vous",
+      "successModalData": {
+        "title": "Votre réservation a été confirmée avec succès !!",
+        "btnText": "Aller à l'Accueil"
+      },
+      "dropdown": {
+        "parent": "Parent",
+        "sibling": "Frère/Sœur",
+        "friend": "Ami"
+      }
+    },
+    "bookFormModal": {
+      "header": "Formulaire de Réservation",
+      "nameLabel": "Nom :",
+      "namePlaceholder": "Entrez votre nom",
+      "dateLabel": "Date Préférée :",
+      "timeLabel": "Heure Préférée :",
+      "reasonLabel": "Raison de la Réunion :",
+      "reasonPlaceholder": "Discuter des mises à jour du projet",
+      "notesLabel": "Notes Supplémentaires :",
+      "notesPlaceholder": "Entrez votre message",
+      "notesMax": "Les notes ne peuvent pas dépasser 500 caractères.",
+      "reasonRequired": "La raison est requise.",
+      "cancelButton": "Annuler",
+      "upcomingMeetings": "Réunions à Venir",
+      "confirmButton": "Confirmer le Rendez-vous"
+    },
+    "feedbackModal": {
+      "header": "Nous Adorerions Votre Avis !",
+      "description": "Appuyez sur 👍 ou 👎 pour évaluer. N'hésitez pas à ajouter un commentaire pour nous aider à rendre votre expérience encore meilleure !",
+      "placeholder": "Dites-nous en plus (optionnel)",
+      "submitButton": "Soumettre l'Avis"
+    },
+    "busSeatModal": {
+      "seatHeading": "Siège : {seat}",
+      "passengerNameLabel": "Nom du Passager",
+      "passengerNamePlaceholder": "Entrez le nom du passager",
+      "cancelButton": "Annuler",
+      "confirmButton": "Confirmer"
+    }
+  },
+  "timeslots": {
+    "availableTimeSlots": "Créneaux Disponibles",
+    "available2HourSlots": "Créneaux de 2 Heures Disponibles",
+    "noSlotsAvailable": "Aucun créneau disponible",
+    "noConsecutiveSlotsAvailable": "Aucun créneau consécutif de 2 heures disponible",
+    "available": "Disponible",
+    "booked": "Réservé",
+    "your": "Votre Créneau"
+  },
+  "toasts": {
+    "loginSuccess": "Connexion réussie !",
+    "loginError": "Échec de la connexion. Veuillez réessayer.",
+    "logoutSuccess": "Déconnexion réussie !",
+    "profileUpdateSuccess": "Profil mis à jour avec succès !",
+    "profileUpdateError": "Échec de la mise à jour du profil. Veuillez réessayer.",
+    "otpCodeSent": "Code OTP envoyé par email avec succès",
+    "noEmailFound": "L'email a expiré.",
+    "otpVerified": "OTP vérifié avec succès",
+    "passwordResetSuccess": "Mot de passe réinitialisé avec succès !",
+    "passwordResetError": "Échec de la réinitialisation du mot de passe. Veuillez réessayer.",
+    "otpCodeExpired": "Le code OTP a expiré."
+  },
+  "busDetailCard": {
+    "duration": "Durée",
+    "seatsAvailable": "Sièges Disponibles",
+    "departureDate": "Date de Départ",
+    "available": "Disponible",
+    "booked": "Réservé"
+  },
+  "passengerCard": {
+    "passenger": "Passager",
+    "seatNumber": "Nº de Siège"
+  },
+  "busBookingConfirmationCard": {
+    "duration": "Durée",
+    "seat": "Siège",
+    "boardingPoint": "Point d'Embarquement",
+    "departure": "Départ",
+    "arrival": "Arrivée",
+    "eTicket": {
+      "title": "E-Ticket",
+      "yourTrip": "Votre Voyage",
+      "passengerList": "Liste des Passagers",
+      "bookingConfirmed": "Réservation Confirmée !",
+      "description": "Votre réservation est confirmée ! Nous avons hâte de vous voir bientôt.",
+      "name": "Nom",
+      "bookingCode": "Code de Réservation",
+      "numberOfTicket": "Nº",
+      "seat": "Siège",
+      "IdNumber": "Numéro d'ID",
+      "busName": "Bus",
+      "duration": "Durée",
+      "reminders": {
+        "title": "Définir un rappel pour votre Réservation",
+        "reminderOptions": {
+          "15min": "15 minutes avant",
+          "30min": "30 minutes avant",
+          "1hour": "1 heure avant",
+          "custom": "Rappel Personnalisé"
+        },
+        "customPlaceholderText": "ex: 10 minutes avant"
+      },
+      "downloadBtnLabel": "Télécharger l'E-Ticket"
+    }
+  }
+}

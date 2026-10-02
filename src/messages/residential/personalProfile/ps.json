@@ -1,0 +1,105 @@
+{
+  "personalProfilePage": {
+    "personalProfile": {
+      "title": "شخصي پروفایل",
+      "welcomeTitle": "ستاسو شخصي پروفایل ته ښه راغلاست!",
+      "welcomeDescription": "دلته تاسو کولی شئ خپل اړین معلومات وګورئ او تازه کړئ ترڅو ډاډه اوسئ چې تل تازه وي.",
+      "familyMembers": "د کورنۍ غړي",
+      "preferredLanguage": "غوره ژبه",
+      "selectLanguage": "ژبه وټاکئ",
+      "generalInformation": "عمومي معلومات",
+      "viewIncident": "ستاسو د پیښو راپورونه"
+    },
+
+    "form": {
+      "errors": {
+        "required": "{field} اړین دی",
+        "invalidEmail": "مهرباني وکړئ، د بریښنالیک پته ورکړئ",
+        "invalid": "غلط {field}"
+      },
+      "labels": {
+        "fullName": "بشپړ نوم",
+        "residentIdNumber": "د اوسیدونکي د پېژندنې شمیره",
+        "houseNumber": "د کور شمیره",
+        "phoneNumber": "د تلیفون شمیره",
+        "email": "د بریښنالیک پته",
+        "familyMemberFullName": "د کورنۍ د غړي بشپړ نوم",
+        "trcNumber": "د TRC شمیره",
+        "relationship": "اړیکه",
+        "dob": "د زیږیدو نیټه",
+        "age": "عمر",
+        "saveChanges": "بدلونونه خوندي کړئ",
+        "editProfile": "پروفایل سمون",
+        "schoolName": "د ښوونځي نوم",
+        "schoolPlacement": "د ښوونځي ځای پرځای کول",
+        "transportType": "د لېږد ډول",
+        "books": "کتابونه",
+        "year": "کال",
+        "gender": "جنس"
+      },
+      "placeholders": {
+        "fullName": "خپل بشپړ نوم ولیکئ",
+        "dob": "د زیږیدو نیټه ولیکئ",
+        "residentIdNumber": "د اوسیدونکي د پېژندنې شمیره ولیکئ",
+        "houseNumber": "د کور/واحد شمیره ولیکئ",
+        "phoneNumber": "د تلیفون شمیره ولیکئ",
+        "email": "د بریښنالیک پته ولیکئ",
+        "familyMemberFullName": "د کورنۍ د غړي بشپړ نوم ولیکئ",
+        "trcNumber": "د TRC شمیره ولیکئ",
+        "relationship": "د کورنۍ د غړي سره خپله اړیکه ولیکئ",
+        "age": "د کورنۍ د غړي عمر ولیکئ",
+        "schoolName": "د ښوونځي نوم ولیکئ",
+        "schoolGrade": "د ښوونځي درجه ولیکئ",
+        "dobPlaceholder": "ورځ/میاشت/کال",
+        "schoolPlacement": "د ښوونځي ځای پرځای کول وټاکئ",
+        "transportType": "د لېږد ډول وټاکئ",
+        "year": "کال ولیکئ",
+        "books": "د کتاب نوم ولیکئ",
+        "gender": "جنس وټاکئ"
+      }
+    },
+
+    "genderOptions": {
+      "male": "نارینه",
+      "female": "ښځینه",
+      "other": "نور"
+    },
+
+    "relationshipOptions": {
+      "father": "پلار",
+      "mother": "مور",
+      "sibling": "ورور/خور",
+      "spouse": "مېړه/ښځه",
+      "children": "ماشومان"
+    },
+    "schoolPlacementOptions": {
+      "placed": "ځای پرځای شوی",
+      "notPlaced": "ځای پرځای نه شوی"
+    },
+    "transportTypeOptions": {
+      "bus": "بس",
+      "carpool": "شریکه لېږد",
+      "family": "کورنۍ"
+    },
+    "toasts": {
+      "updateSuccess": "پروفایل په بریالیتوب سره تازه شو"
+    },
+    "fullName": {
+      "required": "بشپړ نوم اړین دی"
+    },
+    "schoolName": {
+      "required": "د ښوونځي نوم اړین دی"
+    },
+    "familyMemberErrors": {
+      "relationshipRequired": "اړیکه اړینه ده",
+      "dobRequired": "د زیږیدو نیټه اړینه ده",
+      "ageAtLeast18": "د زیږیدو نیټه لاړه نه دی",
+      "schoolPlacementRequired": "د ښوونځي ځای پرځای کول اړین دي",
+      "yearRequired": "کال اړین دی",
+      "transportTypeRequired": "د لېږد ډول اړین دی",
+      "booksMinRequired": "لږ تر لږه یو کتاب اړین دی",
+      "trcNumberRequired": "د TRC شمیره اړین دی",
+      "genderRequired": "د جنس اړین دی"
+    }
+  }
+}

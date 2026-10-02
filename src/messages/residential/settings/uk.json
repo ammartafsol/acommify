@@ -1,0 +1,40 @@
+{
+  "settingsPage": {
+    "settings": {
+      "title": "Налаштування",
+      "logout": "Вийти"
+    },
+    "tabs": {
+      "account": "Акаунт",
+      "changePassword": "Змінити Пароль",
+      "pointsWallet": "Гаманець Балів",
+      "notifications": "Сповіщення",
+      "privacyPolicy": "Політика Конфіденційності",
+      "help": "Допомога",
+      "logout": "Вийти",
+      "orders": "Замовлення"
+    },
+    "pointsWallet": {
+      "title": "Гаманець Балів",
+      "currentBalance": "Поточний Баланс:",
+      "pointsHistory": "Історія Балів",
+      "points": "Бали",
+      "spendingPoints": "Витрата Балів",
+      "shopNow": "Купити Зараз",
+      "availableItems": "Доступні Товари/Послуги"
+    },
+    "helpLine": {
+      "title": "Лінія Допомоги",
+      "welcomeText": "Ласкаво просимо на Лінію Допомоги",
+      "description": "Якщо вам потрібна допомога, наші лінії підтримки доступні для допомоги вам. Будь ласка, знайдіть відповідну лінію допомоги нижче залежно від ваших потреб."
+    },
+    "toasts": {
+      "checkedInSuccessfully": "Вхід успішний",
+      "checkedOutSuccessfully": "Вихід успішний"
+    },
+    "btnLabels": {
+      "signIn": "Увійти",
+      "signOut": "Вийти"
+    }
+  }
+}

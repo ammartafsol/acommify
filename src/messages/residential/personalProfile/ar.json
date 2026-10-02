@@ -1,0 +1,105 @@
+{
+  "personalProfilePage": {
+    "personalProfile": {
+      "title": "الملف الشخصي",
+      "welcomeTitle": "مرحباً بك في ملفك الشخصي!",
+      "welcomeDescription": "هنا يمكنك مراجعة وتحديث معلوماتك الأساسية لضمان أنها محدثة دائماً.",
+      "familyMembers": "أعضاء العائلة",
+      "preferredLanguage": "اللغة المفضلة",
+      "selectLanguage": "اختر اللغة",
+      "generalInformation": "المعلومات العامة",
+      "viewIncident": "تقارير الحوادث الخاصة بك"
+    },
+
+    "form": {
+      "errors": {
+        "required": "{field} مطلوب",
+        "invalidEmail": "يرجى تقديم عنوان بريد إلكتروني صحيح",
+        "invalid": "غير صحيح {field}"
+      },
+      "labels": {
+        "fullName": "الاسم الكامل",
+        "residentIdNumber": "رقم هوية المقيم",
+        "houseNumber": "رقم المنزل",
+        "phoneNumber": "رقم الهاتف",
+        "email": "عنوان البريد الإلكتروني",
+        "familyMemberFullName": "الاسم الكامل لعضو العائلة",
+        "trcNumber": "رقم TRC",
+        "relationship": "العلاقة",
+        "dob": "تاريخ الميلاد",
+        "age": "العمر",
+        "saveChanges": "حفظ التغييرات",
+        "editProfile": "تعديل الملف الشخصي",
+        "schoolName": "اسم المدرسة",
+        "schoolPlacement": "التنسيب المدرسي",
+        "transportType": "نوع النقل",
+        "books": "الكتب",
+        "year": "السنة",
+        "gender": "الجنس"
+      },
+      "placeholders": {
+        "fullName": "أدخل اسمك الكامل",
+        "dob": "أدخل تاريخ ميلادك",
+        "residentIdNumber": "أدخل رقم هوية المقيم",
+        "houseNumber": "أدخل رقم المنزل/الوحدة",
+        "phoneNumber": "أدخل رقم هاتفك",
+        "email": "أدخل عنوان بريدك الإلكتروني",
+        "familyMemberFullName": "أدخل الاسم الكامل لعضو العائلة",
+        "trcNumber": "أدخل رقم TRC",
+        "relationship": "أدخل علاقتك مع عضو العائلة",
+        "age": "أدخل عمر عضو العائلة",
+        "schoolName": "أدخل اسم المدرسة",
+        "schoolGrade": "أدخل صف المدرسة",
+        "dobPlaceholder": "يوم/شهر/سنة",
+        "schoolPlacement": "اختر التنسيب المدرسي",
+        "transportType": "اختر نوع النقل",
+        "year": "أدخل السنة",
+        "books": "أدخل اسم الكتاب",
+        "gender": "اختر الجنس"
+      }
+    },
+
+    "genderOptions": {
+      "male": "ذكر",
+      "female": "أنثى",
+      "other": "آخر"
+    },
+
+    "relationshipOptions": {
+      "father": "الأب",
+      "mother": "الأم",
+      "sibling": "الأخ/الأخت",
+      "spouse": "الزوج/الزوجة",
+      "children": "الأطفال"
+    },
+    "schoolPlacementOptions": {
+      "placed": "مُنسق",
+      "notPlaced": "غير مُنسق"
+    },
+    "transportTypeOptions": {
+      "bus": "الحافلة",
+      "carpool": "السيارة المشتركة",
+      "family": "العائلة"
+    },
+    "toasts": {
+      "updateSuccess": "تم تحديث الملف الشخصي بنجاح"
+    },
+    "fullName": {
+      "required": "الاسم الكامل مطلوب"
+    },
+    "schoolName": {
+      "required": "اسم المدرسة مطلوب"
+    },
+    "familyMemberErrors": {
+      "relationshipRequired": "العلاقة مطلوبة",
+      "dobRequired": "تاريخ الميلاد مطلوب",
+      "ageAtLeast18": "يجب أن يكون العمر على الأقل 18 عاماً",
+      "schoolPlacementRequired": "التنسيب المدرسي مطلوب",
+      "yearRequired": "السنة مطلوبة",
+      "transportTypeRequired": "نوع النقل مطلوب",
+      "booksMinRequired": "كتاب واحد على الأقل مطلوب",
+      "trcNumberRequired": "رقم TRC مطلوب",
+      "genderRequired": "الجنس مطلوب"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "upcomingEvents": {
+    "header": {
+      "title": "Upcoming events"
+    },
+    "upcomingMeetings": {
+      "requestChange": "requestChange"
+    }
+  }
+}

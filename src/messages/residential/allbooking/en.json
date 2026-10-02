@@ -1,0 +1,40 @@
+{
+  "allBooking": {
+    "title": "All Bookings",
+    "welcomeTitle": "Welcome to Bookings!",
+    "description": "View and manage all your bookings here.",
+    "table": {
+      "title": "Booking Details",
+      "purpose": "Purpose",
+      "dateTime": "Date & Time",
+      "booking": "Booking ID",
+      "time": "Time",
+      "status": "Status",
+      "category": "Category",
+      "bookingStartDate": "Start Date & Time",
+      "bookingEndDate": "End Date & Time",
+      "visitorName": "Visitor Name",
+      "machineName": "Machine Name",
+      "busName": "Bus Name",
+      "startingPoint": "Starting Point",
+      "endingPoint": "Ending Point",
+      "seatNumber": "Seat Number",
+      "staffName": "Staff Name"
+    },
+    "tabs": {
+      "all": "All",
+      "completed": "Completed",
+      "pending": "Pending",
+      "accepted": "Accepted",
+      "inprogress": "In-Progress",
+      "cancelled": "Cancelled",
+      "rejected": "Rejected"
+    },
+    "menuItems": {
+      "cancel": "Cancel Booking"
+    },
+    "toasts": {
+      "cancelSuccess": "Booking cancelled successfully"
+    }
+  }
+}

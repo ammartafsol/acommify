@@ -1,0 +1,363 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-block: 40px;
+}
+
+.dropDownContainer {
+  width: 300px;
+  background-color: var(--Primary-White);
+  padding: 25px;
+  border-radius: 15px;
+  z-index: 11;
+}
+
+.CalendarComponentMain {
+  display: flex;
+  gap: 20px;
+}
+
+.calendarContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.calendarSidebar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.CalendarComponentRight {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.overlayCustom {
+  background: #f4f7fd90 !important;
+}
+
+.selectedDate {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+  background: var(--Primary-White);
+  gap: 8px;
+}
+
+.durationTabs {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+  background: var(--Primary-White);
+  gap: 16px;
+}
+
+.durationTabs h4 {
+  color: var(--Black, #172a33);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.tabsContainer {
+  display: flex;
+  gap: 12px;
+}
+
+.durationTab {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px;
+  border: 2px solid var(--Gray, #dbdbdb);
+  border-radius: 12px;
+  background: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: var(--fs14);
+  font-weight: 500;
+  color: var(--Dark-gray, #8c939b);
+}
+
+.durationTab:hover {
+  border-color: var(--Blue, #33b5f6);
+  background: rgba(51, 181, 246, 0.05);
+}
+
+.durationTab.active {
+  border-color: var(--Blue, #33b5f6);
+  background: var(--Blue, #33b5f6);
+  color: white;
+}
+
+.durationTab.active span {
+  color: white;
+}
+
+.durationTab span {
+  color: inherit;
+}
+
+.selectedDate h4 {
+  color: var(--Black, #172a33);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+/* Reminder Section Styles */
+.reminderSection {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+  background: var(--Primary-White);
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.reminderHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.reminderHeader h4 {
+  color: var(--Black, #172a33);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  margin: 0;
+}
+
+.reminderOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reminderCheckbox {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.reminderCheckbox input:checked {
+  background-color: var(--Blue, #33b5f6);
+  border-color: var(--Blue, #33b5f6);
+  box-shadow: unset;
+}
+
+.reminderCheckbox input {
+  border-color: var(--Blue, #33b5f6);
+  box-shadow: unset;
+}
+
+.reminderCheckbox input:focus {
+  box-shadow: unset;
+}
+
+.customInput {
+  margin-top: 8px;
+  padding: 12px;
+  border: 2px solid var(--Blue, #33b5f6);
+  border-radius: 8px;
+  background: transparent;
+  font-size: 14px;
+  color: var(--Black, #172a33);
+  outline: none;
+  font-family: var(--font-lato);
+  width: 100%;
+}
+
+.customInput:focus {
+  border-color: var(--Blue, #33b5f6);
+  box-shadow: 0 0 0 3px rgba(51, 181, 246, 0.1);
+}
+
+.customInput::placeholder {
+  color: var(--Dark-gray, #8c939b);
+}
+
+.bookingWarning {
+  display: flex;
+  height: 48px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: var(--danger-light, #fde6eb);
+}
+
+.bookingWarning p {
+  color: var(--Red, #f86969);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 16.8px */
+}
+
+.buttons {
+  width: 100% !important;
+  height: 60px !important;
+  border-radius: 15px !important;
+}
+
+.buttons label {
+  text-align: center;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 120% !important;
+  color: var(--Poor-white) !important;
+}
+
+.calendarSidebar .buttons:last-of-type {
+  color: var(--Dark-gray, #8c939b);
+}
+
+.mainDiv {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.left {
+  width: 70%;
+}
+
+.right {
+  width: 30%;
+}
+
+.btnsMain {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.visitBtn {
+  height: 60px !important;
+  width: 50% !important;
+  border-radius: 15px !important;
+}
+
+@media (max-width: 1280px) {
+  .calendarContainer {
+    flex-direction: column;
+  }
+  .CalendarComponentMain {
+    flex-wrap: wrap;
+  }
+  .mainDiv {
+    gap: 16px;
+  }
+  .right {
+    min-width: 400px;
+  }
+  .buttons{
+    width: 300px !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .mainDiv {
+    flex-direction: column;
+  }
+  .left,
+  .calendarContainer {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  .rightInnerDiv {
+    width: max-content;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    margin-block: 30px;
+  }
+  .rightInnerDiv {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .main {
+    margin-top: 80px;
+    margin-bottom: 75px;
+  }
+  .timeSlotsMain {
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .timeSlotsMain div[class*="footer"] {
+    background: transparent;
+  }
+  .timeSlotsMain > div > h1 {
+    display: none;
+  }
+  .timeSlotsMain > div {
+    background: transparent;
+    box-shadow: none;
+    padding-inline: 10px;
+    padding-top: 0px;
+  }
+
+  .bookingWarning {
+    gap: 5px;
+    height: auto;
+  }
+  .right {
+    min-width: 100%;
+  }
+
+  .reminderSection {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .reminderHeader h4 {
+    font-size: 16px;
+  }
+
+  .reminderCheckbox {
+    font-size: 13px;
+  }
+
+  .customInput {
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 400px) {
+  .btnsMain button label,
+  .buttons label {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 567px) {
+  .main {
+    margin-bottom: 80px;
+  }
+}

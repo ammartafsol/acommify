@@ -1,0 +1,63 @@
+{
+  "appointmentsPage": {
+    "Appointments": {
+      "title": "Taro",
+      "bookAppointment": "Yi Taro",
+      "welcomeTitle": "Barka da zuwa Taro!",
+      "description": "Sauƙaƙe tsara taro da manaja ko ma'aikatan karɓa da ƴan danna kawai.",
+
+      "tabs": {
+        "all": "Duka",
+        "completed": "An ƙare",
+        "pending": "A jira",
+        "accepted": "An karɓa",
+        "inprogress": "A cikin Aiki",
+        "cancelled": "An soke",
+        "rejected": "An ƙi"
+      },
+      "toasts": {
+        "cancelSuccess": "Taro an soke cikin nasara"
+      },
+      "appointmentHistory": "Taro",
+      "table": {
+        "purpose": "Manufa",
+        "dateTime": "Kwanan wata & Lokaci",
+        "category": "Rukuni",
+        "status": "Matsayi"
+      },
+      "menuItems": {
+        "cancel": "Soke"
+      },
+      "staffAppointmentCard": {
+        "title": "Taro na Ma'aikata",
+        "description": "Sauƙaƙe tsara, duba, da sarrafa taron ku da ma'aikata a nan."
+      },
+
+      "visitorBookingCard": {
+        "title": "Booking na Baƙi",
+        "description": "Tsara taro da baƙi. Ƙayyade lokaci mai dacewa domin baƙin zai iya zuwa cibiyar cikin sauƙi ya sadu da ku."
+      }
+    },
+    "StaffAppointment": {
+      "title": "Taro na Ma'aikata",
+      "selectStaff": "Zaɓi Ma'aikata",
+      "selectedDate": "Kwanan wata da aka zaɓa",
+      "selectStaffPlaceholder": "{loading, select, true {Ana loda...} other {Zaɓi Ma'aikata}}",
+      "staffSelectMessage": "Don Allah zaɓi memba na ma'aikata don ganin taro masu samuwa.",
+      "selectDateMessage": "Don Allah zaɓi kwanan wata don ganin ramuka masu samuwa.",
+      "bookingWarning": "Booking ba za a iya soke ba lokacin da saura awa 1 akan bookings.",
+      "bookingSuccess": "Bukatar taro da ma'aikata an aika cikin nasara! Don Allah ku jira amintatawa.",
+      "reminder": "Saita tunatarwa don taron ku",
+      "reminders": {
+        "title": "Saita tunatarwa don Taron Ma'aikata",
+        "reminderOptions": {
+          "15min": "Mintuna 15 kafin",
+          "30min": "Mintuna 30 kafin",
+          "1hour": "Awa 1 kafin",
+          "custom": "Tunatarwa na Musamman"
+        },
+        "customPlaceholderText": "Shigar da mintuna (misali: 10)"
+      }
+    }
+  }
+}

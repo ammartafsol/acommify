@@ -1,0 +1,20 @@
+{
+  "AccommodationGuidePage": {
+    "title": "Посібник з проживання",
+    "welcomeMessage": "Ласкаво просимо до Посібника з проживання!",
+    "WelcomeDescription": "Цей розділ створений для надання вам усієї необхідної інформації про послуги, доступні в нашому центрі.",
+    "additionalResources": {
+      "title": "Додаткові ресурси",
+      "download": "Завантажування",
+      "contact": "Контактна інформація"
+    },
+    "frequently": {
+      "title": "Часті питання",
+      "tabs": {
+        "generalinquiries": "Загальні запити",
+        "visitorPolicies": "Політики відвідувачів",
+        "serviceInformation": "Інформація про послуги"
+      }
+    }
+  }
+}

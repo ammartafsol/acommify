@@ -1,0 +1,209 @@
+.dropDownContainer {
+  width: 300px;
+  background-color: var(--Primary-White);
+  padding: 25px;
+  border-radius: 15px;
+  z-index: 11;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 24px;
+  gap: 24px;
+  margin-block: 48px;
+}
+
+.busDetails {
+  margin-block: 33px 32px;
+  border-radius: 8px;
+  background: var(--Poor-white);
+  box-shadow: 0 9.628px 48.14px 0 rgba(139, 139, 139, 0.1);
+  display: flex;
+  /* height: 54px; */
+  padding: 16px 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+.busCardLeft {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  aspect-ratio: 1/1;
+  border-radius: 24px;
+  background: rgba(0, 179, 131, 0.05);
+}
+
+.close {
+  width: 30px;
+  height: 30px;
+  background-color: #f2f5fb;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  align-items: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.busCardLeft > p {
+  color: var(--Black);
+  font-family: var(--font-lato);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.calendar {
+  width: 70%;
+}
+
+.availableBuses {
+  border-radius: 20px;
+  background: var(--Poor-white);
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  box-shadow: 0 9.628px 48.14px 0 rgba(139, 139, 139, 0.1);
+}
+
+.availableBuses > p {
+  color: var(--Black);
+  font-family: var(--font-lato);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.detailCards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  overflow-y: scroll;
+  max-height: 637px;
+}
+.detailCards::-webkit-scrollbar {
+  display: none;
+}
+.dropdownContainer,
+.dropdownMain {
+  width: max-content !important;
+}
+.dropdownMain {
+  margin-top: 20px;
+}
+.dropdownContainer > div {
+  border-radius: 8px !important;
+  border: 1px solid rgba(168, 181, 188, 0.32);
+}
+.dropdownContainer > div svg {
+  color: #a8b5bc !important;
+}
+.dropdownContainer > div:hover {
+  border: 1px solid rgba(168, 181, 188, 0.32);
+}
+.buttons {
+  width: 100% !important;
+  text-transform: capitalize;
+}
+.calendarMain {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.tabs {
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media screen and (width < 1280px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .calendar {
+    width: 100%;
+  }
+
+  .availableBuses {
+    width: 100%;
+  }
+  .detailCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .calendarMain {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 800px) {
+  .detailCards {
+    display: grid;
+    grid-template-columns: repeat(2, 330px);
+  }
+}
+@media (max-width: 767px) {
+  .detailCards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    margin-block-start: 20px;
+  }
+  .calendar {
+    border-bottom: 5px solid #d8dfe6;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .availableBuses {
+    width: 100%;
+    background: none;
+    box-shadow: unset;
+    padding-inline: 0px;
+  }
+  .busCardLeft > p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    margin-block: 80px;
+  }
+}

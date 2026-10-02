@@ -1,0 +1,12 @@
+{
+  "foodStuffsPage": {
+    "all": "ټول",
+    "title": "د خوړو توکي",
+    "addedToCart": "کڅوړې ته ورزیات شو!",
+
+    "toasts": {
+      "addedToFavorites": "غوره توکو ته ورزیات شو",
+      "removedFromFavorites": "د غوره توکو څخه لرې شو"
+    }
+  }
+}

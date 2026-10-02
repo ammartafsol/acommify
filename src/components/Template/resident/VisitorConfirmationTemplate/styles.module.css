@@ -1,0 +1,195 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(16px, 3vw, 32px);
+  margin-block: clamp(24px, 4vw, 48px);
+  padding-inline: clamp(16px, 2vw, 24px);
+}
+.calendarContainer {
+  display: flex;
+  gap: clamp(24px, 4vw, 50px);
+  background: white;
+  justify-content: center;
+  align-items: center;
+  padding: clamp(24px, 5vw, 50px);
+  border-radius: 20px;
+  flex-direction: column;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.calendarImg {
+  height: clamp(120px, 15vw, 180px);
+  width: clamp(120px, 15vw, 180px);
+  border-radius: 50%;
+  border-bottom: 1px solid #e5e7eb;
+  background: linear-gradient(135deg, #f4f7fd 0%, #e8f2ff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.calendarImg > div {
+  width: 106px;
+  height: 106px;
+  aspect-ratio: 1/1;
+  position: relative;
+}
+
+.cardMain {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: clamp(16px, 3vw, 32px);
+  align-items: start;
+}
+
+.bookingDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.bookingDescription > h2 {
+  color: #000;
+  font-size: var(--fs24);
+  font-weight: 700;
+}
+.bookingDescription > p {
+  color: var(--Dark-gray, #8c939b);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.bookingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.bookingDetails {
+  border-radius: 12px;
+  border: 1px solid rgba(219, 219, 219, 0.7);
+  background: var(--White, #fff);
+  box-shadow: 0 8px 32px rgba(139, 139, 139, 0.08);
+  padding: clamp(16px, 2.5vw, 24px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  transition: box-shadow 0.2s ease;
+}
+
+.bookingDetails span {
+  border-radius: 24px;
+  background: #f0f9ff;
+  padding: 5px;
+}
+
+.bookingDetails > h2 {
+  color: var(--Black, #172a33);
+  font-size: var(--fs16);
+  font-weight: 400;
+  line-height: 120%;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.buttonsConfirm {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  max-width: 450px;
+}
+
+.btnMain {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.calendarContainer {
+  width: 100%;
+}
+
+/* Large tablets and small laptops */
+@media (max-width: 1024px) {
+  .cardMain {
+    grid-template-columns: 1fr;
+    gap: clamp(20px, 3vw, 28px);
+  }
+
+  .calendarContainer {
+    width: 100%;
+  }
+
+  .reminderSlot {
+    width: 100%;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .main {
+    padding-inline: 16px;
+  }
+
+  .calendarContainer {
+    padding: clamp(20px, 4vw, 32px);
+  }
+
+  .bookingDescription > h2 {
+    font-size: clamp(20px, 4vw, 24px);
+  }
+
+  .bookingDetails {
+    padding: 16px;
+  }
+}
+
+/* Small tablets and large phones */
+@media (max-width: 640px) {
+  .calendarContainer {
+    background: none;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+  }
+
+  .bookingDetails {
+    background: white;
+    box-shadow: 0 4px 16px rgba(139, 139, 139, 0.1);
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 576px) {
+  .main {
+    margin-top: clamp(60px, 8vh, 80px);
+    margin-bottom: clamp(60px, 8vh, 80px);
+    gap: 16px;
+  }
+
+  .calendarImg {
+    height: 100px;
+    width: 100px;
+  }
+
+  .bookingDescription > h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .bookingDescription > p {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .buttonsConfirm {
+    flex-direction: column;
+    gap: 12px;
+  }
+}

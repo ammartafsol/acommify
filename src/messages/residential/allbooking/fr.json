@@ -1,0 +1,29 @@
+{
+  "allBooking": {
+    "title": "Réservations",
+    "welcomeTitle": "Bienvenue dans les Réservations!",
+    "description": "Voir et gérer toutes vos réservations ici.",
+    "table": {
+      "title": "Détails de la Réservation",
+      "purpose": "Objectif",
+      "dateTime": "Date et Heure",
+      "booking": "Réservation",
+      "time": "Heure",
+      "category": "Catégorie",
+      "bookingDate": "Date de Réservation",
+      "status": "Statut"
+    },
+    "tabs": {
+      "all": "Toutes",
+      "completed": "Terminées",
+      "pending": "En Attente",
+      "accepted": "Acceptées",
+      "inprogress": "En Cours",
+      "cancelled": "Annulées",
+      "rejected": "Rejetées"
+    },
+    "menuItems": {
+      "cancel": "Annuler"
+    }
+  }
+}

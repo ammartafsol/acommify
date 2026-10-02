@@ -1,0 +1,89 @@
+{
+  "busBooking": {
+    "title": "Bus Booking",
+    "availableBusesTitle": "Available Buses",
+    "availableTitle": "Bus Schedule",
+    "selectDate": "Select Date to see available buses",
+    "myBooking": "My Booking",
+    "availableBusesTabs": {
+      "morning": "Morning",
+      "afternoon": "Afternoon",
+      "evening": "Evening"
+    },
+
+    "selectSeat": {
+      "title": "Select Seat",
+      "termsAgreement": "I have agreed to the ",
+      "termsAndConditions": "terms and conditions",
+      "frontDoor": "Front Door",
+      "driver": "Driver",
+      "seats": {
+        "available": "Available",
+        "booked": "Booked",
+        "selected": "Selected"
+      },
+      "timeRemaining": "The remaining time of order",
+      "continue": "Continue"
+    },
+    "bookingConfirmation": {
+      "title": "Booking Confirmation",
+      "yourTrip": "Your Trip",
+      "passengerList": "Passenger List",
+      "termsAgreement": "I have agreed to the ",
+      "termsAndConditions": "terms and conditions",
+      "confirmBooking": "Confirm Booking",
+      "cancelBooking": "Cancel Booking",
+      "rescheduleBooking": "Reschedule Booking",
+      "reschedule": "Reschedule ",
+      "successful": "Your booking was successful!",
+      "bookingConfirm": "Booking Confirm Successfully"
+    },
+    "eTicket": {
+      "title": "E-Ticket",
+      "yourTrip": "Your Trip",
+      "passengerList": "Passenger List",
+      "bookingConfirmed": "Booking Confirmed!",
+      "bookingCompleted": "Booking Completed!",
+      "bookingRejected": "Booking Rejected!",
+      "authenticationRequired": "Authentication required",
+      "bookingInformationNotAvailable": "Booking information not available",
+      "pdfFileEmpty": "PDF file is empty",
+      "pdfDownloadedSuccessfully": "PDF downloaded successfully",
+      "bookingCancelled": "Booking Cancelled!",
+      "bookingPending": "Booking Pending!",
+      "descriptionPending": "Your booking is pending! We will notify you once it's approved.",
+      "descriptionCompleted": "Your booking is completed! Thank you for choosing our service.",
+      "descriptionRejected": "Your booking is rejected! Please contact support for more information.",
+      "descriptionCancelled": "Your booking is cancelled! If you have any questions, please contact support.",
+      "description": "Your booking is confirmed! We look forward to see you soon.",
+      "name": "Name",
+      "bookingCode": "Booking Code",
+      "numberOfTicket": "No",
+      "seat": "Seat",
+      "IdNumber": "Id Number",
+      "busName": "Bus",
+      "duration": "Duration",
+      "reminders": {
+        "title": "Set a reminder for your Booking",
+        "reminderOptions": {
+          "15min": "15 minutes before",
+          "30min": "30 minutes before",
+          "1hour": "1 hour before",
+          "custom": "Custom Reminder"
+        },
+        "customPlaceholderText": "e.g., 10 minutes before"
+      },
+      "cancelBookingModal": {
+        "title": "Cancel Bus Booking",
+        "description": "Are you sure you want to cancel your bus booking?",
+        "btnText1": "Confirm",
+        "btnText2": "Cancel",
+        "iconAlt": "Cancel booking icon"
+      },
+      "downloadBtnLabel": "Download e-Ticket",
+      "cancelBooking": "Cancel Booking",
+      "cancelSuccess": "Your booking has been successfully cancelled.",
+      "cancelError": "Failed to cancel booking. Please try again."
+    }
+  }
+}

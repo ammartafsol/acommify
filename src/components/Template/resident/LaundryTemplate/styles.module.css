@@ -1,0 +1,218 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-block: 40px;
+}
+
+.dropDownContainer {
+  width: 300px;
+  background-color: var(--Primary-White);
+  padding: 25px;
+  border-radius: 15px;
+  z-index: 11;
+}
+
+.CalendarComponentMain {
+  display: flex;
+  gap: 20px;
+}
+
+.calendarContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.calendarSidebar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.CalendarComponentRight {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.overlayCustom {
+  background: #f4f7fd90 !important;
+}
+
+.bookingWarning {
+  display: flex;
+  height: 48px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: var(--danger-light, #fde6eb);
+}
+
+.bookingWarning p {
+  color: var(--Red, #f86969);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 16.8px */
+}
+
+.buttons {
+  width: 100% !important;
+  height: 60px !important;
+  border-radius: 15px !important;
+}
+
+.buttons label {
+  text-align: center;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 120% !important; /* 21.6px */
+}
+
+.calendarSidebar .buttons:last-of-type {
+  color: var(--Dark-gray, #8c939b);
+}
+
+.selectedDate {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+  background: var(--Primary-White);
+  gap: 8px;
+}
+
+.selectedDate h4 {
+  color: var(--Black, #172a33);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+/* Reminder Section Styles */
+.reminderSection {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+  background: var(--Primary-White);
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.reminderHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.reminderHeader h4 {
+  color: var(--Black, #172a33);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  margin: 0;
+}
+
+.reminderOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reminderCheckbox {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.reminderCheckbox input:checked {
+  background-color: var(--Blue, #33b5f6);
+  border-color: var(--Blue, #33b5f6);
+  box-shadow: unset;
+}
+
+.reminderCheckbox input {
+  border-color: var(--Blue, #33b5f6);
+  box-shadow: unset;
+}
+
+.reminderCheckbox input:focus {
+  box-shadow: unset;
+}
+
+.customInput {
+  margin-top: 8px;
+  padding: 12px;
+  border: 2px solid var(--Blue, #33b5f6);
+  border-radius: 8px;
+  background: transparent;
+  font-size: 14px;
+  color: var(--Black, #172a33);
+  outline: none;
+  font-family: var(--font-lato);
+  width: 100%;
+}
+
+.customInput:focus {
+  border-color: var(--Blue, #33b5f6);
+  box-shadow: 0 0 0 3px rgba(51, 181, 246, 0.1);
+}
+
+.customInput::placeholder {
+  color: var(--Dark-gray, #8c939b);
+}
+
+@media (max-width: 1280px) {
+  .calendarContainer {
+    flex-direction: column;
+  }
+  .CalendarComponentMain {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .main {
+    margin-block: 30px;
+  }
+}
+@media (max-width: 576px) {
+  .main {
+    margin-top: 80px;
+    margin-bottom: 75px;
+  }
+
+  .reminderSection {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .reminderHeader h4 {
+    font-size: 16px;
+  }
+
+  .reminderCheckbox {
+    font-size: 13px;
+  }
+
+  .customInput {
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 420px) {
+  .mobileHeaderMain img[class*="iconImage"]{
+    width: 24px !important;
+    height: 24px !important;
+  }
+}

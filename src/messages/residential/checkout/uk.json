@@ -1,0 +1,37 @@
+{
+  "checkoutPage": {
+    "title": "Процес Оформлення",
+    "orderSummary": "Підсумок Замовлення",
+    "totalItems": "Загальна кількість товарів",
+    "totalPoints": "Загальні бали",
+    "confirm": "Підтвердити",
+    "orderPlacedSuccess": "Замовлення успішно розміщено!",
+    "wallet": "Гаманець",
+    "orderDetails": {
+      "title": "Деталі Замовлення",
+      "fullNameLabel": "Повне Ім'я",
+      "fullNamePlaceholder": "Іван Іванов",
+      "fullNameRequired": "Повне ім'я обов'язкове",
+      "streetAddressLabel": "Адреса Вулиці",
+      "streetAddressPlaceholder": "Введіть адресу вулиці",
+      "streetAddressRequired": "Адреса вулиці обов'язкова",
+      "roomHouseLabel": "Будинок Кімнати",
+      "roomHousePlaceholder": "Введіть будинок кімнати",
+      "roomHouseRequired": "Будинок кімнати обов'язковий",
+      "cityLabel": "Місто",
+      "cityPlaceholder": "Введіть місто",
+      "cityRequired": "Місто обов'язкове",
+      "countryLabel": "Країна",
+      "countryPlaceholder": "Введіть країну",
+      "countryRequired": "Країна обов'язкова"
+    },
+    "modal": {
+      "title": "Замовлення успішно розміщено!",
+      "btnText": "Продовжити"
+    },
+    "unsuccessModal": {
+      "title": "У вас недостатньо балів!",
+      "btnText": "Закрити"
+    }
+  }
+}

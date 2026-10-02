@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+}
+
+.InputContainer {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.InputContainer > div:first-child {
+  width: 50%;
+}
+
+.InputContainer > div:last-child {
+  width: 50%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  gap: 16px;
+}
+
+.buttonContainer button {
+  width: 50%;
+  height: 60px;
+}
+@media (max-width: 576px) {
+  .buttonContainer button {
+    width: 100%;
+  }
+  .buttonContainer {
+    flex-wrap: wrap;
+  }
+}

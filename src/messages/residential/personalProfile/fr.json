@@ -1,0 +1,105 @@
+{
+  "personalProfilePage": {
+    "personalProfile": {
+      "title": "Profil Personnel",
+      "welcomeTitle": "Bienvenue dans votre Profil Personnel !",
+      "welcomeDescription": "Ici, vous pouvez examiner et mettre à jour vos informations essentielles pour vous assurer qu'elles sont toujours à jour.",
+      "familyMembers": "Membres de la Famille",
+      "preferredLanguage": "Langue Préférée",
+      "selectLanguage": "Sélectionner la Langue",
+      "generalInformation": "Informations Générales",
+      "viewIncident": "Vos Rapports d'Incidents"
+    },
+
+    "form": {
+      "errors": {
+        "required": "{field} est requis",
+        "invalidEmail": "Veuillez fournir une adresse email valide",
+        "invalid": "Invalide {field}"
+      },
+      "labels": {
+        "fullName": "Nom Complet",
+        "residentIdNumber": "Numéro d'ID du Résident",
+        "houseNumber": "Numéro de Maison",
+        "phoneNumber": "Numéro de Téléphone",
+        "email": "Adresse Email",
+        "familyMemberFullName": "Nom Complet du Membre de la Famille",
+        "trcNumber": "Numéro TRC",
+        "relationship": "Relation",
+        "dob": "Date de Naissance",
+        "age": "Âge",
+        "saveChanges": "Sauvegarder les Modifications",
+        "editProfile": "Modifier le Profil",
+        "schoolName": "Nom de l'École",
+        "schoolPlacement": "Placement Scolaire",
+        "transportType": "Type de Transport",
+        "books": "Livres",
+        "year": "Année",
+        "gender": "Genre"
+      },
+      "placeholders": {
+        "fullName": "Entrez votre nom complet",
+        "dob": "Entrez votre date de naissance",
+        "residentIdNumber": "Entrez votre numéro d'ID de résident",
+        "houseNumber": "Entrez votre numéro de maison/unité",
+        "phoneNumber": "Entrez votre numéro de téléphone",
+        "email": "Entrez votre adresse email",
+        "familyMemberFullName": "Entrez le nom complet du membre de la famille",
+        "trcNumber": "Entrez le numéro TRC",
+        "relationship": "Entrez votre relation avec le membre de la famille",
+        "age": "Entrez l'âge du membre de la famille",
+        "schoolName": "Entrez le nom de l'école",
+        "schoolGrade": "Entrez le niveau de l'école",
+        "dobPlaceholder": "JJ/MM/AAAA",
+        "schoolPlacement": "Sélectionnez le placement scolaire",
+        "transportType": "Sélectionnez le type de transport",
+        "year": "Entrez l'année",
+        "books": "Entrez le nom du livre",
+        "gender": "Sélectionnez le genre"
+      }
+    },
+
+    "genderOptions": {
+      "male": "Homme",
+      "female": "Femme",
+      "other": "Autre"
+    },
+
+    "relationshipOptions": {
+      "father": "Père",
+      "mother": "Mère",
+      "sibling": "Frère/Sœur",
+      "spouse": "Époux/Épouse",
+      "children": "Enfants"
+    },
+    "schoolPlacementOptions": {
+      "placed": "Placé",
+      "notPlaced": "Non Placé"
+    },
+    "transportTypeOptions": {
+      "bus": "Bus",
+      "carpool": "Covoiturage",
+      "family": "Famille"
+    },
+    "toasts": {
+      "updateSuccess": "Profil mis à jour avec succès"
+    },
+    "fullName": {
+      "required": "Le nom complet est requis"
+    },
+    "schoolName": {
+      "required": "Le nom de l'école est requis"
+    },
+    "familyMemberErrors": {
+      "relationshipRequired": "La relation est requise",
+      "dobRequired": "La date de naissance est requise",
+      "ageAtLeast18": "L'âge doit être au moins de 18 ans",
+      "schoolPlacementRequired": "Le placement scolaire est requis",
+      "yearRequired": "L'année est requise",
+      "transportTypeRequired": "Le type de transport est requis",
+      "booksMinRequired": "Au moins un livre est requis",
+      "trcNumberRequired": "Le numéro TRC est requis",
+      "genderRequired": "Le genre est requis"
+    }
+  }
+}

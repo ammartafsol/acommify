@@ -1,0 +1,63 @@
+{
+  "appointmentsPage": {
+    "Appointments": {
+      "title": "Rendez-vous",
+      "bookAppointment": "Réserver un Rendez-vous",
+      "welcomeTitle": "Bienvenue aux Rendez-vous !",
+      "description": "Planifiez facilement des réunions avec le gestionnaire ou le personnel de réception en quelques clics.",
+
+      "tabs": {
+        "all": "Tous",
+        "completed": "Terminé",
+        "pending": "En Attente",
+        "accepted": "Accepté",
+        "inprogress": "En Cours",
+        "cancelled": "Annulé",
+        "rejected": "Rejeté"
+      },
+      "toasts": {
+        "cancelSuccess": "Rendez-vous annulé avec succès"
+      },
+      "appointmentHistory": "Rendez-vous",
+      "table": {
+        "purpose": "Objectif",
+        "dateTime": "Date et Heure",
+        "category": "Catégorie",
+        "status": "Statut"
+      },
+      "menuItems": {
+        "cancel": "Annuler"
+      },
+      "staffAppointmentCard": {
+        "title": "Rendez-vous du Personnel",
+        "description": "Planifiez facilement, visualisez et gérez vos réunions avec le personnel ici."
+      },
+
+      "visitorBookingCard": {
+        "title": "Réservations de Visiteurs",
+        "description": "Organisez des réunions avec des visiteurs. Spécifiez un horaire pratique pour que le visiteur puisse facilement se rendre au centre et vous rencontrer."
+      }
+    },
+    "StaffAppointment": {
+      "title": "Rendez-vous du Personnel",
+      "selectStaff": "Sélectionner le Personnel",
+      "selectedDate": "Date Sélectionnée",
+      "selectStaffPlaceholder": "{loading, select, true {Chargement...} other {Sélectionner le Personnel}}",
+      "staffSelectMessage": "Veuillez sélectionner un membre du personnel pour voir les rendez-vous disponibles.",
+      "selectDateMessage": "Veuillez sélectionner une date pour voir les créneaux disponibles.",
+      "bookingWarning": "La réservation ne peut pas être annulée quand il restera 1 heure sur les réservations.",
+      "bookingSuccess": "Demande de rendez-vous avec le personnel soumise avec succès ! Veuillez attendre l'approbation.",
+      "reminder": "Définir un rappel pour votre rendez-vous",
+      "reminders": {
+        "title": "Définir un rappel pour votre Rendez-vous du Personnel",
+        "reminderOptions": {
+          "15min": "15 minutes avant",
+          "30min": "30 minutes avant",
+          "1hour": "1 heure avant",
+          "custom": "Rappel Personnalisé"
+        },
+        "customPlaceholderText": "Entrez les minutes (ex: 10)"
+      }
+    }
+  }
+}

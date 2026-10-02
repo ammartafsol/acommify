@@ -1,0 +1,13 @@
+{
+  "notificationsPage": {
+    "activities": {
+      "upcomingActivities": "Actividades Próximas",
+      "currentActivities": "Aquí están tus actividades actuales:",
+      "helpLine": "Línea de Ayuda"
+    },
+    "title": "Notificaciones",
+    "markAllAsRead": "Marcar todas como leídas",
+    "noNotifications": "No hay notificaciones disponibles",
+    "reschedule": "Reprogramar"
+  }
+}

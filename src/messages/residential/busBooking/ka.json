@@ -1,0 +1,89 @@
+{
+  "busBooking": {
+    "title": "ავტობუსის დაჯავშნა",
+    "availableBusesTitle": "ხელმისაწვდომი ავტობუსები",
+    "availableTitle": "ავტობუსის განრიგი",
+    "selectDate": "აირჩიეთ თარიღი ხელმისაწვდომი ავტობუსების სანახავად",
+    "myBooking": "ჩემი დაჯავშნა",
+    "availableBusesTabs": {
+      "morning": "დილა",
+      "afternoon": "შუადღე",
+      "evening": "საღამო"
+    },
+
+    "selectSeat": {
+      "title": "ადგილის არჩევა",
+      "termsAgreement": "ვეთანხმები ",
+      "termsAndConditions": "წესებსა და პირობებს",
+      "frontDoor": "წინა კარი",
+      "driver": "დამმუშავებლი",
+      "seats": {
+        "available": "ხელმისაწვდომი",
+        "booked": "დაჯავშნილი",
+        "selected": "არჩეული"
+      },
+      "timeRemaining": "შეკვეთის დარჩენილი დრო",
+      "continue": "გაგრძელება"
+    },
+    "bookingConfirmation": {
+      "title": "დაჯავშნის დადასტურება",
+      "yourTrip": "თქვენი მოგზაურობა",
+      "passengerList": "მგზავრების სია",
+      "termsAgreement": "ვეთანხმები ",
+      "termsAndConditions": "წესებსა და პირობებს",
+      "confirmBooking": "დაჯავშნის დადასტურება",
+      "cancelBooking": "დაჯავშნის გაუქმება",
+      "rescheduleBooking": "დაჯავშნის გადაწერა",
+      "reschedule": "გადაწერა ",
+      "successful": "თქვენი დაჯავშნა წარმატებული იყო!",
+      "bookingConfirm": "დაჯავშნა წარმატებით დადასტურდა"
+    },
+    "eTicket": {
+      "title": "E-ბილეთი",
+      "yourTrip": "თქვენი მოგზაურობა",
+      "passengerList": "მგზავრების სია",
+      "bookingConfirmed": "დაჯავშნა დადასტურდა!",
+      "bookingCompleted": "დაჯავშნა დასრულდა!",
+      "bookingRejected": "დაჯავშნა უარყოფილია!",
+      "authenticationRequired": "ავტორიზაცია საჭიროა",
+      "bookingInformationNotAvailable": "დაჯავშნის ინფორმაცია ხელმისაწვდომი არ არის",
+      "pdfFileEmpty": "PDF ფაილი ცარიელია",
+      "pdfDownloadedSuccessfully": "PDF წარმატებით ჩამოტვირთა",
+      "bookingCancelled": "დაჯავშნა გაუქმდა!",
+      "bookingPending": "დაჯავშნა მოლოდინშია!",
+      "descriptionPending": "თქვენი დაჯავშნა მოლოდინშია! შეგატყობინებთ მას შემდეგ, რაც დამტკიცდება.",
+      "descriptionCompleted": "თქვენი დაჯავშნა დასრულდა! მადლობა ჩვენი სერვისის არჩევისთვის.",
+      "descriptionRejected": "თქვენი დაჯავშნა უარყოფილია! დაუკავშირდით მხარდაჭერას დამატებითი ინფორმაციისთვის.",
+      "descriptionCancelled": "თქვენი დაჯავშნა გაუქმდა! თუ გაქვთ კითხვები, დაუკავშირდით მხარდაჭერას.",
+      "description": "თქვენი დაჯავშნა დადასტურდა! მალე ვნახავთ.",
+      "name": "სახელი",
+      "bookingCode": "დაჯავშნის კოდი",
+      "numberOfTicket": "ნომერი",
+      "seat": "ადგილი",
+      "IdNumber": "პირადობის ნომერი",
+      "busName": "ავტობუსი",
+      "duration": "ხანგრძლივობა",
+      "reminders": {
+        "title": "დააყენეთ შეხსენება თქვენი დაჯავშნისთვის",
+        "reminderOptions": {
+          "15min": "15 წუთით ადრე",
+          "30min": "30 წუთით ადრე",
+          "1hour": "1 საათით ადრე",
+          "custom": "პერსონალური შეხსენება"
+        },
+        "customPlaceholderText": "მაგ: 10 წუთით ადრე"
+      },
+      "cancelBookingModal": {
+        "title": "დაჯავშნის გაუქმება",
+        "description": "დარწმუნებული ხართ, რომ გსურთ დაჯავშნის გაუქმება?",
+        "btnText1": "დადასტურება",
+        "btnText2": "გაუქმება",
+        "iconAlt": "დაჯავშნის გაუქმების ხატულა"
+      },
+      "downloadBtnLabel": "E-ბილეთის ჩამოტვირთვა",
+      "cancelBooking": "დაჯავშნის გაუქმება",
+      "cancelSuccess": "თქვენი დაჯავშნა წარმატებით გაუქმდა.",
+      "cancelError": "დაჯავშნის გაუქმება ვერ მოხერხდა. სცადეთ კვლავ."
+    }
+  }
+}

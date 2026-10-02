@@ -1,0 +1,13 @@
+{
+  "favouritePage": {
+    "title": "غوره توکي",
+    "empty": "غوره توکي و نه موندل شول",
+    "addedToCart": "کڅوړې ته ورزیات شو!",
+    "toasts": {
+      "addedToFavorites": "غوره توکو ته ورزیات شو",
+      "removedFromFavorites": "د غوره توکو څخه لرې شو",
+      "actionFailed": "کړنې ناکامه شوې"
+    }
+  }
+}
+

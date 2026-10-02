@@ -1,0 +1,57 @@
+{
+  "maintenance": {
+    "maintenanceRequests": {
+      "toasts": {
+        "cancelSuccess": "Запит успішно скасовано!",
+        "updateSuccess": "Запит успішно оновлено!",
+        "editNotAllowed": "Ви можете редагувати лише запити зі статусом \"В очікуванні\"."
+      },
+      "title": "Запити на Обслуговування",
+      "addNewRequest": "Додати Новий Запит",
+
+      "requestForm": {
+        "modalEdit": "Редагувати Запит на Обслуговування",
+        "modalTitle": "Запити на Обслуговування",
+        "header": "Форма Подачі Запиту",
+        "descriptionLabel": "Опис:",
+        "descriptionPlaceholder": "Опишіть проблему сервісу...",
+        "typeLabel": "Виберіть тип запиту на обслуговування:",
+        "typePlaceholder": "Сантехніка",
+        "submitButton": "Подати Запит",
+        "cancelButton": "Скасувати",
+        "descriptionError": "Опис обов'язковий",
+        "typeError": "Тип запиту обов'язковий",
+        "mediaError": "Медіафайли обов'язкові",
+        "mediaMaxError": "Ви можете завантажити лише до 3 файлів",
+        "fileDisplayName": "Файл Запиту на Обслуговування"
+      },
+      "applications": {
+        "header": "Подані Заявки"
+      },
+      "tabs": {
+        "all": "Всі",
+        "completed": "Завершені",
+        "pending": "В очікуванні",
+        "approved": "Схвалені",
+        "rejected": "Відхилені",
+        "escalated": "Ескальовані"
+      },
+      "successModal": {
+        "title": "Запит успішно подано!",
+        "btnText": "Продовжити"
+      },
+      "table": {
+        "purpose": "Мета",
+        "category": "Категорія",
+        "dateTime": "Дата та Час",
+        "status": "Статус",
+        "resolvedBy": "Виконавець",
+        "comment": "Коментар"
+      },
+      "menuItems": {
+        "edit": "Редагувати",
+        "delete": "Видалити"
+      }
+    }
+  }
+}

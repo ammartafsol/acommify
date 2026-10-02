@@ -1,0 +1,40 @@
+{
+  "settingsPage": {
+    "settings": {
+      "title": "تنظیمات",
+      "logout": "وتل"
+    },
+    "tabs": {
+      "account": "حساب",
+      "changePassword": "پاسورډ بدلول",
+      "pointsWallet": "د ټکو بټۍ",
+      "notifications": "خبرتیاوې",
+      "privacyPolicy": "د محرمیت پالیسي",
+      "help": "مرسته",
+      "logout": "وتل",
+      "orders": "طلبات"
+    },
+    "pointsWallet": {
+      "title": "د ټکو بټۍ",
+      "currentBalance": "اوسنی توازن:",
+      "pointsHistory": "د ټکو تاریخ",
+      "points": "ټکي",
+      "spendingPoints": "د ټکو لګول",
+      "shopNow": "اوس واخلئ",
+      "availableItems": "شته توکي/خدمات"
+    },
+    "helpLine": {
+      "title": "د مرستې کرښه",
+      "welcomeText": "د مرستې کرښې ته ښه راغلاست",
+      "description": "که تاسو مرسته غواړئ، زموږ د ملاتړ کرښې ستاسو د مرستې لپاره شته دي. مهرباني وکړئ د خپلو اړتیاوو سره سمه مرستې کرښه لاندې ومومئ."
+    },
+    "toasts": {
+      "checkedInSuccessfully": "ننوتلو په سماحتونه",
+      "checkedOutSuccessfully": "وتلو په سماحتونه"
+    },
+    "btnLabels": {
+      "signIn": "ننوتل",
+      "signOut": "وتل"
+    }
+  }
+}

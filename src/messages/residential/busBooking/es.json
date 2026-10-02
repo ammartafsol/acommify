@@ -1,0 +1,89 @@
+{
+  "busBooking": {
+    "title": "Reserva de Autobús",
+    "availableBusesTitle": "Autobuses Disponibles",
+    "availableTitle": "Horario de Autobuses",
+    "selectDate": "Selecciona la Fecha para ver autobuses disponibles",
+    "myBooking": "Mi Reserva",
+    "availableBusesTabs": {
+      "morning": "Mañana",
+      "afternoon": "Tarde",
+      "evening": "Noche"
+    },
+
+    "selectSeat": {
+      "title": "Seleccionar Asiento",
+      "termsAgreement": "He acordado con los ",
+      "termsAndConditions": "términos y condiciones",
+      "frontDoor": "Puerta delantera",
+      "driver": "Conductor",
+      "seats": {
+        "available": "Disponible",
+        "booked": "Reservado",
+        "selected": "Seleccionado"
+      },
+      "timeRemaining": "Tiempo restante del pedido",
+      "continue": "Continuar"
+    },
+    "bookingConfirmation": {
+      "title": "Confirmación de Reserva",
+      "yourTrip": "Tu Viaje",
+      "passengerList": "Lista de Pasajeros",
+      "termsAgreement": "He acordado con los ",
+      "termsAndConditions": "términos y condiciones",
+      "confirmBooking": "Confirmar Reserva",
+      "cancelBooking": "Cancelar Reserva",
+      "rescheduleBooking": "Reprogramar Reserva",
+      "reschedule": "Reprogramar ",
+      "successful": "¡Tu reserva fue exitosa!",
+      "bookingConfirm": "Reserva Confirmada Exitosamente"
+    },
+    "eTicket": {
+      "title": "E-Ticket",
+      "yourTrip": "Tu Viaje",
+      "passengerList": "Lista de Pasajeros",
+      "bookingConfirmed": "¡Reserva Confirmada!",
+      "bookingCompleted": "¡Reserva Completada!",
+      "bookingRejected": "¡Reserva Rechazada!",
+      "authenticationRequired": "Autenticación requerida",
+      "bookingInformationNotAvailable": "Información de reserva no disponible",
+      "pdfFileEmpty": "El archivo PDF está vacío",
+      "pdfDownloadedSuccessfully": "PDF descargado exitosamente",
+      "bookingCancelled": "¡Reserva Cancelada!",
+      "bookingPending": "¡Reserva Pendiente!",
+      "descriptionPending": "¡Tu reserva está pendiente! Te notificaremos una vez que sea aprobada.",
+      "descriptionCompleted": "¡Tu reserva está completada! Gracias por elegir nuestro servicio.",
+      "descriptionRejected": "¡Tu reserva fue rechazada! Contacta soporte para más información.",
+      "descriptionCancelled": "¡Tu reserva fue cancelada! Si tienes preguntas, contacta soporte.",
+      "description": "¡Tu reserva está confirmada! Esperamos verte pronto.",
+      "name": "Nombre",
+      "bookingCode": "Código de Reserva",
+      "numberOfTicket": "Nº",
+      "seat": "Asiento",
+      "IdNumber": "Número de ID",
+      "busName": "Autobús",
+      "duration": "Duración",
+      "reminders": {
+        "title": "Establecer un recordatorio para tu Reserva",
+        "reminderOptions": {
+          "15min": "15 minutos antes",
+          "30min": "30 minutos antes",
+          "1hour": "1 hora antes",
+          "custom": "Recordatorio Personalizado"
+        },
+        "customPlaceholderText": "ej: 10 minutos antes"
+      },
+      "cancelBookingModal": {
+        "title": "Cancelar Reserva",
+        "description": "¿Estás seguro de que quieres cancelar tu reserva?",
+        "btnText1": "Confirmar",
+        "btnText2": "Cancelar",
+        "iconAlt": "Icono de cancelar reserva"
+      },
+      "downloadBtnLabel": "Descargar E-Ticket",
+      "cancelBooking": "Cancelar Reserva",
+      "cancelSuccess": "Tu reserva ha sido cancelada exitosamente.",
+      "cancelError": "Error al cancelar reserva. Inténtalo de nuevo."
+    }
+  }
+}

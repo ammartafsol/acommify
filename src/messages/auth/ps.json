@@ -1,0 +1,101 @@
+{
+  "userAgreementPage": {
+    "title": "شرایط او مقررات",
+    "tabs": {
+      "terms": "شرایط او مقررات",
+      "privacy": "د محرمیت پالیسي",
+      "responsibility": "د کارونکي مسؤولیتونه"
+    },
+    "checkbox": "زه یې لوستلې او د شرایطو او مقرراتو سره موافقه لرم",
+    "button": "منل او دوام ورکړئ"
+  },
+  "loginPage": {
+    "title": "ننوتل",
+    "emailLabel": "بریښنالیک",
+    "emailPlaceholder": "بریښنالیک ولیکئ",
+    "emailError": "مهرباني وکړئ، د بریښنالیک پته ولیکئ",
+    "EmailRequired": "بریښنالیک اړین دی",
+    "emailInvalidChars": "بریښنالیک غلط سمبولونه لري",
+    "passwordLabel": "پاسورډ",
+    "passwordPlaceholder": "پاسورډ ولیکئ",
+    "passwordRequired": "پاسورډ اړین دی",
+    "forgotPass": "پاسورډ مو هیر شوی؟",
+    "rememberMe": "ما یاد وساتئ",
+    "loginButton": "ننوتل",
+    "newHere": "نوی یاست؟",
+    "signUpLink": "ثبت نام",
+    "residentIdPlaceholder": "123456",
+    "residentIdLabel": "د اوسیدونکي پېژندنه"
+  },
+  "signUpPage": {
+    "title": "ثبت نام",
+    "nameLabel": "نوم",
+    "namePlaceholder": "نوم ولیکئ",
+    "nameRequired": "نوم اړین دی",
+    "emailLabel": "بریښنالیک",
+    "emailPlaceholder": "بریښنالیک ولیکئ",
+    "emailError": "مهرباني وکړئ، د بریښنالیک پته ولیکئ",
+    "emailRequired": "بریښنالیک اړین دی",
+    "emailInvalidChars": "بریښنالیک غلط سمبولونه لري",
+    "codeLabel": "دوه فکتوري تصدیق",
+    "codeSubLabel": "د 6 ګونی کوډ ولیکئ چې ستاسو بریښنالیک ته لیږل شوی",
+    "codePlaceholder": "کوډ",
+    "codeRequired": "کوډ اړین دی",
+    "passwordLabel": "پاسورډ",
+    "passwordPlaceholder": "پاسورډ ولیکئ",
+    "passwordRequired": "پاسورډ اړین دی",
+    "minPasswordError": "لږ تر لږه 8 سمبولونه",
+    "maxPasswordError": "ډیر تر ډیر 20 سمبولونه",
+    "lowerPasswordError": "لږ تر لږه یو کوچنی توری اضافه کړئ",
+    "upperPasswordError": "لږ تر لږه یو لوی توری اضافه کړئ",
+    "specialPasswordError": "لږ تر لږه یو ځانګړی سمبول اضافه کړئ",
+    "confirmPasswordLabel": "پاسورډ تصدیق کړئ",
+    "confirmPasswordPlaceholder": "پاسورډ تصدیق کړئ",
+    "confirmPasswordRequired": "پاسورډ اړین دی",
+    "ConfirmPasswordError": "پاسورډونه سمون نلري",
+    "signUpButton": "ثبت نام",
+    "joinedUsBefore": "پخوا یاست؟",
+    "signInLink": "ننوتل",
+    "sendCode": "کوډ واستوئ",
+    "resendCode": "کوډ بیا واستوئ ({time, plural, =1 {# ثانیه} other {# ثانیې}})"
+  },
+  "forgotPasswordPage": {
+    "title": "پاسورډ هیر شوی",
+    "subtitle": "اندېښنه مه کړئ! دا پیښیږي. مهرباني وکړئ د خپل حساب سره تړلي پته ولیکئ.",
+    "emailLabel": "بریښنالیک",
+    "emailPlaceholder": "بریښنالیک ولیکئ",
+    "emailError": "مهرباني وکړئ، د بریښنالیک پته ولیکئ",
+    "emailRequired": "بریښنالیک اړین دی",
+    "emailInvalidChars": "بریښنالیک غلط سمبولونه لري",
+    "submitButton": "ولېږئ",
+    "specialChars": "ځانګړي سمبولونه نشته"
+  },
+  "verificationPage": {
+    "title": "د تصدیق کوډ",
+    "subtitle": "د کوډ سره تصدیق کړئ",
+    "codeRequired": "کوډ اړین دی",
+    "resendCode": "کوډ بیا واستوئ {time, plural, =0 {} =1 {# ثانیه} other {# ثانیې}}",
+    "verifyButton": "تصدیق کړئ"
+  },
+  "resetPasswordPage": {
+    "title": "پاسورډ بیا تنظیم کړئ",
+    "subtitle": "خپل نوی پاسورډ ولیکئ",
+    "passwordLabel": "پاسورډ",
+    "passwordPlaceholder": "پاسورډ ولیکئ",
+    "passwordRequired": "پاسورډ اړین دی",
+    "minPasswordError": "لږ تر لږه 8 سمبولونه",
+    "maxPasswordError": "ډیر تر ډیر 20 سمبولونه",
+    "lowerPasswordError": "لږ تر لږه یو کوچنی توری اضافه کړئ",
+    "upperPasswordError": "لږ تر لږه یو لوی توری اضافه کړئ",
+    "specialPasswordError": "لږ تر لږه یو ځانګړی سمبول اضافه کړئ",
+    "confirmPasswordLabel": "پاسورډ تصدیق کړئ",
+    "confirmPasswordPlaceholder": "پاسورډ تصدیق کړئ",
+    "confirmPasswordRequired": "پاسورډ اړین دی",
+    "ConfirmPasswordError": "پاسورډونه سمون نلري",
+    "submitButton": "پاسورډ بیا تنظیم کړئ",
+    "modal": {
+      "title": "ستاسو پاسورډ په بریالیتوب سره بدل شو!",
+      "btnText": "دوام ورکړئ"
+    }
+  }
+}
