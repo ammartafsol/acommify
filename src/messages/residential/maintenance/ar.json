@@ -51,6 +51,53 @@
       "menuItems": {
         "edit": "تعديل",
         "delete": "حذف"
+      },
+      "jobs": {
+        "title": "أعمال الصيانة",
+        "subtitle": "طلبات الصيانة المسندة إليك",
+        "searchPlaceholder": "ابحث عن عمل أو منزل أو مقيم...",
+        "today": "اليوم، {time}",
+        "yesterday": "أمس، {time}",
+        "house": "منزل",
+        "room": "غرفة",
+        "empty": "لا توجد أعمال صيانة.",
+        "loadMore": "تحميل المزيد",
+        "tabs": {
+          "myJobs": "أعمالي",
+          "pending": "قيد الانتظار",
+          "inProgress": "قيد التنفيذ"
+        },
+        "priority": {
+          "high": "عالية",
+          "medium": "متوسطة",
+          "low": "منخفضة"
+        }
+      },
+      "detail": {
+        "back": "رجوع",
+        "resident": "المقيم",
+        "view": "عرض",
+        "reportedToday": "تم الإبلاغ اليوم في {time}",
+        "reportedYesterday": "تم الإبلاغ أمس في {time}",
+        "reportedOn": "تم الإبلاغ في {date}",
+        "photos": "الصور",
+        "addPhoto": "إضافة صورة",
+        "updateStatus": "تحديث الحالة",
+        "complete": "إكمال",
+        "pending": "قيد الانتظار",
+        "escalate": "تصعيد",
+        "noteLabel": "أضف ملاحظة (اختياري)",
+        "notePlaceholder": "اكتب ملاحظة عن هذا التحديث...",
+        "save": "حفظ التحديث",
+        "notFound": "تعذر العثور على طلب الصيانة هذا.",
+        "statusRequired": "اختر حالة قبل الحفظ.",
+        "currentStatus": "الحالة الحالية",
+        "staffComment": "تعليق الموظف",
+        "priorityLabel": {
+          "high": "أولوية عالية",
+          "medium": "أولوية متوسطة",
+          "low": "أولوية منخفضة"
+        }
       }
     }
   }

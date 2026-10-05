@@ -51,6 +51,53 @@
       "menuItems": {
         "edit": "Gyara",
         "delete": "Share"
+      },
+      "jobs": {
+        "title": "Ayyukan Kulawa",
+        "subtitle": "Bukatun kulawa da aka sanya muku",
+        "searchPlaceholder": "Nemo aiki, gida ko mazauni...",
+        "today": "Yau, {time}",
+        "yesterday": "Jiya, {time}",
+        "house": "Gida",
+        "room": "Daki",
+        "empty": "Babu ayyukan kulawa.",
+        "loadMore": "Kara lodawa",
+        "tabs": {
+          "myJobs": "Ayyukana",
+          "pending": "Ana jira",
+          "inProgress": "Ana ci gaba"
+        },
+        "priority": {
+          "high": "Babba",
+          "medium": "Matsakaici",
+          "low": "Kadan"
+        }
+      },
+      "detail": {
+        "back": "Baya",
+        "resident": "Mazauni",
+        "view": "Duba",
+        "reportedToday": "An bayar da rahoto yau da {time}",
+        "reportedYesterday": "An bayar da rahoto jiya da {time}",
+        "reportedOn": "An bayar da rahoto {date}",
+        "photos": "Hotuna",
+        "addPhoto": "Kara hoto",
+        "updateStatus": "Sabunta matsayi",
+        "complete": "Kammala",
+        "pending": "Ana jira",
+        "escalate": "Kara muhimmanci",
+        "noteLabel": "Kara bayanin kula (na zaɓi)",
+        "notePlaceholder": "Rubuta bayanin kula game da wannan sabuntawa...",
+        "save": "Ajiye sabuntawa",
+        "notFound": "Ba a sami wannan bukatar kulawa ba.",
+        "statusRequired": "Zaɓi matsayi kafin ajiye.",
+        "currentStatus": "Matsayin yanzu",
+        "staffComment": "Sharhin ma'aikata",
+        "priorityLabel": {
+          "high": "Muhimmanci babba",
+          "medium": "Muhimmanci matsakaici",
+          "low": "Muhimmanci kadan"
+        }
       }
     }
   }

@@ -50,6 +50,8 @@ export default function Header() {
 
   const toggleMenu = () => setIsOpen((open) => !open);
   const dashboardPath = pathName === "/resident";
+  const showAppHeaderOnMobile =
+    dashboardPath || pathName?.startsWith("/resident/maintenance-requests");
   function handleLogout() {
     sessionStorage.clear();
     Cookies.remove("_xpdx_acom-web");
@@ -67,7 +69,7 @@ export default function Header() {
 
   return (
     <>
-      {isMobile && !dashboardPath ? (
+      {isMobile && !showAppHeaderOnMobile ? (
         ""
       ) : (
         <>

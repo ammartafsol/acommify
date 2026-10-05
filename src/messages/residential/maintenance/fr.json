@@ -51,6 +51,53 @@
       "menuItems": {
         "edit": "Modifier",
         "delete": "Supprimer"
+      },
+      "jobs": {
+        "title": "Travaux de maintenance",
+        "subtitle": "Vos demandes de maintenance assignées",
+        "searchPlaceholder": "Rechercher un travail, un logement ou un résident...",
+        "today": "Aujourd'hui, {time}",
+        "yesterday": "Hier, {time}",
+        "house": "Logement",
+        "room": "Chambre",
+        "empty": "Aucun travail de maintenance trouvé.",
+        "loadMore": "Charger plus",
+        "tabs": {
+          "myJobs": "Mes travaux",
+          "pending": "En attente",
+          "inProgress": "En cours"
+        },
+        "priority": {
+          "high": "Haute",
+          "medium": "Moyenne",
+          "low": "Basse"
+        }
+      },
+      "detail": {
+        "back": "Retour",
+        "resident": "Résident",
+        "view": "Voir",
+        "reportedToday": "Signalé aujourd'hui à {time}",
+        "reportedYesterday": "Signalé hier à {time}",
+        "reportedOn": "Signalé le {date}",
+        "photos": "Photos",
+        "addPhoto": "Ajouter une photo",
+        "updateStatus": "Mettre à jour le statut",
+        "complete": "Terminer",
+        "pending": "En attente",
+        "escalate": "Escalader",
+        "noteLabel": "Ajouter une note (facultatif)",
+        "notePlaceholder": "Écrivez une note sur cette mise à jour...",
+        "save": "Enregistrer",
+        "notFound": "Cette demande de maintenance est introuvable.",
+        "statusRequired": "Sélectionnez un statut avant d'enregistrer.",
+        "currentStatus": "Statut actuel",
+        "staffComment": "Commentaire du personnel",
+        "priorityLabel": {
+          "high": "Priorité haute",
+          "medium": "Priorité moyenne",
+          "low": "Priorité basse"
+        }
       }
     }
   }

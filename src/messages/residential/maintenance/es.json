@@ -51,6 +51,53 @@
       "menuItems": {
         "edit": "Editar",
         "delete": "Eliminar"
+      },
+      "jobs": {
+        "title": "Trabajos de mantenimiento",
+        "subtitle": "Tus solicitudes de mantenimiento asignadas",
+        "searchPlaceholder": "Buscar trabajos, casa o residente...",
+        "today": "Hoy, {time}",
+        "yesterday": "Ayer, {time}",
+        "house": "Casa",
+        "room": "Habitación",
+        "empty": "No se encontraron trabajos de mantenimiento.",
+        "loadMore": "Cargar más",
+        "tabs": {
+          "myJobs": "Mis trabajos",
+          "pending": "Pendiente",
+          "inProgress": "En progreso"
+        },
+        "priority": {
+          "high": "Alta",
+          "medium": "Media",
+          "low": "Baja"
+        }
+      },
+      "detail": {
+        "back": "Atrás",
+        "resident": "Residente",
+        "view": "Ver",
+        "reportedToday": "Reportado hoy a las {time}",
+        "reportedYesterday": "Reportado ayer a las {time}",
+        "reportedOn": "Reportado el {date}",
+        "photos": "Fotos",
+        "addPhoto": "Añadir foto",
+        "updateStatus": "Actualizar estado",
+        "complete": "Completar",
+        "pending": "Pendiente",
+        "escalate": "Escalar",
+        "noteLabel": "Añadir una nota (opcional)",
+        "notePlaceholder": "Escribe una nota sobre esta actualización...",
+        "save": "Guardar actualización",
+        "notFound": "No se encontró esta solicitud de mantenimiento.",
+        "statusRequired": "Selecciona un estado antes de guardar.",
+        "currentStatus": "Estado actual",
+        "staffComment": "Comentario del personal",
+        "priorityLabel": {
+          "high": "Prioridad alta",
+          "medium": "Prioridad media",
+          "low": "Prioridad baja"
+        }
       }
     }
   }

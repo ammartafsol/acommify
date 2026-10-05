@@ -62,6 +62,53 @@
         "attachments": "Attachments",
         "attachment": "Attachment",
         "lastUpdated": "Last Updated"
+      },
+      "jobs": {
+        "title": "Maintenance Jobs",
+        "subtitle": "Your assigned maintenance requests",
+        "searchPlaceholder": "Search jobs, house or resident...",
+        "today": "Today, {time}",
+        "yesterday": "Yesterday, {time}",
+        "house": "House",
+        "room": "Room",
+        "empty": "No maintenance jobs found.",
+        "loadMore": "Load more",
+        "tabs": {
+          "myJobs": "My Jobs",
+          "pending": "Pending",
+          "inProgress": "In Progress"
+        },
+        "priority": {
+          "high": "High",
+          "medium": "Medium",
+          "low": "Low"
+        }
+      },
+      "detail": {
+        "back": "Back",
+        "resident": "Resident",
+        "view": "View",
+        "reportedToday": "Reported today at {time}",
+        "reportedYesterday": "Reported yesterday at {time}",
+        "reportedOn": "Reported {date}",
+        "photos": "Photos",
+        "addPhoto": "Add photo",
+        "updateStatus": "Update Status",
+        "complete": "Complete",
+        "pending": "Pending",
+        "escalate": "Escalate",
+        "noteLabel": "Add a note (optional)",
+        "notePlaceholder": "Write a note about this update...",
+        "save": "Save Update",
+        "notFound": "This maintenance request could not be found.",
+        "statusRequired": "Select a status before saving.",
+        "currentStatus": "Current status",
+        "staffComment": "Staff comment",
+        "priorityLabel": {
+          "high": "High Priority",
+          "medium": "Medium Priority",
+          "low": "Low Priority"
+        }
       }
     }
   }

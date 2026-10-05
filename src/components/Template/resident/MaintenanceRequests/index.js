@@ -1,12 +1,9 @@
 "use client";
-import Button from "@/components/atoms/Button";
-import MenuComponent from "@/components/atoms/MenuComponent";
-import MobileHeader from "@/components/molecules/MobileHeader/MobileHeader";
 import TopHeader from "@/components/molecules/TopHeader/TopHeader";
 import AppTable from "@/components/organisms/AppTable/AppTable";
 import MaintenanceRequestsModal from "@/components/organisms/Modals/MaintenanceRequestsModal";
-import MaintenanceRequestViewModal from "@/components/organisms/Modals/MaintenanceRequestViewModal";
 import SuccessModal from "@/components/organisms/Modals/SuccessModal";
+import { useRouter } from "@/i18n/navigation";
 import useAxios from "@/interceptor/axios-functions";
 import useDebounce from "@/resources/hooks/useDebounce";
 import useDimensions from "@/resources/hooks/useDimensions";
@@ -17,7 +14,7 @@ import { maintenanceRequestsTableHeader } from "@/resources/utils/tableHeaders";
 import { useLocale } from "next-intl";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { TbDotsVertical } from "react-icons/tb";
+import MobileJobs from "./MobileJobs";
 import classes from "./style.module.css";
 
 export default function MaintenanceRequests() {
@@ -32,75 +29,24 @@ export default function MaintenanceRequests() {
     { label: t("tabs.escalated"), value: "escalated" },
   ];
   const { Get } = useAxios();
+  const router = useRouter();
   const locale = useLocale();
   const [selectedTab, setSelectedTab] = useState(tabs[0]);
   const [show, setShow] = useState(false);
   const [showModal, setShowModal] = useState(false);
-  const [showViewModal, setShowViewModal] = useState(false);
   const { width } = useDimensions();
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState("loading");
   const [data, setData] = useState("");
   const isMobile = width < 577;
   const [totalRecords, setTotalRecords] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [search, setSearch] = useState("");
   const searchDebounce = useDebounce(search, 500);
-  const [showAreYouSureModal, setShowAreYouSureModal] = useState(false);
-  const [selectedRowData, setSelectedRowData] = useState(null);
-
-  const menuItems = [
-    {
-      title: t("menuItems.edit"),
-      onClick: (e) => {
-        setSelectedRowData(e.value);
-        setShowModal(true);
-      },
-
-      style: {
-        color: "var(--Black)",
-        fontWeight: 500,
-      },
-    },
-    // {
-    //   title: t("menuItems.delete"),
-    //   onClick: async (e) => {
-    //     setSelectedRowData(e.value);
-    //     setShowAreYouSureModal(true);
-    //   },
-    //   style: {
-    //     color: "var(--Red)",
-    //     fontWeight: 500,
-    //   },
-    // },
-  ];
-
-  const ActionItem = {
-    title: "",
-    key: "menu",
-    style: { width: "8%" },
-    renderItem: ({ data }) => (
-      <MenuComponent
-        portal
-        menuButton={
-          <TbDotsVertical
-            color="#B2B5BA"
-            onClick={(e) => e.stopPropagation()}
-            className="pointer"
-            size={20}
-          />
-        }
-        value={data}
-        items={menuItems}
-      />
-    ),
-  };
   const handleSave = async () => {
-    setSelectedRowData(null);
     await getData();
   };
   const handleCloseModal = () => {
     if (loading === "loading") return;
-    setSelectedRowData(null);
     setShowModal(false);
   };
 
@@ -108,15 +54,17 @@ export default function MaintenanceRequests() {
     _search = search,
     _page = currentPage,
     _tab = selectedTab,
+    _limit = RECORDS_LIMIT,
+    _append = false,
   } = {}) {
     const query = {
       search: _search?.trim(),
       page: _page,
-      limit: RECORDS_LIMIT,
+      limit: _limit,
       status: _tab?.value,
     };
     const queryString = new URLSearchParams(query).toString();
-    setLoading("loading");
+    setLoading(_append ? "more" : "loading");
     const { response } = await Get({
       route: `maintenance-request/my/all?${queryString}`,
     });
@@ -130,53 +78,62 @@ export default function MaintenanceRequests() {
         category: elem?.category,
         comment: elem?.comment,
       }));
-      setData(maintenanceRequests || []);
+      setData((prev) =>
+        _append
+          ? [...(Array.isArray(prev) ? prev : []), ...(maintenanceRequests || [])]
+          : maintenanceRequests || [],
+      );
       setTotalRecords(response?.totalRecords || 0);
     }
     setLoading("");
   }
 
-  // const handleDelete = async () => {
-  //   setLoading("delete");
-  //   const { response } = await Patch({
-  //     route: `maintenance-request/my/update/${selectedRowData?.slug}`,
-  //     data: {
-  //       status: "deleted",
-  //     },
-  //   });
-  //   if (response) {
-  //     RenderToast({
-  //       type: "success",
-  //       message: t("toasts.cancelSuccess"),
-  //     });
-  //     setShowAreYouSureModal(false);
-  //     await getData({
-  //       _search: searchDebounce,
-  //       _page: currentPage,
-  //       _tab: selectedTab,
-  //     });
-  //   }
-  //   setLoading("");
-  // };
-
   useEffect(() => {
-    getData({ _search: searchDebounce, _page: currentPage, _tab: selectedTab });
-  }, [searchDebounce, currentPage, selectedTab]);
+    if (!width) return;
+    getData({
+      _search: searchDebounce,
+      _page: isMobile ? 1 : currentPage,
+      _tab: selectedTab,
+      _limit: isMobile ? 30 : RECORDS_LIMIT,
+    });
+  }, [searchDebounce, currentPage, selectedTab, isMobile, width]);
+
+  const openJob = (item) => {
+    const id = item?.slug || item?._id;
+    if (!id) return;
+    router.push(`/resident/maintenance-requests/${id}`);
+  };
+
   return (
-    <div className={mergeClass("containerFluid", classes.main)}>
+    <div className={mergeClass("containerFluid", isMobile ? classes.mobileMain : classes.main)}>
       {isMobile ? (
-        <MobileHeader
-          title={t("title")}
-          showBack
-          icon={
-            <Image
-              src="/svg/maintenanceIcon.svg"
-              alt="maintenance"
-              width={16}
-              height={16}
-            />
+        <MobileJobs
+          tabs={tabs}
+          selectedTab={selectedTab}
+          onTabChange={(tab) => {
+            setSelectedTab(tab);
+            setCurrentPage(1);
+          }}
+          search={search}
+          setSearch={(value) => {
+            setSearch(value);
+            setCurrentPage(1);
+          }}
+          jobs={data}
+          loading={loading}
+          onOpen={openJob}
+          onAdd={() => setShowModal(true)}
+          canLoadMore={Array.isArray(data) && data.length < totalRecords}
+          onLoadMore={() =>
+            getData({
+              _search: searchDebounce,
+              _page: Math.floor((Array.isArray(data) ? data.length : 0) / 30) + 1,
+              _tab: selectedTab,
+              _limit: 30,
+              _append: true,
+            })
           }
-        ></MobileHeader>
+        />
       ) : (
         <TopHeader
           icon={false}
@@ -193,63 +150,46 @@ export default function MaintenanceRequests() {
         />
       )}
 
-      <TopHeader
-        tabs={tabs}
-        title={false}
-        showBackBtn={false}
-        selectedTab={selectedTab}
-        setSelectedTab={setSelectedTab}
-        showSearch
-        // showFilters
-        // filterValue={filter}
-        // setFilterValue={setFilter}
-        // filterOptions={filterOptions}
-        search={search}
-        setSearch={(value) => {
-          setSearch(value);
-          setCurrentPage(1);
-        }}
-        containerClass={classes?.topHeaderMain}
-      >
-        {isMobile && (
-          <Button
-            label={width < 520 ? "" : t("addNewRequest")}
-            variant={"primary"}
-            leftIcon={
-              <Image src="/svg/plus.svg" alt="add" width={20} height={20} />
-            }
-            onClick={() => setShowModal(true)}
-            className={classes.addButton}
+      {!isMobile && (
+        <>
+          <TopHeader
+            tabs={tabs}
+            title={false}
+            showBackBtn={false}
+            selectedTab={selectedTab}
+            setSelectedTab={setSelectedTab}
+            showSearch
+            search={search}
+            setSearch={(value) => {
+              setSearch(value);
+              setCurrentPage(1);
+            }}
+            containerClass={classes?.topHeaderMain}
           />
-        )}
-      </TopHeader>
-      <div className={classes.MaintenanceRequests}>
-        <AppTable
-          tableHeader={[
-            ...maintenanceRequestsTableHeader(t, locale, selectedTab),
-            ActionItem,
-          ]}
-          data={data}
-          loading={loading}
-          pagination
-          page={currentPage}
-          onRowClick={(rowData) => {
-            setSelectedRowData(rowData);
-            setShowViewModal(true);
-          }}
-          onPageChange={(p) => {
-            setCurrentPage(p);
-            getData({ _search: searchDebounce, _page: p });
-          }}
-          totalRecords={totalRecords}
-        />
-      </div>
+          <div className={classes.MaintenanceRequests}>
+            <AppTable
+              tableHeader={maintenanceRequestsTableHeader(t, locale, selectedTab)}
+              data={data}
+              loading={loading}
+              pagination
+              page={currentPage}
+              onRowClick={openJob}
+              rowClassName={classes.clickableRow}
+              onPageChange={(p) => {
+                setCurrentPage(p);
+                getData({ _search: searchDebounce, _page: p });
+              }}
+              totalRecords={totalRecords}
+            />
+          </div>
+        </>
+      )}
       {showModal && (
         <MaintenanceRequestsModal
           setShow={handleCloseModal}
           show={showModal}
-          modalData={selectedRowData}
-          setModalData={setSelectedRowData}
+          modalData={null}
+          setModalData={() => {}}
           setShowSuccessModal={setShow}
           onSave={handleSave}
         />
@@ -262,30 +202,6 @@ export default function MaintenanceRequests() {
           content="maintenance.maintenanceRequests.successModal"
         />
       )}
-      {showViewModal && (
-        <MaintenanceRequestViewModal
-          show={showViewModal}
-          setShow={setShowViewModal}
-          requestData={selectedRowData}
-        />
-      )}
-      {/* {showAreYouSureModal && (
-        <AreYouSureModal
-          show={showAreYouSureModal}
-          setShow={setShowAreYouSureModal}
-          onConfirm={handleDelete}
-          loading={loading}
-          onSuccess={() => {
-            setSelectedRowData(null);
-            setShowAreYouSureModal(false);
-            getData({
-              _search: searchDebounce,
-              _page: currentPage,
-              _tab: selectedTab,
-            });
-          }}
-        />
-      )} */}
     </div>
   );
 }

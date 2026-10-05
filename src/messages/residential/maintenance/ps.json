@@ -51,6 +51,53 @@
       "menuItems": {
         "edit": "سمون",
         "delete": "ړنګول"
+      },
+      "jobs": {
+        "title": "د ساتنې کارونه",
+        "subtitle": "تاسو ته سپارل شوي د ساتنې غوښتنې",
+        "searchPlaceholder": "کار، کور یا اوسېدونکی ولټوئ...",
+        "today": "نن، {time}",
+        "yesterday": "پرون، {time}",
+        "house": "کور",
+        "room": "کوټه",
+        "empty": "د ساتنې کارونه ونه موندل شول.",
+        "loadMore": "نور پورته کړئ",
+        "tabs": {
+          "myJobs": "زما کارونه",
+          "pending": "پاتې",
+          "inProgress": "روان"
+        },
+        "priority": {
+          "high": "لوړ",
+          "medium": "منځنی",
+          "low": "ټیټ"
+        }
+      },
+      "detail": {
+        "back": "شاته",
+        "resident": "اوسېدونکی",
+        "view": "کتل",
+        "reportedToday": "نن په {time} راپور شوی",
+        "reportedYesterday": "پرون په {time} راپور شوی",
+        "reportedOn": "په {date} راپور شوی",
+        "photos": "انځورونه",
+        "addPhoto": "انځور زیات کړئ",
+        "updateStatus": "حالت تازه کړئ",
+        "complete": "بشپړ کړئ",
+        "pending": "پاتې",
+        "escalate": "لوړ کړئ",
+        "noteLabel": "یادښت زیات کړئ (اختیاري)",
+        "notePlaceholder": "د دې تازه کولو په اړه یادښت ولیکئ...",
+        "save": "تازه کول خوندي کړئ",
+        "notFound": "دا د ساتنې غوښتنه ونه موندل شوه.",
+        "statusRequired": "د خوندي کولو دمخه حالت وټاکئ.",
+        "currentStatus": "اوسنی حالت",
+        "staffComment": "د کارکوونکي نظر",
+        "priorityLabel": {
+          "high": "لوړ لومړیتوب",
+          "medium": "منځنی لومړیتوب",
+          "low": "ټیټ لومړیتوب"
+        }
       }
     }
   }

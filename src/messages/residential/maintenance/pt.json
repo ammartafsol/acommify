@@ -51,6 +51,53 @@
       "menuItems": {
         "edit": "Editar",
         "delete": "Excluir"
+      },
+      "jobs": {
+        "title": "Trabalhos de manutenção",
+        "subtitle": "As suas solicitações de manutenção atribuídas",
+        "searchPlaceholder": "Pesquisar trabalhos, casa ou residente...",
+        "today": "Hoje, {time}",
+        "yesterday": "Ontem, {time}",
+        "house": "Casa",
+        "room": "Quarto",
+        "empty": "Nenhum trabalho de manutenção encontrado.",
+        "loadMore": "Carregar mais",
+        "tabs": {
+          "myJobs": "Meus trabalhos",
+          "pending": "Pendente",
+          "inProgress": "Em progresso"
+        },
+        "priority": {
+          "high": "Alta",
+          "medium": "Média",
+          "low": "Baixa"
+        }
+      },
+      "detail": {
+        "back": "Voltar",
+        "resident": "Residente",
+        "view": "Ver",
+        "reportedToday": "Reportado hoje às {time}",
+        "reportedYesterday": "Reportado ontem às {time}",
+        "reportedOn": "Reportado em {date}",
+        "photos": "Fotos",
+        "addPhoto": "Adicionar foto",
+        "updateStatus": "Atualizar estado",
+        "complete": "Concluir",
+        "pending": "Pendente",
+        "escalate": "Escalar",
+        "noteLabel": "Adicionar uma nota (opcional)",
+        "notePlaceholder": "Escreva uma nota sobre esta atualização...",
+        "save": "Guardar atualização",
+        "notFound": "Este pedido de manutenção não foi encontrado.",
+        "statusRequired": "Selecione um estado antes de guardar.",
+        "currentStatus": "Estado atual",
+        "staffComment": "Comentário da equipa",
+        "priorityLabel": {
+          "high": "Prioridade alta",
+          "medium": "Prioridade média",
+          "low": "Prioridade baixa"
+        }
       }
     }
   }
