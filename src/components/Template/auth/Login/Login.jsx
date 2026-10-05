@@ -82,13 +82,23 @@ export default function Login() {
       dispatch(
         setAvailableTokens(response?.data?.user?.foodTokens?.availableTokens)
       );
+      const privacyAccepted = Boolean(
+        response?.data?.user?.privacyPolicyAccepted,
+      );
+      if (privacyAccepted) {
+        Cookies.set("_pp_accepted", "1", { expires: 90, path: "/" });
+      } else {
+        Cookies.remove("_pp_accepted", { path: "/" });
+      }
       if (values.rememberMe) {
         Cookies.set("_xpdx_rf_acom-web", handleEncrypt(refreshToken), {
           expires: 90,
         });
       }
 
-      router.push("/resident/");
+      router.push(
+        privacyAccepted ? "/resident/" : "/privacy-policy-acceptance",
+      );
       RenderToast({
         type: "success",
         message: c("loginSuccess"),

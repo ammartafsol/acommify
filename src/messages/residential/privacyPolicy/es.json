@@ -1,6 +1,13 @@
 {
   "PrivacyPolicyPage": {
     "title": "Política de Privacidad",
-    "agree": "Acepto la Política de Privacidad"
+    "agree": "Acepto la Política de Privacidad",
+    "acceptTitle": "Política de Privacidad",
+    "acceptSubtitle": "Lee y acepta la política de privacidad de tu centro antes de continuar.",
+    "continue": "Continuar",
+    "acceptRequired": "Acepta la política de privacidad para continuar.",
+    "logout": "Cerrar sesión",
+    "loading": "Cargando la política de privacidad...",
+    "emptyPolicy": "Tu centro aún no ha publicado una política de privacidad. Puedes continuar después de aceptar."
   }
 }

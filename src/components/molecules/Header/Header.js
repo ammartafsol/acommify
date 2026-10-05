@@ -55,6 +55,7 @@ export default function Header() {
     Cookies.remove("_xpdx_acom-web");
     Cookies.remove("_xpdx_rf_acom-web");
     Cookies.remove("_xpdx_u_acom-web");
+    Cookies.remove("_pp_accepted", { path: "/" });
 
     dispatch(signOutRequest());
     router.replace("/login");

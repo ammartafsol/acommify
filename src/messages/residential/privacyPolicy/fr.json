@@ -1,6 +1,13 @@
 {
   "PrivacyPolicyPage": {
     "title": "Politique de Confidentialité",
-    "agree": "J'accepte la Politique de Confidentialité"
+    "agree": "J'accepte la Politique de Confidentialité",
+    "acceptTitle": "Politique de Confidentialité",
+    "acceptSubtitle": "Veuillez lire et accepter la politique de confidentialité de votre centre avant de continuer.",
+    "continue": "Continuer",
+    "acceptRequired": "Veuillez accepter la politique de confidentialité pour continuer.",
+    "logout": "Se déconnecter",
+    "loading": "Chargement de la politique de confidentialité...",
+    "emptyPolicy": "Votre centre n'a pas encore publié de politique de confidentialité. Vous pouvez continuer après acceptation."
   }
 }

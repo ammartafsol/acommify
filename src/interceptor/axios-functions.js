@@ -46,6 +46,7 @@ const useAxios = () => {
     } catch (error) {
       Cookies.remove("_xpdx_acom-web");
       Cookies.remove("_xpdx_rf_acom-web");
+      Cookies.remove("_pp_accepted", { path: "/" });
       dispatch(signOutRequest());
       return null;
     }

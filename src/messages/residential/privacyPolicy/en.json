@@ -1,6 +1,13 @@
 {
   "PrivacyPolicyPage": {
     "title": "Privacy Policy",
-    "agree": "I agree with Privacy and Policy"
+    "agree": "I agree with Privacy and Policy",
+    "acceptTitle": "Privacy Policy",
+    "acceptSubtitle": "Please read and accept your centre's privacy policy before continuing.",
+    "continue": "Continue",
+    "acceptRequired": "Please accept the privacy policy to continue.",
+    "logout": "Log out",
+    "loading": "Loading privacy policy...",
+    "emptyPolicy": "Your centre has not published a privacy policy yet. You can still continue after accepting."
   }
 }

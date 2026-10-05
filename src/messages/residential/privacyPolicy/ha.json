@@ -1,6 +1,13 @@
 {
   "PrivacyPolicyPage": {
     "title": "Manufofin Sirri",
-    "agree": "Na yarda da Manufofin Sirri"
+    "agree": "Na yarda da Manufofin Sirri",
+    "acceptTitle": "Manufofin Sirri",
+    "acceptSubtitle": "Da fatan za a karanta kuma a yarda da manufar sirri ta cibiyar ku kafin ci gaba.",
+    "continue": "Ci gaba",
+    "acceptRequired": "Da fatan za a yarda da manufar sirri don ci gaba.",
+    "logout": "Fita",
+    "loading": "Ana loda manufar sirri...",
+    "emptyPolicy": "Cibiyar ku ba ta buga manufar sirri ba tukuna. Kuna iya ci gaba bayan kun yarda."
   }
 }

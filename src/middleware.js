@@ -16,6 +16,7 @@ const AUTH_ROUTES = [
 // Public routes accessible without authentication
 const PUBLIC_ROUTES = ["/"];
 const PUBLIC_PREFIXES = ["/legal"];
+const PRIVACY_ACCEPTANCE_ROUTE = "/privacy-policy-acceptance";
 
 const getStrippedRoute = (pathname) =>
   pathname.replace(/^\/[a-z]{2}(?=\/|$)/, "") || "/";
@@ -40,6 +41,14 @@ const requiresAuth = (pathname) => {
   return !isAuthRoute(pathname) && !isPublicRoute(pathname);
 };
 
+const isPrivacyAcceptanceRoute = (pathname) =>
+  getStrippedRoute(pathname) === PRIVACY_ACCEPTANCE_ROUTE;
+
+const localePrefixFromPath = (pathname) => {
+  const match = pathname.match(/^\/([a-z]{2})(?=\/|$)/);
+  return match ? `/${match[1]}` : "";
+};
+
 export default function middleware(request) {
   const { pathname } = request.nextUrl;
   const intlResponse = intlMiddleware(request);
@@ -56,11 +65,37 @@ export default function middleware(request) {
   }
 
   const encryptedToken = request.cookies.get("_xpdx_acom-web")?.value;
+  const privacyAccepted =
+    request.cookies.get("_pp_accepted")?.value === "1";
+  const localePrefix = localePrefixFromPath(pathname);
 
   // If user is authenticated and trying to access auth routes, redirect to dashboard
   if (encryptedToken && isAuthRoute(pathname)) {
-    const dashboardUrl = new URL("/resident", request.url);
-    return NextResponse.redirect(dashboardUrl);
+    const nextPath = privacyAccepted
+      ? `${localePrefix}/resident`
+      : `${localePrefix}${PRIVACY_ACCEPTANCE_ROUTE}`;
+    return NextResponse.redirect(new URL(nextPath, request.url));
+  }
+
+  if (
+    encryptedToken &&
+    isPrivacyAcceptanceRoute(pathname) &&
+    privacyAccepted
+  ) {
+    return NextResponse.redirect(
+      new URL(`${localePrefix}/resident`, request.url),
+    );
+  }
+
+  if (
+    encryptedToken &&
+    !privacyAccepted &&
+    requiresAuth(pathname) &&
+    !isPrivacyAcceptanceRoute(pathname)
+  ) {
+    return NextResponse.redirect(
+      new URL(`${localePrefix}${PRIVACY_ACCEPTANCE_ROUTE}`, request.url),
+    );
   }
 
   // Check if route requires authentication
