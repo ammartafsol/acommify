@@ -16,7 +16,7 @@ import { setAvailableTokens } from "@/store/common/commonSlice";
 import { useFormik } from "formik";
 import Cookies from "js-cookie";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Container, Form } from "react-bootstrap";
 import { useDispatch } from "react-redux";
 import { ReactSVG } from "react-svg";
@@ -32,6 +32,17 @@ export default function Login() {
   const { Post } = useAxios();
   const dispatch = useDispatch();
   const dir = useDirection();
+
+  useEffect(() => {
+    const message = sessionStorage.getItem("acommify_blocked_notice");
+    if (!message) return;
+    sessionStorage.removeItem("acommify_blocked_notice");
+    RenderToast({
+      type: "error",
+      message,
+      autoClose: 5000,
+    });
+  }, []);
 
   const formik = useFormik({
     initialValues: {

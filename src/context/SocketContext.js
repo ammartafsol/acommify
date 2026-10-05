@@ -5,8 +5,8 @@ import config from "@/config";
 import { getUniqueBrowserId } from "@/resources/utils/helper";
 import { signOutRequest, updateUser } from "@/store/auth/authSlice";
 import { setAvailableTokens } from "@/store/common/commonSlice";
+import { useRouter } from "@/i18n/navigation";
 import Cookies from "js-cookie";
-import { useRouter } from "next/navigation";
 import {
   createContext,
   useCallback,
@@ -29,9 +29,13 @@ export const SocketProvider = ({ children }) => {
   // Memoized logout handler to avoid duplication
   const handleLogout = useCallback(
     (message) => {
+      if (typeof window !== "undefined") {
+        sessionStorage.setItem("acommify_blocked_notice", message);
+      }
       RenderToast({
-        type: "info",
-        message: message,
+        type: "error",
+        message,
+        autoClose: 5000,
       });
       dispatch(signOutRequest());
       Cookies.remove("_xpdx_acom-web");
@@ -101,12 +105,21 @@ export const SocketProvider = ({ children }) => {
       handleUpdateUser(data);
     };
 
+    const handleAccountUpdate = (data) => {
+      if (data?.status === "inactive") {
+        handleLogout("Your account has been blocked");
+        return;
+      }
+      handleUpdateUser(data);
+    };
+
     // Register event listeners
     currentSocket.on("connect", handleConnect);
     currentSocket.on("connect_error", handleConnectError);
     currentSocket.on("user-blocked", handleUserBlocked);
     currentSocket.on("user-deleted", handleUserDeleted);
     currentSocket.on("user-updated", handleUserUpdates);
+    currentSocket.on("updated-user", handleAccountUpdate);
 
     // Cleanup function
     return () => {
@@ -116,6 +129,7 @@ export const SocketProvider = ({ children }) => {
         currentSocket.off("user-blocked", handleUserBlocked);
         currentSocket.off("user-deleted", handleUserDeleted);
         currentSocket.off("user-updated", handleUserUpdates);
+        currentSocket.off("updated-user", handleAccountUpdate);
         currentSocket.disconnect();
       }
     };
