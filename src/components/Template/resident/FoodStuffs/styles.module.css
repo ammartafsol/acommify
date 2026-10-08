@@ -124,7 +124,7 @@
 
 @media (max-width: 576px) {
   .main {
-    margin-block-start: 80px;
+    margin-block-start: 0;
     margin-bottom: 50px;
     overflow-x: hidden;
   }

@@ -27,7 +27,7 @@
 }
 @media (max-width: 576px) {
   .privacyPolicy {
-    margin-top: 80px;
+    margin-top: 16px;
     box-shadow: unset;
     padding: 16px 14px;
   }

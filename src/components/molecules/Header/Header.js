@@ -28,7 +28,6 @@ export default function Header() {
   const { width } = useDimensions();
   const [isOpen, setIsOpen] = useState(false);
   const menuButtonRef = useRef(null);
-  const isMobile = width < 577;
   const { user } = useSelector((state) => state.authReducer);
 
   useEffect(() => {
@@ -49,9 +48,6 @@ export default function Header() {
   }, [width]);
 
   const toggleMenu = () => setIsOpen((open) => !open);
-  const dashboardPath = pathName === "/resident";
-  const showAppHeaderOnMobile =
-    dashboardPath || pathName?.startsWith("/resident/maintenance-requests");
   function handleLogout() {
     sessionStorage.clear();
     Cookies.remove("_xpdx_acom-web");
@@ -69,11 +65,7 @@ export default function Header() {
 
   return (
     <>
-      {isMobile && !showAppHeaderOnMobile ? (
-        ""
-      ) : (
-        <>
-          <header className={styles.header}>
+      <header className={styles.header}>
             <Container className="containerFluid">
               <div className={styles.headerContent}>
                 {/* Mobile Hamburger */}
@@ -210,8 +202,6 @@ export default function Header() {
               </div>
             </Offcanvas.Body>
           </Offcanvas>
-        </>
-      )}
     </>
   );
 }

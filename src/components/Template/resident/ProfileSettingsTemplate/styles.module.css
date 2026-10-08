@@ -497,7 +497,7 @@
 
 @media (max-width: 576px) {
   .container {
-    margin-block: 40px;
+    margin-block: 0 40px;
   }
 
   .top {

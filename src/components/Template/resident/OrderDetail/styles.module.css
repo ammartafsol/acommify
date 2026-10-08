@@ -216,7 +216,7 @@
 
 @media (max-width: 576px) {
   .main{
-    margin-block: 80px;
+    margin-block: 0 80px;
   }
 }
 

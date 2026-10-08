@@ -168,7 +168,7 @@
 /* Mobile phones */
 @media (max-width: 576px) {
   .main {
-    margin-top: clamp(60px, 8vh, 80px);
+    margin-top: 0;
     margin-bottom: clamp(60px, 8vh, 80px);
     gap: 16px;
   }

@@ -216,7 +216,7 @@
 @media (max-width: 577px) {
   .main {
     margin-bottom: 75px;
-    margin-top: 70px;
+    margin-top: 0;
   }
   
   .reminderSection {

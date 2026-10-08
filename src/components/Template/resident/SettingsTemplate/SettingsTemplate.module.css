@@ -91,12 +91,13 @@
     padding: 30px;
   }
   .main {
-    margin-block-start: 30px;
+    margin-block-start: 0;
   }
 }
 @media (max-width: 576px) {
   .main {
-    margin-block-start: 50px;
+    margin-top: 0 !important;
+    padding-top: 0;
   }
   .settingsMain {
     background: transparent;

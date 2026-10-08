@@ -71,6 +71,6 @@
 @media (max-width: 576px) {
   .container {
     margin-bottom: 75px;
-    margin-top: 40px;
+    margin-top: 0;
   }
 }

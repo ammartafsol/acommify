@@ -73,7 +73,7 @@
 
 @media (max-width: 576px) {
   .main{
-    margin-top: 80px;
+    margin-top: 0;
   }
   .calendarSidebar h1 {
     display: none;
