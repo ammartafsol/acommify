@@ -23,7 +23,8 @@ export default function MaintenanceRequests() {
   const tabs = [
     { label: t("tabs.all"), value: "all" },
     { label: t("tabs.pending"), value: "pending" },
-    { label: t("tabs.approved"), value: "approved" },
+    // Approved requests are stored as "in-progress" in the backend
+    { label: t("tabs.approved"), value: "in-progress" },
     { label: t("tabs.rejected"), value: "rejected" },
     { label: t("tabs.completed"), value: "completed" },
     { label: t("tabs.escalated"), value: "escalated" },
@@ -39,6 +40,11 @@ export default function MaintenanceRequests() {
   const [data, setData] = useState("");
   const isMobile = width < 577;
   const [totalRecords, setTotalRecords] = useState("");
+  const [statusCounts, setStatusCounts] = useState({});
+  const tabsWithCount = tabs.map((tab) => ({
+    ...tab,
+    count: statusCounts?.[tab.value] ?? 0,
+  }));
   const [currentPage, setCurrentPage] = useState(1);
   const [search, setSearch] = useState("");
   const searchDebounce = useDebounce(search, 500);
@@ -84,6 +90,7 @@ export default function MaintenanceRequests() {
           : maintenanceRequests || [],
       );
       setTotalRecords(response?.totalRecords || 0);
+      if (response?.statusCounts) setStatusCounts(response.statusCounts);
     }
     setLoading("");
   }
@@ -108,7 +115,7 @@ export default function MaintenanceRequests() {
     <div className={mergeClass("containerFluid", isMobile ? classes.mobileMain : classes.main)}>
       {isMobile ? (
         <MobileJobs
-          tabs={tabs}
+          tabs={tabsWithCount}
           selectedTab={selectedTab}
           onTabChange={(tab) => {
             setSelectedTab(tab);
@@ -153,7 +160,7 @@ export default function MaintenanceRequests() {
       {!isMobile && (
         <>
           <TopHeader
-            tabs={tabs}
+            tabs={tabsWithCount}
             title={false}
             showBackBtn={false}
             selectedTab={selectedTab}

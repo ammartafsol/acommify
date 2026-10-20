@@ -56,6 +56,7 @@ export default function MobileJobs({
               onClick={() => onTabChange(tab)}
             >
               {tab.label}
+              {typeof tab.count === "number" && <span>{tab.count}</span>}
             </button>
           );
         })}

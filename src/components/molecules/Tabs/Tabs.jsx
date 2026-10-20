@@ -39,6 +39,16 @@ export default function Tabs({
             </span>
           )}
           {t ? t(item.label) : item.label}
+          {typeof item.count === "number" && (
+            <span
+              className={mergeClass(
+                classes.countBadge,
+                selected?.value === item?.value ? classes.countBadgeActive : "",
+              )}
+            >
+              {item.count}
+            </span>
+          )}
         </li>
       ))}
     </ul>
