@@ -1,10 +1,18 @@
 "use client";
 import { Link } from "@/i18n/navigation";
+import { useLocale } from "next-intl";
 import Image from "next/image";
 import { Container } from "react-bootstrap";
 import styles from "./LandingHeader.module.css";
 
+// Centre and Centre Staff sign in on the admin app
+const ADMIN_APP_URL = (
+  process.env.NEXT_PUBLIC_ADMIN_URL || "https://acommify-admin-zeta.vercel.app"
+).replace(/\/$/, "");
+
 export default function LandingHeader() {
+  const locale = useLocale();
+
   return (
     <header className={styles.header}>
       <Container>
@@ -16,6 +24,18 @@ export default function LandingHeader() {
             <span className={styles.logoText}>Acommify</span>
           </Link>
           <div className={styles.actions}>
+            <a
+              href={`${ADMIN_APP_URL}/${locale}/login/center`}
+              className={styles.loginBtn}
+            >
+              Centre login
+            </a>
+            <a
+              href={`${ADMIN_APP_URL}/${locale}/login/center-staff`}
+              className={styles.loginBtn}
+            >
+              Centre Staff login
+            </a>
             <Link href="/login" className={styles.loginBtn}>
               Resident login
             </Link>

@@ -37,7 +37,9 @@
 .actions {
   display: flex;
   align-items: center;
-  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 4px;
 }
 
 .loginBtn {
@@ -61,8 +63,13 @@
     font-size: 18px;
   }
 
+  .headerContent {
+    gap: 8px;
+  }
+
   .loginBtn {
-    padding: 8px 12px;
-    font-size: 13px;
+    padding: 6px 8px;
+    font-size: 12px;
+    white-space: nowrap;
   }
 }
