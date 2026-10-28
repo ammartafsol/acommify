@@ -6,9 +6,7 @@ import { Container } from "react-bootstrap";
 import styles from "./LandingHeader.module.css";
 
 // Centre and Centre Staff sign in on the admin app
-const ADMIN_APP_URL = (
-  process.env.NEXT_PUBLIC_ADMIN_URL || "https://acommify-admin-zeta.vercel.app"
-).replace(/\/$/, "");
+const ADMIN_APP_URL = "https://admin.acommify.com";
 
 export default function LandingHeader() {
   const locale = useLocale();
