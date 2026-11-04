@@ -2,9 +2,13 @@
 import { Link } from "@/i18n/navigation";
 import { useLocale } from "next-intl";
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
 import { Container } from "react-bootstrap";
-import { HiMenu, HiX } from "react-icons/hi";
+import {
+  HiOutlineOfficeBuilding,
+  HiOutlineUser,
+  HiOutlineViewGrid,
+  HiUserGroup,
+} from "react-icons/hi";
 import { useSelector } from "react-redux";
 import styles from "./LandingHeader.module.css";
 
@@ -14,32 +18,9 @@ const ADMIN_APP_URL = "https://admin.acommify.com";
 export default function LandingHeader() {
   const locale = useLocale();
   const { accessToken } = useSelector((state) => state.authReducer);
-  const [menuOpen, setMenuOpen] = useState(false);
-  const headerRef = useRef(null);
-
-  // Close the mobile menu on outside click or Escape
-  useEffect(() => {
-    if (!menuOpen) return;
-    const handleClick = (e) => {
-      if (headerRef.current && !headerRef.current.contains(e.target)) {
-        setMenuOpen(false);
-      }
-    };
-    const handleKey = (e) => {
-      if (e.key === "Escape") setMenuOpen(false);
-    };
-    document.addEventListener("mousedown", handleClick);
-    document.addEventListener("keydown", handleKey);
-    return () => {
-      document.removeEventListener("mousedown", handleClick);
-      document.removeEventListener("keydown", handleKey);
-    };
-  }, [menuOpen]);
-
-  const closeMenu = () => setMenuOpen(false);
 
   return (
-    <header className={styles.header} ref={headerRef}>
+    <header className={styles.header}>
       <Container>
         <div className={styles.headerContent}>
           <Link href="/" className={styles.logoContainer}>
@@ -48,42 +29,31 @@ export default function LandingHeader() {
             </div>
             <span className={styles.logoText}>Acommify</span>
           </Link>
-          <button
-            type="button"
-            className={styles.menuToggle}
-            onClick={() => setMenuOpen((open) => !open)}
-            aria-label={menuOpen ? "Close menu" : "Open menu"}
-            aria-expanded={menuOpen}
-            aria-controls="landing-header-actions"
-          >
-            {menuOpen ? <HiX size={24} /> : <HiMenu size={24} />}
-          </button>
-          <nav
-            id="landing-header-actions"
-            className={`${styles.actions} ${menuOpen ? styles.actionsOpen : ""}`}
-          >
+          <nav className={styles.actions}>
             {accessToken ? (
-              <Link href="/resident" className={styles.loginBtn} onClick={closeMenu}>
-                Go to dashboard
+              <Link href="/resident" className={styles.loginBtn}>
+                <HiOutlineViewGrid className={styles.btnIcon} />
+                <span>Go to Dashboard</span>
               </Link>
             ) : (
               <>
                 <a
                   href={`${ADMIN_APP_URL}/${locale}/login/center`}
                   className={styles.loginBtn}
-                  onClick={closeMenu}
                 >
-                  Centre login
+                  <HiOutlineOfficeBuilding className={styles.btnIcon} />
+                  <span>Centre Login</span>
                 </a>
                 <a
                   href={`${ADMIN_APP_URL}/${locale}/login/center-staff`}
                   className={styles.loginBtn}
-                  onClick={closeMenu}
                 >
-                  Centre Staff login
+                  <HiUserGroup className={styles.btnIcon} />
+                  <span>Centre Staff Login</span>
                 </a>
-                <Link href="/login" className={styles.loginBtn} onClick={closeMenu}>
-                  Resident login
+                <Link href="/login" className={styles.loginBtn}>
+                  <HiOutlineUser className={styles.btnIcon} />
+                  <span>Resident Login</span>
                 </Link>
               </>
             )}

@@ -37,82 +37,89 @@
 .actions {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 4px;
+  gap: 12px;
 }
 
 .loginBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   font-family: var(--font-inter);
   font-size: 14px;
   font-weight: 600;
+  line-height: 1.2;
   color: var(--Black);
   text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 8px;
-  transition: background-color 0.2s;
+  padding: 10px 18px;
+  background-color: var(--Poor-white);
+  border: 1px solid #d5dde3;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(23, 42, 51, 0.08);
+  transition:
+    background-color 0.2s,
+    border-color 0.2s,
+    box-shadow 0.2s,
+    color 0.2s;
 }
 
-.loginBtn:hover {
-  background-color: var(--Background);
-  color: var(--Black);
+/* No button is coloured by default; each one fills blue on hover/focus */
+.loginBtn:hover,
+.loginBtn:focus-visible {
+  color: var(--Poor-white);
+  background: linear-gradient(180deg, #33b5f6 0%, #0b8fd6 100%);
+  border-color: #0b8fd6;
+  box-shadow: 0 4px 12px rgba(11, 165, 236, 0.3);
 }
 
-.menuToggle {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  padding: 0;
-  border: none;
-  border-radius: 8px;
-  background: transparent;
-  color: var(--Black);
-  cursor: pointer;
+/* Labels sit in a span; override the global span font size */
+.loginBtn span {
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
 }
 
-.menuToggle:hover {
-  background-color: var(--Background);
+.btnIcon {
+  flex-shrink: 0;
+  font-size: 20px;
+  color: var(--Blue-light-700);
 }
 
-@media (max-width: 768px) {
+.loginBtn:hover .btnIcon,
+.loginBtn:focus-visible .btnIcon {
+  color: var(--Poor-white);
+}
+
+@media (max-width: 991px) {
   .header {
-    padding: 12px 0;
+    padding: 12px 0 16px;
   }
 
   .headerContent {
-    position: relative;
-  }
-
-  .menuToggle {
-    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
   }
 
   .actions {
-    display: none;
-    position: absolute;
-    top: calc(100% + 12px);
-    left: 0;
-    right: 0;
-    flex-direction: column;
     align-items: stretch;
-    flex-wrap: nowrap;
-    gap: 2px;
-    padding: 8px;
-    background-color: var(--Poor-white);
-    border: 1px solid var(--outlined-border);
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  }
-
-  .actionsOpen {
-    display: flex;
+    justify-content: stretch;
+    gap: 8px;
   }
 
   .loginBtn {
-    padding: 12px 16px;
-    font-size: 15px;
+    flex: 1 1 0;
+    min-width: 0;
+    min-height: 48px;
+    padding: 8px clamp(6px, 1.5vw, 12px);
+    gap: clamp(4px, 1vw, 8px);
+    font-size: clamp(11px, 2.2vw, 14px);
+    text-align: center;
+  }
+
+  .btnIcon {
+    font-size: clamp(15px, 3vw, 20px);
   }
 }
 
@@ -124,5 +131,24 @@
   .logo {
     width: 34px;
     height: 34px;
+  }
+
+  /* Phones: icon stacked above the label, as compact even tiles */
+  .loginBtn {
+    flex-direction: column;
+    gap: 6px;
+    min-height: 72px;
+    padding: 10px 6px;
+    border-radius: 12px;
+    font-size: 12px;
+    line-height: 1.25;
+  }
+
+  .loginBtn span {
+    text-wrap: balance;
+  }
+
+  .btnIcon {
+    font-size: 22px;
   }
 }
