@@ -12,6 +12,7 @@
       "night": "Night"
     },
     "selectSeat": {
+      "yourSeat": "Your seat",
       "title": "Select Seat",
       "termsAgreement": "I have agreed to the ",
       "termsAndConditions": "terms and conditions",

@@ -99,6 +99,7 @@ export const BUS_LAYOUTS = {
 export default function BusSeatSelector({
   busType = "53-seater",
   seatData = [],
+  mySeats = [],
   selectedSeats = [],
   onSelectSeat = () => {},
   customLayout = null,
@@ -133,6 +134,17 @@ export default function BusSeatSelector({
       color: "#33B5F6",
       icon: "/app-images/busAssets/filledSeat.svg",
     },
+    // Only when the resident has a seat on this trip
+    ...(mySeats.length
+      ? [
+          {
+            type: "mine",
+            label: tSeat("yourSeat"),
+            color: "#12B76A",
+            icon: "/app-images/busAssets/mySeat.svg",
+          },
+        ]
+      : []),
   ];
 
   if (BUS_LAYOUTS.hasOwnProperty(busType) === false) {
@@ -258,6 +270,8 @@ export default function BusSeatSelector({
                     key={seatIndex}
                     isSelected={isSelected}
                     isFilled={isFilled}
+                    isMine={mySeats.includes(seatNumber)}
+                    mineLabel={tSeat("yourSeat")}
                     seatNumber={seatNumber}
                     handleSelect={handleSelect}
                   />
@@ -306,6 +320,8 @@ export default function BusSeatSelector({
                     <Seat
                       key={colIndex}
                       isFilled={isFilled}
+                    isMine={mySeats.includes(seatNumber)}
+                    mineLabel={tSeat("yourSeat")}
                       isSelected={isSelected}
                       seatNumber={seatNumber}
                       handleSelect={handleSelect}
@@ -327,6 +343,8 @@ export default function BusSeatSelector({
                   key={seatIndex}
                   isSelected={isSelected}
                   isFilled={isFilled}
+                    isMine={mySeats.includes(seatNumber)}
+                    mineLabel={tSeat("yourSeat")}
                   seatNumber={seatNumber}
                   handleSelect={handleSelect}
                 />
@@ -370,8 +388,10 @@ export default function BusSeatSelector({
  * @param {SeatProps} props - Component props
  * @returns {JSX.Element} The Seat component
  */
-function Seat({ seatNumber, isSelected, isFilled, handleSelect }) {
-  const seatImg = isFilled
+function Seat({ seatNumber, isSelected, isFilled, isMine, handleSelect, mineLabel }) {
+  const seatImg = isMine
+    ? "/app-images/busAssets/mySeat.svg"
+    : isFilled
     ? "/app-images/busAssets/filledSeat.svg"
     : isSelected
     ? "/app-images/busAssets/selectedSeat.svg"
@@ -381,12 +401,14 @@ function Seat({ seatNumber, isSelected, isFilled, handleSelect }) {
     <div
       style={{
         backgroundImage: `url('${seatImg}')`,
-        cursor: isFilled ? "not-allowed" : "pointer",
+        cursor: isFilled || isMine ? "not-allowed" : "pointer",
       }}
       key={seatNumber}
-      className={styles.seat}
+      className={mergeClass(styles.seat, isMine ? styles.mySeat : "")}
+      title={isMine ? mineLabel : undefined}
+      aria-label={isMine ? `${seatNumber} – ${mineLabel}` : undefined}
       onClick={() => {
-        if (isFilled) return;
+        if (isFilled || isMine) return;
         handleSelect(seatNumber);
       }}
     >

@@ -31,7 +31,7 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
   const { width } = useDimensions();
   const handleBack = useLocaleAwareBack();
   const { Get, Post } = useAxios();
-  const { accessToken } = useSelector((state) => state.authReducer);
+  const { accessToken, user } = useSelector((state) => state.authReducer);
   // For an existing booking, its own trip date wins over the date in the link
   const [bookingDate, setBookingDate] = useState(null);
   const [bookingChecked, setBookingChecked] = useState(!bookingSlug);
@@ -225,6 +225,16 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
     return seats || [];
   }, [busDetail]);
 
+  // Seats on this trip booked by the logged-in resident
+  const mySeats = useMemo(() => {
+    const myId = String(user?._id || "");
+    if (!myId) return [];
+    return (busDetail?.bookedSlots || [])
+      .filter((b) => String(b?.user?._id || b?.user || "") === myId)
+      .map((b) => b?.seat?.seatNumber)
+      .filter(Boolean);
+  }, [busDetail, user?._id]);
+
   function StepOneLeft() {
     return (
       <>
@@ -241,6 +251,7 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
               }}
               busType={`${busDetail?.capacity}-seater`}
               seatData={bookedSeats}
+              mySeats={mySeats}
             />
           </div>
           {busDetail && (

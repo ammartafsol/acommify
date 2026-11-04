@@ -12,6 +12,7 @@
       "night": "Nuit"
     },
     "selectSeat": {
+      "yourSeat": "Votre place",
       "title": "Sélectionner le Siège",
       "termsAgreement": "J'ai accepté les ",
       "termsAndConditions": "termes et conditions",

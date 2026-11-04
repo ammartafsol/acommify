@@ -10,7 +10,8 @@
 /* legends */
 .legends {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 12px 24px;
   align-items: center;
 }
 
@@ -288,6 +289,11 @@
     transform: rotate(90deg);
   }
 
+  /* keep the "your seat" check upright when the seats are rotated */
+  .mySeat::after {
+    transform: rotate(-90deg);
+  }
+
   .seat p {
     writing-mode: sideways-lr;
   }
@@ -360,4 +366,22 @@
       bottom: 0px;
     }
   }
+}
+/* The resident's own booked seat: green seat with a check badge */
+.mySeat::after {
+  content: "✓";
+  position: absolute;
+  top: -5px;
+  right: -3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  color: #039855;
+  border: 2px solid #12b76a;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 12px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(18, 183, 106, 0.35);
 }

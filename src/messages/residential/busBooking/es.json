@@ -12,6 +12,7 @@
       "night": "Noche"
     },
     "selectSeat": {
+      "yourSeat": "Tu asiento",
       "title": "Seleccionar Asiento",
       "termsAgreement": "He acordado con los ",
       "termsAndConditions": "términos y condiciones",
