@@ -65,7 +65,7 @@ export default function AllBookingsTemplate() {
     key: "actions",
     style: { width: `${width}%` },
     renderItem: ({ data }) => {
-      if (["completed", "cancelled", "rejected"].includes(data?.status)) {
+      if (["completed", "cancelled", "rejected", "expired"].includes(data?.status)) {
         return null;
       }
       return (
@@ -119,6 +119,19 @@ export default function AllBookingsTemplate() {
         if (item?.serviceType === "laundry" && item?.machine) {
           baseData.machineName =
             item.machine?.name?.[locale] || item.machine?.name?.en || "N/A";
+        }
+
+        if (item?.serviceType === "bus") {
+          // Bus tickets expire once the journey ends
+          const ended =
+            item?.bookingEndDate && new Date(item.bookingEndDate) <= new Date();
+          if (
+            !["cancelled", "rejected"].includes(item?.status) &&
+            (item?.status === "completed" || ended)
+          ) {
+            baseData.status = "expired";
+            baseData.isExpired = true;
+          }
         }
 
         if (item?.serviceType === "bus" && item?.bus) {
@@ -456,7 +469,7 @@ export default function AllBookingsTemplate() {
             ) : (
               <AppTable
                 tableHeader={[...getTableHeaders()]}
-                // rowClassName="cursor-pointer"
+                rowClassName={(row) => (row?.isExpired ? classes.expiredRow : "")}
                 data={data}
                 loading={loading === "loading"}
                 pagination

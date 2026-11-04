@@ -8,9 +8,9 @@
     "availableBusesTabs": {
       "morning": "سهار",
       "afternoon": "ماسپښین",
-      "evening": "ماښام"
+      "evening": "ماښام",
+      "night": "شپه"
     },
-
     "selectSeat": {
       "title": "څوکۍ وټاکئ",
       "termsAgreement": "زه د ",
@@ -83,7 +83,12 @@
       "downloadBtnLabel": "E-ټکټ ډاونلوډ کړئ",
       "cancelBooking": "حجز لغوه کړئ",
       "cancelSuccess": "ستاسو حجز په بریالیتوب سره لغوه شو.",
-      "cancelError": "د حجز لغوه کول ناکام شول. بیا هڅه وکړئ."
+      "cancelError": "د حجز لغوه کول ناکام شول. بیا هڅه وکړئ.",
+      "validUntil": "تر {date} پورې د اعتبار وړ",
+      "expired": "پای ته رسیدلی",
+      "expiredOn": "د دې ټکټ موده په {date} پای ته ورسیده او نور نه شي کارول کېدای.",
+      "ticketExpiredTitle": "ټکټ پای ته رسیدلی",
+      "ticketExpiredDescription": "دا سفر پای ته رسیدلی، نو ټکټ نور د اعتبار وړ نه دی."
     }
   }
 }

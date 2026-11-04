@@ -8,9 +8,9 @@
     "availableBusesTabs": {
       "morning": "Morning",
       "afternoon": "Afternoon",
-      "evening": "Evening"
+      "evening": "Evening",
+      "night": "Night"
     },
-
     "selectSeat": {
       "title": "Select Seat",
       "termsAgreement": "I have agreed to the ",
@@ -83,7 +83,12 @@
       "downloadBtnLabel": "Download e-Ticket",
       "cancelBooking": "Cancel Booking",
       "cancelSuccess": "Your booking has been successfully cancelled.",
-      "cancelError": "Failed to cancel booking. Please try again."
+      "cancelError": "Failed to cancel booking. Please try again.",
+      "validUntil": "Valid until {date}",
+      "expired": "Expired",
+      "expiredOn": "This ticket expired on {date} and can no longer be used.",
+      "ticketExpiredTitle": "Ticket Expired",
+      "ticketExpiredDescription": "This journey has ended, so the ticket is no longer valid."
     }
   }
 }

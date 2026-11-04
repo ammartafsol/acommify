@@ -8,9 +8,9 @@
     "availableBusesTabs": {
       "morning": "დილა",
       "afternoon": "შუადღე",
-      "evening": "საღამო"
+      "evening": "საღამო",
+      "night": "ღამე"
     },
-
     "selectSeat": {
       "title": "ადგილის არჩევა",
       "termsAgreement": "ვეთანხმები ",
@@ -83,7 +83,12 @@
       "downloadBtnLabel": "E-ბილეთის ჩამოტვირთვა",
       "cancelBooking": "დაჯავშნის გაუქმება",
       "cancelSuccess": "თქვენი დაჯავშნა წარმატებით გაუქმდა.",
-      "cancelError": "დაჯავშნის გაუქმება ვერ მოხერხდა. სცადეთ კვლავ."
+      "cancelError": "დაჯავშნის გაუქმება ვერ მოხერხდა. სცადეთ კვლავ.",
+      "validUntil": "მოქმედებს {date}-მდე",
+      "expired": "ვადაგასული",
+      "expiredOn": "ამ ბილეთს ვადა გაუვიდა {date} და მისი გამოყენება აღარ შეიძლება.",
+      "ticketExpiredTitle": "ბილეთს ვადა გაუვიდა",
+      "ticketExpiredDescription": "მგზავრობა დასრულდა, ამიტომ ბილეთი აღარ მოქმედებს."
     }
   }
 }

@@ -63,6 +63,16 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
   const isCancelled = bookingDetail?.status === "cancelled";
   const isCompleted = bookingDetail?.status === "completed";
   const isRejected = bookingDetail?.status === "rejected";
+  // A bus ticket is valid until the journey ends
+  const ticketEnd = bookingDetail?.bookingEndDate
+    ? new Date(bookingDetail.bookingEndDate)
+    : null;
+  const isExpired =
+    !isCancelled &&
+    !isRejected &&
+    (isCompleted || (ticketEnd ? ticketEnd <= new Date() : false));
+  const formatTicketDate = (date) =>
+    moment(date).format("ddd, D MMM YYYY • hh:mm A");
 
   const confirmBookingHandler = async () => {
     setLoading((prev) => ({ ...prev, confirmBooking: true }));
@@ -262,7 +272,7 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
 
   function StepThreeLeft() {
     return (
-      <div>
+      <div className={isExpired ? classes.ticketExpired : ""}>
         <div className={classes.header}>
           <div className={classes.calendarImg}>
             <div>
@@ -283,6 +293,8 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
             <p>
               {isPending
                 ? t3("bookingPending")
+                : isExpired
+                ? t3("ticketExpiredTitle")
                 : isCancelled
                 ? t3("bookingCancelled")
                 : isCompleted
@@ -294,6 +306,8 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
             <p>
               {isPending
                 ? t3("descriptionPending")
+                : isExpired
+                ? t3("ticketExpiredDescription")
                 : isCancelled
                 ? t3("descriptionCancelled")
                 : isCompleted
@@ -304,6 +318,24 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
             </p>
           </div>
         </div>
+        {ticketEnd && !isCancelled && !isRejected && (
+          <div
+            className={
+              isExpired ? classes.ticketValidityExpired : classes.ticketValidity
+            }
+          >
+            {isExpired ? (
+              <>
+                <span className={classes.expiredBadge}>{t3("expired")}</span>
+                <span>
+                  {t3("expiredOn", { date: formatTicketDate(ticketEnd) })}
+                </span>
+              </>
+            ) : (
+              <span>{t3("validUntil", { date: formatTicketDate(ticketEnd) })}</span>
+            )}
+          </div>
+        )}
         <div className={classes.trips}>
           <p>{t2("yourTrip")}</p>
 
@@ -502,6 +534,7 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
                   )}
                   {/* Button logic based on booking status */}
                   {step === 3 &&
+                    !isExpired &&
                     ["accepted", "pending"]?.includes(
                       bookingDetail?.status
                     ) && (
@@ -516,7 +549,10 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
                       />
                     )}
                   {step === 3 &&
-                    ["accepted"]?.includes(bookingDetail?.status) && (
+                    !isExpired &&
+                    ["accepted", "in-progress"]?.includes(
+                      bookingDetail?.status
+                    ) && (
                       <Button
                         label={t3("downloadBtnLabel")}
                         variant={"primary"}

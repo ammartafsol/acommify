@@ -8,9 +8,9 @@
     "availableBusesTabs": {
       "morning": "الصباح",
       "afternoon": "بعد الظهر",
-      "evening": "المساء"
+      "evening": "المساء",
+      "night": "ليلاً"
     },
-
     "selectSeat": {
       "title": "اختر المقعد",
       "termsAgreement": "وافقت على ",
@@ -83,7 +83,12 @@
       "downloadBtnLabel": "تحميل التذكرة الإلكترونية",
       "cancelBooking": "إلغاء الحجز",
       "cancelSuccess": "تم إلغاء حجزك بنجاح.",
-      "cancelError": "فشل في إلغاء الحجز. حاول مرة أخرى."
+      "cancelError": "فشل في إلغاء الحجز. حاول مرة أخرى.",
+      "validUntil": "صالحة حتى {date}",
+      "expired": "منتهية الصلاحية",
+      "expiredOn": "انتهت صلاحية هذه التذكرة في {date} ولم يعد بالإمكان استخدامها.",
+      "ticketExpiredTitle": "انتهت صلاحية التذكرة",
+      "ticketExpiredDescription": "انتهت هذه الرحلة، لذا لم تعد التذكرة صالحة."
     }
   }
 }

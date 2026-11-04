@@ -8,9 +8,9 @@
     "availableBusesTabs": {
       "morning": "Mañana",
       "afternoon": "Tarde",
-      "evening": "Noche"
+      "evening": "Noche",
+      "night": "Noche"
     },
-
     "selectSeat": {
       "title": "Seleccionar Asiento",
       "termsAgreement": "He acordado con los ",
@@ -83,7 +83,12 @@
       "downloadBtnLabel": "Descargar E-Ticket",
       "cancelBooking": "Cancelar Reserva",
       "cancelSuccess": "Tu reserva ha sido cancelada exitosamente.",
-      "cancelError": "Error al cancelar reserva. Inténtalo de nuevo."
+      "cancelError": "Error al cancelar reserva. Inténtalo de nuevo.",
+      "validUntil": "Válido hasta {date}",
+      "expired": "Caducado",
+      "expiredOn": "Este billete caducó el {date} y ya no se puede usar.",
+      "ticketExpiredTitle": "Billete caducado",
+      "ticketExpiredDescription": "Este viaje ha terminado, por lo que el billete ya no es válido."
     }
   }
 }

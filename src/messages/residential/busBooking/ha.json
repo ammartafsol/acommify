@@ -8,9 +8,9 @@
     "availableBusesTabs": {
       "morning": "Safe",
       "afternoon": "Rana",
-      "evening": "Marice"
+      "evening": "Marice",
+      "night": "Dare"
     },
-
     "selectSeat": {
       "title": "Zaɓi Kujera",
       "termsAgreement": "Na yarda da ",
@@ -83,7 +83,12 @@
       "downloadBtnLabel": "Zazzage E-Ticket",
       "cancelBooking": "Soke Booking",
       "cancelSuccess": "Booking naku an soke cikin nasara.",
-      "cancelError": "An gaza soke booking. Sake gwadawa."
+      "cancelError": "An gaza soke booking. Sake gwadawa.",
+      "validUntil": "Yana aiki har zuwa {date}",
+      "expired": "Ya ƙare",
+      "expiredOn": "Wannan tikitin ya ƙare a {date} kuma ba za a iya amfani da shi ba.",
+      "ticketExpiredTitle": "Tikiti ya ƙare",
+      "ticketExpiredDescription": "Wannan tafiya ta ƙare, don haka tikitin ba ya aiki."
     }
   }
 }

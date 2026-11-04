@@ -32,6 +32,11 @@ const SHIFT_TABS = [
     label: "availableBusesTabs.evening",
     value: "evening",
   },
+  // Buses ending at 9 PM or later are saved with the "night" shift
+  {
+    label: "availableBusesTabs.night",
+    value: "night",
+  },
 ];
 
 export default function BusBookingTemplate() {

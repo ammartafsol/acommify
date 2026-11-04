@@ -8,9 +8,9 @@
     "availableBusesTabs": {
       "morning": "Ранок",
       "afternoon": "Після обіду",
-      "evening": "Вечір"
+      "evening": "Вечір",
+      "night": "Ніч"
     },
-
     "selectSeat": {
       "title": "Вибрати Місце",
       "termsAgreement": "Я погодився з ",
@@ -83,7 +83,12 @@
       "downloadBtnLabel": "Завантажити Е-Квиток",
       "cancelBooking": "Скасувати Бронювання",
       "cancelSuccess": "Ваше бронювання успішно скасовано.",
-      "cancelError": "Не вдалося скасувати бронювання. Спробуйте ще раз."
+      "cancelError": "Не вдалося скасувати бронювання. Спробуйте ще раз.",
+      "validUntil": "Дійсний до {date}",
+      "expired": "Прострочено",
+      "expiredOn": "Термін дії цього квитка закінчився {date}, і його більше не можна використати.",
+      "ticketExpiredTitle": "Квиток прострочено",
+      "ticketExpiredDescription": "Поїздка завершилася, тому квиток більше не дійсний."
     }
   }
 }
