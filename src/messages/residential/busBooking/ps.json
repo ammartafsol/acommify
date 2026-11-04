@@ -76,8 +76,8 @@
       "cancelBookingModal": {
         "title": "حجز لغوه کړئ",
         "description": "آیا تاسو ډاډه یاست چې غواړئ خپل حجز لغوه کړئ؟",
-        "btnText1": "تصدیق",
-        "btnText2": "لغوه کړئ",
+        "btnText1": "نه، وساتئ",
+        "btnText2": "هو، بکینګ لغوه کړئ",
         "iconAlt": "د حجز لغوه کولو نښه"
       },
       "downloadBtnLabel": "E-ټکټ ډاونلوډ کړئ",

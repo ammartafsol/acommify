@@ -76,8 +76,8 @@
       "cancelBookingModal": {
         "title": "إلغاء الحجز",
         "description": "هل أنت متأكد أنك تريد إلغاء حجزك؟",
-        "btnText1": "تأكيد",
-        "btnText2": "إلغاء",
+        "btnText1": "لا، احتفظ بالحجز",
+        "btnText2": "نعم، ألغِ الحجز",
         "iconAlt": "أيقونة إلغاء الحجز"
       },
       "downloadBtnLabel": "تحميل التذكرة الإلكترونية",

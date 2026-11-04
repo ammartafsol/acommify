@@ -76,8 +76,8 @@
       "cancelBookingModal": {
         "title": "Annuler la Réservation",
         "description": "Êtes-vous sûr de vouloir annuler votre réservation ?",
-        "btnText1": "Confirmer",
-        "btnText2": "Annuler",
+        "btnText1": "Non, la garder",
+        "btnText2": "Oui, annuler la réservation",
         "iconAlt": "Icône d'annulation de réservation"
       },
       "downloadBtnLabel": "Télécharger E-Ticket",

@@ -76,8 +76,8 @@
       "cancelBookingModal": {
         "title": "Cancel Bus Booking",
         "description": "Are you sure you want to cancel your bus booking?",
-        "btnText1": "Confirm",
-        "btnText2": "Cancel",
+        "btnText1": "No, keep it",
+        "btnText2": "Yes, cancel booking",
         "iconAlt": "Cancel booking icon"
       },
       "downloadBtnLabel": "Download e-Ticket",

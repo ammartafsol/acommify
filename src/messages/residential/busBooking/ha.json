@@ -76,8 +76,8 @@
       "cancelBookingModal": {
         "title": "Soke Booking",
         "description": "Ka tabbata kana son soke booking naka?",
-        "btnText1": "Tabbatar",
-        "btnText2": "Soke",
+        "btnText1": "A'a, a bar shi",
+        "btnText2": "Eh, soke ajiyar",
         "iconAlt": "Alamar soke booking"
       },
       "downloadBtnLabel": "Zazzage E-Ticket",

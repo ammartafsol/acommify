@@ -32,7 +32,10 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
   const handleBack = useLocaleAwareBack();
   const { Get, Post } = useAxios();
   const { accessToken } = useSelector((state) => state.authReducer);
-  const selectedDate = date;
+  // For an existing booking, its own trip date wins over the date in the link
+  const [bookingDate, setBookingDate] = useState(null);
+  const [bookingChecked, setBookingChecked] = useState(!bookingSlug);
+  const selectedDate = bookingDate || date;
   const t1 = useTranslations("busBooking.selectSeat");
   const t2 = useTranslations("busBooking.bookingConfirmation");
   const t3 = useTranslations("busBooking.eTicket");
@@ -42,7 +45,6 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
   const [termsAgreed, setTermsAgreed] = useState(false);
   const [selected, setSelected] = useState([]);
   const [showAreYouSure, setShowAreYouSure] = useState(false);
-  const initialMount = useRef(true);
   const [busDetail, setBusDetail] = useState(null);
   const [bookingDetail, setBookingDetail] = useState(null);
   const [loading, setLoading] = useState({
@@ -192,23 +194,24 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
     }).then(({ response }) => {
       if (response?.status === "success") {
         setBookingDetail({ ...response?.data });
+        if (response?.data?.bookingStartDate) {
+          setBookingDate(
+            moment(response.data.bookingStartDate).format("YYYY-MM-DD")
+          );
+        }
       } else {
         setStep(1);
       }
+      setBookingChecked(true);
     });
     setLoading((prev) => ({ ...prev, getBooking: false }));
   }, [bookingSlug]);
 
   useEffect(() => {
-    if (initialMount.current) {
-      initialMount.current = false;
-      getBusDetail();
-    }
-
-    return () => {
-      initialMount.current = true;
-    };
-  }, [slug, selectedDate]);
+    // For an existing booking, wait until we know its own trip date
+    if (!bookingChecked) return;
+    getBusDetail();
+  }, [slug, selectedDate, bookingChecked]);
 
   useEffect(() => {
     if (bookingSlug) {

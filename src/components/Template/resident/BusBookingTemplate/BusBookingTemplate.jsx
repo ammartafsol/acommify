@@ -180,9 +180,10 @@ export default function BusBookingTemplate() {
                 router.push(
                   `/resident/bus-booking/${
                     event?.resource?.bus?.slug
-                  }?date=${moment(event?.slotStart).format(
-                    "YYYY-MM-DD"
-                  )}&booking=${event?.resource?.slug}`
+                  }?date=${moment(
+                    // the booking's own trip date, not the calendar cell
+                    event?.resource?.bookingStartDate || event?.slotStart
+                  ).format("YYYY-MM-DD")}&booking=${event?.resource?.slug}`
                 );
               }}
               onRangeChange={handleRangeChange}
