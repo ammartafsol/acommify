@@ -65,7 +65,8 @@ export default function AllBookingsTemplate() {
     key: "actions",
     style: { width: `${width}%` },
     renderItem: ({ data }) => {
-      if (["completed", "cancelled", "rejected", "expired"].includes(data?.status)) {
+      // no cancel once the journey started / after reception marked the booking
+      if (["completed", "cancelled", "rejected", "expired", "no-show", "checked-in", "in-progress"].includes(data?.status)) {
         return null;
       }
       return (
@@ -126,7 +127,7 @@ export default function AllBookingsTemplate() {
           const ended =
             item?.bookingEndDate && new Date(item.bookingEndDate) <= new Date();
           if (
-            !["cancelled", "rejected"].includes(item?.status) &&
+            !["cancelled", "rejected", "no-show", "checked-in"].includes(item?.status) &&
             (item?.status === "completed" || ended)
           ) {
             baseData.status = "expired";

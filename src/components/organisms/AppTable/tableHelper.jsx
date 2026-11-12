@@ -65,6 +65,7 @@ export default function RenderStatusCell({ status }) {
         "rejected",
         "high",
         "cancelled",
+        "no-show",
       ].includes(status)
     ) {
       return styles.statusRed;

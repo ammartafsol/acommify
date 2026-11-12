@@ -1,6 +1,7 @@
 // src/locales/statusTranslations.js
 export const statusTranslations = {
   en: {
+    "no-show": "No-Show",
     confirmed: "Confirmed",
     low: "Low",
     completed: "Completed",
@@ -37,6 +38,7 @@ export const statusTranslations = {
     "checked-out": "Checked Out",
   },
   pt: {
+    "no-show": "Não compareceu",
     confirmed: "Confirmado",
     low: "Baixo",
     completed: "Concluído",
@@ -73,6 +75,7 @@ export const statusTranslations = {
     "checked-out": "Saída Realizada",
   },
   es: {
+    "no-show": "No presentado",
     confirmed: "Confirmado",
     low: "Bajo",
     completed: "Completado",
@@ -109,6 +112,7 @@ export const statusTranslations = {
     "checked-out": "Salida Realizada",
   },
   fr: {
+    "no-show": "Absent",
     confirmed: "Confirmé",
     low: "Faible",
     completed: "Terminé",
@@ -145,6 +149,7 @@ export const statusTranslations = {
     "checked-out": "Départ",
   },
   ka: {
+    "no-show": "არ გამოცხადდა",
     confirmed: "დადასტურებულია",
     low: "დაბალი",
     completed: "დასრულებულია",
@@ -181,6 +186,7 @@ export const statusTranslations = {
     "checked-out": "გასვლა",
   },
   ha: {
+    "no-show": "Bai zo ba",
     confirmed: "An tabbatar",
     low: "Ƙarami",
     completed: "An gama",
@@ -217,6 +223,7 @@ export const statusTranslations = {
     "checked-out": "Fita",
   },
   ar: {
+    "no-show": "لم يحضر",
     confirmed: "مؤكد",
     low: "منخفض",
     completed: "مكتمل",
@@ -253,6 +260,7 @@ export const statusTranslations = {
     "checked-out": "تسجيل الخروج",
   },
   uk: {
+    "no-show": "Неявка",
     confirmed: "Підтверджено",
     low: "Низький",
     completed: "Завершено",
@@ -289,6 +297,7 @@ export const statusTranslations = {
     "checked-out": "Виселення",
   },
   ps: {
+    "no-show": "نه دی راغلی",
     confirmed: "تایید شوی",
     low: "ټیټ",
     completed: "بشپړ شوی",
