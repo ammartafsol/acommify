@@ -66,7 +66,8 @@ export default function AllBookingsTemplate() {
     style: { width: `${width}%` },
     renderItem: ({ data }) => {
       // no cancel once the journey started / after reception marked the booking
-      if (["completed", "cancelled", "rejected", "expired", "no-show", "checked-in", "in-progress"].includes(data?.status)) {
+      if (["completed", "cancelled", "rejected", "expired", "no-show", "checked-in", "in-progress"].includes(data?.status) ||
+        (data?.bookingStartDate && new Date(data.bookingStartDate) <= new Date())) {
         return null;
       }
       return (
@@ -123,15 +124,20 @@ export default function AllBookingsTemplate() {
         }
 
         if (item?.serviceType === "bus") {
-          // Bus tickets expire once the journey ends
+          // PDF statuses: Booked / Checked In / No-Show / Cancelled / Expired.
+          // A ticket expires once the journey ends (stored by the server as
+          // "expired"; older finished bookings were saved as "completed").
           const ended =
             item?.bookingEndDate && new Date(item.bookingEndDate) <= new Date();
           if (
-            !["cancelled", "rejected", "no-show", "checked-in"].includes(item?.status) &&
-            (item?.status === "completed" || ended)
+            item?.status === "expired" ||
+            (!["cancelled", "rejected", "no-show", "checked-in"].includes(item?.status) &&
+              ((item?.status === "completed" && !item?.checkedInAt) || ended))
           ) {
             baseData.status = "expired";
             baseData.isExpired = true;
+          } else if (["accepted", "in-progress", "pending"].includes(item?.status)) {
+            baseData.status = "booked";
           }
         }
 

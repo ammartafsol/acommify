@@ -65,14 +65,19 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
   const isCancelled = bookingDetail?.status === "cancelled";
   const isCompleted = bookingDetail?.status === "completed";
   const isRejected = bookingDetail?.status === "rejected";
-  // A bus ticket is valid until the journey ends
-  const ticketEnd = bookingDetail?.bookingEndDate
-    ? new Date(bookingDetail.bookingEndDate)
-    : null;
+  // A bus ticket is valid until the journey ends (ticketExpiresAt)
+  const ticketEnd =
+    bookingDetail?.ticketExpiresAt || bookingDetail?.bookingEndDate
+      ? new Date(bookingDetail.ticketExpiresAt || bookingDetail.bookingEndDate)
+      : null;
+  const isNoShow = bookingDetail?.status === "no-show";
   const isExpired =
-    !isCancelled &&
-    !isRejected &&
-    (isCompleted || (ticketEnd ? ticketEnd <= new Date() : false));
+    bookingDetail?.status === "expired" ||
+    (!isCancelled &&
+      !isRejected &&
+      !isNoShow &&
+      ((isCompleted && !bookingDetail?.checkedInAt) ||
+        (ticketEnd ? ticketEnd <= new Date() : false)));
   const formatTicketDate = (date) =>
     moment(date).format("ddd, D MMM YYYY • hh:mm A");
 
@@ -564,7 +569,7 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
                     )}
                   {step === 3 &&
                     !isExpired &&
-                    ["accepted", "in-progress"]?.includes(
+                    ["accepted", "in-progress", "checked-in"]?.includes(
                       bookingDetail?.status
                     ) && (
                       <Button

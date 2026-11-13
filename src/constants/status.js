@@ -1,6 +1,7 @@
 // src/locales/statusTranslations.js
 export const statusTranslations = {
   en: {
+    booked: "Booked",
     "no-show": "No-Show",
     confirmed: "Confirmed",
     low: "Low",
@@ -38,6 +39,7 @@ export const statusTranslations = {
     "checked-out": "Checked Out",
   },
   pt: {
+    booked: "Reservado",
     "no-show": "Não compareceu",
     confirmed: "Confirmado",
     low: "Baixo",
@@ -75,6 +77,7 @@ export const statusTranslations = {
     "checked-out": "Saída Realizada",
   },
   es: {
+    booked: "Reservado",
     "no-show": "No presentado",
     confirmed: "Confirmado",
     low: "Bajo",
@@ -112,6 +115,7 @@ export const statusTranslations = {
     "checked-out": "Salida Realizada",
   },
   fr: {
+    booked: "Réservé",
     "no-show": "Absent",
     confirmed: "Confirmé",
     low: "Faible",
@@ -149,6 +153,7 @@ export const statusTranslations = {
     "checked-out": "Départ",
   },
   ka: {
+    booked: "დაჯავშნილი",
     "no-show": "არ გამოცხადდა",
     confirmed: "დადასტურებულია",
     low: "დაბალი",
@@ -186,6 +191,7 @@ export const statusTranslations = {
     "checked-out": "გასვლა",
   },
   ha: {
+    booked: "An ajiye",
     "no-show": "Bai zo ba",
     confirmed: "An tabbatar",
     low: "Ƙarami",
@@ -223,6 +229,7 @@ export const statusTranslations = {
     "checked-out": "Fita",
   },
   ar: {
+    booked: "محجوز",
     "no-show": "لم يحضر",
     confirmed: "مؤكد",
     low: "منخفض",
@@ -260,6 +267,7 @@ export const statusTranslations = {
     "checked-out": "تسجيل الخروج",
   },
   uk: {
+    booked: "Заброньовано",
     "no-show": "Неявка",
     confirmed: "Підтверджено",
     low: "Низький",
@@ -297,6 +305,7 @@ export const statusTranslations = {
     "checked-out": "Виселення",
   },
   ps: {
+    booked: "بک شوی",
     "no-show": "نه دی راغلی",
     confirmed: "تایید شوی",
     low: "ټیټ",

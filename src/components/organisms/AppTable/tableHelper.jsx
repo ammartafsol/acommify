@@ -53,6 +53,7 @@ export default function RenderStatusCell({ status }) {
         "accepted",
         "delivery",
         "checked-in",
+        "booked",
       ].includes(status)
     ) {
       return styles.statusGreen;
