@@ -99,6 +99,8 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
         `${selectedDate} ${busDetail?.schedule?.endTime}`
       ).toISOString(),
       seats: selected,
+      // stored with the booking (when, and which T&C document)
+      termsAccepted: termsAgreed,
     };
     const { response } = await Post({
       route: "booking/create",
