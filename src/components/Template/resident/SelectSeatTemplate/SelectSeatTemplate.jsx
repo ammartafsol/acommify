@@ -48,7 +48,9 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
   const [busDetail, setBusDetail] = useState(null);
   const [bookingDetail, setBookingDetail] = useState(null);
   const [loading, setLoading] = useState({
-    getBus: false,
+    // true until the bus details arrive, so the seat map never renders
+    // before the bus's size is known
+    getBus: true,
     confirmBooking: false,
     downloadTicket: false,
     cancelBooking: false,
@@ -256,7 +258,7 @@ export default function SelectSeatTemplate({ slug, bookingSlug, date }) {
                   setShow(seat);
                 }
               }}
-              busType={`${busDetail?.capacity}-seater`}
+              busType={busDetail?.capacity ? `${busDetail.capacity}-seater` : null}
               seatData={bookedSeats}
               mySeats={mySeats}
             />

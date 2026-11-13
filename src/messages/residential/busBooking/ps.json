@@ -24,7 +24,8 @@
         "selected": "ټاکل شوی"
       },
       "timeRemaining": "د امر پاتې وخت",
-      "continue": "دوام ورکړئ"
+      "continue": "دوام ورکړئ",
+      "mapUnavailable": "د دې بس د څوکیو نقشه پورته نه شوه. مهرباني وکړئ بیرته لاړ شئ او بیا هڅه وکړئ."
     },
     "bookingConfirmation": {
       "title": "د حجز تصدیق",

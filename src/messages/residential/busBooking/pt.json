@@ -24,7 +24,8 @@
         "selected": "Selecionado"
       },
       "timeRemaining": "Tempo restante do pedido",
-      "continue": "Continuar"
+      "continue": "Continuar",
+      "mapUnavailable": "Não foi possível carregar o mapa de lugares deste autocarro. Volte e tente novamente."
     },
     "bookingConfirmation": {
       "title": "Confirmação de Reserva",

@@ -24,7 +24,8 @@
         "selected": "Seleccionado"
       },
       "timeRemaining": "Tiempo restante del pedido",
-      "continue": "Continuar"
+      "continue": "Continuar",
+      "mapUnavailable": "No se pudo cargar el mapa de asientos de este autobús. Vuelve e inténtalo de nuevo."
     },
     "bookingConfirmation": {
       "title": "Confirmación de Reserva",

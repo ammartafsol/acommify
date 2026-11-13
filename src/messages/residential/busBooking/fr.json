@@ -24,7 +24,8 @@
         "selected": "Sélectionné"
       },
       "timeRemaining": "Temps restant de la commande",
-      "continue": "Continuer"
+      "continue": "Continuer",
+      "mapUnavailable": "Le plan des places de ce bus n'a pas pu être chargé. Revenez en arrière et réessayez."
     },
     "bookingConfirmation": {
       "title": "Confirmation de Réservation",

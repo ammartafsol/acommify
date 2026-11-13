@@ -385,3 +385,11 @@
   text-align: center;
   box-shadow: 0 2px 4px rgba(18, 183, 106, 0.35);
 }
+
+/* Shown instead of a guessed seat map when the bus size is unknown */
+.mapUnavailable {
+  margin: 24px 0;
+  color: #667085;
+  font-size: 15px;
+  text-align: center;
+}

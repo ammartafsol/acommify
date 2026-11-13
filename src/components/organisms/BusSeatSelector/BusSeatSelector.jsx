@@ -97,7 +97,7 @@ export const BUS_LAYOUTS = {
  * @returns {JSX.Element} The BusSeatSelector component
  */
 export default function BusSeatSelector({
-  busType = "53-seater",
+  busType = null,
   seatData = [],
   mySeats = [],
   selectedSeats = [],
@@ -147,8 +147,14 @@ export default function BusSeatSelector({
       : []),
   ];
 
-  if (BUS_LAYOUTS.hasOwnProperty(busType) === false) {
-    busType = "53-seater";
+  // Never guess the size: a missing / unknown size used to fall back to a
+  // 53-seat map (e.g. a 16-seater showing 53 seats while its details loaded).
+  if (!BUS_LAYOUTS.hasOwnProperty(busType)) {
+    return (
+      <div className={styles.main} data-testid="seat-map-unavailable">
+        <p className={styles.mapUnavailable}>{tSeat("mapUnavailable")}</p>
+      </div>
+    );
   }
 
   /**

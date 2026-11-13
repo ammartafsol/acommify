@@ -24,7 +24,8 @@
         "selected": "Selected"
       },
       "timeRemaining": "The remaining time of order",
-      "continue": "Continue"
+      "continue": "Continue",
+      "mapUnavailable": "The seat map for this bus could not be loaded. Please go back and try again."
     },
     "bookingConfirmation": {
       "title": "Booking Confirmation",

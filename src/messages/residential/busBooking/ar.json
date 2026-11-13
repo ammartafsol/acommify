@@ -24,7 +24,8 @@
         "selected": "محدد"
       },
       "timeRemaining": "الوقت المتبقي للطلب",
-      "continue": "متابعة"
+      "continue": "متابعة",
+      "mapUnavailable": "تعذّر تحميل مخطط مقاعد هذه الحافلة. يرجى الرجوع والمحاولة مرة أخرى."
     },
     "bookingConfirmation": {
       "title": "تأكيد الحجز",

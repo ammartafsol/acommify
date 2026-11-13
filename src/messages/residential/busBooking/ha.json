@@ -24,7 +24,8 @@
         "selected": "An Zaɓa"
       },
       "timeRemaining": "Lokacin da ya rage na umarni",
-      "continue": "Ci Gaba"
+      "continue": "Ci Gaba",
+      "mapUnavailable": "Ba a iya loda taswirar kujerun wannan bas ba. Koma baya ka sake gwadawa."
     },
     "bookingConfirmation": {
       "title": "Tabbatar da Booking",
